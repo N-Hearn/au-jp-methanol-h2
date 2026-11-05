@@ -52,3 +52,18 @@ One reanalysis year does not establish multi-year reliability. Site capacity max
 storage geology and pipeline distances are separate workbook assumptions. Re-run
 dispatch and optimisation after changing profiles; saved-result fingerprints prevent
 accidental reuse.
+
+## Licence and citation
+
+The profiles in this folder (raw downloads and the derived hourly files) come from
+[Renewables.ninja](https://www.renewables.ninja) and are licensed under
+[Creative Commons Attribution-NonCommercial 4.0 International](https://creativecommons.org/licenses/by-nc/4.0/).
+They are provided as-is, without warranty, and may only be reused for
+non-commercial purposes with credit. Please cite:
+
+1. S. Pfenninger and I. Staffell (2016). Long-term patterns of European PV output using 30 years of
+   validated hourly reanalysis and satellite data. *Energy* 114, 1251-1265.
+   doi: [10.1016/j.energy.2016.08.060](https://doi.org/10.1016/j.energy.2016.08.060)
+2. I. Staffell and S. Pfenninger (2016). Using bias-corrected reanalysis to simulate current and future
+   wind power output. *Energy* 114, 1224-1239.
+   doi: [10.1016/j.energy.2016.08.068](https://doi.org/10.1016/j.energy.2016.08.068)
