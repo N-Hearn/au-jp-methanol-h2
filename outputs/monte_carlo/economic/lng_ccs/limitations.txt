@@ -1,0 +1,8 @@
+fixed design and verified operating schedule; feasibility inherited
+Verified delivery: 100.0% of all draws.
+Excluded: 0.0% of all draws.
+Explicit workbook distributions are screening assumptions, not empirical confidence intervals.
+Annual capacity failures, unsuccessful dispatch searches and numerical errors are reported separately.
+A failed dispatch search is not proof that every operating policy fails.
+Unquantified shortfalls remain NaN. Failure constraints are counted in failure_constraints.json and explained in failure_constraints.md.
+PPA assumes firm electricity supply; supplier reliability is not verified.

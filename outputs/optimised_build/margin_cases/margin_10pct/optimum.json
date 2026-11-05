@@ -1,0 +1,2500 @@
+{
+  "model_fingerprint": "9255dfc078e49104d198cc66c4ca8f031a670c60e2e23cd748bdd4a0e4e288f2",
+  "bounds_names": [
+    "wind_mw_PortHastings",
+    "wind_mw_PortBonython",
+    "wind_mw_Gladstone",
+    "wind_mw_HayPoint",
+    "wind_mw_Ashburton",
+    "wind_mw_Dampier",
+    "wind_mw_PortAbbotPoint",
+    "wind_mw_PortHedland",
+    "wind_mw_Newcastle",
+    "solar_mw_PortHastings",
+    "solar_mw_PortBonython",
+    "solar_mw_Gladstone",
+    "solar_mw_HayPoint",
+    "solar_mw_Ashburton",
+    "solar_mw_Dampier",
+    "solar_mw_PortDarwin",
+    "solar_mw_PortAbbotPoint",
+    "solar_mw_PortHedland",
+    "solar_mw_Newcastle",
+    "battery_mwh_PortHastings",
+    "battery_mwh_PortBonython",
+    "battery_mwh_Gladstone",
+    "battery_mwh_HayPoint",
+    "battery_mwh_Ashburton",
+    "battery_mwh_Dampier",
+    "battery_mwh_PortDarwin",
+    "battery_mwh_PortAbbotPoint",
+    "battery_mwh_PortHedland",
+    "battery_mwh_Newcastle",
+    "h2_storage_kg_PortHastings",
+    "h2_storage_kg_PortBonython",
+    "h2_storage_kg_Gladstone",
+    "h2_storage_kg_HayPoint",
+    "h2_storage_kg_Ashburton",
+    "h2_storage_kg_Dampier",
+    "h2_storage_kg_PortDarwin",
+    "h2_storage_kg_PortAbbotPoint",
+    "h2_storage_kg_PortHedland",
+    "h2_storage_kg_Newcastle",
+    "local_h2_storage_kg_PortHastings",
+    "local_h2_storage_kg_PortBonython",
+    "local_h2_storage_kg_Gladstone",
+    "local_h2_storage_kg_HayPoint",
+    "local_h2_storage_kg_Ashburton",
+    "local_h2_storage_kg_Dampier",
+    "local_h2_storage_kg_PortDarwin",
+    "local_h2_storage_kg_PortAbbotPoint",
+    "local_h2_storage_kg_PortHedland",
+    "local_h2_storage_kg_Newcastle",
+    "pem_modules_PortHastings",
+    "pem_modules_PortBonython",
+    "pem_modules_Gladstone",
+    "pem_modules_HayPoint",
+    "pem_modules_Ashburton",
+    "pem_modules_Dampier",
+    "pem_modules_PortDarwin",
+    "pem_modules_PortAbbotPoint",
+    "pem_modules_PortHedland",
+    "pem_modules_Newcastle",
+    "h2_allocation_weight_PortHastings",
+    "h2_allocation_weight_PortBonython",
+    "h2_allocation_weight_Gladstone",
+    "h2_allocation_weight_HayPoint",
+    "h2_allocation_weight_Ashburton",
+    "h2_allocation_weight_Dampier",
+    "h2_allocation_weight_PortDarwin",
+    "h2_allocation_weight_PortAbbotPoint",
+    "h2_allocation_weight_PortHedland",
+    "h2_allocation_weight_Newcastle",
+    "synth_modules_PortHastings",
+    "synth_modules_PortBonython",
+    "synth_modules_Gladstone",
+    "synth_modules_HayPoint",
+    "synth_modules_Ashburton",
+    "synth_modules_Dampier",
+    "synth_modules_PortDarwin",
+    "synth_modules_PortAbbotPoint",
+    "synth_modules_PortHedland",
+    "synth_modules_Newcastle"
+  ],
+  "x": [
+    963.8875184509703,
+    516.1563414990924,
+    3500.0,
+    0.0,
+    3000.0,
+    3000.0,
+    0.0,
+    24000.0,
+    2861.6646835587817,
+    241.0857923045711,
+    1760.5807883562584,
+    7055.572326975525,
+    0.0,
+    15000.0,
+    15000.0,
+    832.3828985577899,
+    1824.603447163758,
+    15000.0,
+    1482.4168893312108,
+    0.0,
+    0.0,
+    9885.81296034401,
+    0.0,
+    10000.0,
+    8614.695570698404,
+    0.0,
+    0.0,
+    6778.64827645404,
+    943.298747210853,
+    1.862645149230957e-09,
+    2105358.4363951627,
+    5036773.091247903,
+    2920373.0140432324,
+    21895178.35049385,
+    20795366.202561423,
+    35349983.005822584,
+    4379494.564144919,
+    24000000.0,
+    41676826.82637591,
+    453512.7222775505,
+    344541.26177620137,
+    103180.88712046141,
+    211720.20048876083,
+    15384.14518727589,
+    72263.34099070511,
+    0.0,
+    16382.00977135374,
+    4896.842667340739,
+    110981.03916225932,
+    47.0,
+    0.0,
+    31.0,
+    7.0,
+    77.0,
+    73.0,
+    0.0,
+    24.0,
+    181.0,
+    45.0,
+    0.0,
+    0.0,
+    0.13221487468060666,
+    0.0,
+    0.24409969021817968,
+    0.22941347192618955,
+    0.0,
+    0.0,
+    0.5742949639654832,
+    0.0,
+    0.0,
+    0.0,
+    7.0,
+    70.0,
+    5.0,
+    5.0,
+    0.0,
+    1244.0,
+    12.0,
+    2762.0
+  ],
+  "deployment": {
+    "site_h2_frac": {
+      "Gladstone": 0.11204431997684809,
+      "Ashburton": 0.20686011209498903,
+      "Dampier": 0.19441440698402737,
+      "PortHedland": 0.48668116094413555
+    },
+    "site_n_synth": {
+      "Gladstone": 7,
+      "Ashburton": 5,
+      "Dampier": 5,
+      "PortHedland": 12
+    },
+    "site_annual_meoh_tpa": {
+      "Gladstone": 1467522.6493080575,
+      "Ashburton": 2710453.577846892,
+      "Dampier": 2545439.2586935256,
+      "PortHedland": 6366999.04872361
+    }
+  },
+  "search_settings": {
+    "ei_weight": 0.0,
+    "seed": 0,
+    "maxiter": 120,
+    "popsize": 10,
+    "tol": 0.001,
+    "workers": 10,
+    "polish": false,
+    "spread": 0.25,
+    "site_closure_evaluations": 14547,
+    "share_transfer_evaluations": 1478,
+    "refinement_evaluations": 19189,
+    "refinement_budget": 16000,
+    "refinement_rounds": 40,
+    "refinement_starts": 4,
+    "refinement_min_improvement": 0.001,
+    "refinement_stop_reason": "improvement threshold",
+    "refinement_stage_counts": {
+      "site closures": 14547,
+      "PEM reduction": 525,
+      "production transfers": 1478,
+      "coordinate refinement": 2627
+    },
+    "refinement_spread": [
+      {
+        "label": "Incumbent (DE best)",
+        "start_objective": 13.29822363632261,
+        "objective": 13.291116282866286,
+        "active_sites": [
+          "Ashburton",
+          "Dampier",
+          "Gladstone",
+          "PortHedland"
+        ],
+        "start_active_sites": [
+          "Ashburton",
+          "Dampier",
+          "Gladstone",
+          "PortHedland"
+        ],
+        "evaluations": 3219,
+        "stop_reason": "improvement threshold",
+        "origin": "incumbent"
+      },
+      {
+        "label": "Distinct footprint 1",
+        "start_objective": 14.164161879148336,
+        "objective": 13.577086956775352,
+        "active_sites": [
+          "Ashburton",
+          "Dampier",
+          "Gladstone",
+          "HayPoint",
+          "PortHedland"
+        ],
+        "start_active_sites": [
+          "Ashburton",
+          "Dampier",
+          "Gladstone",
+          "PortAbbotPoint",
+          "PortHedland"
+        ],
+        "evaluations": 5640,
+        "stop_reason": "improvement threshold",
+        "origin": "distinct footprint"
+      },
+      {
+        "label": "Distinct footprint 2",
+        "start_objective": 15.419891768670983,
+        "objective": 14.163651185262363,
+        "active_sites": [
+          "Ashburton",
+          "Dampier",
+          "Gladstone",
+          "PortHedland"
+        ],
+        "start_active_sites": [
+          "Ashburton",
+          "Dampier",
+          "Gladstone",
+          "HayPoint",
+          "PortHedland"
+        ],
+        "evaluations": 4500,
+        "stop_reason": "improvement threshold",
+        "origin": "distinct footprint"
+      },
+      {
+        "label": "Distinct footprint 3",
+        "start_objective": 15.844912512617208,
+        "objective": 13.782917162450937,
+        "active_sites": [
+          "Ashburton",
+          "Dampier",
+          "Gladstone",
+          "PortBonython",
+          "PortHedland"
+        ],
+        "start_active_sites": [
+          "Ashburton",
+          "Dampier",
+          "Gladstone",
+          "Newcastle",
+          "PortHedland"
+        ],
+        "evaluations": 5818,
+        "stop_reason": "improvement threshold",
+        "origin": "distinct footprint"
+      }
+    ],
+    "refinement_start_footprints": 4,
+    "refinement_start_top_ups": 0,
+    "refinement_starts_run": 4,
+    "refinement_seed_evaluations": 12,
+    "delivery_margin": 0.1,
+    "delivery_margin_basis": "build hourly feasible at (1 + margin) x target, costed at the contracted target; Australian production headroom only",
+    "search_history": [
+      {
+        "stage": "initial",
+        "elapsed_seconds": 3.1680672000002232,
+        "evaluations": 3,
+        "objective": 15.291204191863113,
+        "cost_aud_per_kg_h2": 21.73589792731075,
+        "feasible": true,
+        "feasible_members": null,
+        "population_size": null
+      },
+      {
+        "stage": "DE generation 1",
+        "elapsed_seconds": 42.20012660000066,
+        "evaluations": 1583,
+        "objective": 15.2854126003877,
+        "cost_aud_per_kg_h2": 21.72766538790007,
+        "feasible": true,
+        "feasible_members": 73,
+        "population_size": 790
+      },
+      {
+        "stage": "DE generation 2",
+        "elapsed_seconds": 52.396980299999996,
+        "evaluations": 2373,
+        "objective": 15.2854126003877,
+        "cost_aud_per_kg_h2": 21.72766538790007,
+        "feasible": true,
+        "feasible_members": 75,
+        "population_size": 790
+      },
+      {
+        "stage": "DE generation 3",
+        "elapsed_seconds": 61.09653440000329,
+        "evaluations": 3163,
+        "objective": 15.281990894485139,
+        "cost_aud_per_kg_h2": 21.72280155577134,
+        "feasible": true,
+        "feasible_members": 80,
+        "population_size": 790
+      },
+      {
+        "stage": "DE generation 4",
+        "elapsed_seconds": 71.70307810000304,
+        "evaluations": 3953,
+        "objective": 15.28124973510268,
+        "cost_aud_per_kg_h2": 21.721748024310845,
+        "feasible": true,
+        "feasible_members": 85,
+        "population_size": 790
+      },
+      {
+        "stage": "DE generation 5",
+        "elapsed_seconds": 83.63405070000226,
+        "evaluations": 4743,
+        "objective": 15.274905946642017,
+        "cost_aud_per_kg_h2": 21.71273055670507,
+        "feasible": true,
+        "feasible_members": 90,
+        "population_size": 790
+      },
+      {
+        "stage": "DE generation 6",
+        "elapsed_seconds": 92.09773270000005,
+        "evaluations": 5533,
+        "objective": 15.274314907855777,
+        "cost_aud_per_kg_h2": 21.711890416283975,
+        "feasible": true,
+        "feasible_members": 92,
+        "population_size": 790
+      },
+      {
+        "stage": "DE generation 7",
+        "elapsed_seconds": 100.17141850000189,
+        "evaluations": 6323,
+        "objective": 14.886522770500655,
+        "cost_aud_per_kg_h2": 21.160657811656936,
+        "feasible": true,
+        "feasible_members": 98,
+        "population_size": 790
+      },
+      {
+        "stage": "DE generation 8",
+        "elapsed_seconds": 110.45381770000313,
+        "evaluations": 7113,
+        "objective": 14.614913823012268,
+        "cost_aud_per_kg_h2": 20.774575441382044,
+        "feasible": true,
+        "feasible_members": 115,
+        "population_size": 790
+      },
+      {
+        "stage": "DE generation 9",
+        "elapsed_seconds": 119.39214189999984,
+        "evaluations": 7903,
+        "objective": 14.189170856989346,
+        "cost_aud_per_kg_h2": 20.169397095933682,
+        "feasible": true,
+        "feasible_members": 123,
+        "population_size": 790
+      },
+      {
+        "stage": "DE generation 10",
+        "elapsed_seconds": 136.72192160000122,
+        "evaluations": 8693,
+        "objective": 13.83442464787367,
+        "cost_aud_per_kg_h2": 19.665138092215592,
+        "feasible": true,
+        "feasible_members": 139,
+        "population_size": 790
+      },
+      {
+        "stage": "DE generation 11",
+        "elapsed_seconds": 155.56844560000172,
+        "evaluations": 9483,
+        "objective": 13.7804447164711,
+        "cost_aud_per_kg_h2": 19.58840755717285,
+        "feasible": true,
+        "feasible_members": 146,
+        "population_size": 790
+      },
+      {
+        "stage": "DE generation 12",
+        "elapsed_seconds": 172.4285791000002,
+        "evaluations": 10273,
+        "objective": 13.746427050444236,
+        "cost_aud_per_kg_h2": 19.54005266587667,
+        "feasible": true,
+        "feasible_members": 159,
+        "population_size": 790
+      },
+      {
+        "stage": "DE generation 13",
+        "elapsed_seconds": 180.94609480000145,
+        "evaluations": 11063,
+        "objective": 13.746427050444236,
+        "cost_aud_per_kg_h2": 19.54005266587667,
+        "feasible": true,
+        "feasible_members": 170,
+        "population_size": 790
+      },
+      {
+        "stage": "DE generation 14",
+        "elapsed_seconds": 188.77920660000018,
+        "evaluations": 11853,
+        "objective": 13.74228871770862,
+        "cost_aud_per_kg_h2": 19.5341701744259,
+        "feasible": true,
+        "feasible_members": 179,
+        "population_size": 790
+      },
+      {
+        "stage": "DE generation 15",
+        "elapsed_seconds": 197.9276028000022,
+        "evaluations": 12643,
+        "objective": 13.74228871770862,
+        "cost_aud_per_kg_h2": 19.5341701744259,
+        "feasible": true,
+        "feasible_members": 188,
+        "population_size": 790
+      },
+      {
+        "stage": "DE generation 16",
+        "elapsed_seconds": 208.32862580000074,
+        "evaluations": 13433,
+        "objective": 13.74228871770862,
+        "cost_aud_per_kg_h2": 19.5341701744259,
+        "feasible": true,
+        "feasible_members": 201,
+        "population_size": 790
+      },
+      {
+        "stage": "DE generation 17",
+        "elapsed_seconds": 219.84243060000153,
+        "evaluations": 14223,
+        "objective": 13.503866071776097,
+        "cost_aud_per_kg_h2": 19.195260940690968,
+        "feasible": true,
+        "feasible_members": 212,
+        "population_size": 790
+      },
+      {
+        "stage": "DE generation 18",
+        "elapsed_seconds": 227.90566760000002,
+        "evaluations": 15013,
+        "objective": 13.458013317144408,
+        "cost_aud_per_kg_h2": 19.130082895727657,
+        "feasible": true,
+        "feasible_members": 232,
+        "population_size": 790
+      },
+      {
+        "stage": "DE generation 19",
+        "elapsed_seconds": 236.92683500000203,
+        "evaluations": 15803,
+        "objective": 13.435206955393138,
+        "cost_aud_per_kg_h2": 19.09766447106345,
+        "feasible": true,
+        "feasible_members": 262,
+        "population_size": 790
+      },
+      {
+        "stage": "DE generation 20",
+        "elapsed_seconds": 247.44832769999994,
+        "evaluations": 16593,
+        "objective": 13.424675337294685,
+        "cost_aud_per_kg_h2": 19.08269415393701,
+        "feasible": true,
+        "feasible_members": 273,
+        "population_size": 790
+      },
+      {
+        "stage": "DE generation 21",
+        "elapsed_seconds": 258.430393300001,
+        "evaluations": 17383,
+        "objective": 13.424675337294685,
+        "cost_aud_per_kg_h2": 19.08269415393701,
+        "feasible": true,
+        "feasible_members": 285,
+        "population_size": 790
+      },
+      {
+        "stage": "DE generation 22",
+        "elapsed_seconds": 276.54780420000316,
+        "evaluations": 18173,
+        "objective": 13.424675337294685,
+        "cost_aud_per_kg_h2": 19.08269415393701,
+        "feasible": true,
+        "feasible_members": 294,
+        "population_size": 790
+      },
+      {
+        "stage": "DE generation 23",
+        "elapsed_seconds": 292.63197070000024,
+        "evaluations": 18963,
+        "objective": 13.424675337294685,
+        "cost_aud_per_kg_h2": 19.08269415393701,
+        "feasible": true,
+        "feasible_members": 299,
+        "population_size": 790
+      },
+      {
+        "stage": "DE generation 24",
+        "elapsed_seconds": 311.7194776000033,
+        "evaluations": 19753,
+        "objective": 13.424675337294685,
+        "cost_aud_per_kg_h2": 19.08269415393701,
+        "feasible": true,
+        "feasible_members": 305,
+        "population_size": 790
+      },
+      {
+        "stage": "DE generation 25",
+        "elapsed_seconds": 326.9068275000027,
+        "evaluations": 20543,
+        "objective": 13.424675337294685,
+        "cost_aud_per_kg_h2": 19.08269415393701,
+        "feasible": true,
+        "feasible_members": 313,
+        "population_size": 790
+      },
+      {
+        "stage": "DE generation 26",
+        "elapsed_seconds": 342.9029604000025,
+        "evaluations": 21333,
+        "objective": 13.424675337294685,
+        "cost_aud_per_kg_h2": 19.08269415393701,
+        "feasible": true,
+        "feasible_members": 324,
+        "population_size": 790
+      },
+      {
+        "stage": "DE generation 27",
+        "elapsed_seconds": 358.5462101000012,
+        "evaluations": 22123,
+        "objective": 13.402613152093569,
+        "cost_aud_per_kg_h2": 19.05133354952888,
+        "feasible": true,
+        "feasible_members": 331,
+        "population_size": 790
+      },
+      {
+        "stage": "DE generation 28",
+        "elapsed_seconds": 372.76246500000343,
+        "evaluations": 22913,
+        "objective": 13.402613152093569,
+        "cost_aud_per_kg_h2": 19.05133354952888,
+        "feasible": true,
+        "feasible_members": 336,
+        "population_size": 790
+      },
+      {
+        "stage": "DE generation 29",
+        "elapsed_seconds": 380.33322260000205,
+        "evaluations": 23703,
+        "objective": 13.402613152093569,
+        "cost_aud_per_kg_h2": 19.05133354952888,
+        "feasible": true,
+        "feasible_members": 341,
+        "population_size": 790
+      },
+      {
+        "stage": "DE generation 30",
+        "elapsed_seconds": 387.2144816,
+        "evaluations": 24493,
+        "objective": 13.402613152093569,
+        "cost_aud_per_kg_h2": 19.05133354952888,
+        "feasible": true,
+        "feasible_members": 352,
+        "population_size": 790
+      },
+      {
+        "stage": "DE generation 31",
+        "elapsed_seconds": 395.5149801000007,
+        "evaluations": 25283,
+        "objective": 13.402613152093569,
+        "cost_aud_per_kg_h2": 19.05133354952888,
+        "feasible": true,
+        "feasible_members": 359,
+        "population_size": 790
+      },
+      {
+        "stage": "DE generation 32",
+        "elapsed_seconds": 404.74032680000164,
+        "evaluations": 26073,
+        "objective": 13.390580282841796,
+        "cost_aud_per_kg_h2": 19.034229257770853,
+        "feasible": true,
+        "feasible_members": 371,
+        "population_size": 790
+      },
+      {
+        "stage": "DE generation 33",
+        "elapsed_seconds": 415.52156509999986,
+        "evaluations": 26863,
+        "objective": 13.390580282841796,
+        "cost_aud_per_kg_h2": 19.034229257770853,
+        "feasible": true,
+        "feasible_members": 379,
+        "population_size": 790
+      },
+      {
+        "stage": "DE generation 34",
+        "elapsed_seconds": 424.08829700000206,
+        "evaluations": 27653,
+        "objective": 13.390580282841796,
+        "cost_aud_per_kg_h2": 19.034229257770853,
+        "feasible": true,
+        "feasible_members": 387,
+        "population_size": 790
+      },
+      {
+        "stage": "DE generation 35",
+        "elapsed_seconds": 431.9944011000007,
+        "evaluations": 28443,
+        "objective": 13.390580282841796,
+        "cost_aud_per_kg_h2": 19.034229257770853,
+        "feasible": true,
+        "feasible_members": 395,
+        "population_size": 790
+      },
+      {
+        "stage": "DE generation 36",
+        "elapsed_seconds": 441.09004020000066,
+        "evaluations": 29233,
+        "objective": 13.390580282841796,
+        "cost_aud_per_kg_h2": 19.034229257770853,
+        "feasible": true,
+        "feasible_members": 407,
+        "population_size": 790
+      },
+      {
+        "stage": "DE generation 37",
+        "elapsed_seconds": 451.5608740000025,
+        "evaluations": 30023,
+        "objective": 13.390580282841796,
+        "cost_aud_per_kg_h2": 19.034229257770853,
+        "feasible": true,
+        "feasible_members": 418,
+        "population_size": 790
+      },
+      {
+        "stage": "DE generation 38",
+        "elapsed_seconds": 465.42484289999993,
+        "evaluations": 30813,
+        "objective": 13.390580282841796,
+        "cost_aud_per_kg_h2": 19.034229257770853,
+        "feasible": true,
+        "feasible_members": 435,
+        "population_size": 790
+      },
+      {
+        "stage": "DE generation 39",
+        "elapsed_seconds": 483.77511310000045,
+        "evaluations": 31603,
+        "objective": 13.390580282841796,
+        "cost_aud_per_kg_h2": 19.034229257770853,
+        "feasible": true,
+        "feasible_members": 449,
+        "population_size": 790
+      },
+      {
+        "stage": "DE generation 40",
+        "elapsed_seconds": 501.31781030000275,
+        "evaluations": 32393,
+        "objective": 13.390580282841796,
+        "cost_aud_per_kg_h2": 19.034229257770853,
+        "feasible": true,
+        "feasible_members": 458,
+        "population_size": 790
+      },
+      {
+        "stage": "DE generation 41",
+        "elapsed_seconds": 517.1984970000012,
+        "evaluations": 33183,
+        "objective": 13.38623955911289,
+        "cost_aud_per_kg_h2": 19.028059074787336,
+        "feasible": true,
+        "feasible_members": 466,
+        "population_size": 790
+      },
+      {
+        "stage": "DE generation 42",
+        "elapsed_seconds": 535.3157898999998,
+        "evaluations": 33973,
+        "objective": 13.38623955911289,
+        "cost_aud_per_kg_h2": 19.028059074787336,
+        "feasible": true,
+        "feasible_members": 475,
+        "population_size": 790
+      },
+      {
+        "stage": "DE generation 43",
+        "elapsed_seconds": 552.6758091000011,
+        "evaluations": 34763,
+        "objective": 13.38623955911289,
+        "cost_aud_per_kg_h2": 19.028059074787336,
+        "feasible": true,
+        "feasible_members": 484,
+        "population_size": 790
+      },
+      {
+        "stage": "DE generation 44",
+        "elapsed_seconds": 566.144908000002,
+        "evaluations": 35553,
+        "objective": 13.38623955911289,
+        "cost_aud_per_kg_h2": 19.028059074787336,
+        "feasible": true,
+        "feasible_members": 495,
+        "population_size": 790
+      },
+      {
+        "stage": "DE generation 45",
+        "elapsed_seconds": 574.1715273000009,
+        "evaluations": 36343,
+        "objective": 13.384888522614641,
+        "cost_aud_per_kg_h2": 19.026138624896433,
+        "feasible": true,
+        "feasible_members": 503,
+        "population_size": 790
+      },
+      {
+        "stage": "DE generation 46",
+        "elapsed_seconds": 580.8207225000006,
+        "evaluations": 37133,
+        "objective": 13.384888522614641,
+        "cost_aud_per_kg_h2": 19.026138624896433,
+        "feasible": true,
+        "feasible_members": 512,
+        "population_size": 790
+      },
+      {
+        "stage": "DE generation 47",
+        "elapsed_seconds": 588.6580339000029,
+        "evaluations": 37923,
+        "objective": 13.384888522614641,
+        "cost_aud_per_kg_h2": 19.026138624896433,
+        "feasible": true,
+        "feasible_members": 529,
+        "population_size": 790
+      },
+      {
+        "stage": "DE generation 48",
+        "elapsed_seconds": 598.6752411000016,
+        "evaluations": 38713,
+        "objective": 13.384888522614641,
+        "cost_aud_per_kg_h2": 19.026138624896433,
+        "feasible": true,
+        "feasible_members": 541,
+        "population_size": 790
+      },
+      {
+        "stage": "DE generation 49",
+        "elapsed_seconds": 609.0473611000016,
+        "evaluations": 39503,
+        "objective": 13.384888522614641,
+        "cost_aud_per_kg_h2": 19.026138624896433,
+        "feasible": true,
+        "feasible_members": 552,
+        "population_size": 790
+      },
+      {
+        "stage": "DE generation 50",
+        "elapsed_seconds": 618.5767357000004,
+        "evaluations": 40293,
+        "objective": 13.384888522614641,
+        "cost_aud_per_kg_h2": 19.026138624896433,
+        "feasible": true,
+        "feasible_members": 557,
+        "population_size": 790
+      },
+      {
+        "stage": "DE generation 51",
+        "elapsed_seconds": 626.3383683000029,
+        "evaluations": 41083,
+        "objective": 13.384888522614641,
+        "cost_aud_per_kg_h2": 19.026138624896433,
+        "feasible": true,
+        "feasible_members": 570,
+        "population_size": 790
+      },
+      {
+        "stage": "DE generation 52",
+        "elapsed_seconds": 636.093242400002,
+        "evaluations": 41873,
+        "objective": 13.384888522614641,
+        "cost_aud_per_kg_h2": 19.026138624896433,
+        "feasible": true,
+        "feasible_members": 582,
+        "population_size": 790
+      },
+      {
+        "stage": "DE generation 53",
+        "elapsed_seconds": 646.3284500000009,
+        "evaluations": 42663,
+        "objective": 13.384888522614641,
+        "cost_aud_per_kg_h2": 19.026138624896433,
+        "feasible": true,
+        "feasible_members": 591,
+        "population_size": 790
+      },
+      {
+        "stage": "DE generation 54",
+        "elapsed_seconds": 658.4497304000033,
+        "evaluations": 43453,
+        "objective": 13.384888522614641,
+        "cost_aud_per_kg_h2": 19.026138624896433,
+        "feasible": true,
+        "feasible_members": 599,
+        "population_size": 790
+      },
+      {
+        "stage": "DE generation 55",
+        "elapsed_seconds": 679.8256924000016,
+        "evaluations": 44243,
+        "objective": 13.384888522614641,
+        "cost_aud_per_kg_h2": 19.026138624896433,
+        "feasible": true,
+        "feasible_members": 607,
+        "population_size": 790
+      },
+      {
+        "stage": "DE generation 56",
+        "elapsed_seconds": 697.3611372000014,
+        "evaluations": 45033,
+        "objective": 13.384888522614641,
+        "cost_aud_per_kg_h2": 19.026138624896433,
+        "feasible": true,
+        "feasible_members": 615,
+        "population_size": 790
+      },
+      {
+        "stage": "DE generation 57",
+        "elapsed_seconds": 712.3481002000008,
+        "evaluations": 45823,
+        "objective": 13.384888522614641,
+        "cost_aud_per_kg_h2": 19.026138624896433,
+        "feasible": true,
+        "feasible_members": 627,
+        "population_size": 790
+      },
+      {
+        "stage": "DE generation 58",
+        "elapsed_seconds": 729.8881688000001,
+        "evaluations": 46613,
+        "objective": 13.378985491686938,
+        "cost_aud_per_kg_h2": 19.017747678304104,
+        "feasible": true,
+        "feasible_members": 641,
+        "population_size": 790
+      },
+      {
+        "stage": "DE generation 59",
+        "elapsed_seconds": 748.2695063000028,
+        "evaluations": 47403,
+        "objective": 13.378985491686938,
+        "cost_aud_per_kg_h2": 19.017747678304104,
+        "feasible": true,
+        "feasible_members": 647,
+        "population_size": 790
+      },
+      {
+        "stage": "DE generation 60",
+        "elapsed_seconds": 765.9427377000029,
+        "evaluations": 48193,
+        "objective": 13.378985491686938,
+        "cost_aud_per_kg_h2": 19.017747678304104,
+        "feasible": true,
+        "feasible_members": 657,
+        "population_size": 790
+      },
+      {
+        "stage": "DE generation 61",
+        "elapsed_seconds": 783.437728500001,
+        "evaluations": 48983,
+        "objective": 13.378985491686938,
+        "cost_aud_per_kg_h2": 19.017747678304104,
+        "feasible": true,
+        "feasible_members": 659,
+        "population_size": 790
+      },
+      {
+        "stage": "DE generation 62",
+        "elapsed_seconds": 799.4402628000025,
+        "evaluations": 49773,
+        "objective": 13.378985491686938,
+        "cost_aud_per_kg_h2": 19.017747678304104,
+        "feasible": true,
+        "feasible_members": 669,
+        "population_size": 790
+      },
+      {
+        "stage": "DE generation 63",
+        "elapsed_seconds": 819.7053977000032,
+        "evaluations": 50563,
+        "objective": 13.378985491686938,
+        "cost_aud_per_kg_h2": 19.017747678304104,
+        "feasible": true,
+        "feasible_members": 671,
+        "population_size": 790
+      },
+      {
+        "stage": "DE generation 64",
+        "elapsed_seconds": 836.2819901000003,
+        "evaluations": 51353,
+        "objective": 13.378985491686938,
+        "cost_aud_per_kg_h2": 19.017747678304104,
+        "feasible": true,
+        "feasible_members": 679,
+        "population_size": 790
+      },
+      {
+        "stage": "DE generation 65",
+        "elapsed_seconds": 856.3166750000019,
+        "evaluations": 52143,
+        "objective": 13.378985491686938,
+        "cost_aud_per_kg_h2": 19.017747678304104,
+        "feasible": true,
+        "feasible_members": 682,
+        "population_size": 790
+      },
+      {
+        "stage": "DE generation 66",
+        "elapsed_seconds": 873.8802463000029,
+        "evaluations": 52933,
+        "objective": 13.378985491686938,
+        "cost_aud_per_kg_h2": 19.017747678304104,
+        "feasible": true,
+        "feasible_members": 689,
+        "population_size": 790
+      },
+      {
+        "stage": "DE generation 67",
+        "elapsed_seconds": 890.782922800001,
+        "evaluations": 53723,
+        "objective": 13.378985491686938,
+        "cost_aud_per_kg_h2": 19.017747678304104,
+        "feasible": true,
+        "feasible_members": 693,
+        "population_size": 790
+      },
+      {
+        "stage": "DE generation 68",
+        "elapsed_seconds": 908.1806730000026,
+        "evaluations": 54513,
+        "objective": 13.378985491686938,
+        "cost_aud_per_kg_h2": 19.017747678304104,
+        "feasible": true,
+        "feasible_members": 695,
+        "population_size": 790
+      },
+      {
+        "stage": "DE generation 69",
+        "elapsed_seconds": 925.3004484000012,
+        "evaluations": 55303,
+        "objective": 13.378985491686938,
+        "cost_aud_per_kg_h2": 19.017747678304104,
+        "feasible": true,
+        "feasible_members": 699,
+        "population_size": 790
+      },
+      {
+        "stage": "DE generation 70",
+        "elapsed_seconds": 938.5366536000001,
+        "evaluations": 56093,
+        "objective": 13.378985491686938,
+        "cost_aud_per_kg_h2": 19.017747678304104,
+        "feasible": true,
+        "feasible_members": 703,
+        "population_size": 790
+      },
+      {
+        "stage": "DE generation 71",
+        "elapsed_seconds": 956.0448016000009,
+        "evaluations": 56883,
+        "objective": 13.378985491686938,
+        "cost_aud_per_kg_h2": 19.017747678304104,
+        "feasible": true,
+        "feasible_members": 704,
+        "population_size": 790
+      },
+      {
+        "stage": "DE generation 72",
+        "elapsed_seconds": 974.2233979000011,
+        "evaluations": 57673,
+        "objective": 13.378985491686938,
+        "cost_aud_per_kg_h2": 19.017747678304104,
+        "feasible": true,
+        "feasible_members": 710,
+        "population_size": 790
+      },
+      {
+        "stage": "DE generation 73",
+        "elapsed_seconds": 990.431145100003,
+        "evaluations": 58463,
+        "objective": 13.378985491686938,
+        "cost_aud_per_kg_h2": 19.017747678304104,
+        "feasible": true,
+        "feasible_members": 715,
+        "population_size": 790
+      },
+      {
+        "stage": "DE generation 74",
+        "elapsed_seconds": 1007.7989068000024,
+        "evaluations": 59253,
+        "objective": 13.378985491686938,
+        "cost_aud_per_kg_h2": 19.017747678304104,
+        "feasible": true,
+        "feasible_members": 723,
+        "population_size": 790
+      },
+      {
+        "stage": "DE generation 75",
+        "elapsed_seconds": 1025.8161504000018,
+        "evaluations": 60043,
+        "objective": 13.378985491686938,
+        "cost_aud_per_kg_h2": 19.017747678304104,
+        "feasible": true,
+        "feasible_members": 728,
+        "population_size": 790
+      },
+      {
+        "stage": "DE generation 76",
+        "elapsed_seconds": 1046.2575222000014,
+        "evaluations": 60833,
+        "objective": 13.378985491686938,
+        "cost_aud_per_kg_h2": 19.017747678304104,
+        "feasible": true,
+        "feasible_members": 731,
+        "population_size": 790
+      },
+      {
+        "stage": "DE generation 77",
+        "elapsed_seconds": 1063.1780996000016,
+        "evaluations": 61623,
+        "objective": 13.378985491686938,
+        "cost_aud_per_kg_h2": 19.017747678304104,
+        "feasible": true,
+        "feasible_members": 736,
+        "population_size": 790
+      },
+      {
+        "stage": "DE generation 78",
+        "elapsed_seconds": 1079.5820789999998,
+        "evaluations": 62413,
+        "objective": 13.378985491686938,
+        "cost_aud_per_kg_h2": 19.017747678304104,
+        "feasible": true,
+        "feasible_members": 739,
+        "population_size": 790
+      },
+      {
+        "stage": "DE generation 79",
+        "elapsed_seconds": 1099.4029049000019,
+        "evaluations": 63203,
+        "objective": 13.374325675650839,
+        "cost_aud_per_kg_h2": 19.01112391705876,
+        "feasible": true,
+        "feasible_members": 739,
+        "population_size": 790
+      },
+      {
+        "stage": "DE generation 80",
+        "elapsed_seconds": 1121.463991800003,
+        "evaluations": 63993,
+        "objective": 13.374325675650839,
+        "cost_aud_per_kg_h2": 19.01112391705876,
+        "feasible": true,
+        "feasible_members": 743,
+        "population_size": 790
+      },
+      {
+        "stage": "DE generation 81",
+        "elapsed_seconds": 1139.758803800003,
+        "evaluations": 64783,
+        "objective": 13.374325675650839,
+        "cost_aud_per_kg_h2": 19.01112391705876,
+        "feasible": true,
+        "feasible_members": 747,
+        "population_size": 790
+      },
+      {
+        "stage": "DE generation 82",
+        "elapsed_seconds": 1156.9891718,
+        "evaluations": 65573,
+        "objective": 13.374325675650839,
+        "cost_aud_per_kg_h2": 19.01112391705876,
+        "feasible": true,
+        "feasible_members": 751,
+        "population_size": 790
+      },
+      {
+        "stage": "DE generation 83",
+        "elapsed_seconds": 1178.7899741,
+        "evaluations": 66363,
+        "objective": 13.374325675650839,
+        "cost_aud_per_kg_h2": 19.01112391705876,
+        "feasible": true,
+        "feasible_members": 755,
+        "population_size": 790
+      },
+      {
+        "stage": "DE generation 84",
+        "elapsed_seconds": 1202.7200568000007,
+        "evaluations": 67153,
+        "objective": 13.374325675650839,
+        "cost_aud_per_kg_h2": 19.01112391705876,
+        "feasible": true,
+        "feasible_members": 758,
+        "population_size": 790
+      },
+      {
+        "stage": "DE generation 85",
+        "elapsed_seconds": 1221.0828045000017,
+        "evaluations": 67943,
+        "objective": 13.374325675650839,
+        "cost_aud_per_kg_h2": 19.01112391705876,
+        "feasible": true,
+        "feasible_members": 762,
+        "population_size": 790
+      },
+      {
+        "stage": "DE generation 86",
+        "elapsed_seconds": 1239.7186575000014,
+        "evaluations": 68733,
+        "objective": 13.371943614087884,
+        "cost_aud_per_kg_h2": 19.0077379020439,
+        "feasible": true,
+        "feasible_members": 762,
+        "population_size": 790
+      },
+      {
+        "stage": "DE generation 87",
+        "elapsed_seconds": 1257.4506005000003,
+        "evaluations": 69523,
+        "objective": 13.371943614087884,
+        "cost_aud_per_kg_h2": 19.0077379020439,
+        "feasible": true,
+        "feasible_members": 763,
+        "population_size": 790
+      },
+      {
+        "stage": "DE generation 88",
+        "elapsed_seconds": 1274.2423322000031,
+        "evaluations": 70313,
+        "objective": 13.371943614087884,
+        "cost_aud_per_kg_h2": 19.0077379020439,
+        "feasible": true,
+        "feasible_members": 765,
+        "population_size": 790
+      },
+      {
+        "stage": "DE generation 89",
+        "elapsed_seconds": 1295.5727106000013,
+        "evaluations": 71103,
+        "objective": 13.371943614087884,
+        "cost_aud_per_kg_h2": 19.0077379020439,
+        "feasible": true,
+        "feasible_members": 769,
+        "population_size": 790
+      },
+      {
+        "stage": "DE generation 90",
+        "elapsed_seconds": 1314.1963981000008,
+        "evaluations": 71893,
+        "objective": 13.371943614087884,
+        "cost_aud_per_kg_h2": 19.0077379020439,
+        "feasible": true,
+        "feasible_members": 771,
+        "population_size": 790
+      },
+      {
+        "stage": "DE generation 91",
+        "elapsed_seconds": 1327.2284934000018,
+        "evaluations": 72683,
+        "objective": 13.371943614087884,
+        "cost_aud_per_kg_h2": 19.0077379020439,
+        "feasible": true,
+        "feasible_members": 772,
+        "population_size": 790
+      },
+      {
+        "stage": "DE generation 92",
+        "elapsed_seconds": 1335.8128703000002,
+        "evaluations": 73473,
+        "objective": 13.370435171089945,
+        "cost_aud_per_kg_h2": 19.00559370446332,
+        "feasible": true,
+        "feasible_members": 775,
+        "population_size": 790
+      },
+      {
+        "stage": "DE generation 93",
+        "elapsed_seconds": 1343.2155420000017,
+        "evaluations": 74263,
+        "objective": 13.370435171089945,
+        "cost_aud_per_kg_h2": 19.00559370446332,
+        "feasible": true,
+        "feasible_members": 777,
+        "population_size": 790
+      },
+      {
+        "stage": "DE generation 94",
+        "elapsed_seconds": 1350.8561819000024,
+        "evaluations": 75053,
+        "objective": 13.364087857395017,
+        "cost_aud_per_kg_h2": 18.996571225863562,
+        "feasible": true,
+        "feasible_members": 777,
+        "population_size": 790
+      },
+      {
+        "stage": "DE generation 95",
+        "elapsed_seconds": 1357.0745349000026,
+        "evaluations": 75843,
+        "objective": 13.360273065906778,
+        "cost_aud_per_kg_h2": 18.99114863668341,
+        "feasible": true,
+        "feasible_members": 778,
+        "population_size": 790
+      },
+      {
+        "stage": "DE generation 96",
+        "elapsed_seconds": 1363.8098843000007,
+        "evaluations": 76633,
+        "objective": 13.360273065906778,
+        "cost_aud_per_kg_h2": 18.99114863668341,
+        "feasible": true,
+        "feasible_members": 778,
+        "population_size": 790
+      },
+      {
+        "stage": "DE generation 97",
+        "elapsed_seconds": 1370.3779848000013,
+        "evaluations": 77423,
+        "objective": 13.351543665790063,
+        "cost_aud_per_kg_h2": 18.978740107732854,
+        "feasible": true,
+        "feasible_members": 779,
+        "population_size": 790
+      },
+      {
+        "stage": "DE generation 98",
+        "elapsed_seconds": 1376.8780005000008,
+        "evaluations": 78213,
+        "objective": 13.342935823650546,
+        "cost_aud_per_kg_h2": 18.966504369083932,
+        "feasible": true,
+        "feasible_members": 779,
+        "population_size": 790
+      },
+      {
+        "stage": "DE generation 99",
+        "elapsed_seconds": 1383.8986535000004,
+        "evaluations": 79003,
+        "objective": 13.342935823650546,
+        "cost_aud_per_kg_h2": 18.966504369083932,
+        "feasible": true,
+        "feasible_members": 779,
+        "population_size": 790
+      },
+      {
+        "stage": "DE generation 100",
+        "elapsed_seconds": 1390.8691070000023,
+        "evaluations": 79793,
+        "objective": 13.342935823650546,
+        "cost_aud_per_kg_h2": 18.966504369083932,
+        "feasible": true,
+        "feasible_members": 779,
+        "population_size": 790
+      },
+      {
+        "stage": "DE generation 101",
+        "elapsed_seconds": 1397.5675679000014,
+        "evaluations": 80583,
+        "objective": 13.342935823650546,
+        "cost_aud_per_kg_h2": 18.966504369083932,
+        "feasible": true,
+        "feasible_members": 779,
+        "population_size": 790
+      },
+      {
+        "stage": "DE generation 102",
+        "elapsed_seconds": 1404.0997063000032,
+        "evaluations": 81373,
+        "objective": 13.342935823650546,
+        "cost_aud_per_kg_h2": 18.966504369083932,
+        "feasible": true,
+        "feasible_members": 779,
+        "population_size": 790
+      },
+      {
+        "stage": "DE generation 103",
+        "elapsed_seconds": 1410.7759306000007,
+        "evaluations": 82163,
+        "objective": 13.342935823650546,
+        "cost_aud_per_kg_h2": 18.966504369083932,
+        "feasible": true,
+        "feasible_members": 779,
+        "population_size": 790
+      },
+      {
+        "stage": "DE generation 104",
+        "elapsed_seconds": 1417.462230000001,
+        "evaluations": 82953,
+        "objective": 13.342935823650546,
+        "cost_aud_per_kg_h2": 18.966504369083932,
+        "feasible": true,
+        "feasible_members": 780,
+        "population_size": 790
+      },
+      {
+        "stage": "DE generation 105",
+        "elapsed_seconds": 1424.429015900001,
+        "evaluations": 83743,
+        "objective": 13.342935823650546,
+        "cost_aud_per_kg_h2": 18.966504369083932,
+        "feasible": true,
+        "feasible_members": 780,
+        "population_size": 790
+      },
+      {
+        "stage": "DE generation 106",
+        "elapsed_seconds": 1430.687968600003,
+        "evaluations": 84533,
+        "objective": 13.342935823650546,
+        "cost_aud_per_kg_h2": 18.966504369083932,
+        "feasible": true,
+        "feasible_members": 781,
+        "population_size": 790
+      },
+      {
+        "stage": "DE generation 107",
+        "elapsed_seconds": 1437.1955280000002,
+        "evaluations": 85323,
+        "objective": 13.334931959681924,
+        "cost_aud_per_kg_h2": 18.95512716372697,
+        "feasible": true,
+        "feasible_members": 782,
+        "population_size": 790
+      },
+      {
+        "stage": "DE generation 108",
+        "elapsed_seconds": 1442.5190078000014,
+        "evaluations": 86113,
+        "objective": 13.334931959681924,
+        "cost_aud_per_kg_h2": 18.95512716372697,
+        "feasible": true,
+        "feasible_members": 782,
+        "population_size": 790
+      },
+      {
+        "stage": "DE generation 109",
+        "elapsed_seconds": 1448.159664900002,
+        "evaluations": 86903,
+        "objective": 13.334931959681924,
+        "cost_aud_per_kg_h2": 18.95512716372697,
+        "feasible": true,
+        "feasible_members": 782,
+        "population_size": 790
+      },
+      {
+        "stage": "DE generation 110",
+        "elapsed_seconds": 1454.6545533000026,
+        "evaluations": 87693,
+        "objective": 13.334931959681924,
+        "cost_aud_per_kg_h2": 18.95512716372697,
+        "feasible": true,
+        "feasible_members": 782,
+        "population_size": 790
+      },
+      {
+        "stage": "DE generation 111",
+        "elapsed_seconds": 1462.4601972000019,
+        "evaluations": 88483,
+        "objective": 13.334931959681924,
+        "cost_aud_per_kg_h2": 18.95512716372697,
+        "feasible": true,
+        "feasible_members": 782,
+        "population_size": 790
+      },
+      {
+        "stage": "DE generation 112",
+        "elapsed_seconds": 1471.1069978000014,
+        "evaluations": 89273,
+        "objective": 13.301537609982207,
+        "cost_aud_per_kg_h2": 18.90765829421778,
+        "feasible": true,
+        "feasible_members": 782,
+        "population_size": 790
+      },
+      {
+        "stage": "DE generation 113",
+        "elapsed_seconds": 1476.9825087000027,
+        "evaluations": 90063,
+        "objective": 13.29822363632261,
+        "cost_aud_per_kg_h2": 18.9029475996057,
+        "feasible": true,
+        "feasible_members": 782,
+        "population_size": 790
+      },
+      {
+        "stage": "DE generation 114",
+        "elapsed_seconds": 1482.0991183000006,
+        "evaluations": 90853,
+        "objective": 13.29822363632261,
+        "cost_aud_per_kg_h2": 18.9029475996057,
+        "feasible": true,
+        "feasible_members": 783,
+        "population_size": 790
+      },
+      {
+        "stage": "DE generation 115",
+        "elapsed_seconds": 1489.1301699000032,
+        "evaluations": 91643,
+        "objective": 13.29822363632261,
+        "cost_aud_per_kg_h2": 18.9029475996057,
+        "feasible": true,
+        "feasible_members": 783,
+        "population_size": 790
+      },
+      {
+        "stage": "DE generation 116",
+        "elapsed_seconds": 1496.4735279000015,
+        "evaluations": 92433,
+        "objective": 13.29822363632261,
+        "cost_aud_per_kg_h2": 18.9029475996057,
+        "feasible": true,
+        "feasible_members": 783,
+        "population_size": 790
+      },
+      {
+        "stage": "DE generation 117",
+        "elapsed_seconds": 1505.449202300002,
+        "evaluations": 93223,
+        "objective": 13.29822363632261,
+        "cost_aud_per_kg_h2": 18.9029475996057,
+        "feasible": true,
+        "feasible_members": 783,
+        "population_size": 790
+      },
+      {
+        "stage": "DE generation 118",
+        "elapsed_seconds": 1513.5777001000024,
+        "evaluations": 94013,
+        "objective": 13.29822363632261,
+        "cost_aud_per_kg_h2": 18.9029475996057,
+        "feasible": true,
+        "feasible_members": 783,
+        "population_size": 790
+      },
+      {
+        "stage": "DE generation 119",
+        "elapsed_seconds": 1519.3171204999999,
+        "evaluations": 94803,
+        "objective": 13.29822363632261,
+        "cost_aud_per_kg_h2": 18.9029475996057,
+        "feasible": true,
+        "feasible_members": 783,
+        "population_size": 790
+      },
+      {
+        "stage": "DE generation 120",
+        "elapsed_seconds": 1525.2262848999999,
+        "evaluations": 95593,
+        "objective": 13.29822363632261,
+        "cost_aud_per_kg_h2": 18.9029475996057,
+        "feasible": true,
+        "feasible_members": 783,
+        "population_size": 790
+      },
+      {
+        "stage": "DE complete",
+        "elapsed_seconds": 1525.6764548000028,
+        "evaluations": 95593,
+        "objective": 13.29822363632261,
+        "cost_aud_per_kg_h2": 18.9029475996057,
+        "feasible": true,
+        "feasible_members": null,
+        "population_size": null
+      },
+      {
+        "stage": "Incumbent (DE best) round 1: site closures",
+        "elapsed_seconds": 1606.692232100002,
+        "evaluations": 96789,
+        "objective": 13.29822363632261,
+        "cost_aud_per_kg_h2": 18.9029475996057,
+        "feasible": true,
+        "feasible_members": null,
+        "population_size": null
+      },
+      {
+        "stage": "Incumbent (DE best) round 1: PEM reduction",
+        "elapsed_seconds": 1610.538539600002,
+        "evaluations": 96864,
+        "objective": 13.29822363632261,
+        "cost_aud_per_kg_h2": 18.9029475996057,
+        "feasible": true,
+        "feasible_members": null,
+        "population_size": null
+      },
+      {
+        "stage": "Incumbent (DE best) round 1: production transfers",
+        "elapsed_seconds": 1616.0799445000048,
+        "evaluations": 96972,
+        "objective": 13.29822363632261,
+        "cost_aud_per_kg_h2": 18.9029475996057,
+        "feasible": true,
+        "feasible_members": null,
+        "population_size": null
+      },
+      {
+        "stage": "Incumbent (DE best) round 1: coordinate refinement",
+        "elapsed_seconds": 1626.6052126000031,
+        "evaluations": 97218,
+        "objective": 13.291528015403758,
+        "cost_aud_per_kg_h2": 18.893430014788567,
+        "feasible": true,
+        "feasible_members": null,
+        "population_size": null
+      },
+      {
+        "stage": "Incumbent (DE best) round 2: site closures",
+        "elapsed_seconds": 1713.4160464000051,
+        "evaluations": 98403,
+        "objective": 13.291528015403758,
+        "cost_aud_per_kg_h2": 18.893430014788567,
+        "feasible": true,
+        "feasible_members": null,
+        "population_size": null
+      },
+      {
+        "stage": "Incumbent (DE best) round 2: PEM reduction",
+        "elapsed_seconds": 1716.4548460000042,
+        "evaluations": 98463,
+        "objective": 13.291528015403758,
+        "cost_aud_per_kg_h2": 18.893430014788567,
+        "feasible": true,
+        "feasible_members": null,
+        "population_size": null
+      },
+      {
+        "stage": "Incumbent (DE best) round 2: production transfers",
+        "elapsed_seconds": 1721.9019193000022,
+        "evaluations": 98571,
+        "objective": 13.291528015403758,
+        "cost_aud_per_kg_h2": 18.893430014788567,
+        "feasible": true,
+        "feasible_members": null,
+        "population_size": null
+      },
+      {
+        "stage": "Incumbent (DE best) round 2: coordinate refinement",
+        "elapsed_seconds": 1731.7506686000052,
+        "evaluations": 98824,
+        "objective": 13.291116282866286,
+        "cost_aud_per_kg_h2": 18.892844751764443,
+        "feasible": true,
+        "feasible_members": null,
+        "population_size": null
+      },
+      {
+        "stage": "Distinct footprint 1 round 1: site closures",
+        "elapsed_seconds": 1606.0104898000027,
+        "evaluations": 100324,
+        "objective": 14.164161879148336,
+        "cost_aud_per_kg_h2": 20.133847731554138,
+        "feasible": true,
+        "feasible_members": null,
+        "population_size": null
+      },
+      {
+        "stage": "Distinct footprint 1 round 1: PEM reduction",
+        "elapsed_seconds": 1609.2417558000016,
+        "evaluations": 100383,
+        "objective": 13.634898095754671,
+        "cost_aud_per_kg_h2": 19.381518259779206,
+        "feasible": true,
+        "feasible_members": null,
+        "population_size": null
+      },
+      {
+        "stage": "Distinct footprint 1 round 1: production transfers",
+        "elapsed_seconds": 1616.2410670000027,
+        "evaluations": 100513,
+        "objective": 13.61986061419322,
+        "cost_aud_per_kg_h2": 19.36014301946442,
+        "feasible": true,
+        "feasible_members": null,
+        "population_size": null
+      },
+      {
+        "stage": "Distinct footprint 1 round 1: coordinate refinement",
+        "elapsed_seconds": 1626.196944700001,
+        "evaluations": 100734,
+        "objective": 13.579050567998788,
+        "cost_aud_per_kg_h2": 19.302133003551937,
+        "feasible": true,
+        "feasible_members": null,
+        "population_size": null
+      },
+      {
+        "stage": "Distinct footprint 1 round 2: site closures",
+        "elapsed_seconds": 1704.5708326000022,
+        "evaluations": 102201,
+        "objective": 13.579050567998788,
+        "cost_aud_per_kg_h2": 19.302133003551937,
+        "feasible": true,
+        "feasible_members": null,
+        "population_size": null
+      },
+      {
+        "stage": "Distinct footprint 1 round 2: PEM reduction",
+        "elapsed_seconds": 1706.0676579000028,
+        "evaluations": 102234,
+        "objective": 13.579050567998788,
+        "cost_aud_per_kg_h2": 19.302133003551937,
+        "feasible": true,
+        "feasible_members": null,
+        "population_size": null
+      },
+      {
+        "stage": "Distinct footprint 1 round 2: production transfers",
+        "elapsed_seconds": 1713.304856200004,
+        "evaluations": 102369,
+        "objective": 13.579050567998788,
+        "cost_aud_per_kg_h2": 19.302133003551937,
+        "feasible": true,
+        "feasible_members": null,
+        "population_size": null
+      },
+      {
+        "stage": "Distinct footprint 1 round 2: coordinate refinement",
+        "elapsed_seconds": 1725.7371163000025,
+        "evaluations": 102598,
+        "objective": 13.577832545602627,
+        "cost_aud_per_kg_h2": 19.300401628433015,
+        "feasible": true,
+        "feasible_members": null,
+        "population_size": null
+      },
+      {
+        "stage": "Distinct footprint 1 round 3: site closures",
+        "elapsed_seconds": 1795.2362883000023,
+        "evaluations": 104066,
+        "objective": 13.577832545602627,
+        "cost_aud_per_kg_h2": 19.300401628433015,
+        "feasible": true,
+        "feasible_members": null,
+        "population_size": null
+      },
+      {
+        "stage": "Distinct footprint 1 round 3: PEM reduction",
+        "elapsed_seconds": 1796.7463111000034,
+        "evaluations": 104099,
+        "objective": 13.577832545602627,
+        "cost_aud_per_kg_h2": 19.300401628433015,
+        "feasible": true,
+        "feasible_members": null,
+        "population_size": null
+      },
+      {
+        "stage": "Distinct footprint 1 round 3: production transfers",
+        "elapsed_seconds": 1803.935126700002,
+        "evaluations": 104234,
+        "objective": 13.577832545602627,
+        "cost_aud_per_kg_h2": 19.300401628433015,
+        "feasible": true,
+        "feasible_members": null,
+        "population_size": null
+      },
+      {
+        "stage": "Distinct footprint 1 round 3: coordinate refinement",
+        "elapsed_seconds": 1817.9963468000024,
+        "evaluations": 104464,
+        "objective": 13.577086956775352,
+        "cost_aud_per_kg_h2": 19.299341800675695,
+        "feasible": true,
+        "feasible_members": null,
+        "population_size": null
+      },
+      {
+        "stage": "Distinct footprint 2 round 1: site closures",
+        "elapsed_seconds": 1606.978396100003,
+        "evaluations": 105924,
+        "objective": 15.419891768670983,
+        "cost_aud_per_kg_h2": 21.918822698892654,
+        "feasible": true,
+        "feasible_members": null,
+        "population_size": null
+      },
+      {
+        "stage": "Distinct footprint 2 round 1: PEM reduction",
+        "elapsed_seconds": 1609.4057814000007,
+        "evaluations": 105974,
+        "objective": 14.284655100917858,
+        "cost_aud_per_kg_h2": 20.305124521560565,
+        "feasible": true,
+        "feasible_members": null,
+        "population_size": null
+      },
+      {
+        "stage": "Distinct footprint 2 round 1: production transfers",
+        "elapsed_seconds": 1615.4237987000015,
+        "evaluations": 106087,
+        "objective": 14.188278561789755,
+        "cost_aud_per_kg_h2": 20.168128730333695,
+        "feasible": true,
+        "feasible_members": null,
+        "population_size": null
+      },
+      {
+        "stage": "Distinct footprint 2 round 1: coordinate refinement",
+        "elapsed_seconds": 1623.8663141000034,
+        "evaluations": 106290,
+        "objective": 14.188169836049788,
+        "cost_aud_per_kg_h2": 20.167974180596712,
+        "feasible": true,
+        "feasible_members": null,
+        "population_size": null
+      },
+      {
+        "stage": "Distinct footprint 2 round 2: site closures",
+        "elapsed_seconds": 1673.6059005000025,
+        "evaluations": 107288,
+        "objective": 14.188169836049788,
+        "cost_aud_per_kg_h2": 20.167974180596712,
+        "feasible": true,
+        "feasible_members": null,
+        "population_size": null
+      },
+      {
+        "stage": "Distinct footprint 2 round 2: PEM reduction",
+        "elapsed_seconds": 1674.8464936000018,
+        "evaluations": 107320,
+        "objective": 14.163828965872831,
+        "cost_aud_per_kg_h2": 20.13337450728192,
+        "feasible": true,
+        "feasible_members": null,
+        "population_size": null
+      },
+      {
+        "stage": "Distinct footprint 2 round 2: production transfers",
+        "elapsed_seconds": 1680.657733600001,
+        "evaluations": 107428,
+        "objective": 14.163828965872831,
+        "cost_aud_per_kg_h2": 20.13337450728192,
+        "feasible": true,
+        "feasible_members": null,
+        "population_size": null
+      },
+      {
+        "stage": "Distinct footprint 2 round 2: coordinate refinement",
+        "elapsed_seconds": 1691.8457061000008,
+        "evaluations": 107630,
+        "objective": 14.16373404830184,
+        "cost_aud_per_kg_h2": 20.133239585361537,
+        "feasible": true,
+        "feasible_members": null,
+        "population_size": null
+      },
+      {
+        "stage": "Distinct footprint 2 round 3: site closures",
+        "elapsed_seconds": 1736.6196442,
+        "evaluations": 108623,
+        "objective": 14.16373404830184,
+        "cost_aud_per_kg_h2": 20.133239585361537,
+        "feasible": true,
+        "feasible_members": null,
+        "population_size": null
+      },
+      {
+        "stage": "Distinct footprint 2 round 3: PEM reduction",
+        "elapsed_seconds": 1737.7342621000025,
+        "evaluations": 108653,
+        "objective": 14.16373404830184,
+        "cost_aud_per_kg_h2": 20.133239585361537,
+        "feasible": true,
+        "feasible_members": null,
+        "population_size": null
+      },
+      {
+        "stage": "Distinct footprint 2 round 3: production transfers",
+        "elapsed_seconds": 1743.4256350000032,
+        "evaluations": 108761,
+        "objective": 14.16373404830184,
+        "cost_aud_per_kg_h2": 20.133239585361537,
+        "feasible": true,
+        "feasible_members": null,
+        "population_size": null
+      },
+      {
+        "stage": "Distinct footprint 2 round 3: coordinate refinement",
+        "elapsed_seconds": 1751.5544316000014,
+        "evaluations": 108964,
+        "objective": 14.163651185262363,
+        "cost_aud_per_kg_h2": 20.133121798525035,
+        "feasible": true,
+        "feasible_members": null,
+        "population_size": null
+      },
+      {
+        "stage": "Distinct footprint 3 round 1: site closures",
+        "elapsed_seconds": 1604.8051541000023,
+        "evaluations": 110426,
+        "objective": 15.844912512617208,
+        "cost_aud_per_kg_h2": 22.522974431580963,
+        "feasible": true,
+        "feasible_members": null,
+        "population_size": null
+      },
+      {
+        "stage": "Distinct footprint 3 round 1: PEM reduction",
+        "elapsed_seconds": 1608.2798871000014,
+        "evaluations": 110483,
+        "objective": 14.128788308673885,
+        "cost_aud_per_kg_h2": 20.08356547075179,
+        "feasible": true,
+        "feasible_members": null,
+        "population_size": null
+      },
+      {
+        "stage": "Distinct footprint 3 round 1: production transfers",
+        "elapsed_seconds": 1615.741163200004,
+        "evaluations": 110611,
+        "objective": 13.926685268777986,
+        "cost_aud_per_kg_h2": 19.79628325341576,
+        "feasible": true,
+        "feasible_members": null,
+        "population_size": null
+      },
+      {
+        "stage": "Distinct footprint 3 round 1: coordinate refinement",
+        "elapsed_seconds": 1626.0963290000036,
+        "evaluations": 110810,
+        "objective": 13.810985317354891,
+        "cost_aud_per_kg_h2": 19.631819925166866,
+        "feasible": true,
+        "feasible_members": null,
+        "population_size": null
+      },
+      {
+        "stage": "Distinct footprint 3 round 2: site closures",
+        "elapsed_seconds": 1711.5769709000015,
+        "evaluations": 112224,
+        "objective": 13.810985317354891,
+        "cost_aud_per_kg_h2": 19.631819925166866,
+        "feasible": true,
+        "feasible_members": null,
+        "population_size": null
+      },
+      {
+        "stage": "Distinct footprint 3 round 2: PEM reduction",
+        "elapsed_seconds": 1714.2466318000043,
+        "evaluations": 112260,
+        "objective": 13.810985317354891,
+        "cost_aud_per_kg_h2": 19.631819925166866,
+        "feasible": true,
+        "feasible_members": null,
+        "population_size": null
+      },
+      {
+        "stage": "Distinct footprint 3 round 2: production transfers",
+        "elapsed_seconds": 1722.5647644000019,
+        "evaluations": 112395,
+        "objective": 13.810985317354891,
+        "cost_aud_per_kg_h2": 19.631819925166866,
+        "feasible": true,
+        "feasible_members": null,
+        "population_size": null
+      },
+      {
+        "stage": "Distinct footprint 3 round 2: coordinate refinement",
+        "elapsed_seconds": 1731.592165500002,
+        "evaluations": 112605,
+        "objective": 13.787083087804943,
+        "cost_aud_per_kg_h2": 19.59784376375969,
+        "feasible": true,
+        "feasible_members": null,
+        "population_size": null
+      },
+      {
+        "stage": "Distinct footprint 3 round 3: site closures",
+        "elapsed_seconds": 1801.5597619000037,
+        "evaluations": 114021,
+        "objective": 13.787083087804943,
+        "cost_aud_per_kg_h2": 19.59784376375969,
+        "feasible": true,
+        "feasible_members": null,
+        "population_size": null
+      },
+      {
+        "stage": "Distinct footprint 3 round 3: PEM reduction",
+        "elapsed_seconds": 1802.8979713000044,
+        "evaluations": 114051,
+        "objective": 13.787083087804943,
+        "cost_aud_per_kg_h2": 19.59784376375969,
+        "feasible": true,
+        "feasible_members": null,
+        "population_size": null
+      },
+      {
+        "stage": "Distinct footprint 3 round 3: production transfers",
+        "elapsed_seconds": 1810.590612400003,
+        "evaluations": 114186,
+        "objective": 13.787083087804943,
+        "cost_aud_per_kg_h2": 19.59784376375969,
+        "feasible": true,
+        "feasible_members": null,
+        "population_size": null
+      },
+      {
+        "stage": "Distinct footprint 3 round 3: coordinate refinement",
+        "elapsed_seconds": 1824.440725700002,
+        "evaluations": 114401,
+        "objective": 13.78345929971015,
+        "cost_aud_per_kg_h2": 19.592692679047833,
+        "feasible": true,
+        "feasible_members": null,
+        "population_size": null
+      },
+      {
+        "stage": "Distinct footprint 3 round 4: PEM reduction",
+        "elapsed_seconds": 1825.7178113000045,
+        "evaluations": 114431,
+        "objective": 13.78345929971015,
+        "cost_aud_per_kg_h2": 19.592692679047833,
+        "feasible": true,
+        "feasible_members": null,
+        "population_size": null
+      },
+      {
+        "stage": "Distinct footprint 3 round 4: production transfers",
+        "elapsed_seconds": 1831.3632657000016,
+        "evaluations": 114566,
+        "objective": 13.78345929971015,
+        "cost_aud_per_kg_h2": 19.592692679047833,
+        "feasible": true,
+        "feasible_members": null,
+        "population_size": null
+      },
+      {
+        "stage": "Distinct footprint 3 round 4: coordinate refinement",
+        "elapsed_seconds": 1839.5922824000045,
+        "evaluations": 114782,
+        "objective": 13.782917162450937,
+        "cost_aud_per_kg_h2": 19.591922050392235,
+        "feasible": true,
+        "feasible_members": null,
+        "population_size": null
+      },
+      {
+        "stage": "final verified",
+        "elapsed_seconds": 1852.2998471000028,
+        "evaluations": 114782,
+        "objective": 13.291116282866286,
+        "cost_aud_per_kg_h2": 18.892844751764443,
+        "feasible": true,
+        "feasible_members": null,
+        "population_size": null
+      }
+    ],
+    "co_location_basis": "Ten-port production allocation, independent site assets and regional/local storage; fixed workbook route topology; PPA port selector excluded",
+    "initial_population_policy": "sparse feasible-seed perturbations, share transfers with capacity and resource-proportional broad seeds",
+    "model_fingerprint": "9255dfc078e49104d198cc66c4ca8f031a670c60e2e23cd748bdd4a0e4e288f2",
+    "bounds": [
+      [
+        "wind_mw_PortHastings",
+        0.0,
+        2200.0,
+        false
+      ],
+      [
+        "wind_mw_PortBonython",
+        0.0,
+        2360.0,
+        false
+      ],
+      [
+        "wind_mw_Gladstone",
+        0.0,
+        3500.0,
+        false
+      ],
+      [
+        "wind_mw_HayPoint",
+        0.0,
+        1220.0,
+        false
+      ],
+      [
+        "wind_mw_Ashburton",
+        0.0,
+        3000.0,
+        false
+      ],
+      [
+        "wind_mw_Dampier",
+        0.0,
+        3000.0,
+        false
+      ],
+      [
+        "wind_mw_PortAbbotPoint",
+        0.0,
+        1220.0,
+        false
+      ],
+      [
+        "wind_mw_PortHedland",
+        0.0,
+        24000.0,
+        false
+      ],
+      [
+        "wind_mw_Newcastle",
+        0.0,
+        5000.0,
+        false
+      ],
+      [
+        "solar_mw_PortHastings",
+        0.0,
+        905.0,
+        false
+      ],
+      [
+        "solar_mw_PortBonython",
+        0.0,
+        5000.0,
+        false
+      ],
+      [
+        "solar_mw_Gladstone",
+        0.0,
+        7530.0,
+        false
+      ],
+      [
+        "solar_mw_HayPoint",
+        0.0,
+        2200.0,
+        false
+      ],
+      [
+        "solar_mw_Ashburton",
+        0.0,
+        15000.0,
+        false
+      ],
+      [
+        "solar_mw_Dampier",
+        0.0,
+        15000.0,
+        false
+      ],
+      [
+        "solar_mw_PortDarwin",
+        0.0,
+        2000.0,
+        false
+      ],
+      [
+        "solar_mw_PortAbbotPoint",
+        0.0,
+        5000.0,
+        false
+      ],
+      [
+        "solar_mw_PortHedland",
+        0.0,
+        15000.0,
+        false
+      ],
+      [
+        "solar_mw_Newcastle",
+        0.0,
+        2000.0,
+        false
+      ],
+      [
+        "battery_mwh_PortHastings",
+        0.0,
+        10000.0,
+        false
+      ],
+      [
+        "battery_mwh_PortBonython",
+        0.0,
+        10000.0,
+        false
+      ],
+      [
+        "battery_mwh_Gladstone",
+        0.0,
+        10000.0,
+        false
+      ],
+      [
+        "battery_mwh_HayPoint",
+        0.0,
+        10000.0,
+        false
+      ],
+      [
+        "battery_mwh_Ashburton",
+        0.0,
+        10000.0,
+        false
+      ],
+      [
+        "battery_mwh_Dampier",
+        0.0,
+        10000.0,
+        false
+      ],
+      [
+        "battery_mwh_PortDarwin",
+        0.0,
+        10000.0,
+        false
+      ],
+      [
+        "battery_mwh_PortAbbotPoint",
+        0.0,
+        10000.0,
+        false
+      ],
+      [
+        "battery_mwh_PortHedland",
+        0.0,
+        10000.0,
+        false
+      ],
+      [
+        "battery_mwh_Newcastle",
+        0.0,
+        10000.0,
+        false
+      ],
+      [
+        "h2_storage_kg_PortHastings",
+        0.0,
+        28000000.0,
+        false
+      ],
+      [
+        "h2_storage_kg_PortBonython",
+        0.0,
+        7200000.0,
+        false
+      ],
+      [
+        "h2_storage_kg_Gladstone",
+        0.0,
+        6000000.0,
+        false
+      ],
+      [
+        "h2_storage_kg_HayPoint",
+        0.0,
+        6000000.0,
+        false
+      ],
+      [
+        "h2_storage_kg_Ashburton",
+        0.0,
+        48000000.0,
+        false
+      ],
+      [
+        "h2_storage_kg_Dampier",
+        0.0,
+        24000000.0,
+        false
+      ],
+      [
+        "h2_storage_kg_PortDarwin",
+        0.0,
+        100000000.0,
+        false
+      ],
+      [
+        "h2_storage_kg_PortAbbotPoint",
+        0.0,
+        6000000.0,
+        false
+      ],
+      [
+        "h2_storage_kg_PortHedland",
+        0.0,
+        24000000.0,
+        false
+      ],
+      [
+        "h2_storage_kg_Newcastle",
+        0.0,
+        50000000.0,
+        false
+      ],
+      [
+        "local_h2_storage_kg_PortHastings",
+        0.0,
+        500000.0,
+        false
+      ],
+      [
+        "local_h2_storage_kg_PortBonython",
+        0.0,
+        500000.0,
+        false
+      ],
+      [
+        "local_h2_storage_kg_Gladstone",
+        0.0,
+        500000.0,
+        false
+      ],
+      [
+        "local_h2_storage_kg_HayPoint",
+        0.0,
+        500000.0,
+        false
+      ],
+      [
+        "local_h2_storage_kg_Ashburton",
+        0.0,
+        750000.0,
+        false
+      ],
+      [
+        "local_h2_storage_kg_Dampier",
+        0.0,
+        750000.0,
+        false
+      ],
+      [
+        "local_h2_storage_kg_PortDarwin",
+        0.0,
+        500000.0,
+        false
+      ],
+      [
+        "local_h2_storage_kg_PortAbbotPoint",
+        0.0,
+        500000.0,
+        false
+      ],
+      [
+        "local_h2_storage_kg_PortHedland",
+        0.0,
+        750000.0,
+        false
+      ],
+      [
+        "local_h2_storage_kg_Newcastle",
+        0.0,
+        500000.0,
+        false
+      ],
+      [
+        "pem_modules_PortHastings",
+        0.0,
+        55.0,
+        true
+      ],
+      [
+        "pem_modules_PortBonython",
+        0.0,
+        88.0,
+        true
+      ],
+      [
+        "pem_modules_Gladstone",
+        0.0,
+        116.0,
+        true
+      ],
+      [
+        "pem_modules_HayPoint",
+        0.0,
+        52.0,
+        true
+      ],
+      [
+        "pem_modules_Ashburton",
+        0.0,
+        166.0,
+        true
+      ],
+      [
+        "pem_modules_Dampier",
+        0.0,
+        172.0,
+        true
+      ],
+      [
+        "pem_modules_PortDarwin",
+        0.0,
+        41.0,
+        true
+      ],
+      [
+        "pem_modules_PortAbbotPoint",
+        0.0,
+        75.0,
+        true
+      ],
+      [
+        "pem_modules_PortHedland",
+        0.0,
+        372.0,
+        true
+      ],
+      [
+        "pem_modules_Newcastle",
+        0.0,
+        90.0,
+        true
+      ],
+      [
+        "h2_allocation_weight_PortHastings",
+        0.0,
+        1.0,
+        false
+      ],
+      [
+        "h2_allocation_weight_PortBonython",
+        0.0,
+        1.0,
+        false
+      ],
+      [
+        "h2_allocation_weight_Gladstone",
+        0.0,
+        1.0,
+        false
+      ],
+      [
+        "h2_allocation_weight_HayPoint",
+        0.0,
+        1.0,
+        false
+      ],
+      [
+        "h2_allocation_weight_Ashburton",
+        0.0,
+        1.0,
+        false
+      ],
+      [
+        "h2_allocation_weight_Dampier",
+        0.0,
+        1.0,
+        false
+      ],
+      [
+        "h2_allocation_weight_PortDarwin",
+        0.0,
+        1.0,
+        false
+      ],
+      [
+        "h2_allocation_weight_PortAbbotPoint",
+        0.0,
+        1.0,
+        false
+      ],
+      [
+        "h2_allocation_weight_PortHedland",
+        0.0,
+        1.0,
+        false
+      ],
+      [
+        "h2_allocation_weight_Newcastle",
+        0.0,
+        1.0,
+        false
+      ],
+      [
+        "synth_modules_PortHastings",
+        0.0,
+        2161.0,
+        true
+      ],
+      [
+        "synth_modules_PortBonython",
+        0.0,
+        3528.0,
+        true
+      ],
+      [
+        "synth_modules_Gladstone",
+        0.0,
+        4625.0,
+        true
+      ],
+      [
+        "synth_modules_HayPoint",
+        0.0,
+        2062.0,
+        true
+      ],
+      [
+        "synth_modules_Ashburton",
+        0.0,
+        6651.0,
+        true
+      ],
+      [
+        "synth_modules_Dampier",
+        0.0,
+        6922.0,
+        true
+      ],
+      [
+        "synth_modules_PortDarwin",
+        0.0,
+        1621.0,
+        true
+      ],
+      [
+        "synth_modules_PortAbbotPoint",
+        0.0,
+        2979.0,
+        true
+      ],
+      [
+        "synth_modules_PortHedland",
+        0.0,
+        14863.0,
+        true
+      ],
+      [
+        "synth_modules_Newcastle",
+        0.0,
+        3577.0,
+        true
+      ]
+    ]
+  },
+  "environment": {
+    "python": "3.14.3",
+    "numpy": "2.4.2",
+    "scipy": "1.17.1",
+    "numba": "0.66.0",
+    "pandas": "3.0.1",
+    "openpyxl": "3.1.5"
+  },
+  "hourly_feasible": true,
+  "status": "feasible candidate; global optimality not established",
+  "objective": 13.291116282866286,
+  "nfev": 114782,
+  "success": false,
+  "message": "Maximum number of iterations has been exceeded.",
+  "delivered_cost_aud_per_kg_h2": 18.892844751764443,
+  "delivered_cost_usd_per_kg_h2": 13.291116282866286,
+  "delivered_ei_kg_co2_per_kg_h2": 1.2960629034037086
+}

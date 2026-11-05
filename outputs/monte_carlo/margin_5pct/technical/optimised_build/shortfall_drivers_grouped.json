@@ -1,0 +1,14 @@
+{
+  "PSA H2 recovery [fraction]": -0.40369752124651476,
+  "Specific energy consumption [kWh/kg H2]": 0.3966138126346676,
+  "Available full-load hours [h/yr]": -0.26283202705088016,
+  "Vessel availability [days/year]": -0.09678865306911913,
+  "Degradation rate [% / 1000 full-load hours]": 0.09192880907087053,
+  "Ship speed + sea fuel consumption": -0.08012521996792431,
+  "Transmission losses [%/km]": -0.0566269022675927,
+  "Minimum stable load [% of scheduled rate]": 0.05006416893235778,
+  "Electric heating efficiency [fraction]": -0.04983089642044185,
+  "Cracker MeOH conversion rate [fraction]": 0.04433344088962303,
+  "CO2 capture and compression electricity, PSA (concentrated) [kWh/t CO2]": 0.035368000681654015,
+  "CO2 liquefaction electricity [kWh/t CO2]": -0.034427134883593086
+}

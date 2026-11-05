@@ -1,0 +1,14 @@
+{
+  "LNG cost: liquefaction (CAPEX + OPEX) [USD/GJ]": 0.6476135876135876,
+  "Grey prod cost (ex feed) [USD/kg H2]": 0.5562141882141882,
+  "Liquefaction + storage [USD/t CO2]": 0.2426783186783187,
+  "CO2 capture cost, reformate (concentrated, PSA) [USD/t CO2]": 0.24257946257946264,
+  "Future zero-carbon power price [USD/kWh]": 0.23507127107127104,
+  "LNG cost: feed gas (wellhead) [USD/GJ]": 0.18902633702633706,
+  "CO2 storage cost (Australia) [USD/t CO2]": 0.09274281274281276,
+  "Reference ship CAPEX [AUD]": 0.05861437061437063,
+  "LCO2 fleet fuel-oil price [USD/t]": 0.05456422256422257,
+  "Ship annual OPEX (non-fuel) [AUD/yr]": 0.04734549534549535,
+  "LNG cost: one-way shipping Gladstone-Tokyo [USD/GJ]": 0.04165698565698566,
+  "Discount rate [fraction/yr]": 0.03907317907317907
+}

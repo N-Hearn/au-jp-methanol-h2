@@ -1,0 +1,14 @@
+{
+  "atr.h2_yield_kg_ng_per_kg_h2": 0.9414953574953574,
+  "atr.electricity_kwh_per_kg_h2": 0.20864976464976465,
+  "cracker.capture_electricity_concentrated_kwh_per_t_co2": 0.19012654612654614,
+  "cracker.co2_capture_rate": 0.1332050772050772,
+  "atr.grey_plant_gate_ei_kg_co2_per_kg_h2": 0.13156046356046358,
+  "co2_cap.liquefaction_electricity_kwh_per_t_co2": 0.04332275532275533,
+  "ship.available_days_per_year": -0.04302174702174703,
+  "lng.supply_chain_ghg_kg_co2_per_gj": -0.04290061890061891,
+  "ship.port_fuel_consumption_tpd": 0.03760180960180961,
+  "ship.port_turnaround_days": -0.03123069123069123,
+  "ship.sea_fuel_consumption_tpd": 0.00920985320985321,
+  "ship.voyage_speed_kn": 0.00920985320985321
+}

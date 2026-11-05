@@ -1,0 +1,150 @@
+{
+  "model_fingerprint": "9255dfc078e49104d198cc66c4ca8f031a670c60e2e23cd748bdd4a0e4e288f2",
+  "seed": 0,
+  "samples": 1000,
+  "case": "grey_ccs",
+  "mode": "technical",
+  "workers": 10,
+  "reference_equipment": {},
+  "conditional_on_feasibility": true,
+  "fixed_installed_equipment": true,
+  "operating_allocation_can_change": false,
+  "hourly_dispatch_rerun": false,
+  "feasibility_inherited": false,
+  "weather": "fixed available single-year profiles; no weather ensemble supplied",
+  "ppa_reliability": "firm supply assumed; grid reliability not verified",
+  "sampled_inputs": [
+    {
+      "name": "Voyage speed [knots]",
+      "group": "ship",
+      "field": "voyage_speed_kn",
+      "base": 14.5,
+      "low": 12.5,
+      "high": 15.4,
+      "distribution": "triangular",
+      "evidence": "Triangular over Min/Typical/Max (screening assumption). Shares a draw with sea fuel: fuel rises roughly with speed cubed, (15.4/12.5)^3 = 1.87, close to the 36/17.5 = 2.06 fuel range.",
+      "dependency": "shared:meoh-ship-speed-fuel"
+    },
+    {
+      "name": "Port turnaround time [days]",
+      "group": "ship",
+      "field": "port_turnaround_days",
+      "base": 3.0,
+      "low": 2.0,
+      "high": 4.0,
+      "distribution": "triangular",
+      "evidence": "Triangular over Min/Typical/Max (screening assumption).",
+      "dependency": ""
+    },
+    {
+      "name": "Ship sea fuel consumption [t/day]",
+      "group": "ship",
+      "field": "sea_fuel_consumption_tpd",
+      "base": 26.0,
+      "low": 17.5,
+      "high": 36.0,
+      "distribution": "triangular",
+      "evidence": "Triangular over Min/Typical/Max (screening assumption). Shares a draw with voyage speed so fast ships do not burn low-speed fuel.",
+      "dependency": "shared:meoh-ship-speed-fuel"
+    },
+    {
+      "name": "Ship port fuel consumption [t/day]",
+      "group": "ship",
+      "field": "port_fuel_consumption_tpd",
+      "base": 5.0,
+      "low": 3.0,
+      "high": 8.0,
+      "distribution": "triangular",
+      "evidence": "Triangular over Min/Typical/Max (screening assumption).",
+      "dependency": ""
+    },
+    {
+      "name": "Vessel availability [days/year]",
+      "group": "ship",
+      "field": "available_days_per_year",
+      "base": 350.0,
+      "low": 330.0,
+      "high": 365.0,
+      "distribution": "triangular",
+      "evidence": "Triangular over Min/Typical/Max (screening assumption).",
+      "dependency": ""
+    },
+    {
+      "name": "CO2 capture rate [fraction]",
+      "group": "cracker",
+      "field": "co2_capture_rate",
+      "base": 0.9,
+      "low": 0.867,
+      "high": 0.99,
+      "distribution": "triangular",
+      "evidence": "Triangular over Min/Typical/Max (screening assumption).",
+      "dependency": ""
+    },
+    {
+      "name": "CO2 capture and compression electricity, PSA (concentrated) [kWh/t CO2]",
+      "group": "cracker",
+      "field": "capture_electricity_concentrated_kwh_per_t_co2",
+      "base": 126.4542,
+      "low": 63.2271,
+      "high": 189.6813,
+      "distribution": "triangular",
+      "evidence": "Triangular over Min/Typical/Max (screening assumption). Used only when co2_capture_config = 0 (Typical).",
+      "dependency": ""
+    },
+    {
+      "name": "CO2 liquefaction electricity [kWh/t CO2]",
+      "group": "co2_cap",
+      "field": "liquefaction_electricity_kwh_per_t_co2",
+      "base": 170.0,
+      "low": 104.0,
+      "high": 179.0,
+      "distribution": "triangular",
+      "evidence": "Triangular over Min/Typical/Max (screening assumption).",
+      "dependency": ""
+    },
+    {
+      "name": "Supply chain GHG intensity [kg CO2e/GJ]",
+      "group": "lng",
+      "field": "supply_chain_ghg_kg_co2_per_gj",
+      "base": 15.0,
+      "low": 13.1,
+      "high": 21.6,
+      "distribution": "triangular",
+      "evidence": "Triangular over Min/Typical/Max (screening assumption).",
+      "dependency": ""
+    },
+    {
+      "name": "Hydrogen yield [kg NG/kg H2]",
+      "group": "atr",
+      "field": "h2_yield_kg_ng_per_kg_h2",
+      "base": 3.7,
+      "low": 3.4,
+      "high": 5.2,
+      "distribution": "triangular",
+      "evidence": "Triangular over Min/Typical/Max (screening assumption). Moves the grey cost and EI only. The common H2 target (Eq. 1) must stay at the Typical value in every Monte Carlo mode, or the green chain's delivery target moves with the draw.",
+      "dependency": ""
+    },
+    {
+      "name": "Grey plant-gate EI [kg CO2/kg H2]",
+      "group": "atr",
+      "field": "grey_plant_gate_ei_kg_co2_per_kg_h2",
+      "base": 10.0,
+      "low": 8.6,
+      "high": 10.3,
+      "distribution": "triangular",
+      "evidence": "Triangular over Min/Typical/Max (screening assumption).",
+      "dependency": ""
+    },
+    {
+      "name": "ATR electricity (ASU) [kWh/kg H2]",
+      "group": "atr",
+      "field": "electricity_kwh_per_kg_h2",
+      "base": 1.3,
+      "low": 0.9,
+      "high": 1.8,
+      "distribution": "triangular",
+      "evidence": "Triangular over Min/Typical/Max (screening assumption).",
+      "dependency": ""
+    }
+  ]
+}

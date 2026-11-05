@@ -1,0 +1,38 @@
+{
+  "case": "grey",
+  "mode": "economic",
+  "draws": 1000,
+  "failed": 0,
+  "falls_short": 0,
+  "deterministic_cost": 4.984860729816679,
+  "feasible_fraction": 1.0,
+  "excluded_fraction": 0.0,
+  "failure_categories": {},
+  "distribution_basis": "fixed design and verified operating schedule; feasibility inherited",
+  "sampling": "explicit workbook distributions and dependencies; screening assumptions, not calibrated probabilities",
+  "mean_cost": 4.7338327504099516,
+  "std_cost": 0.38215564910182065,
+  "P5_cost": 4.069157649164009,
+  "P10_cost": 4.233290133351381,
+  "P50_cost": 4.760928957520471,
+  "P90_cost": 5.213379336946758,
+  "P95_cost": 5.3423380392037,
+  "P10_cost_ci95": [
+    4.204816265796614,
+    4.266727675400365
+  ],
+  "P50_cost_ci95": [
+    4.723052296228107,
+    4.7875345769030995
+  ],
+  "P90_cost_ci95": [
+    5.180163948844776,
+    5.239952214814141
+  ],
+  "prob_cost_le_deterministic": 0.732,
+  "deterministic_ei": 12.6973,
+  "mean_ei": 12.697300000000006,
+  "P10_ei": 12.6973,
+  "P50_ei": 12.6973,
+  "P90_ei": 12.6973
+}

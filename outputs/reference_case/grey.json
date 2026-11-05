@@ -1,0 +1,22 @@
+{
+  "inputs_fingerprint": "c95966c5eb307cf118bc9619084d62229a1f012902d5d5580e60131011b1f570",
+  "result": {
+    "feed_gj_per_kg_h2": 0.17982000000000004,
+    "feed_cost_aud_per_kg_h2": 2.9646022880440865,
+    "prod_cost_ex_feed_aud_per_kg_h2": 1.6702153433928,
+    "atr_electricity_cost_aud_per_kg_h2": 0.35004309837979286,
+    "delivered_cost_aud_per_kg_h2": 4.984860729816679,
+    "delivered_cost_usd_per_kg_h2": 3.506849523426034,
+    "delivered_cost_aud_per_t_h2": 4984.860729816679,
+    "delivered_cost_usd_per_gj_h2_lhv": 29.172693814375126,
+    "plant_gate_ei_kg_co2_per_kg_h2": 10.0,
+    "atr_electricity_ei_kg_co2_per_kg_h2": 0.0,
+    "upstream_ei_kg_co2_per_kg_h2": 2.6973000000000007,
+    "delivered_ei_kg_co2_per_kg_h2": 12.6973,
+    "target_h2_tpa": 2162162.162162162,
+    "plant_capacity_tpd_h2": 1100.0,
+    "annual_h2_per_plant_tpa": 360360.3603603603,
+    "fleet_plants": 6,
+    "fleet_annual_h2_tpa": 2162162.162162162
+  }
+}

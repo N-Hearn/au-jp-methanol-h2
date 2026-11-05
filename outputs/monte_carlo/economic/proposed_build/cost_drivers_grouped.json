@@ -1,0 +1,14 @@
+{
+  "PEM, renewable + battery CAPEX (one ISP trajectory)": 0.7197470997470998,
+  "Discount rate [fraction/yr]": 0.544915288915289,
+  "Electrolyser O&M [% initial PEM CAPEX/yr (AUD 2025)]": 0.2088058008058008,
+  "Future zero-carbon power price [USD/kWh]": 0.18972347772347775,
+  "System lifetime [years]": -0.1188867468867469,
+  "H2 pipeline CAPEX (onshore + offshore)": 0.1064057864057864,
+  "Onshore wind economic life [years]": -0.08430572430572432,
+  "O&M Wind [AUD/MW/yr]": 0.07360689760689762,
+  "Catalyst lifetime [yrs]": -0.05951542751542752,
+  "Wholesale water cost [AUD/kL]": 0.05620863220863221,
+  "CO2 capture cost, reformate (concentrated, PSA) [USD/t CO2]": 0.05458098658098658,
+  "Battery fixed O&M [%/year]": -0.04979625779625779
+}

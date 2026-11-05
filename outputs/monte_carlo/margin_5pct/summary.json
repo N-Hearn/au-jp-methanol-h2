@@ -1,0 +1,45 @@
+[
+  {
+    "case": "optimum",
+    "mode": "technical",
+    "draws": 1000,
+    "failed": 727,
+    "falls_short": 727,
+    "deterministic_cost": 17.798229753890183,
+    "feasible_fraction": 0.273,
+    "excluded_fraction": 0.727,
+    "failure_categories": {
+      "annual capacity insufficient": 404,
+      "no feasible dispatch found": 323
+    },
+    "distribution_basis": "frozen equipment counts and renewable/storage footprint; only the continuous ratings re-rate and recost to what each draw needs",
+    "sampling": "explicit workbook distributions and dependencies; screening assumptions, not calibrated probabilities",
+    "P50_unmet_h2_fraction": 0.02232642610169444,
+    "P90_unmet_h2_fraction": 0.07689504937380735,
+    "mean_cost": 18.005476075172968,
+    "std_cost": 0.34172302555154355,
+    "P5_cost": 17.513870681578222,
+    "P10_cost": 17.60003095052159,
+    "P50_cost": 17.971470193703336,
+    "P90_cost": 18.45253897183729,
+    "P95_cost": 18.573197781714462,
+    "P10_cost_ci95": [
+      17.560160221950603,
+      17.656947906639385
+    ],
+    "P50_cost_ci95": [
+      17.926074112186033,
+      18.052733115491357
+    ],
+    "P90_cost_ci95": [
+      18.391863764519783,
+      18.532235939653997
+    ],
+    "prob_cost_le_deterministic": 0.31868131868131866,
+    "deterministic_ei": 1.2961906459978445,
+    "mean_ei": 1.1561256406563234,
+    "P10_ei": 0.8323803269482106,
+    "P50_ei": 1.1513597603208545,
+    "P90_ei": 1.4145915140758134
+  }
+]

@@ -1,0 +1,172 @@
+{
+  "model_fingerprint": "9255dfc078e49104d198cc66c4ca8f031a670c60e2e23cd748bdd4a0e4e288f2",
+  "seed": 0,
+  "samples": 1000,
+  "case": "grey_ccs",
+  "mode": "economic",
+  "workers": 10,
+  "reference_equipment": {},
+  "conditional_on_feasibility": false,
+  "fixed_installed_equipment": true,
+  "operating_allocation_can_change": false,
+  "hourly_dispatch_rerun": false,
+  "feasibility_inherited": true,
+  "weather": "fixed available single-year profiles; no weather ensemble supplied",
+  "ppa_reliability": "firm supply assumed; grid reliability not verified",
+  "sampled_inputs": [
+    {
+      "name": "Reference ship CAPEX [AUD]",
+      "group": "ship",
+      "field": "ref_ship_capex_aud",
+      "base": 211604944.92275757,
+      "low": 192368131.74796143,
+      "high": 293812263.72442544,
+      "distribution": "triangular",
+      "evidence": "Triangular over Min/Typical/Max (screening assumption).",
+      "dependency": ""
+    },
+    {
+      "name": "Ship annual OPEX (non-fuel) [AUD/yr]",
+      "group": "ship",
+      "field": "ship_annual_opex_aud",
+      "base": 2842483.7195214294,
+      "low": 2811587.1573527185,
+      "high": 2873380.2816901407,
+      "distribution": "triangular",
+      "evidence": "Triangular over Min/Typical/Max (screening assumption).",
+      "dependency": ""
+    },
+    {
+      "name": "Ship lifetime [years]",
+      "group": "ship",
+      "field": "ship_lifetime_years",
+      "base": 25.0,
+      "low": 20.0,
+      "high": 30.0,
+      "distribution": "triangular",
+      "evidence": "Triangular over Min/Typical/Max (screening assumption).",
+      "dependency": ""
+    },
+    {
+      "name": "Future zero-carbon power price [USD/kWh]",
+      "group": "cracker",
+      "field": "zero_carbon_power_price_aud_per_kwh",
+      "base": 0.2692639218306099,
+      "low": 0.149623457845605,
+      "high": 0.34137538499365266,
+      "distribution": "triangular",
+      "evidence": "Triangular over Min/Typical/Max (screening assumption). Economic: the price of the active Japanese power source when cracker_power_source = 1 (Typical), about 2.8 AUD/kg H2. Range is a forecast spread for one product, not a choice between products.",
+      "dependency": ""
+    },
+    {
+      "name": "Cracker site (Japan) industrial power price [USD/kWh]",
+      "group": "cracker",
+      "field": "cracker_power_price_aud_per_kwh",
+      "base": 0.26135014149195696,
+      "low": 0.028103781747553742,
+      "high": 0.4238110402572275,
+      "distribution": "triangular",
+      "evidence": "Triangular over Min/Typical/Max (screening assumption). Only priced when cracker_power_source = 0, so it has no effect on the Typical configuration. Check Min 0.0187 USD/kWh (likely 0.187).",
+      "dependency": ""
+    },
+    {
+      "name": "CO2 capture cost, reformate (concentrated, PSA) [USD/t CO2]",
+      "group": "cracker",
+      "field": "capture_cost_concentrated_aud_per_t_co2",
+      "base": 30.944048857514,
+      "low": 15.472024428757,
+      "high": 77.360122143785,
+      "distribution": "triangular",
+      "evidence": "Triangular over Min/Typical/Max (screening assumption). Economic. Used only when co2_capture_config = 0 (Typical).",
+      "dependency": ""
+    },
+    {
+      "name": "Liquefaction + storage [USD/t CO2]",
+      "group": "co2_cap",
+      "field": "liquefaction_storage_aud_per_t",
+      "base": 49.5104781720224,
+      "low": 23.2080366431355,
+      "high": 77.360122143785,
+      "distribution": "triangular",
+      "evidence": "Triangular over Min/Typical/Max (screening assumption).",
+      "dependency": ""
+    },
+    {
+      "name": "Discount rate [fraction/yr]",
+      "group": "econ",
+      "field": "discount_rate",
+      "base": 0.08,
+      "low": 0.06,
+      "high": 0.1,
+      "distribution": "triangular",
+      "evidence": "Triangular over Min/Typical/Max (screening assumption).",
+      "dependency": ""
+    },
+    {
+      "name": "LNG cost: feed gas (wellhead) [USD/GJ]",
+      "group": "lng",
+      "field": "lng_feed_gas_cost_aud_per_gj",
+      "base": 6.95923059747,
+      "low": 6.089326772786251,
+      "high": 7.82913442215375,
+      "distribution": "triangular",
+      "evidence": "Triangular over Min/Typical/Max (screening assumption).",
+      "dependency": ""
+    },
+    {
+      "name": "LNG cost: liquefaction (CAPEX + OPEX) [USD/GJ]",
+      "group": "lng",
+      "field": "lng_liquefaction_cost_aud_per_gj",
+      "base": 7.655153657217001,
+      "low": 1.07868074260785,
+      "high": 7.655153657217001,
+      "distribution": "triangular",
+      "evidence": "Triangular over Min/Typical/Max (screening assumption).",
+      "dependency": ""
+    },
+    {
+      "name": "LNG cost: one-way shipping Gladstone-Tokyo [USD/GJ]",
+      "group": "lng",
+      "field": "lng_shipping_cost_aud_per_gj",
+      "base": 1.872114955879597,
+      "low": 1.6864506627345133,
+      "high": 2.274387591027279,
+      "distribution": "triangular",
+      "evidence": "Triangular over Min/Typical/Max (screening assumption).",
+      "dependency": ""
+    },
+    {
+      "name": "Grey prod cost (ex feed) [USD/kg H2]",
+      "group": "atr",
+      "field": "grey_prod_cost_ex_feed_aud_per_kg_h2",
+      "base": 1.6702153433928,
+      "low": 1.304855737025625,
+      "high": 2.487924938595525,
+      "distribution": "triangular",
+      "evidence": "Triangular over Min/Typical/Max (screening assumption).",
+      "dependency": ""
+    },
+    {
+      "name": "CO2 storage cost (Australia) [USD/t CO2]",
+      "group": "ccs",
+      "field": "co2_storage_cost_aud_per_t_co2",
+      "base": 8.6990382468375,
+      "low": 6.6112690675965,
+      "high": 28.70682621456375,
+      "distribution": "triangular",
+      "evidence": "Triangular over Min/Typical/Max (screening assumption).",
+      "dependency": ""
+    },
+    {
+      "name": "LCO2 fleet fuel-oil price [USD/t]",
+      "group": "ccs",
+      "field": "lco2_fuel_oil_price_aud_per_t",
+      "base": 1110.1634683724235,
+      "low": 943.8521677327648,
+      "high": 1570.7178393745558,
+      "distribution": "triangular",
+      "evidence": "Triangular over Min/Typical/Max (screening assumption).",
+      "dependency": ""
+    }
+  ]
+}

@@ -1,0 +1,84 @@
+{
+  "model_fingerprint": "9255dfc078e49104d198cc66c4ca8f031a670c60e2e23cd748bdd4a0e4e288f2",
+  "seed": 0,
+  "samples": 1000,
+  "case": "grey",
+  "mode": "economic",
+  "workers": 10,
+  "reference_equipment": {},
+  "conditional_on_feasibility": false,
+  "fixed_installed_equipment": true,
+  "operating_allocation_can_change": false,
+  "hourly_dispatch_rerun": false,
+  "feasibility_inherited": true,
+  "weather": "fixed available single-year profiles; no weather ensemble supplied",
+  "ppa_reliability": "firm supply assumed; grid reliability not verified",
+  "sampled_inputs": [
+    {
+      "name": "Future zero-carbon power price [USD/kWh]",
+      "group": "cracker",
+      "field": "zero_carbon_power_price_aud_per_kwh",
+      "base": 0.2692639218306099,
+      "low": 0.149623457845605,
+      "high": 0.34137538499365266,
+      "distribution": "triangular",
+      "evidence": "Triangular over Min/Typical/Max (screening assumption). Economic: the price of the active Japanese power source when cracker_power_source = 1 (Typical), about 2.8 AUD/kg H2. Range is a forecast spread for one product, not a choice between products.",
+      "dependency": ""
+    },
+    {
+      "name": "Cracker site (Japan) industrial power price [USD/kWh]",
+      "group": "cracker",
+      "field": "cracker_power_price_aud_per_kwh",
+      "base": 0.26135014149195696,
+      "low": 0.028103781747553742,
+      "high": 0.4238110402572275,
+      "distribution": "triangular",
+      "evidence": "Triangular over Min/Typical/Max (screening assumption). Only priced when cracker_power_source = 0, so it has no effect on the Typical configuration. Check Min 0.0187 USD/kWh (likely 0.187).",
+      "dependency": ""
+    },
+    {
+      "name": "LNG cost: feed gas (wellhead) [USD/GJ]",
+      "group": "lng",
+      "field": "lng_feed_gas_cost_aud_per_gj",
+      "base": 6.95923059747,
+      "low": 6.089326772786251,
+      "high": 7.82913442215375,
+      "distribution": "triangular",
+      "evidence": "Triangular over Min/Typical/Max (screening assumption).",
+      "dependency": ""
+    },
+    {
+      "name": "LNG cost: liquefaction (CAPEX + OPEX) [USD/GJ]",
+      "group": "lng",
+      "field": "lng_liquefaction_cost_aud_per_gj",
+      "base": 7.655153657217001,
+      "low": 1.07868074260785,
+      "high": 7.655153657217001,
+      "distribution": "triangular",
+      "evidence": "Triangular over Min/Typical/Max (screening assumption).",
+      "dependency": ""
+    },
+    {
+      "name": "LNG cost: one-way shipping Gladstone-Tokyo [USD/GJ]",
+      "group": "lng",
+      "field": "lng_shipping_cost_aud_per_gj",
+      "base": 1.872114955879597,
+      "low": 1.6864506627345133,
+      "high": 2.274387591027279,
+      "distribution": "triangular",
+      "evidence": "Triangular over Min/Typical/Max (screening assumption).",
+      "dependency": ""
+    },
+    {
+      "name": "Grey prod cost (ex feed) [USD/kg H2]",
+      "group": "atr",
+      "field": "grey_prod_cost_ex_feed_aud_per_kg_h2",
+      "base": 1.6702153433928,
+      "low": 1.304855737025625,
+      "high": 2.487924938595525,
+      "distribution": "triangular",
+      "evidence": "Triangular over Min/Typical/Max (screening assumption).",
+      "dependency": ""
+    }
+  ]
+}

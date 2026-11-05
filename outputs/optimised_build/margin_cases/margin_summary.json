@@ -1,0 +1,68 @@
+{
+  "0%": {
+    "delivered_cost_aud_per_kg_h2": 17.217007695067853,
+    "delivered_ei_kg_co2_per_kg_h2": 1.2960715033130565,
+    "sites": {
+      "Gladstone": 0.11293288269459169,
+      "Ashburton": 0.20594267665400934,
+      "Dampier": 0.19617777714768705,
+      "PortHedland": 0.48494666350371185
+    },
+    "n_pem": 265,
+    "n_synth": 24,
+    "technical_mc_draws": 1000,
+    "technical_full_delivery_share": 0.119,
+    "technical_delivered_p10": 0.8940965836512812,
+    "technical_delivered_p50": 0.9733973691528659
+  },
+  "5%": {
+    "delivered_cost_aud_per_kg_h2": 17.798229753890183,
+    "delivered_ei_kg_co2_per_kg_h2": 1.2961906459978445,
+    "sites": {
+      "Gladstone": 0.10987455173059595,
+      "Ashburton": 0.2150235822733278,
+      "Dampier": 0.20038995726574976,
+      "PortHedland": 0.4747119087303264
+    },
+    "n_pem": 320,
+    "n_synth": 27,
+    "technical_mc_draws": 1000,
+    "technical_full_delivery_share": 0.273,
+    "technical_delivered_p10": 0.9316123435043222,
+    "technical_delivered_p50": 0.9879845520488382
+  },
+  "10%": {
+    "delivered_cost_aud_per_kg_h2": 18.892844751764443,
+    "delivered_ei_kg_co2_per_kg_h2": 1.2960629034037086,
+    "sites": {
+      "Gladstone": 0.11204431997684809,
+      "Ashburton": 0.20686011209498903,
+      "Dampier": 0.19441440698402737,
+      "PortHedland": 0.48668116094413555
+    },
+    "n_pem": 362,
+    "n_synth": 29,
+    "technical_mc_draws": 1000,
+    "technical_full_delivery_share": 0.438,
+    "technical_delivered_p10": 0.9558840712904834,
+    "technical_delivered_p50": 0.9967107431229101
+  },
+  "20%": {
+    "delivered_cost_aud_per_kg_h2": 20.4368866041888,
+    "delivered_ei_kg_co2_per_kg_h2": 1.3014550682802362,
+    "sites": {
+      "PortBonython": 0.04505133780682082,
+      "Gladstone": 0.10029451929285049,
+      "Ashburton": 0.19589639093365546,
+      "Dampier": 0.1744118493218912,
+      "PortAbbotPoint": 0.04021988901382919,
+      "PortHedland": 0.4441260136309528
+    },
+    "n_pem": 370,
+    "n_synth": 33,
+    "technical_mc_draws": 1000,
+    "technical_full_delivery_share": 0.457,
+    "technical_delivered_p10": 0.9564756539523769,
+    "technical_delivered_p50": 0.9976800335319027
+  }
+}

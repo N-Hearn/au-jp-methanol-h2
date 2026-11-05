@@ -1,0 +1,31 @@
+{
+  "Cracker fleet too small": {
+    "draws": 230,
+    "sites": {
+      "fleet": 230
+    }
+  },
+  "Carriers too few": {
+    "draws": 211,
+    "sites": {
+      "fleet": 211
+    }
+  },
+  "Hourly dispatch / storage buffering": {
+    "draws": 168,
+    "sites": {
+      "Gladstone": 168,
+      "Ashburton": 127,
+      "Dampier": 167,
+      "PortHedland": 121
+    }
+  },
+  "Renewable energy too low": {
+    "draws": 18,
+    "sites": {
+      "Gladstone": 18,
+      "Ashburton": 12,
+      "Dampier": 18
+    }
+  }
+}

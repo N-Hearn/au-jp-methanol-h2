@@ -1,0 +1,7 @@
+{
+  "case": "typical",
+  "model_fingerprint": "9255dfc078e49104d198cc66c4ca8f031a670c60e2e23cd748bdd4a0e4e288f2",
+  "model_basis": "hourly supply with per-site constraints and periodic inventories",
+  "hourly_feasible": true,
+  "annual_balanced": true
+}

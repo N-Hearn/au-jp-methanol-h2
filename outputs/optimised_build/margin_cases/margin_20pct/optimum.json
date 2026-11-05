@@ -1,0 +1,1840 @@
+{
+  "model_fingerprint": "9255dfc078e49104d198cc66c4ca8f031a670c60e2e23cd748bdd4a0e4e288f2",
+  "bounds_names": [
+    "wind_mw_PortHastings",
+    "wind_mw_PortBonython",
+    "wind_mw_Gladstone",
+    "wind_mw_HayPoint",
+    "wind_mw_Ashburton",
+    "wind_mw_Dampier",
+    "wind_mw_PortAbbotPoint",
+    "wind_mw_PortHedland",
+    "wind_mw_Newcastle",
+    "solar_mw_PortHastings",
+    "solar_mw_PortBonython",
+    "solar_mw_Gladstone",
+    "solar_mw_HayPoint",
+    "solar_mw_Ashburton",
+    "solar_mw_Dampier",
+    "solar_mw_PortDarwin",
+    "solar_mw_PortAbbotPoint",
+    "solar_mw_PortHedland",
+    "solar_mw_Newcastle",
+    "battery_mwh_PortHastings",
+    "battery_mwh_PortBonython",
+    "battery_mwh_Gladstone",
+    "battery_mwh_HayPoint",
+    "battery_mwh_Ashburton",
+    "battery_mwh_Dampier",
+    "battery_mwh_PortDarwin",
+    "battery_mwh_PortAbbotPoint",
+    "battery_mwh_PortHedland",
+    "battery_mwh_Newcastle",
+    "h2_storage_kg_PortHastings",
+    "h2_storage_kg_PortBonython",
+    "h2_storage_kg_Gladstone",
+    "h2_storage_kg_HayPoint",
+    "h2_storage_kg_Ashburton",
+    "h2_storage_kg_Dampier",
+    "h2_storage_kg_PortDarwin",
+    "h2_storage_kg_PortAbbotPoint",
+    "h2_storage_kg_PortHedland",
+    "h2_storage_kg_Newcastle",
+    "local_h2_storage_kg_PortHastings",
+    "local_h2_storage_kg_PortBonython",
+    "local_h2_storage_kg_Gladstone",
+    "local_h2_storage_kg_HayPoint",
+    "local_h2_storage_kg_Ashburton",
+    "local_h2_storage_kg_Dampier",
+    "local_h2_storage_kg_PortDarwin",
+    "local_h2_storage_kg_PortAbbotPoint",
+    "local_h2_storage_kg_PortHedland",
+    "local_h2_storage_kg_Newcastle",
+    "pem_modules_PortHastings",
+    "pem_modules_PortBonython",
+    "pem_modules_Gladstone",
+    "pem_modules_HayPoint",
+    "pem_modules_Ashburton",
+    "pem_modules_Dampier",
+    "pem_modules_PortDarwin",
+    "pem_modules_PortAbbotPoint",
+    "pem_modules_PortHedland",
+    "pem_modules_Newcastle",
+    "h2_allocation_weight_PortHastings",
+    "h2_allocation_weight_PortBonython",
+    "h2_allocation_weight_Gladstone",
+    "h2_allocation_weight_HayPoint",
+    "h2_allocation_weight_Ashburton",
+    "h2_allocation_weight_Dampier",
+    "h2_allocation_weight_PortDarwin",
+    "h2_allocation_weight_PortAbbotPoint",
+    "h2_allocation_weight_PortHedland",
+    "h2_allocation_weight_Newcastle",
+    "synth_modules_PortHastings",
+    "synth_modules_PortBonython",
+    "synth_modules_Gladstone",
+    "synth_modules_HayPoint",
+    "synth_modules_Ashburton",
+    "synth_modules_Dampier",
+    "synth_modules_PortDarwin",
+    "synth_modules_PortAbbotPoint",
+    "synth_modules_PortHedland",
+    "synth_modules_Newcastle"
+  ],
+  "x": [
+    0.0,
+    1777.3134221399441,
+    3500.0,
+    0.0,
+    3000.0,
+    3000.0,
+    1056.0861648822931,
+    24000.0,
+    0.0,
+    0.0,
+    3388.9450845888764,
+    7530.0,
+    0.0,
+    15000.0,
+    15000.0,
+    0.0,
+    4250.177676049062,
+    15000.0,
+    0.0,
+    0.0,
+    811.9280365915009,
+    6872.1045329198505,
+    0.0,
+    10000.0,
+    9117.017645308624,
+    0.0,
+    9915.743384244017,
+    9744.47275624001,
+    0.0,
+    0.0,
+    2717420.3538508965,
+    5820000.0,
+    0.0,
+    24795436.654099606,
+    20152201.57250802,
+    0.0,
+    3984064.854984458,
+    24000000.0,
+    0.0,
+    0.0,
+    34500.25501166595,
+    355522.6211169899,
+    0.0,
+    208794.73188114516,
+    319332.9542123606,
+    0.0,
+    390791.0052516395,
+    603659.6059101609,
+    0.0,
+    0.0,
+    13.0,
+    30.0,
+    0.0,
+    83.0,
+    69.0,
+    0.0,
+    9.0,
+    166.0,
+    0.0,
+    0.0,
+    0.0427035335939471,
+    0.09506777339834238,
+    0.0,
+    0.1856874516588009,
+    0.1653225548736576,
+    0.0,
+    0.03812387079406203,
+    0.4209808424415704,
+    0.0,
+    0.0,
+    3.0,
+    7.0,
+    0.0,
+    5.0,
+    5.0,
+    0.0,
+    1.0,
+    12.0,
+    0.0
+  ],
+  "deployment": {
+    "site_h2_frac": {
+      "PortBonython": 0.04505133780682082,
+      "Gladstone": 0.10029451929285049,
+      "Ashburton": 0.19589639093365546,
+      "Dampier": 0.1744118493218912,
+      "PortAbbotPoint": 0.04021988901382919,
+      "PortHedland": 0.4441260136309528
+    },
+    "site_n_synth": {
+      "PortBonython": 3,
+      "Gladstone": 7,
+      "Ashburton": 5,
+      "Dampier": 5,
+      "PortAbbotPoint": 1,
+      "PortHedland": 12
+    },
+    "site_annual_meoh_tpa": {
+      "PortBonython": 598070.4250928157,
+      "Gladstone": 1313627.3101049212,
+      "Ashburton": 2566797.7664519604,
+      "Dampier": 2283548.710882089,
+      "PortAbbotPoint": 526331.9861941196,
+      "PortHedland": 5810271.967001972
+    }
+  },
+  "search_settings": {
+    "ei_weight": 0.0,
+    "seed": 0,
+    "maxiter": 3,
+    "popsize": 10,
+    "tol": 0.001,
+    "workers": 10,
+    "polish": false,
+    "spread": 0.25,
+    "site_closure_evaluations": 36638,
+    "share_transfer_evaluations": 2913,
+    "refinement_evaluations": 50107,
+    "refinement_budget": 20000,
+    "refinement_rounds": 60,
+    "refinement_starts": 4,
+    "refinement_min_improvement": 0.001,
+    "refinement_stop_reason": "improvement threshold",
+    "refinement_stage_counts": {
+      "site closures": 36638,
+      "PEM reduction": 538,
+      "production transfers": 2913,
+      "coordinate refinement": 9988
+    },
+    "refinement_spread": [
+      {
+        "label": "Incumbent (DE best)",
+        "start_objective": 246.16267739409116,
+        "objective": 15.505866015091003,
+        "active_sites": [
+          "Ashburton",
+          "Dampier",
+          "Gladstone",
+          "PortBonython",
+          "PortDarwin",
+          "PortHedland"
+        ],
+        "start_active_sites": [
+          "Ashburton",
+          "Dampier",
+          "Gladstone",
+          "HayPoint",
+          "Newcastle",
+          "PortAbbotPoint",
+          "PortBonython",
+          "PortDarwin",
+          "PortHastings",
+          "PortHedland"
+        ],
+        "evaluations": 12165,
+        "stop_reason": "improvement threshold",
+        "origin": "incumbent"
+      },
+      {
+        "label": "Distinct footprint 1",
+        "start_objective": 226.41143363349204,
+        "objective": 14.549853490385097,
+        "active_sites": [
+          "Ashburton",
+          "Dampier",
+          "Gladstone",
+          "Newcastle",
+          "PortBonython",
+          "PortHedland"
+        ],
+        "start_active_sites": [
+          "Ashburton",
+          "Dampier",
+          "Gladstone",
+          "HayPoint",
+          "Newcastle",
+          "PortAbbotPoint",
+          "PortDarwin",
+          "PortHastings",
+          "PortHedland"
+        ],
+        "evaluations": 14465,
+        "stop_reason": "improvement threshold",
+        "origin": "distinct footprint"
+      },
+      {
+        "label": "Distinct footprint 2",
+        "start_objective": 228.33517367167514,
+        "objective": 14.502197690930537,
+        "active_sites": [
+          "Ashburton",
+          "Dampier",
+          "Gladstone",
+          "Newcastle",
+          "PortBonython",
+          "PortHedland"
+        ],
+        "start_active_sites": [
+          "Ashburton",
+          "Dampier",
+          "Gladstone",
+          "HayPoint",
+          "Newcastle",
+          "PortBonython",
+          "PortDarwin",
+          "PortHastings",
+          "PortHedland"
+        ],
+        "evaluations": 12248,
+        "stop_reason": "improvement threshold",
+        "origin": "distinct footprint"
+      },
+      {
+        "label": "Distinct footprint 3",
+        "start_objective": 231.5867651974078,
+        "objective": 14.377349726046821,
+        "active_sites": [
+          "Ashburton",
+          "Dampier",
+          "Gladstone",
+          "PortAbbotPoint",
+          "PortBonython",
+          "PortHedland"
+        ],
+        "start_active_sites": [
+          "Ashburton",
+          "Dampier",
+          "Gladstone",
+          "HayPoint",
+          "PortAbbotPoint",
+          "PortBonython",
+          "PortDarwin",
+          "PortHastings",
+          "PortHedland"
+        ],
+        "evaluations": 11199,
+        "stop_reason": "improvement threshold",
+        "origin": "distinct footprint"
+      }
+    ],
+    "refinement_start_footprints": 4,
+    "refinement_start_top_ups": 0,
+    "refinement_starts_run": 4,
+    "refinement_seed_evaluations": 30,
+    "delivery_margin": 0.2,
+    "delivery_margin_basis": "build hourly feasible at (1 + margin) x target, costed at the contracted target; Australian production headroom only",
+    "search_history": [
+      {
+        "stage": "initial",
+        "elapsed_seconds": 3.0993642000103137,
+        "evaluations": 3,
+        "objective": 424.1399870782006,
+        "cost_aud_per_kg_h2": 602.8997684125097,
+        "feasible": true,
+        "feasible_members": null,
+        "population_size": null
+      },
+      {
+        "stage": "DE generation 1",
+        "elapsed_seconds": 332.3978778000019,
+        "evaluations": 1583,
+        "objective": 305.1724204257219,
+        "cost_aud_per_kg_h2": 433.79164239619314,
+        "feasible": true,
+        "feasible_members": 548,
+        "population_size": 790
+      },
+      {
+        "stage": "DE generation 2",
+        "elapsed_seconds": 430.9890044000058,
+        "evaluations": 2373,
+        "objective": 253.27962209931928,
+        "cost_aud_per_kg_h2": 360.0278921099066,
+        "feasible": true,
+        "feasible_members": 570,
+        "population_size": 790
+      },
+      {
+        "stage": "DE generation 3",
+        "elapsed_seconds": 518.4147750999982,
+        "evaluations": 3163,
+        "objective": 246.16267739409116,
+        "cost_aud_per_kg_h2": 349.9114106525816,
+        "feasible": true,
+        "feasible_members": 583,
+        "population_size": 790
+      },
+      {
+        "stage": "DE complete",
+        "elapsed_seconds": 518.4509978999995,
+        "evaluations": 3163,
+        "objective": 246.16267739409116,
+        "cost_aud_per_kg_h2": 349.9114106525816,
+        "feasible": true,
+        "feasible_members": null,
+        "population_size": null
+      },
+      {
+        "stage": "Incumbent (DE best) round 1: site closures",
+        "elapsed_seconds": 952.0120396000129,
+        "evaluations": 6012,
+        "objective": 15.664133326277184,
+        "cost_aud_per_kg_h2": 22.266003306719522,
+        "feasible": true,
+        "feasible_members": null,
+        "population_size": null
+      },
+      {
+        "stage": "Incumbent (DE best) round 1: PEM reduction",
+        "elapsed_seconds": 954.287584500009,
+        "evaluations": 6045,
+        "objective": 15.664133326277184,
+        "cost_aud_per_kg_h2": 22.266003306719522,
+        "feasible": true,
+        "feasible_members": null,
+        "population_size": null
+      },
+      {
+        "stage": "Incumbent (DE best) round 1: production transfers",
+        "elapsed_seconds": 966.6487758000148,
+        "evaluations": 6199,
+        "objective": 15.6280235347708,
+        "cost_aud_per_kg_h2": 22.214674534144706,
+        "feasible": true,
+        "feasible_members": null,
+        "population_size": null
+      },
+      {
+        "stage": "Incumbent (DE best) round 1: coordinate refinement",
+        "elapsed_seconds": 986.8842336000089,
+        "evaluations": 6410,
+        "objective": 15.587515746095058,
+        "cost_aud_per_kg_h2": 22.15709416644642,
+        "feasible": true,
+        "feasible_members": null,
+        "population_size": null
+      },
+      {
+        "stage": "Incumbent (DE best) round 2: site closures",
+        "elapsed_seconds": 1092.1275872000115,
+        "evaluations": 8291,
+        "objective": 15.587515746095058,
+        "cost_aud_per_kg_h2": 22.15709416644642,
+        "feasible": true,
+        "feasible_members": null,
+        "population_size": null
+      },
+      {
+        "stage": "Incumbent (DE best) round 2: PEM reduction",
+        "elapsed_seconds": 1094.322394600007,
+        "evaluations": 8324,
+        "objective": 15.587515746095058,
+        "cost_aud_per_kg_h2": 22.15709416644642,
+        "feasible": true,
+        "feasible_members": null,
+        "population_size": null
+      },
+      {
+        "stage": "Incumbent (DE best) round 2: production transfers",
+        "elapsed_seconds": 1106.212964300008,
+        "evaluations": 8486,
+        "objective": 15.587515746095058,
+        "cost_aud_per_kg_h2": 22.15709416644642,
+        "feasible": true,
+        "feasible_members": null,
+        "population_size": null
+      },
+      {
+        "stage": "Incumbent (DE best) round 2: coordinate refinement",
+        "elapsed_seconds": 1128.1259530000098,
+        "evaluations": 8706,
+        "objective": 15.574643048123088,
+        "cost_aud_per_kg_h2": 22.13879608830574,
+        "feasible": true,
+        "feasible_members": null,
+        "population_size": null
+      },
+      {
+        "stage": "Incumbent (DE best) round 3: site closures",
+        "elapsed_seconds": 1222.6508508000115,
+        "evaluations": 10587,
+        "objective": 15.574643048123088,
+        "cost_aud_per_kg_h2": 22.13879608830574,
+        "feasible": true,
+        "feasible_members": null,
+        "population_size": null
+      },
+      {
+        "stage": "Incumbent (DE best) round 3: PEM reduction",
+        "elapsed_seconds": 1225.2101321000082,
+        "evaluations": 10620,
+        "objective": 15.574643048123088,
+        "cost_aud_per_kg_h2": 22.13879608830574,
+        "feasible": true,
+        "feasible_members": null,
+        "population_size": null
+      },
+      {
+        "stage": "Incumbent (DE best) round 3: production transfers",
+        "elapsed_seconds": 1235.1275759000127,
+        "evaluations": 10783,
+        "objective": 15.57453709312164,
+        "cost_aud_per_kg_h2": 22.138645477074114,
+        "feasible": true,
+        "feasible_members": null,
+        "population_size": null
+      },
+      {
+        "stage": "Incumbent (DE best) round 3: coordinate refinement",
+        "elapsed_seconds": 1249.8245011000108,
+        "evaluations": 11000,
+        "objective": 15.555305076431148,
+        "cost_aud_per_kg_h2": 22.111307855623522,
+        "feasible": true,
+        "feasible_members": null,
+        "population_size": null
+      },
+      {
+        "stage": "Incumbent (DE best) round 4: site closures",
+        "elapsed_seconds": 1334.2837488000077,
+        "evaluations": 12860,
+        "objective": 15.555305076431148,
+        "cost_aud_per_kg_h2": 22.111307855623522,
+        "feasible": true,
+        "feasible_members": null,
+        "population_size": null
+      },
+      {
+        "stage": "Incumbent (DE best) round 4: production transfers",
+        "elapsed_seconds": 1343.0489473000052,
+        "evaluations": 13022,
+        "objective": 15.555305076431148,
+        "cost_aud_per_kg_h2": 22.111307855623522,
+        "feasible": true,
+        "feasible_members": null,
+        "population_size": null
+      },
+      {
+        "stage": "Incumbent (DE best) round 4: coordinate refinement",
+        "elapsed_seconds": 1358.3911010000156,
+        "evaluations": 13241,
+        "objective": 15.539439881547914,
+        "cost_aud_per_kg_h2": 22.088756050530083,
+        "feasible": true,
+        "feasible_members": null,
+        "population_size": null
+      },
+      {
+        "stage": "Incumbent (DE best) round 5: production transfers",
+        "elapsed_seconds": 1365.568579800005,
+        "evaluations": 13403,
+        "objective": 15.539439881547914,
+        "cost_aud_per_kg_h2": 22.088756050530083,
+        "feasible": true,
+        "feasible_members": null,
+        "population_size": null
+      },
+      {
+        "stage": "Incumbent (DE best) round 5: coordinate refinement",
+        "elapsed_seconds": 1376.3655869000067,
+        "evaluations": 13624,
+        "objective": 15.527237418176,
+        "cost_aud_per_kg_h2": 22.07141068681734,
+        "feasible": true,
+        "feasible_members": null,
+        "population_size": null
+      },
+      {
+        "stage": "Incumbent (DE best) round 6: production transfers",
+        "elapsed_seconds": 1382.6267295000143,
+        "evaluations": 13785,
+        "objective": 15.527237418176,
+        "cost_aud_per_kg_h2": 22.07141068681734,
+        "feasible": true,
+        "feasible_members": null,
+        "population_size": null
+      },
+      {
+        "stage": "Incumbent (DE best) round 6: coordinate refinement",
+        "elapsed_seconds": 1395.724949600015,
+        "evaluations": 14008,
+        "objective": 15.521278272660709,
+        "cost_aud_per_kg_h2": 22.06293997535282,
+        "feasible": true,
+        "feasible_members": null,
+        "population_size": null
+      },
+      {
+        "stage": "Incumbent (DE best) round 7: coordinate refinement",
+        "elapsed_seconds": 1408.2118026000098,
+        "evaluations": 14231,
+        "objective": 15.515947158716369,
+        "cost_aud_per_kg_h2": 22.055361988225116,
+        "feasible": true,
+        "feasible_members": null,
+        "population_size": null
+      },
+      {
+        "stage": "Incumbent (DE best) round 8: coordinate refinement",
+        "elapsed_seconds": 1420.8796886000055,
+        "evaluations": 14456,
+        "objective": 15.51116817973075,
+        "cost_aud_per_kg_h2": 22.048568841124023,
+        "feasible": true,
+        "feasible_members": null,
+        "population_size": null
+      },
+      {
+        "stage": "Incumbent (DE best) round 9: coordinate refinement",
+        "elapsed_seconds": 1434.8626683000184,
+        "evaluations": 14681,
+        "objective": 15.509509740437904,
+        "cost_aud_per_kg_h2": 22.046211429193892,
+        "feasible": true,
+        "feasible_members": null,
+        "population_size": null
+      },
+      {
+        "stage": "Incumbent (DE best) round 10: coordinate refinement",
+        "elapsed_seconds": 1448.1763068000146,
+        "evaluations": 14906,
+        "objective": 15.508019230288946,
+        "cost_aud_per_kg_h2": 22.044092722514492,
+        "feasible": true,
+        "feasible_members": null,
+        "population_size": null
+      },
+      {
+        "stage": "Incumbent (DE best) round 11: coordinate refinement",
+        "elapsed_seconds": 1461.5263412000058,
+        "evaluations": 15132,
+        "objective": 15.506676603061996,
+        "cost_aud_per_kg_h2": 22.042184226100918,
+        "feasible": true,
+        "feasible_members": null,
+        "population_size": null
+      },
+      {
+        "stage": "Incumbent (DE best) round 12: coordinate refinement",
+        "elapsed_seconds": 1474.0211905000178,
+        "evaluations": 15358,
+        "objective": 15.505866015091003,
+        "cost_aud_per_kg_h2": 22.04103200439375,
+        "feasible": true,
+        "feasible_members": null,
+        "population_size": null
+      },
+      {
+        "stage": "Distinct footprint 1 round 1: site closures",
+        "elapsed_seconds": 987.1060836000106,
+        "evaluations": 18214,
+        "objective": 17.85032869965251,
+        "cost_aud_per_kg_h2": 25.373601563116576,
+        "feasible": true,
+        "feasible_members": null,
+        "population_size": null
+      },
+      {
+        "stage": "Distinct footprint 1 round 1: PEM reduction",
+        "elapsed_seconds": 993.4033191000053,
+        "evaluations": 18276,
+        "objective": 16.890909160162046,
+        "cost_aud_per_kg_h2": 24.00982112318699,
+        "feasible": true,
+        "feasible_members": null,
+        "population_size": null
+      },
+      {
+        "stage": "Distinct footprint 1 round 1: production transfers",
+        "elapsed_seconds": 1011.2115958000068,
+        "evaluations": 18457,
+        "objective": 16.795451776875264,
+        "cost_aud_per_kg_h2": 23.87413187899824,
+        "feasible": true,
+        "feasible_members": null,
+        "population_size": null
+      },
+      {
+        "stage": "Distinct footprint 1 round 1: coordinate refinement",
+        "elapsed_seconds": 1039.5433823000058,
+        "evaluations": 18694,
+        "objective": 16.749304129868968,
+        "cost_aud_per_kg_h2": 23.808534655108694,
+        "feasible": true,
+        "feasible_members": null,
+        "population_size": null
+      },
+      {
+        "stage": "Distinct footprint 1 round 2: site closures",
+        "elapsed_seconds": 1165.609308900006,
+        "evaluations": 20970,
+        "objective": 14.60011347581103,
+        "cost_aud_per_kg_h2": 20.753537279049084,
+        "feasible": true,
+        "feasible_members": null,
+        "population_size": null
+      },
+      {
+        "stage": "Distinct footprint 1 round 2: PEM reduction",
+        "elapsed_seconds": 1167.1497834000038,
+        "evaluations": 21003,
+        "objective": 14.60011347581103,
+        "cost_aud_per_kg_h2": 20.753537279049084,
+        "feasible": true,
+        "feasible_members": null,
+        "population_size": null
+      },
+      {
+        "stage": "Distinct footprint 1 round 2: production transfers",
+        "elapsed_seconds": 1176.6761930000066,
+        "evaluations": 21165,
+        "objective": 14.60011347581103,
+        "cost_aud_per_kg_h2": 20.753537279049084,
+        "feasible": true,
+        "feasible_members": null,
+        "population_size": null
+      },
+      {
+        "stage": "Distinct footprint 1 round 2: coordinate refinement",
+        "elapsed_seconds": 1192.2305027000111,
+        "evaluations": 21391,
+        "objective": 14.587873344933678,
+        "cost_aud_per_kg_h2": 20.73613837232932,
+        "feasible": true,
+        "feasible_members": null,
+        "population_size": null
+      },
+      {
+        "stage": "Distinct footprint 1 round 3: site closures",
+        "elapsed_seconds": 1283.036394300012,
+        "evaluations": 23300,
+        "objective": 14.587873344933678,
+        "cost_aud_per_kg_h2": 20.73613837232932,
+        "feasible": true,
+        "feasible_members": null,
+        "population_size": null
+      },
+      {
+        "stage": "Distinct footprint 1 round 3: PEM reduction",
+        "elapsed_seconds": 1284.694312000007,
+        "evaluations": 23333,
+        "objective": 14.587873344933678,
+        "cost_aud_per_kg_h2": 20.73613837232932,
+        "feasible": true,
+        "feasible_members": null,
+        "population_size": null
+      },
+      {
+        "stage": "Distinct footprint 1 round 3: production transfers",
+        "elapsed_seconds": 1294.2251103000017,
+        "evaluations": 23495,
+        "objective": 14.587873344933678,
+        "cost_aud_per_kg_h2": 20.73613837232932,
+        "feasible": true,
+        "feasible_members": null,
+        "population_size": null
+      },
+      {
+        "stage": "Distinct footprint 1 round 3: coordinate refinement",
+        "elapsed_seconds": 1309.3356401000055,
+        "evaluations": 23721,
+        "objective": 14.577234530267257,
+        "cost_aud_per_kg_h2": 20.721015679129007,
+        "feasible": true,
+        "feasible_members": null,
+        "population_size": null
+      },
+      {
+        "stage": "Distinct footprint 1 round 4: site closures",
+        "elapsed_seconds": 1396.1722159000055,
+        "evaluations": 25630,
+        "objective": 14.577234530267257,
+        "cost_aud_per_kg_h2": 20.721015679129007,
+        "feasible": true,
+        "feasible_members": null,
+        "population_size": null
+      },
+      {
+        "stage": "Distinct footprint 1 round 4: PEM reduction",
+        "elapsed_seconds": 1397.7833830000018,
+        "evaluations": 25663,
+        "objective": 14.577234530267257,
+        "cost_aud_per_kg_h2": 20.721015679129007,
+        "feasible": true,
+        "feasible_members": null,
+        "population_size": null
+      },
+      {
+        "stage": "Distinct footprint 1 round 4: production transfers",
+        "elapsed_seconds": 1406.2895699000073,
+        "evaluations": 25825,
+        "objective": 14.577234530267257,
+        "cost_aud_per_kg_h2": 20.721015679129007,
+        "feasible": true,
+        "feasible_members": null,
+        "population_size": null
+      },
+      {
+        "stage": "Distinct footprint 1 round 4: coordinate refinement",
+        "elapsed_seconds": 1419.620914500003,
+        "evaluations": 26056,
+        "objective": 14.569697721666076,
+        "cost_aud_per_kg_h2": 20.710302376213328,
+        "feasible": true,
+        "feasible_members": null,
+        "population_size": null
+      },
+      {
+        "stage": "Distinct footprint 1 round 5: site closures",
+        "elapsed_seconds": 1502.5297630999994,
+        "evaluations": 27960,
+        "objective": 14.569697721666076,
+        "cost_aud_per_kg_h2": 20.710302376213328,
+        "feasible": true,
+        "feasible_members": null,
+        "population_size": null
+      },
+      {
+        "stage": "Distinct footprint 1 round 5: coordinate refinement",
+        "elapsed_seconds": 1514.8503318000003,
+        "evaluations": 28192,
+        "objective": 14.565176489483479,
+        "cost_aud_per_kg_h2": 20.70387560694169,
+        "feasible": true,
+        "feasible_members": null,
+        "population_size": null
+      },
+      {
+        "stage": "Distinct footprint 1 round 6: coordinate refinement",
+        "elapsed_seconds": 1524.9078219000075,
+        "evaluations": 28424,
+        "objective": 14.561687419320746,
+        "cost_aud_per_kg_h2": 20.698916018934963,
+        "feasible": true,
+        "feasible_members": null,
+        "population_size": null
+      },
+      {
+        "stage": "Distinct footprint 1 round 7: coordinate refinement",
+        "elapsed_seconds": 1534.5442414999998,
+        "evaluations": 28656,
+        "objective": 14.558641461068687,
+        "cost_aud_per_kg_h2": 20.6945862986051,
+        "feasible": true,
+        "feasible_members": null,
+        "population_size": null
+      },
+      {
+        "stage": "Distinct footprint 1 round 8: coordinate refinement",
+        "elapsed_seconds": 1544.2841530000005,
+        "evaluations": 28888,
+        "objective": 14.555982339514639,
+        "cost_aud_per_kg_h2": 20.690806452757126,
+        "feasible": true,
+        "feasible_members": null,
+        "population_size": null
+      },
+      {
+        "stage": "Distinct footprint 1 round 9: coordinate refinement",
+        "elapsed_seconds": 1554.255114700005,
+        "evaluations": 29120,
+        "objective": 14.553660926397953,
+        "cost_aud_per_kg_h2": 20.687506647331844,
+        "feasible": true,
+        "feasible_members": null,
+        "population_size": null
+      },
+      {
+        "stage": "Distinct footprint 1 round 10: coordinate refinement",
+        "elapsed_seconds": 1563.6718180000025,
+        "evaluations": 29353,
+        "objective": 14.551810707278934,
+        "cost_aud_per_kg_h2": 20.684876627262167,
+        "feasible": true,
+        "feasible_members": null,
+        "population_size": null
+      },
+      {
+        "stage": "Distinct footprint 1 round 11: coordinate refinement",
+        "elapsed_seconds": 1572.905457700006,
+        "evaluations": 29588,
+        "objective": 14.550765743641008,
+        "cost_aud_per_kg_h2": 20.683391248956656,
+        "feasible": true,
+        "feasible_members": null,
+        "population_size": null
+      },
+      {
+        "stage": "Distinct footprint 1 round 12: coordinate refinement",
+        "elapsed_seconds": 1582.0072956000076,
+        "evaluations": 29823,
+        "objective": 14.549853490385097,
+        "cost_aud_per_kg_h2": 20.682094513695944,
+        "feasible": true,
+        "feasible_members": null,
+        "population_size": null
+      },
+      {
+        "stage": "Distinct footprint 2 round 1: site closures",
+        "elapsed_seconds": 846.9359900000127,
+        "evaluations": 32982,
+        "objective": 14.643258716566525,
+        "cost_aud_per_kg_h2": 20.814866690215386,
+        "feasible": true,
+        "feasible_members": null,
+        "population_size": null
+      },
+      {
+        "stage": "Distinct footprint 2 round 1: PEM reduction",
+        "elapsed_seconds": 848.3876924000215,
+        "evaluations": 33011,
+        "objective": 14.643258716566525,
+        "cost_aud_per_kg_h2": 20.814866690215386,
+        "feasible": true,
+        "feasible_members": null,
+        "population_size": null
+      },
+      {
+        "stage": "Distinct footprint 2 round 1: production transfers",
+        "elapsed_seconds": 857.303183400014,
+        "evaluations": 33166,
+        "objective": 14.621996668187814,
+        "cost_aud_per_kg_h2": 20.784643451581825,
+        "feasible": true,
+        "feasible_members": null,
+        "population_size": null
+      },
+      {
+        "stage": "Distinct footprint 2 round 1: coordinate refinement",
+        "elapsed_seconds": 872.3039246000117,
+        "evaluations": 33377,
+        "objective": 14.568909473326727,
+        "cost_aud_per_kg_h2": 20.709181909490727,
+        "feasible": true,
+        "feasible_members": null,
+        "population_size": null
+      },
+      {
+        "stage": "Distinct footprint 2 round 2: site closures",
+        "elapsed_seconds": 964.1373340000137,
+        "evaluations": 35231,
+        "objective": 14.568909473326727,
+        "cost_aud_per_kg_h2": 20.709181909490727,
+        "feasible": true,
+        "feasible_members": null,
+        "population_size": null
+      },
+      {
+        "stage": "Distinct footprint 2 round 2: PEM reduction",
+        "elapsed_seconds": 966.2139735000092,
+        "evaluations": 35274,
+        "objective": 14.552297596889249,
+        "cost_aud_per_kg_h2": 20.6855687233678,
+        "feasible": true,
+        "feasible_members": null,
+        "population_size": null
+      },
+      {
+        "stage": "Distinct footprint 2 round 2: production transfers",
+        "elapsed_seconds": 975.4434335000115,
+        "evaluations": 35436,
+        "objective": 14.552297596889249,
+        "cost_aud_per_kg_h2": 20.6855687233678,
+        "feasible": true,
+        "feasible_members": null,
+        "population_size": null
+      },
+      {
+        "stage": "Distinct footprint 2 round 2: coordinate refinement",
+        "elapsed_seconds": 990.3016919000074,
+        "evaluations": 35655,
+        "objective": 14.536728671314544,
+        "cost_aud_per_kg_h2": 20.66343805446275,
+        "feasible": true,
+        "feasible_members": null,
+        "population_size": null
+      },
+      {
+        "stage": "Distinct footprint 2 round 3: site closures",
+        "elapsed_seconds": 1080.391552200017,
+        "evaluations": 37514,
+        "objective": 14.536728671314544,
+        "cost_aud_per_kg_h2": 20.66343805446275,
+        "feasible": true,
+        "feasible_members": null,
+        "population_size": null
+      },
+      {
+        "stage": "Distinct footprint 2 round 3: PEM reduction",
+        "elapsed_seconds": 1081.859849000015,
+        "evaluations": 37543,
+        "objective": 14.536728671314544,
+        "cost_aud_per_kg_h2": 20.66343805446275,
+        "feasible": true,
+        "feasible_members": null,
+        "population_size": null
+      },
+      {
+        "stage": "Distinct footprint 2 round 3: production transfers",
+        "elapsed_seconds": 1091.444134400008,
+        "evaluations": 37705,
+        "objective": 14.536728671314544,
+        "cost_aud_per_kg_h2": 20.66343805446275,
+        "feasible": true,
+        "feasible_members": null,
+        "population_size": null
+      },
+      {
+        "stage": "Distinct footprint 2 round 3: coordinate refinement",
+        "elapsed_seconds": 1106.1662474000186,
+        "evaluations": 37928,
+        "objective": 14.525412114481101,
+        "cost_aud_per_kg_h2": 20.647351975097514,
+        "feasible": true,
+        "feasible_members": null,
+        "population_size": null
+      },
+      {
+        "stage": "Distinct footprint 2 round 4: site closures",
+        "elapsed_seconds": 1191.5144347000169,
+        "evaluations": 39787,
+        "objective": 14.525412114481101,
+        "cost_aud_per_kg_h2": 20.647351975097514,
+        "feasible": true,
+        "feasible_members": null,
+        "population_size": null
+      },
+      {
+        "stage": "Distinct footprint 2 round 4: PEM reduction",
+        "elapsed_seconds": 1192.7082640000153,
+        "evaluations": 39816,
+        "objective": 14.525412114481101,
+        "cost_aud_per_kg_h2": 20.647351975097514,
+        "feasible": true,
+        "feasible_members": null,
+        "population_size": null
+      },
+      {
+        "stage": "Distinct footprint 2 round 4: production transfers",
+        "elapsed_seconds": 1200.3149612000125,
+        "evaluations": 39978,
+        "objective": 14.525412114481101,
+        "cost_aud_per_kg_h2": 20.647351975097514,
+        "feasible": true,
+        "feasible_members": null,
+        "population_size": null
+      },
+      {
+        "stage": "Distinct footprint 2 round 4: coordinate refinement",
+        "elapsed_seconds": 1212.743750700014,
+        "evaluations": 40204,
+        "objective": 14.516394122555512,
+        "cost_aud_per_kg_h2": 20.634533223248773,
+        "feasible": true,
+        "feasible_members": null,
+        "population_size": null
+      },
+      {
+        "stage": "Distinct footprint 2 round 5: PEM reduction",
+        "elapsed_seconds": 1213.962042300016,
+        "evaluations": 40233,
+        "objective": 14.516394122555512,
+        "cost_aud_per_kg_h2": 20.634533223248773,
+        "feasible": true,
+        "feasible_members": null,
+        "population_size": null
+      },
+      {
+        "stage": "Distinct footprint 2 round 5: coordinate refinement",
+        "elapsed_seconds": 1225.2368426000176,
+        "evaluations": 40461,
+        "objective": 14.512190112886614,
+        "cost_aud_per_kg_h2": 20.628557374394617,
+        "feasible": true,
+        "feasible_members": null,
+        "population_size": null
+      },
+      {
+        "stage": "Distinct footprint 2 round 6: coordinate refinement",
+        "elapsed_seconds": 1237.3455608000077,
+        "evaluations": 40691,
+        "objective": 14.510121741348394,
+        "cost_aud_per_kg_h2": 20.625617258490966,
+        "feasible": true,
+        "feasible_members": null,
+        "population_size": null
+      },
+      {
+        "stage": "Distinct footprint 2 round 7: coordinate refinement",
+        "elapsed_seconds": 1248.7750240000169,
+        "evaluations": 40921,
+        "objective": 14.508316052995534,
+        "cost_aud_per_kg_h2": 20.623050537307083,
+        "feasible": true,
+        "feasible_members": null,
+        "population_size": null
+      },
+      {
+        "stage": "Distinct footprint 2 round 8: coordinate refinement",
+        "elapsed_seconds": 1260.4675374000071,
+        "evaluations": 41151,
+        "objective": 14.506739687063483,
+        "cost_aud_per_kg_h2": 20.62080978971355,
+        "feasible": true,
+        "feasible_members": null,
+        "population_size": null
+      },
+      {
+        "stage": "Distinct footprint 2 round 9: coordinate refinement",
+        "elapsed_seconds": 1270.9713611000188,
+        "evaluations": 41381,
+        "objective": 14.505363519604805,
+        "cost_aud_per_kg_h2": 20.6188536170644,
+        "feasible": true,
+        "feasible_members": null,
+        "population_size": null
+      },
+      {
+        "stage": "Distinct footprint 2 round 10: coordinate refinement",
+        "elapsed_seconds": 1281.4143625000142,
+        "evaluations": 41611,
+        "objective": 14.504162125413373,
+        "cost_aud_per_kg_h2": 20.61714587834168,
+        "feasible": true,
+        "feasible_members": null,
+        "population_size": null
+      },
+      {
+        "stage": "Distinct footprint 2 round 11: coordinate refinement",
+        "elapsed_seconds": 1292.2726940000139,
+        "evaluations": 41841,
+        "objective": 14.50311330828426,
+        "cost_aud_per_kg_h2": 20.61565502243676,
+        "feasible": true,
+        "feasible_members": null,
+        "population_size": null
+      },
+      {
+        "stage": "Distinct footprint 2 round 12: coordinate refinement",
+        "elapsed_seconds": 1302.5341096000193,
+        "evaluations": 42071,
+        "objective": 14.502197690930537,
+        "cost_aud_per_kg_h2": 20.61435350523175,
+        "feasible": true,
+        "feasible_members": null,
+        "population_size": null
+      },
+      {
+        "stage": "Distinct footprint 3 round 1: site closures",
+        "elapsed_seconds": 773.5717423000169,
+        "evaluations": 45238,
+        "objective": 14.57026078717375,
+        "cost_aud_per_kg_h2": 20.711102753622956,
+        "feasible": true,
+        "feasible_members": null,
+        "population_size": null
+      },
+      {
+        "stage": "Distinct footprint 3 round 1: PEM reduction",
+        "elapsed_seconds": 775.0579540000181,
+        "evaluations": 45273,
+        "objective": 14.554037653410692,
+        "cost_aud_per_kg_h2": 20.68804215125898,
+        "feasible": true,
+        "feasible_members": null,
+        "population_size": null
+      },
+      {
+        "stage": "Distinct footprint 3 round 1: production transfers",
+        "elapsed_seconds": 783.134822100008,
+        "evaluations": 45428,
+        "objective": 14.4250412728035,
+        "cost_aud_per_kg_h2": 20.504678426159913,
+        "feasible": true,
+        "feasible_members": null,
+        "population_size": null
+      },
+      {
+        "stage": "Distinct footprint 3 round 1: coordinate refinement",
+        "elapsed_seconds": 796.6347932000208,
+        "evaluations": 45650,
+        "objective": 14.40249441182231,
+        "cost_aud_per_kg_h2": 20.472628872526382,
+        "feasible": true,
+        "feasible_members": null,
+        "population_size": null
+      },
+      {
+        "stage": "Distinct footprint 3 round 2: site closures",
+        "elapsed_seconds": 873.0482408000098,
+        "evaluations": 47467,
+        "objective": 14.40249441182231,
+        "cost_aud_per_kg_h2": 20.472628872526382,
+        "feasible": true,
+        "feasible_members": null,
+        "population_size": null
+      },
+      {
+        "stage": "Distinct footprint 3 round 2: PEM reduction",
+        "elapsed_seconds": 874.3044130000198,
+        "evaluations": 47495,
+        "objective": 14.40249441182231,
+        "cost_aud_per_kg_h2": 20.472628872526382,
+        "feasible": true,
+        "feasible_members": null,
+        "population_size": null
+      },
+      {
+        "stage": "Distinct footprint 3 round 2: production transfers",
+        "elapsed_seconds": 883.0505700000067,
+        "evaluations": 47657,
+        "objective": 14.40249441182231,
+        "cost_aud_per_kg_h2": 20.472628872526382,
+        "feasible": true,
+        "feasible_members": null,
+        "population_size": null
+      },
+      {
+        "stage": "Distinct footprint 3 round 2: coordinate refinement",
+        "elapsed_seconds": 896.8010698000144,
+        "evaluations": 47881,
+        "objective": 14.394197068776176,
+        "cost_aud_per_kg_h2": 20.46083449719428,
+        "feasible": true,
+        "feasible_members": null,
+        "population_size": null
+      },
+      {
+        "stage": "Distinct footprint 3 round 3: site closures",
+        "elapsed_seconds": 971.898705500018,
+        "evaluations": 49695,
+        "objective": 14.394197068776176,
+        "cost_aud_per_kg_h2": 20.46083449719428,
+        "feasible": true,
+        "feasible_members": null,
+        "population_size": null
+      },
+      {
+        "stage": "Distinct footprint 3 round 3: PEM reduction",
+        "elapsed_seconds": 972.9247128000134,
+        "evaluations": 49723,
+        "objective": 14.394197068776176,
+        "cost_aud_per_kg_h2": 20.46083449719428,
+        "feasible": true,
+        "feasible_members": null,
+        "population_size": null
+      },
+      {
+        "stage": "Distinct footprint 3 round 3: production transfers",
+        "elapsed_seconds": 980.9829604000115,
+        "evaluations": 49885,
+        "objective": 14.394197068776176,
+        "cost_aud_per_kg_h2": 20.46083449719428,
+        "feasible": true,
+        "feasible_members": null,
+        "population_size": null
+      },
+      {
+        "stage": "Distinct footprint 3 round 3: coordinate refinement",
+        "elapsed_seconds": 994.3798103000154,
+        "evaluations": 50113,
+        "objective": 14.387847241119887,
+        "cost_aud_per_kg_h2": 20.45180844508868,
+        "feasible": true,
+        "feasible_members": null,
+        "population_size": null
+      },
+      {
+        "stage": "Distinct footprint 3 round 4: site closures",
+        "elapsed_seconds": 1067.996546200011,
+        "evaluations": 51927,
+        "objective": 14.387847241119887,
+        "cost_aud_per_kg_h2": 20.45180844508868,
+        "feasible": true,
+        "feasible_members": null,
+        "population_size": null
+      },
+      {
+        "stage": "Distinct footprint 3 round 4: PEM reduction",
+        "elapsed_seconds": 1069.2166879000142,
+        "evaluations": 51955,
+        "objective": 14.387847241119887,
+        "cost_aud_per_kg_h2": 20.45180844508868,
+        "feasible": true,
+        "feasible_members": null,
+        "population_size": null
+      },
+      {
+        "stage": "Distinct footprint 3 round 4: production transfers",
+        "elapsed_seconds": 1077.57743200002,
+        "evaluations": 52117,
+        "objective": 14.387847241119887,
+        "cost_aud_per_kg_h2": 20.45180844508868,
+        "feasible": true,
+        "feasible_members": null,
+        "population_size": null
+      },
+      {
+        "stage": "Distinct footprint 3 round 4: coordinate refinement",
+        "elapsed_seconds": 1091.1127307000133,
+        "evaluations": 52345,
+        "objective": 14.383973999894888,
+        "cost_aud_per_kg_h2": 20.446302771705597,
+        "feasible": true,
+        "feasible_members": null,
+        "population_size": null
+      },
+      {
+        "stage": "Distinct footprint 3 round 5: coordinate refinement",
+        "elapsed_seconds": 1104.013693100016,
+        "evaluations": 52574,
+        "objective": 14.380561598631775,
+        "cost_aud_per_kg_h2": 20.441452165787883,
+        "feasible": true,
+        "feasible_members": null,
+        "population_size": null
+      },
+      {
+        "stage": "Distinct footprint 3 round 6: coordinate refinement",
+        "elapsed_seconds": 1117.4128383000207,
+        "evaluations": 52806,
+        "objective": 14.379342731325867,
+        "cost_aud_per_kg_h2": 20.43971958966008,
+        "feasible": true,
+        "feasible_members": null,
+        "population_size": null
+      },
+      {
+        "stage": "Distinct footprint 3 round 7: coordinate refinement",
+        "elapsed_seconds": 1129.9172228000098,
+        "evaluations": 53038,
+        "objective": 14.378278660167807,
+        "cost_aud_per_kg_h2": 20.438207050700505,
+        "feasible": true,
+        "feasible_members": null,
+        "population_size": null
+      },
+      {
+        "stage": "Distinct footprint 3 round 8: coordinate refinement",
+        "elapsed_seconds": 1142.43841040002,
+        "evaluations": 53270,
+        "objective": 14.377349726046821,
+        "cost_aud_per_kg_h2": 20.4368866041888,
+        "feasible": true,
+        "feasible_members": null,
+        "population_size": null
+      },
+      {
+        "stage": "final verified",
+        "elapsed_seconds": 1585.5405092,
+        "evaluations": 53270,
+        "objective": 14.377349726046821,
+        "cost_aud_per_kg_h2": 20.4368866041888,
+        "feasible": true,
+        "feasible_members": null,
+        "population_size": null
+      }
+    ],
+    "co_location_basis": "Ten-port production allocation, independent site assets and regional/local storage; fixed workbook route topology; PPA port selector excluded",
+    "initial_population_policy": "sparse feasible-seed perturbations, share transfers with capacity and resource-proportional broad seeds",
+    "model_fingerprint": "9255dfc078e49104d198cc66c4ca8f031a670c60e2e23cd748bdd4a0e4e288f2",
+    "bounds": [
+      [
+        "wind_mw_PortHastings",
+        0.0,
+        2200.0,
+        false
+      ],
+      [
+        "wind_mw_PortBonython",
+        0.0,
+        2360.0,
+        false
+      ],
+      [
+        "wind_mw_Gladstone",
+        0.0,
+        3500.0,
+        false
+      ],
+      [
+        "wind_mw_HayPoint",
+        0.0,
+        1220.0,
+        false
+      ],
+      [
+        "wind_mw_Ashburton",
+        0.0,
+        3000.0,
+        false
+      ],
+      [
+        "wind_mw_Dampier",
+        0.0,
+        3000.0,
+        false
+      ],
+      [
+        "wind_mw_PortAbbotPoint",
+        0.0,
+        1220.0,
+        false
+      ],
+      [
+        "wind_mw_PortHedland",
+        0.0,
+        24000.0,
+        false
+      ],
+      [
+        "wind_mw_Newcastle",
+        0.0,
+        5000.0,
+        false
+      ],
+      [
+        "solar_mw_PortHastings",
+        0.0,
+        905.0,
+        false
+      ],
+      [
+        "solar_mw_PortBonython",
+        0.0,
+        5000.0,
+        false
+      ],
+      [
+        "solar_mw_Gladstone",
+        0.0,
+        7530.0,
+        false
+      ],
+      [
+        "solar_mw_HayPoint",
+        0.0,
+        2200.0,
+        false
+      ],
+      [
+        "solar_mw_Ashburton",
+        0.0,
+        15000.0,
+        false
+      ],
+      [
+        "solar_mw_Dampier",
+        0.0,
+        15000.0,
+        false
+      ],
+      [
+        "solar_mw_PortDarwin",
+        0.0,
+        2000.0,
+        false
+      ],
+      [
+        "solar_mw_PortAbbotPoint",
+        0.0,
+        5000.0,
+        false
+      ],
+      [
+        "solar_mw_PortHedland",
+        0.0,
+        15000.0,
+        false
+      ],
+      [
+        "solar_mw_Newcastle",
+        0.0,
+        2000.0,
+        false
+      ],
+      [
+        "battery_mwh_PortHastings",
+        0.0,
+        10000.0,
+        false
+      ],
+      [
+        "battery_mwh_PortBonython",
+        0.0,
+        10000.0,
+        false
+      ],
+      [
+        "battery_mwh_Gladstone",
+        0.0,
+        10000.0,
+        false
+      ],
+      [
+        "battery_mwh_HayPoint",
+        0.0,
+        10000.0,
+        false
+      ],
+      [
+        "battery_mwh_Ashburton",
+        0.0,
+        10000.0,
+        false
+      ],
+      [
+        "battery_mwh_Dampier",
+        0.0,
+        10000.0,
+        false
+      ],
+      [
+        "battery_mwh_PortDarwin",
+        0.0,
+        10000.0,
+        false
+      ],
+      [
+        "battery_mwh_PortAbbotPoint",
+        0.0,
+        10000.0,
+        false
+      ],
+      [
+        "battery_mwh_PortHedland",
+        0.0,
+        10000.0,
+        false
+      ],
+      [
+        "battery_mwh_Newcastle",
+        0.0,
+        10000.0,
+        false
+      ],
+      [
+        "h2_storage_kg_PortHastings",
+        0.0,
+        28000000.0,
+        false
+      ],
+      [
+        "h2_storage_kg_PortBonython",
+        0.0,
+        7200000.0,
+        false
+      ],
+      [
+        "h2_storage_kg_Gladstone",
+        0.0,
+        6000000.0,
+        false
+      ],
+      [
+        "h2_storage_kg_HayPoint",
+        0.0,
+        6000000.0,
+        false
+      ],
+      [
+        "h2_storage_kg_Ashburton",
+        0.0,
+        48000000.0,
+        false
+      ],
+      [
+        "h2_storage_kg_Dampier",
+        0.0,
+        24000000.0,
+        false
+      ],
+      [
+        "h2_storage_kg_PortDarwin",
+        0.0,
+        100000000.0,
+        false
+      ],
+      [
+        "h2_storage_kg_PortAbbotPoint",
+        0.0,
+        6000000.0,
+        false
+      ],
+      [
+        "h2_storage_kg_PortHedland",
+        0.0,
+        24000000.0,
+        false
+      ],
+      [
+        "h2_storage_kg_Newcastle",
+        0.0,
+        50000000.0,
+        false
+      ],
+      [
+        "local_h2_storage_kg_PortHastings",
+        0.0,
+        500000.0,
+        false
+      ],
+      [
+        "local_h2_storage_kg_PortBonython",
+        0.0,
+        500000.0,
+        false
+      ],
+      [
+        "local_h2_storage_kg_Gladstone",
+        0.0,
+        500000.0,
+        false
+      ],
+      [
+        "local_h2_storage_kg_HayPoint",
+        0.0,
+        500000.0,
+        false
+      ],
+      [
+        "local_h2_storage_kg_Ashburton",
+        0.0,
+        750000.0,
+        false
+      ],
+      [
+        "local_h2_storage_kg_Dampier",
+        0.0,
+        750000.0,
+        false
+      ],
+      [
+        "local_h2_storage_kg_PortDarwin",
+        0.0,
+        500000.0,
+        false
+      ],
+      [
+        "local_h2_storage_kg_PortAbbotPoint",
+        0.0,
+        500000.0,
+        false
+      ],
+      [
+        "local_h2_storage_kg_PortHedland",
+        0.0,
+        750000.0,
+        false
+      ],
+      [
+        "local_h2_storage_kg_Newcastle",
+        0.0,
+        500000.0,
+        false
+      ],
+      [
+        "pem_modules_PortHastings",
+        0.0,
+        55.0,
+        true
+      ],
+      [
+        "pem_modules_PortBonython",
+        0.0,
+        88.0,
+        true
+      ],
+      [
+        "pem_modules_Gladstone",
+        0.0,
+        116.0,
+        true
+      ],
+      [
+        "pem_modules_HayPoint",
+        0.0,
+        52.0,
+        true
+      ],
+      [
+        "pem_modules_Ashburton",
+        0.0,
+        166.0,
+        true
+      ],
+      [
+        "pem_modules_Dampier",
+        0.0,
+        172.0,
+        true
+      ],
+      [
+        "pem_modules_PortDarwin",
+        0.0,
+        41.0,
+        true
+      ],
+      [
+        "pem_modules_PortAbbotPoint",
+        0.0,
+        75.0,
+        true
+      ],
+      [
+        "pem_modules_PortHedland",
+        0.0,
+        372.0,
+        true
+      ],
+      [
+        "pem_modules_Newcastle",
+        0.0,
+        90.0,
+        true
+      ],
+      [
+        "h2_allocation_weight_PortHastings",
+        0.0,
+        1.0,
+        false
+      ],
+      [
+        "h2_allocation_weight_PortBonython",
+        0.0,
+        1.0,
+        false
+      ],
+      [
+        "h2_allocation_weight_Gladstone",
+        0.0,
+        1.0,
+        false
+      ],
+      [
+        "h2_allocation_weight_HayPoint",
+        0.0,
+        1.0,
+        false
+      ],
+      [
+        "h2_allocation_weight_Ashburton",
+        0.0,
+        1.0,
+        false
+      ],
+      [
+        "h2_allocation_weight_Dampier",
+        0.0,
+        1.0,
+        false
+      ],
+      [
+        "h2_allocation_weight_PortDarwin",
+        0.0,
+        1.0,
+        false
+      ],
+      [
+        "h2_allocation_weight_PortAbbotPoint",
+        0.0,
+        1.0,
+        false
+      ],
+      [
+        "h2_allocation_weight_PortHedland",
+        0.0,
+        1.0,
+        false
+      ],
+      [
+        "h2_allocation_weight_Newcastle",
+        0.0,
+        1.0,
+        false
+      ],
+      [
+        "synth_modules_PortHastings",
+        0.0,
+        2161.0,
+        true
+      ],
+      [
+        "synth_modules_PortBonython",
+        0.0,
+        3528.0,
+        true
+      ],
+      [
+        "synth_modules_Gladstone",
+        0.0,
+        4625.0,
+        true
+      ],
+      [
+        "synth_modules_HayPoint",
+        0.0,
+        2062.0,
+        true
+      ],
+      [
+        "synth_modules_Ashburton",
+        0.0,
+        6651.0,
+        true
+      ],
+      [
+        "synth_modules_Dampier",
+        0.0,
+        6922.0,
+        true
+      ],
+      [
+        "synth_modules_PortDarwin",
+        0.0,
+        1621.0,
+        true
+      ],
+      [
+        "synth_modules_PortAbbotPoint",
+        0.0,
+        2979.0,
+        true
+      ],
+      [
+        "synth_modules_PortHedland",
+        0.0,
+        14863.0,
+        true
+      ],
+      [
+        "synth_modules_Newcastle",
+        0.0,
+        3577.0,
+        true
+      ]
+    ]
+  },
+  "environment": {
+    "python": "3.14.3",
+    "numpy": "2.4.2",
+    "scipy": "1.17.1",
+    "numba": "0.66.0",
+    "pandas": "3.0.1",
+    "openpyxl": "3.1.5"
+  },
+  "hourly_feasible": true,
+  "status": "feasible candidate; global optimality not established",
+  "objective": 14.377349726046821,
+  "nfev": 53270,
+  "success": false,
+  "message": "Maximum number of iterations has been exceeded.",
+  "delivered_cost_aud_per_kg_h2": 20.4368866041888,
+  "delivered_cost_usd_per_kg_h2": 14.377349726046821,
+  "delivered_ei_kg_co2_per_kg_h2": 1.3014550682802362
+}

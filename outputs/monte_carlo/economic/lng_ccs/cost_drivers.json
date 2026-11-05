@@ -1,0 +1,16 @@
+{
+  "lng.lng_liquefaction_cost_aud_per_gj": 0.6476135876135876,
+  "atr.grey_prod_cost_ex_feed_aud_per_kg_h2": 0.5562141882141882,
+  "co2_cap.liquefaction_storage_aud_per_t": 0.2426783186783187,
+  "cracker.capture_cost_concentrated_aud_per_t_co2": 0.24257946257946264,
+  "cracker.zero_carbon_power_price_aud_per_kwh": 0.23507127107127104,
+  "lng.lng_feed_gas_cost_aud_per_gj": 0.18902633702633706,
+  "ccs.co2_storage_cost_aud_per_t_co2": 0.09274281274281276,
+  "ship.ref_ship_capex_aud": 0.05861437061437063,
+  "ccs.lco2_fuel_oil_price_aud_per_t": 0.05456422256422257,
+  "ship.ship_annual_opex_aud": 0.04734549534549535,
+  "lng.lng_shipping_cost_aud_per_gj": 0.04165698565698566,
+  "econ.discount_rate": 0.03907317907317907,
+  "ship.ship_lifetime_years": -0.005835389835389836,
+  "cracker.cracker_power_price_aud_per_kwh": 0.004099888099888101
+}

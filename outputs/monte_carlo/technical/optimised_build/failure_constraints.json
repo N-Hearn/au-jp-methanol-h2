@@ -1,0 +1,37 @@
+{
+  "Hourly dispatch / storage buffering": {
+    "draws": 476,
+    "sites": {
+      "Gladstone": 476,
+      "Ashburton": 465,
+      "Dampier": 476,
+      "PortHedland": 455
+    }
+  },
+  "Cracker fleet too small": {
+    "draws": 230,
+    "sites": {
+      "fleet": 230
+    }
+  },
+  "Carriers too few": {
+    "draws": 191,
+    "sites": {
+      "fleet": 191
+    }
+  },
+  "Renewable energy too low": {
+    "draws": 58,
+    "sites": {
+      "Gladstone": 58,
+      "Ashburton": 23,
+      "Dampier": 28
+    }
+  },
+  "Synthesis availability": {
+    "draws": 5,
+    "sites": {
+      "PortHedland": 5
+    }
+  }
+}

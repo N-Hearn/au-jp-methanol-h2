@@ -1,0 +1,38 @@
+{
+  "case": "grey",
+  "mode": "technical",
+  "draws": 1000,
+  "failed": 0,
+  "falls_short": 0,
+  "deterministic_cost": 4.984860729816679,
+  "feasible_fraction": 1.0,
+  "excluded_fraction": 0.0,
+  "failure_categories": {},
+  "distribution_basis": "frozen equipment counts and renewable/storage footprint; only the continuous ratings re-rate and recost to what each draw needs",
+  "sampling": "explicit workbook distributions and dependencies; screening assumptions, not calibrated probabilities",
+  "mean_cost": 5.314343145659372,
+  "std_cost": 0.32301466864694445,
+  "P5_cost": 4.8741169752070315,
+  "P10_cost": 4.940842907360718,
+  "P50_cost": 5.258598758482318,
+  "P90_cost": 5.8042159689926365,
+  "P95_cost": 5.912677384583517,
+  "P10_cost_ci95": [
+    4.919247789605712,
+    4.954876525093765
+  ],
+  "P50_cost_ci95": [
+    5.23239344874755,
+    5.290119590706991
+  ],
+  "P90_cost_ci95": [
+    5.763972374504989,
+    5.831996060710202
+  ],
+  "prob_cost_le_deterministic": 0.166,
+  "deterministic_ei": 12.6973,
+  "mean_ei": 12.932314882201448,
+  "P10_ei": 12.167915175552425,
+  "P50_ei": 12.932190101894326,
+  "P90_ei": 13.68389881443778
+}

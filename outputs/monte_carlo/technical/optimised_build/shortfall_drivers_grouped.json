@@ -1,0 +1,14 @@
+{
+  "PSA H2 recovery [fraction]": -0.36693730763171245,
+  "Specific energy consumption [kWh/kg H2]": 0.36634888130560284,
+  "Available full-load hours [h/yr]": -0.183754842983555,
+  "Cargo loss fraction [fraction]": -0.06567372732406929,
+  "Degradation rate [% / 1000 full-load hours]": 0.06496761573273777,
+  "Round trip efficiency [%]": -0.062742294353996,
+  "Vessel availability [days/year]": -0.06049557565430478,
+  "Minimum stable load [% of scheduled rate]": 0.05420476329516936,
+  "Stack lifetime [h]": 0.053306075815292876,
+  "Supplemental burner efficiency [fraction]": -0.051711975404559574,
+  "CO2 liquefaction electricity [kWh/t CO2]": -0.0473041272889749,
+  "Ship speed + sea fuel consumption": -0.04667290632096641
+}

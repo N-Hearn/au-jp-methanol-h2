@@ -1,0 +1,6062 @@
+[
+  {
+    "bound": {
+      "name": "Specific energy consumption [kWh/kg H2]",
+      "group": "pem",
+      "field": "sec_kwh_per_kg_h2",
+      "base": 55.0,
+      "low": 51.0,
+      "high": 65.0
+    },
+    "low_cost": 22.16574250078798,
+    "base_cost": 22.182936660012153,
+    "high_cost": NaN,
+    "low_ei": 1.3094012532268557,
+    "base_ei": 1.3094012532268557,
+    "high_ei": NaN,
+    "low_module_costs": {
+      "pem": 18.113278317863017,
+      "meoh_synthesis": 0.4961864304752063,
+      "shipping": 0.36646418663108166,
+      "meoh_cracking": 2.0850296717597945,
+      "co2_capture": 1.1047838940588843
+    },
+    "base_module_costs": {
+      "pem": 18.142856641893513,
+      "meoh_synthesis": 0.4838022656688827,
+      "shipping": 0.36646418663108166,
+      "meoh_cracking": 2.0850296717597945,
+      "co2_capture": 1.1047838940588843
+    },
+    "high_module_costs": {
+      "pem": NaN,
+      "meoh_synthesis": NaN,
+      "shipping": NaN,
+      "meoh_cracking": NaN,
+      "co2_capture": NaN
+    },
+    "low_module_eis": {
+      "pem": 0.0,
+      "meoh_synthesis": 0.2575856090253776,
+      "shipping": 0.24328389816973256,
+      "meoh_cracking": 0.8085317460317456,
+      "co2_capture": 0.0
+    },
+    "base_module_eis": {
+      "pem": 0.0,
+      "meoh_synthesis": 0.2575856090253776,
+      "shipping": 0.24328389816973256,
+      "meoh_cracking": 0.8085317460317456,
+      "co2_capture": 0.0
+    },
+    "high_module_eis": {
+      "pem": NaN,
+      "meoh_synthesis": NaN,
+      "shipping": NaN,
+      "meoh_cracking": NaN,
+      "co2_capture": NaN
+    },
+    "low_error": "",
+    "high_error": "Infeasible fixed build: dispatch search supports 83.9884% of the H2 target; PortHastings: hourly dispatch and storage limits (3.3214% of target); PortBonython: hourly dispatch and storage limits (6.1394% of target); Gladstone: hourly dispatch and storage limits (6.3192% of target); HayPoint: hourly dispatch and storage limits (0.7250% of target); Ashburton: hourly dispatch and storage limits (14.0483% of target); Dampier: hourly dispatch and storage limits (12.9907% of target); PortDarwin: hourly dispatch and storage limits (0.0006% of target); PortAbbotPoint: hourly dispatch and storage limits (3.3023% of target); PortHedland: hourly dispatch and storage limits (31.0521% of target); Newcastle: hourly dispatch and storage limits (6.0893% of target)"
+  },
+  {
+    "bound": {
+      "name": "Degradation rate [% / 1000 full-load hours]",
+      "group": "pem",
+      "field": "degradation_percent_per_1000_hours",
+      "base": 0.125,
+      "low": 0.125,
+      "high": 0.25
+    },
+    "low_cost": 22.182936660012153,
+    "base_cost": 22.182936660012153,
+    "high_cost": NaN,
+    "low_ei": 1.3094012532268557,
+    "base_ei": 1.3094012532268557,
+    "high_ei": NaN,
+    "low_module_costs": {
+      "pem": 18.142856641893513,
+      "meoh_synthesis": 0.4838022656688827,
+      "shipping": 0.36646418663108166,
+      "meoh_cracking": 2.0850296717597945,
+      "co2_capture": 1.1047838940588843
+    },
+    "base_module_costs": {
+      "pem": 18.142856641893513,
+      "meoh_synthesis": 0.4838022656688827,
+      "shipping": 0.36646418663108166,
+      "meoh_cracking": 2.0850296717597945,
+      "co2_capture": 1.1047838940588843
+    },
+    "high_module_costs": {
+      "pem": NaN,
+      "meoh_synthesis": NaN,
+      "shipping": NaN,
+      "meoh_cracking": NaN,
+      "co2_capture": NaN
+    },
+    "low_module_eis": {
+      "pem": 0.0,
+      "meoh_synthesis": 0.2575856090253776,
+      "shipping": 0.24328389816973256,
+      "meoh_cracking": 0.8085317460317456,
+      "co2_capture": 0.0
+    },
+    "base_module_eis": {
+      "pem": 0.0,
+      "meoh_synthesis": 0.2575856090253776,
+      "shipping": 0.24328389816973256,
+      "meoh_cracking": 0.8085317460317456,
+      "co2_capture": 0.0
+    },
+    "high_module_eis": {
+      "pem": NaN,
+      "meoh_synthesis": NaN,
+      "shipping": NaN,
+      "meoh_cracking": NaN,
+      "co2_capture": NaN
+    },
+    "low_error": "",
+    "high_error": "Infeasible fixed build: dispatch search supports 98.4971% of the H2 target; PortHastings: hourly dispatch and storage limits (3.7831% of target); PortBonython: hourly dispatch and storage limits (7.0334% of target); Gladstone: hourly dispatch and storage limits (7.6307% of target); HayPoint: hourly dispatch and storage limits (2.6211% of target); Ashburton: hourly dispatch and storage limits (15.9998% of target); Dampier: hourly dispatch and storage limits (14.7920% of target); PortDarwin: hourly dispatch and storage limits (0.0006% of target); PortAbbotPoint: hourly dispatch and storage limits (4.3254% of target); PortHedland: hourly dispatch and storage limits (35.3867% of target); Newcastle: hourly dispatch and storage limits (6.9242% of target)"
+  },
+  {
+    "bound": {
+      "name": "Minimum load [% rated power]",
+      "group": "pem",
+      "field": "min_load_percent",
+      "base": 10.0,
+      "low": 5.0,
+      "high": 20.0
+    },
+    "low_cost": 22.182936660012153,
+    "base_cost": 22.182936660012153,
+    "high_cost": 22.182936660012153,
+    "low_ei": 1.3094012532268557,
+    "base_ei": 1.3094012532268557,
+    "high_ei": 1.3094012532268557,
+    "low_module_costs": {
+      "pem": 18.142856623400256,
+      "meoh_synthesis": 0.4838022841621382,
+      "shipping": 0.36646418663108166,
+      "meoh_cracking": 2.0850296717597945,
+      "co2_capture": 1.1047838940588843
+    },
+    "base_module_costs": {
+      "pem": 18.142856641893513,
+      "meoh_synthesis": 0.4838022656688827,
+      "shipping": 0.36646418663108166,
+      "meoh_cracking": 2.0850296717597945,
+      "co2_capture": 1.1047838940588843
+    },
+    "high_module_costs": {
+      "pem": 18.14285667322292,
+      "meoh_synthesis": 0.4838022343394743,
+      "shipping": 0.36646418663108166,
+      "meoh_cracking": 2.0850296717597945,
+      "co2_capture": 1.1047838940588843
+    },
+    "low_module_eis": {
+      "pem": 0.0,
+      "meoh_synthesis": 0.2575856090253776,
+      "shipping": 0.24328389816973256,
+      "meoh_cracking": 0.8085317460317456,
+      "co2_capture": 0.0
+    },
+    "base_module_eis": {
+      "pem": 0.0,
+      "meoh_synthesis": 0.2575856090253776,
+      "shipping": 0.24328389816973256,
+      "meoh_cracking": 0.8085317460317456,
+      "co2_capture": 0.0
+    },
+    "high_module_eis": {
+      "pem": 0.0,
+      "meoh_synthesis": 0.2575856090253776,
+      "shipping": 0.24328389816973256,
+      "meoh_cracking": 0.8085317460317456,
+      "co2_capture": 0.0
+    },
+    "low_error": "",
+    "high_error": ""
+  },
+  {
+    "bound": {
+      "name": "System lifetime [years]",
+      "group": "pem",
+      "field": "system_life_years",
+      "base": 20.0,
+      "low": 20.0,
+      "high": 30.0
+    },
+    "low_cost": 22.182936660012153,
+    "base_cost": 22.182936660012153,
+    "high_cost": 21.83763437600053,
+    "low_ei": 1.3094012532268557,
+    "base_ei": 1.3094012532268557,
+    "high_ei": 1.3094012532268557,
+    "low_module_costs": {
+      "pem": 18.142856641893513,
+      "meoh_synthesis": 0.4838022656688827,
+      "shipping": 0.36646418663108166,
+      "meoh_cracking": 2.0850296717597945,
+      "co2_capture": 1.1047838940588843
+    },
+    "base_module_costs": {
+      "pem": 18.142856641893513,
+      "meoh_synthesis": 0.4838022656688827,
+      "shipping": 0.36646418663108166,
+      "meoh_cracking": 2.0850296717597945,
+      "co2_capture": 1.1047838940588843
+    },
+    "high_module_costs": {
+      "pem": 17.797662056560302,
+      "meoh_synthesis": 0.4836945669904681,
+      "shipping": 0.36646418663108166,
+      "meoh_cracking": 2.0850296717597945,
+      "co2_capture": 1.104783894058884
+    },
+    "low_module_eis": {
+      "pem": 0.0,
+      "meoh_synthesis": 0.2575856090253776,
+      "shipping": 0.24328389816973256,
+      "meoh_cracking": 0.8085317460317456,
+      "co2_capture": 0.0
+    },
+    "base_module_eis": {
+      "pem": 0.0,
+      "meoh_synthesis": 0.2575856090253776,
+      "shipping": 0.24328389816973256,
+      "meoh_cracking": 0.8085317460317456,
+      "co2_capture": 0.0
+    },
+    "high_module_eis": {
+      "pem": 0.0,
+      "meoh_synthesis": 0.2575856090253776,
+      "shipping": 0.24328389816973256,
+      "meoh_cracking": 0.8085317460317456,
+      "co2_capture": 0.0
+    },
+    "low_error": "",
+    "high_error": ""
+  },
+  {
+    "bound": {
+      "name": "Stack lifetime [h]",
+      "group": "pem",
+      "field": "stack_life_hours",
+      "base": 60000.0,
+      "low": 50000.0,
+      "high": 80000.0
+    },
+    "low_cost": 22.301033151490746,
+    "base_cost": 22.182936660012153,
+    "high_cost": 22.077983042823867,
+    "low_ei": 1.3094012532268557,
+    "base_ei": 1.3094012532268557,
+    "high_ei": 1.3107743412406234,
+    "low_module_costs": {
+      "pem": 18.259993724314473,
+      "meoh_synthesis": 0.4847616747265131,
+      "shipping": 0.36646418663108166,
+      "meoh_cracking": 2.0850296717597945,
+      "co2_capture": 1.1047838940588843
+    },
+    "base_module_costs": {
+      "pem": 18.142856641893513,
+      "meoh_synthesis": 0.4838022656688827,
+      "shipping": 0.36646418663108166,
+      "meoh_cracking": 2.0850296717597945,
+      "co2_capture": 1.1047838940588843
+    },
+    "high_module_costs": {
+      "pem": 18.038940297022958,
+      "meoh_synthesis": 0.48198427521965437,
+      "shipping": 0.36646418663108166,
+      "meoh_cracking": 2.0850296717597945,
+      "co2_capture": 1.1055646121903797
+    },
+    "low_module_eis": {
+      "pem": 0.0,
+      "meoh_synthesis": 0.2575856090253776,
+      "shipping": 0.24328389816973256,
+      "meoh_cracking": 0.8085317460317456,
+      "co2_capture": 0.0
+    },
+    "base_module_eis": {
+      "pem": 0.0,
+      "meoh_synthesis": 0.2575856090253776,
+      "shipping": 0.24328389816973256,
+      "meoh_cracking": 0.8085317460317456,
+      "co2_capture": 0.0
+    },
+    "high_module_eis": {
+      "pem": 0.0,
+      "meoh_synthesis": 0.25762680166579055,
+      "shipping": 0.24461579354308735,
+      "meoh_cracking": 0.8085317460317456,
+      "co2_capture": 0.0
+    },
+    "low_error": "",
+    "high_error": ""
+  },
+  {
+    "bound": {
+      "name": "PEM electrolyser CAPEX [AUD/kW]",
+      "group": "pem",
+      "field": "capex_aud_per_kw",
+      "base": 2737.4354081478114,
+      "low": 2568.5342016255236,
+      "high": 2811.5871573527184
+    },
+    "low_cost": 21.945075756794058,
+    "base_cost": 22.182936660012153,
+    "high_cost": 22.287363398010342,
+    "low_ei": 1.3094012532268557,
+    "base_ei": 1.3094012532268557,
+    "high_ei": 1.3094012532268557,
+    "low_module_costs": {
+      "pem": 17.904995738675417,
+      "meoh_synthesis": 0.48380226566888274,
+      "shipping": 0.36646418663108166,
+      "meoh_cracking": 2.0850296717597945,
+      "co2_capture": 1.1047838940588843
+    },
+    "base_module_costs": {
+      "pem": 18.142856641893513,
+      "meoh_synthesis": 0.4838022656688827,
+      "shipping": 0.36646418663108166,
+      "meoh_cracking": 2.0850296717597945,
+      "co2_capture": 1.1047838940588843
+    },
+    "high_module_costs": {
+      "pem": 18.2472833798917,
+      "meoh_synthesis": 0.4838022656688826,
+      "shipping": 0.36646418663108166,
+      "meoh_cracking": 2.0850296717597945,
+      "co2_capture": 1.1047838940588843
+    },
+    "low_module_eis": {
+      "pem": 0.0,
+      "meoh_synthesis": 0.2575856090253776,
+      "shipping": 0.24328389816973256,
+      "meoh_cracking": 0.8085317460317456,
+      "co2_capture": 0.0
+    },
+    "base_module_eis": {
+      "pem": 0.0,
+      "meoh_synthesis": 0.2575856090253776,
+      "shipping": 0.24328389816973256,
+      "meoh_cracking": 0.8085317460317456,
+      "co2_capture": 0.0
+    },
+    "high_module_eis": {
+      "pem": 0.0,
+      "meoh_synthesis": 0.2575856090253776,
+      "shipping": 0.24328389816973256,
+      "meoh_cracking": 0.8085317460317456,
+      "co2_capture": 0.0
+    },
+    "low_error": "",
+    "high_error": ""
+  },
+  {
+    "bound": {
+      "name": "Stack replacement cost [% initial PEM CAPEX (AUD 2025)]",
+      "group": "pem",
+      "field": "stack_replacement_percent",
+      "base": 15.0,
+      "low": 11.0,
+      "high": 25.0
+    },
+    "low_cost": 22.109965941277963,
+    "base_cost": 22.182936660012153,
+    "high_cost": 22.365363456847625,
+    "low_ei": 1.3094012532268557,
+    "base_ei": 1.3094012532268557,
+    "high_ei": 1.3094012532268557,
+    "low_module_costs": {
+      "pem": 18.069885923159323,
+      "meoh_synthesis": 0.4838022656688827,
+      "shipping": 0.36646418663108166,
+      "meoh_cracking": 2.0850296717597945,
+      "co2_capture": 1.1047838940588843
+    },
+    "base_module_costs": {
+      "pem": 18.142856641893513,
+      "meoh_synthesis": 0.4838022656688827,
+      "shipping": 0.36646418663108166,
+      "meoh_cracking": 2.0850296717597945,
+      "co2_capture": 1.1047838940588843
+    },
+    "high_module_costs": {
+      "pem": 18.325283438728984,
+      "meoh_synthesis": 0.4838022656688826,
+      "shipping": 0.36646418663108166,
+      "meoh_cracking": 2.0850296717597945,
+      "co2_capture": 1.104783894058884
+    },
+    "low_module_eis": {
+      "pem": 0.0,
+      "meoh_synthesis": 0.2575856090253776,
+      "shipping": 0.24328389816973256,
+      "meoh_cracking": 0.8085317460317456,
+      "co2_capture": 0.0
+    },
+    "base_module_eis": {
+      "pem": 0.0,
+      "meoh_synthesis": 0.2575856090253776,
+      "shipping": 0.24328389816973256,
+      "meoh_cracking": 0.8085317460317456,
+      "co2_capture": 0.0
+    },
+    "high_module_eis": {
+      "pem": 0.0,
+      "meoh_synthesis": 0.2575856090253776,
+      "shipping": 0.24328389816973256,
+      "meoh_cracking": 0.8085317460317456,
+      "co2_capture": 0.0
+    },
+    "low_error": "",
+    "high_error": ""
+  },
+  {
+    "bound": {
+      "name": "Electrolyser O&M [% initial PEM CAPEX/yr (AUD 2025)]",
+      "group": "pem",
+      "field": "opex_percent_capex_per_year",
+      "base": 2.5,
+      "low": 1.5,
+      "high": 5.0
+    },
+    "low_cost": 21.900248201154444,
+    "base_cost": 22.182936660012153,
+    "high_cost": 22.88965780715643,
+    "low_ei": 1.3094012532268557,
+    "base_ei": 1.3094012532268557,
+    "high_ei": 1.3094012532268557,
+    "low_module_costs": {
+      "pem": 17.860168183035803,
+      "meoh_synthesis": 0.4838022656688827,
+      "shipping": 0.36646418663108166,
+      "meoh_cracking": 2.0850296717597945,
+      "co2_capture": 1.1047838940588843
+    },
+    "base_module_costs": {
+      "pem": 18.142856641893513,
+      "meoh_synthesis": 0.4838022656688827,
+      "shipping": 0.36646418663108166,
+      "meoh_cracking": 2.0850296717597945,
+      "co2_capture": 1.1047838940588843
+    },
+    "high_module_costs": {
+      "pem": 18.849577789037788,
+      "meoh_synthesis": 0.4838022656688827,
+      "shipping": 0.36646418663108166,
+      "meoh_cracking": 2.0850296717597945,
+      "co2_capture": 1.1047838940588843
+    },
+    "low_module_eis": {
+      "pem": 0.0,
+      "meoh_synthesis": 0.2575856090253776,
+      "shipping": 0.24328389816973256,
+      "meoh_cracking": 0.8085317460317456,
+      "co2_capture": 0.0
+    },
+    "base_module_eis": {
+      "pem": 0.0,
+      "meoh_synthesis": 0.2575856090253776,
+      "shipping": 0.24328389816973256,
+      "meoh_cracking": 0.8085317460317456,
+      "co2_capture": 0.0
+    },
+    "high_module_eis": {
+      "pem": 0.0,
+      "meoh_synthesis": 0.2575856090253776,
+      "shipping": 0.24328389816973256,
+      "meoh_cracking": 0.8085317460317456,
+      "co2_capture": 0.0
+    },
+    "low_error": "",
+    "high_error": ""
+  },
+  {
+    "bound": {
+      "name": "Water draw [L/kg H2]",
+      "group": "pem",
+      "field": "water_l_per_kg_h2",
+      "base": 10.0,
+      "low": 10.0,
+      "high": 20.0
+    },
+    "low_cost": 22.182936660012153,
+    "base_cost": 22.182936660012153,
+    "high_cost": 22.24193377291776,
+    "low_ei": 1.3094012532268557,
+    "base_ei": 1.3094012532268557,
+    "high_ei": 1.3094012532268557,
+    "low_module_costs": {
+      "pem": 18.142856641893513,
+      "meoh_synthesis": 0.4838022656688827,
+      "shipping": 0.36646418663108166,
+      "meoh_cracking": 2.0850296717597945,
+      "co2_capture": 1.1047838940588843
+    },
+    "base_module_costs": {
+      "pem": 18.142856641893513,
+      "meoh_synthesis": 0.4838022656688827,
+      "shipping": 0.36646418663108166,
+      "meoh_cracking": 2.0850296717597945,
+      "co2_capture": 1.1047838940588843
+    },
+    "high_module_costs": {
+      "pem": 18.20185375479912,
+      "meoh_synthesis": 0.4838022656688827,
+      "shipping": 0.36646418663108166,
+      "meoh_cracking": 2.0850296717597945,
+      "co2_capture": 1.1047838940588843
+    },
+    "low_module_eis": {
+      "pem": 0.0,
+      "meoh_synthesis": 0.2575856090253776,
+      "shipping": 0.24328389816973256,
+      "meoh_cracking": 0.8085317460317456,
+      "co2_capture": 0.0
+    },
+    "base_module_eis": {
+      "pem": 0.0,
+      "meoh_synthesis": 0.2575856090253776,
+      "shipping": 0.24328389816973256,
+      "meoh_cracking": 0.8085317460317456,
+      "co2_capture": 0.0
+    },
+    "high_module_eis": {
+      "pem": 0.0,
+      "meoh_synthesis": 0.2575856090253776,
+      "shipping": 0.24328389816973256,
+      "meoh_cracking": 0.8085317460317456,
+      "co2_capture": 0.0
+    },
+    "low_error": "",
+    "high_error": ""
+  },
+  {
+    "bound": {
+      "name": "Wholesale water cost [AUD/kL]",
+      "group": "pem",
+      "field": "water_cost_aud_per_kl",
+      "base": 5.0,
+      "low": 3.5,
+      "high": 10.0
+    },
+    "low_cost": 22.165237526140473,
+    "base_cost": 22.182936660012153,
+    "high_cost": 22.24193377291776,
+    "low_ei": 1.3094012532268557,
+    "base_ei": 1.3094012532268557,
+    "high_ei": 1.3094012532268557,
+    "low_module_costs": {
+      "pem": 18.125157508021832,
+      "meoh_synthesis": 0.48380226566888274,
+      "shipping": 0.36646418663108166,
+      "meoh_cracking": 2.0850296717597945,
+      "co2_capture": 1.1047838940588843
+    },
+    "base_module_costs": {
+      "pem": 18.142856641893513,
+      "meoh_synthesis": 0.4838022656688827,
+      "shipping": 0.36646418663108166,
+      "meoh_cracking": 2.0850296717597945,
+      "co2_capture": 1.1047838940588843
+    },
+    "high_module_costs": {
+      "pem": 18.20185375479912,
+      "meoh_synthesis": 0.4838022656688827,
+      "shipping": 0.36646418663108166,
+      "meoh_cracking": 2.0850296717597945,
+      "co2_capture": 1.1047838940588843
+    },
+    "low_module_eis": {
+      "pem": 0.0,
+      "meoh_synthesis": 0.2575856090253776,
+      "shipping": 0.24328389816973256,
+      "meoh_cracking": 0.8085317460317456,
+      "co2_capture": 0.0
+    },
+    "base_module_eis": {
+      "pem": 0.0,
+      "meoh_synthesis": 0.2575856090253776,
+      "shipping": 0.24328389816973256,
+      "meoh_cracking": 0.8085317460317456,
+      "co2_capture": 0.0
+    },
+    "high_module_eis": {
+      "pem": 0.0,
+      "meoh_synthesis": 0.2575856090253776,
+      "shipping": 0.24328389816973256,
+      "meoh_cracking": 0.8085317460317456,
+      "co2_capture": 0.0
+    },
+    "low_error": "",
+    "high_error": ""
+  },
+  {
+    "bound": {
+      "name": "PortHastings regional storage CAPEX [AUD/kg]",
+      "group": "site_storage_costs",
+      "field": "PortHastings",
+      "base": 23.196848760442183,
+      "low": 18.04199348034392,
+      "high": 28.351704040540447
+    },
+    "low_cost": 22.17606851390339,
+    "base_cost": 22.182936660012153,
+    "high_cost": 22.189804806120915,
+    "low_ei": 1.3094012532268557,
+    "base_ei": 1.3094012532268557,
+    "high_ei": 1.3094012532268557,
+    "low_module_costs": {
+      "pem": 18.13598849578475,
+      "meoh_synthesis": 0.4838022656688827,
+      "shipping": 0.36646418663108166,
+      "meoh_cracking": 2.0850296717597945,
+      "co2_capture": 1.1047838940588843
+    },
+    "base_module_costs": {
+      "pem": 18.142856641893513,
+      "meoh_synthesis": 0.4838022656688827,
+      "shipping": 0.36646418663108166,
+      "meoh_cracking": 2.0850296717597945,
+      "co2_capture": 1.1047838940588843
+    },
+    "high_module_costs": {
+      "pem": 18.14972478800227,
+      "meoh_synthesis": 0.4838022656688827,
+      "shipping": 0.36646418663108166,
+      "meoh_cracking": 2.0850296717597945,
+      "co2_capture": 1.1047838940588843
+    },
+    "low_module_eis": {
+      "pem": 0.0,
+      "meoh_synthesis": 0.2575856090253776,
+      "shipping": 0.24328389816973256,
+      "meoh_cracking": 0.8085317460317456,
+      "co2_capture": 0.0
+    },
+    "base_module_eis": {
+      "pem": 0.0,
+      "meoh_synthesis": 0.2575856090253776,
+      "shipping": 0.24328389816973256,
+      "meoh_cracking": 0.8085317460317456,
+      "co2_capture": 0.0
+    },
+    "high_module_eis": {
+      "pem": 0.0,
+      "meoh_synthesis": 0.2575856090253776,
+      "shipping": 0.24328389816973256,
+      "meoh_cracking": 0.8085317460317456,
+      "co2_capture": 0.0
+    },
+    "low_error": "",
+    "high_error": ""
+  },
+  {
+    "bound": {
+      "name": "PortBonython regional storage CAPEX [AUD/kg]",
+      "group": "site_storage_costs",
+      "field": "PortBonython",
+      "base": 38.01705769072469,
+      "low": 24.64665180796982,
+      "high": 104.86908710449902
+    },
+    "low_cost": 22.17835585184854,
+    "base_cost": 22.182936660012153,
+    "high_cost": 22.205840700830212,
+    "low_ei": 1.3094012532268557,
+    "base_ei": 1.3094012532268557,
+    "high_ei": 1.3094012532268557,
+    "low_module_costs": {
+      "pem": 18.1382758337299,
+      "meoh_synthesis": 0.4838022656688826,
+      "shipping": 0.36646418663108166,
+      "meoh_cracking": 2.0850296717597945,
+      "co2_capture": 1.1047838940588843
+    },
+    "base_module_costs": {
+      "pem": 18.142856641893513,
+      "meoh_synthesis": 0.4838022656688827,
+      "shipping": 0.36646418663108166,
+      "meoh_cracking": 2.0850296717597945,
+      "co2_capture": 1.1047838940588843
+    },
+    "high_module_costs": {
+      "pem": 18.165760682711568,
+      "meoh_synthesis": 0.4838022656688827,
+      "shipping": 0.36646418663108166,
+      "meoh_cracking": 2.0850296717597945,
+      "co2_capture": 1.1047838940588846
+    },
+    "low_module_eis": {
+      "pem": 0.0,
+      "meoh_synthesis": 0.2575856090253776,
+      "shipping": 0.24328389816973256,
+      "meoh_cracking": 0.8085317460317456,
+      "co2_capture": 0.0
+    },
+    "base_module_eis": {
+      "pem": 0.0,
+      "meoh_synthesis": 0.2575856090253776,
+      "shipping": 0.24328389816973256,
+      "meoh_cracking": 0.8085317460317456,
+      "co2_capture": 0.0
+    },
+    "high_module_eis": {
+      "pem": 0.0,
+      "meoh_synthesis": 0.2575856090253776,
+      "shipping": 0.24328389816973256,
+      "meoh_cracking": 0.8085317460317456,
+      "co2_capture": 0.0
+    },
+    "low_error": "",
+    "high_error": ""
+  },
+  {
+    "bound": {
+      "name": "Gladstone regional storage CAPEX [AUD/kg]",
+      "group": "site_storage_costs",
+      "field": "Gladstone",
+      "base": 19.008528845362346,
+      "low": 16.43110120531321,
+      "high": 34.956362368166346
+    },
+    "low_cost": 22.182200787214786,
+    "base_cost": 22.182936660012153,
+    "high_cost": 22.187489872945864,
+    "low_ei": 1.3094012532268557,
+    "base_ei": 1.3094012532268557,
+    "high_ei": 1.3094012532268557,
+    "low_module_costs": {
+      "pem": 18.142120769096145,
+      "meoh_synthesis": 0.4838022656688827,
+      "shipping": 0.36646418663108166,
+      "meoh_cracking": 2.0850296717597945,
+      "co2_capture": 1.1047838940588843
+    },
+    "base_module_costs": {
+      "pem": 18.142856641893513,
+      "meoh_synthesis": 0.4838022656688827,
+      "shipping": 0.36646418663108166,
+      "meoh_cracking": 2.0850296717597945,
+      "co2_capture": 1.1047838940588843
+    },
+    "high_module_costs": {
+      "pem": 18.147409854827224,
+      "meoh_synthesis": 0.48380226566888274,
+      "shipping": 0.36646418663108166,
+      "meoh_cracking": 2.0850296717597945,
+      "co2_capture": 1.1047838940588843
+    },
+    "low_module_eis": {
+      "pem": 0.0,
+      "meoh_synthesis": 0.2575856090253776,
+      "shipping": 0.24328389816973256,
+      "meoh_cracking": 0.8085317460317456,
+      "co2_capture": 0.0
+    },
+    "base_module_eis": {
+      "pem": 0.0,
+      "meoh_synthesis": 0.2575856090253776,
+      "shipping": 0.24328389816973256,
+      "meoh_cracking": 0.8085317460317456,
+      "co2_capture": 0.0
+    },
+    "high_module_eis": {
+      "pem": 0.0,
+      "meoh_synthesis": 0.2575856090253776,
+      "shipping": 0.24328389816973256,
+      "meoh_cracking": 0.8085317460317456,
+      "co2_capture": 0.0
+    },
+    "low_error": "",
+    "high_error": ""
+  },
+  {
+    "bound": {
+      "name": "HayPoint regional storage CAPEX [AUD/kg]",
+      "group": "site_storage_costs",
+      "field": "HayPoint",
+      "base": 19.008528845362346,
+      "low": 16.43110120531321,
+      "high": 34.956362368166346
+    },
+    "low_cost": 22.182200787214786,
+    "base_cost": 22.182936660012153,
+    "high_cost": 22.187489872945864,
+    "low_ei": 1.3094012532268557,
+    "base_ei": 1.3094012532268557,
+    "high_ei": 1.3094012532268557,
+    "low_module_costs": {
+      "pem": 18.142120769096145,
+      "meoh_synthesis": 0.4838022656688827,
+      "shipping": 0.36646418663108166,
+      "meoh_cracking": 2.0850296717597945,
+      "co2_capture": 1.1047838940588843
+    },
+    "base_module_costs": {
+      "pem": 18.142856641893513,
+      "meoh_synthesis": 0.4838022656688827,
+      "shipping": 0.36646418663108166,
+      "meoh_cracking": 2.0850296717597945,
+      "co2_capture": 1.1047838940588843
+    },
+    "high_module_costs": {
+      "pem": 18.147409854827224,
+      "meoh_synthesis": 0.48380226566888274,
+      "shipping": 0.36646418663108166,
+      "meoh_cracking": 2.0850296717597945,
+      "co2_capture": 1.1047838940588843
+    },
+    "low_module_eis": {
+      "pem": 0.0,
+      "meoh_synthesis": 0.2575856090253776,
+      "shipping": 0.24328389816973256,
+      "meoh_cracking": 0.8085317460317456,
+      "co2_capture": 0.0
+    },
+    "base_module_eis": {
+      "pem": 0.0,
+      "meoh_synthesis": 0.2575856090253776,
+      "shipping": 0.24328389816973256,
+      "meoh_cracking": 0.8085317460317456,
+      "co2_capture": 0.0
+    },
+    "high_module_eis": {
+      "pem": 0.0,
+      "meoh_synthesis": 0.2575856090253776,
+      "shipping": 0.24328389816973256,
+      "meoh_cracking": 0.8085317460317456,
+      "co2_capture": 0.0
+    },
+    "low_error": "",
+    "high_error": ""
+  },
+  {
+    "bound": {
+      "name": "Ashburton regional storage CAPEX [AUD/kg]",
+      "group": "site_storage_costs",
+      "field": "Ashburton",
+      "base": 23.196848760442183,
+      "low": 18.04199348034392,
+      "high": 28.351704040540447
+    },
+    "low_cost": 22.17116269525427,
+    "base_cost": 22.182936660012153,
+    "high_cost": 22.194710624770032,
+    "low_ei": 1.3094012532268557,
+    "base_ei": 1.3094012532268557,
+    "high_ei": 1.3094012532268557,
+    "low_module_costs": {
+      "pem": 18.131082677135627,
+      "meoh_synthesis": 0.4838022656688826,
+      "shipping": 0.36646418663108166,
+      "meoh_cracking": 2.0850296717597945,
+      "co2_capture": 1.104783894058884
+    },
+    "base_module_costs": {
+      "pem": 18.142856641893513,
+      "meoh_synthesis": 0.4838022656688827,
+      "shipping": 0.36646418663108166,
+      "meoh_cracking": 2.0850296717597945,
+      "co2_capture": 1.1047838940588843
+    },
+    "high_module_costs": {
+      "pem": 18.15463060665139,
+      "meoh_synthesis": 0.48380226566888274,
+      "shipping": 0.36646418663108166,
+      "meoh_cracking": 2.0850296717597945,
+      "co2_capture": 1.1047838940588843
+    },
+    "low_module_eis": {
+      "pem": 0.0,
+      "meoh_synthesis": 0.2575856090253776,
+      "shipping": 0.24328389816973256,
+      "meoh_cracking": 0.8085317460317456,
+      "co2_capture": 0.0
+    },
+    "base_module_eis": {
+      "pem": 0.0,
+      "meoh_synthesis": 0.2575856090253776,
+      "shipping": 0.24328389816973256,
+      "meoh_cracking": 0.8085317460317456,
+      "co2_capture": 0.0
+    },
+    "high_module_eis": {
+      "pem": 0.0,
+      "meoh_synthesis": 0.2575856090253776,
+      "shipping": 0.24328389816973256,
+      "meoh_cracking": 0.8085317460317456,
+      "co2_capture": 0.0
+    },
+    "low_error": "",
+    "high_error": ""
+  },
+  {
+    "bound": {
+      "name": "Dampier regional storage CAPEX [AUD/kg]",
+      "group": "site_storage_costs",
+      "field": "Dampier",
+      "base": 23.196848760442183,
+      "low": 18.04199348034392,
+      "high": 28.351704040540447
+    },
+    "low_cost": 22.177049677633214,
+    "base_cost": 22.182936660012153,
+    "high_cost": 22.188823642391093,
+    "low_ei": 1.3094012532268557,
+    "base_ei": 1.3094012532268557,
+    "high_ei": 1.3094012532268557,
+    "low_module_costs": {
+      "pem": 18.136969659514573,
+      "meoh_synthesis": 0.4838022656688826,
+      "shipping": 0.36646418663108166,
+      "meoh_cracking": 2.0850296717597945,
+      "co2_capture": 1.104783894058884
+    },
+    "base_module_costs": {
+      "pem": 18.142856641893513,
+      "meoh_synthesis": 0.4838022656688827,
+      "shipping": 0.36646418663108166,
+      "meoh_cracking": 2.0850296717597945,
+      "co2_capture": 1.1047838940588843
+    },
+    "high_module_costs": {
+      "pem": 18.148743624272452,
+      "meoh_synthesis": 0.4838022656688827,
+      "shipping": 0.36646418663108166,
+      "meoh_cracking": 2.0850296717597945,
+      "co2_capture": 1.1047838940588843
+    },
+    "low_module_eis": {
+      "pem": 0.0,
+      "meoh_synthesis": 0.2575856090253776,
+      "shipping": 0.24328389816973256,
+      "meoh_cracking": 0.8085317460317456,
+      "co2_capture": 0.0
+    },
+    "base_module_eis": {
+      "pem": 0.0,
+      "meoh_synthesis": 0.2575856090253776,
+      "shipping": 0.24328389816973256,
+      "meoh_cracking": 0.8085317460317456,
+      "co2_capture": 0.0
+    },
+    "high_module_eis": {
+      "pem": 0.0,
+      "meoh_synthesis": 0.2575856090253776,
+      "shipping": 0.24328389816973256,
+      "meoh_cracking": 0.8085317460317456,
+      "co2_capture": 0.0
+    },
+    "low_error": "",
+    "high_error": ""
+  },
+  {
+    "bound": {
+      "name": "PortDarwin regional storage CAPEX [AUD/kg]",
+      "group": "site_storage_costs",
+      "field": "PortDarwin",
+      "base": 46.393697520884366,
+      "low": 27.06299022051588,
+      "high": 85.05511212162133
+    },
+    "low_cost": 22.090952560341247,
+    "base_cost": 22.182936660012153,
+    "high_cost": 22.366904859353966,
+    "low_ei": 1.3094012532268557,
+    "base_ei": 1.3094012532268557,
+    "high_ei": 1.3094012532268557,
+    "low_module_costs": {
+      "pem": 18.050872542222606,
+      "meoh_synthesis": 0.4838022656688827,
+      "shipping": 0.36646418663108166,
+      "meoh_cracking": 2.0850296717597945,
+      "co2_capture": 1.1047838940588843
+    },
+    "base_module_costs": {
+      "pem": 18.142856641893513,
+      "meoh_synthesis": 0.4838022656688827,
+      "shipping": 0.36646418663108166,
+      "meoh_cracking": 2.0850296717597945,
+      "co2_capture": 1.1047838940588843
+    },
+    "high_module_costs": {
+      "pem": 18.32682484123532,
+      "meoh_synthesis": 0.4838022656688827,
+      "shipping": 0.36646418663108166,
+      "meoh_cracking": 2.0850296717597945,
+      "co2_capture": 1.1047838940588843
+    },
+    "low_module_eis": {
+      "pem": 0.0,
+      "meoh_synthesis": 0.2575856090253776,
+      "shipping": 0.24328389816973256,
+      "meoh_cracking": 0.8085317460317456,
+      "co2_capture": 0.0
+    },
+    "base_module_eis": {
+      "pem": 0.0,
+      "meoh_synthesis": 0.2575856090253776,
+      "shipping": 0.24328389816973256,
+      "meoh_cracking": 0.8085317460317456,
+      "co2_capture": 0.0
+    },
+    "high_module_eis": {
+      "pem": 0.0,
+      "meoh_synthesis": 0.2575856090253776,
+      "shipping": 0.24328389816973256,
+      "meoh_cracking": 0.8085317460317456,
+      "co2_capture": 0.0
+    },
+    "low_error": "",
+    "high_error": ""
+  },
+  {
+    "bound": {
+      "name": "PortAbbotPoint regional storage CAPEX [AUD/kg]",
+      "group": "site_storage_costs",
+      "field": "PortAbbotPoint",
+      "base": 19.008528845362346,
+      "low": 16.43110120531321,
+      "high": 34.956362368166346
+    },
+    "low_cost": 22.182200787214786,
+    "base_cost": 22.182936660012153,
+    "high_cost": 22.187489872945864,
+    "low_ei": 1.3094012532268557,
+    "base_ei": 1.3094012532268557,
+    "high_ei": 1.3094012532268557,
+    "low_module_costs": {
+      "pem": 18.142120769096145,
+      "meoh_synthesis": 0.4838022656688827,
+      "shipping": 0.36646418663108166,
+      "meoh_cracking": 2.0850296717597945,
+      "co2_capture": 1.1047838940588843
+    },
+    "base_module_costs": {
+      "pem": 18.142856641893513,
+      "meoh_synthesis": 0.4838022656688827,
+      "shipping": 0.36646418663108166,
+      "meoh_cracking": 2.0850296717597945,
+      "co2_capture": 1.1047838940588843
+    },
+    "high_module_costs": {
+      "pem": 18.147409854827224,
+      "meoh_synthesis": 0.48380226566888274,
+      "shipping": 0.36646418663108166,
+      "meoh_cracking": 2.0850296717597945,
+      "co2_capture": 1.1047838940588843
+    },
+    "low_module_eis": {
+      "pem": 0.0,
+      "meoh_synthesis": 0.2575856090253776,
+      "shipping": 0.24328389816973256,
+      "meoh_cracking": 0.8085317460317456,
+      "co2_capture": 0.0
+    },
+    "base_module_eis": {
+      "pem": 0.0,
+      "meoh_synthesis": 0.2575856090253776,
+      "shipping": 0.24328389816973256,
+      "meoh_cracking": 0.8085317460317456,
+      "co2_capture": 0.0
+    },
+    "high_module_eis": {
+      "pem": 0.0,
+      "meoh_synthesis": 0.2575856090253776,
+      "shipping": 0.24328389816973256,
+      "meoh_cracking": 0.8085317460317456,
+      "co2_capture": 0.0
+    },
+    "low_error": "",
+    "high_error": ""
+  },
+  {
+    "bound": {
+      "name": "PortHedland regional storage CAPEX [AUD/kg]",
+      "group": "site_storage_costs",
+      "field": "PortHedland",
+      "base": 23.196848760442183,
+      "low": 18.04199348034392,
+      "high": 28.351704040540447
+    },
+    "low_cost": 22.177049677633214,
+    "base_cost": 22.182936660012153,
+    "high_cost": 22.188823642391093,
+    "low_ei": 1.3094012532268557,
+    "base_ei": 1.3094012532268557,
+    "high_ei": 1.3094012532268557,
+    "low_module_costs": {
+      "pem": 18.136969659514573,
+      "meoh_synthesis": 0.4838022656688826,
+      "shipping": 0.36646418663108166,
+      "meoh_cracking": 2.0850296717597945,
+      "co2_capture": 1.104783894058884
+    },
+    "base_module_costs": {
+      "pem": 18.142856641893513,
+      "meoh_synthesis": 0.4838022656688827,
+      "shipping": 0.36646418663108166,
+      "meoh_cracking": 2.0850296717597945,
+      "co2_capture": 1.1047838940588843
+    },
+    "high_module_costs": {
+      "pem": 18.148743624272452,
+      "meoh_synthesis": 0.4838022656688827,
+      "shipping": 0.36646418663108166,
+      "meoh_cracking": 2.0850296717597945,
+      "co2_capture": 1.1047838940588843
+    },
+    "low_module_eis": {
+      "pem": 0.0,
+      "meoh_synthesis": 0.2575856090253776,
+      "shipping": 0.24328389816973256,
+      "meoh_cracking": 0.8085317460317456,
+      "co2_capture": 0.0
+    },
+    "base_module_eis": {
+      "pem": 0.0,
+      "meoh_synthesis": 0.2575856090253776,
+      "shipping": 0.24328389816973256,
+      "meoh_cracking": 0.8085317460317456,
+      "co2_capture": 0.0
+    },
+    "high_module_eis": {
+      "pem": 0.0,
+      "meoh_synthesis": 0.2575856090253776,
+      "shipping": 0.24328389816973256,
+      "meoh_cracking": 0.8085317460317456,
+      "co2_capture": 0.0
+    },
+    "low_error": "",
+    "high_error": ""
+  },
+  {
+    "bound": {
+      "name": "Newcastle regional storage CAPEX [AUD/kg]",
+      "group": "site_storage_costs",
+      "field": "Newcastle",
+      "base": 23.196848760442183,
+      "low": 18.04199348034392,
+      "high": 28.351704040540447
+    },
+    "low_cost": 22.17067211338937,
+    "base_cost": 22.182936660012153,
+    "high_cost": 22.19520120663494,
+    "low_ei": 1.3094012532268557,
+    "base_ei": 1.3094012532268557,
+    "high_ei": 1.3094012532268557,
+    "low_module_costs": {
+      "pem": 18.13059209527073,
+      "meoh_synthesis": 0.48380226566888274,
+      "shipping": 0.36646418663108166,
+      "meoh_cracking": 2.0850296717597945,
+      "co2_capture": 1.1047838940588846
+    },
+    "base_module_costs": {
+      "pem": 18.142856641893513,
+      "meoh_synthesis": 0.4838022656688827,
+      "shipping": 0.36646418663108166,
+      "meoh_cracking": 2.0850296717597945,
+      "co2_capture": 1.1047838940588843
+    },
+    "high_module_costs": {
+      "pem": 18.1551211885163,
+      "meoh_synthesis": 0.4838022656688826,
+      "shipping": 0.36646418663108166,
+      "meoh_cracking": 2.0850296717597945,
+      "co2_capture": 1.1047838940588843
+    },
+    "low_module_eis": {
+      "pem": 0.0,
+      "meoh_synthesis": 0.2575856090253776,
+      "shipping": 0.24328389816973256,
+      "meoh_cracking": 0.8085317460317456,
+      "co2_capture": 0.0
+    },
+    "base_module_eis": {
+      "pem": 0.0,
+      "meoh_synthesis": 0.2575856090253776,
+      "shipping": 0.24328389816973256,
+      "meoh_cracking": 0.8085317460317456,
+      "co2_capture": 0.0
+    },
+    "high_module_eis": {
+      "pem": 0.0,
+      "meoh_synthesis": 0.2575856090253776,
+      "shipping": 0.24328389816973256,
+      "meoh_cracking": 0.8085317460317456,
+      "co2_capture": 0.0
+    },
+    "low_error": "",
+    "high_error": ""
+  },
+  {
+    "bound": {
+      "name": "Lined rock cavern - installed CAPEX at small scale [USD(2019)/kg H2 working]",
+      "group": "pem",
+      "field": "lrc_capex_aud_per_kg_small",
+      "base": 295.0426102154756,
+      "low": 260.00630025238786,
+      "high": 335.6109691201035
+    },
+    "low_cost": 22.182936660012153,
+    "base_cost": 22.182936660012153,
+    "high_cost": 22.182936660012153,
+    "low_ei": 1.3094012532268557,
+    "base_ei": 1.3094012532268557,
+    "high_ei": 1.3094012532268557,
+    "low_module_costs": {
+      "pem": 18.142856641893513,
+      "meoh_synthesis": 0.4838022656688827,
+      "shipping": 0.36646418663108166,
+      "meoh_cracking": 2.0850296717597945,
+      "co2_capture": 1.1047838940588843
+    },
+    "base_module_costs": {
+      "pem": 18.142856641893513,
+      "meoh_synthesis": 0.4838022656688827,
+      "shipping": 0.36646418663108166,
+      "meoh_cracking": 2.0850296717597945,
+      "co2_capture": 1.1047838940588843
+    },
+    "high_module_costs": {
+      "pem": 18.142856641893513,
+      "meoh_synthesis": 0.4838022656688827,
+      "shipping": 0.36646418663108166,
+      "meoh_cracking": 2.0850296717597945,
+      "co2_capture": 1.1047838940588843
+    },
+    "low_module_eis": {
+      "pem": 0.0,
+      "meoh_synthesis": 0.2575856090253776,
+      "shipping": 0.24328389816973256,
+      "meoh_cracking": 0.8085317460317456,
+      "co2_capture": 0.0
+    },
+    "base_module_eis": {
+      "pem": 0.0,
+      "meoh_synthesis": 0.2575856090253776,
+      "shipping": 0.24328389816973256,
+      "meoh_cracking": 0.8085317460317456,
+      "co2_capture": 0.0
+    },
+    "high_module_eis": {
+      "pem": 0.0,
+      "meoh_synthesis": 0.2575856090253776,
+      "shipping": 0.24328389816973256,
+      "meoh_cracking": 0.8085317460317456,
+      "co2_capture": 0.0
+    },
+    "low_error": "",
+    "high_error": ""
+  },
+  {
+    "bound": {
+      "name": "Lined rock cavern - installed CAPEX at large scale [USD(2019)/kg H2 working]",
+      "group": "pem",
+      "field": "lrc_capex_aud_per_kg_large",
+      "base": 81.13671780925579,
+      "low": 71.91663624002217,
+      "high": 92.20081569233612
+    },
+    "low_cost": 22.182936660012153,
+    "base_cost": 22.182936660012153,
+    "high_cost": 22.182936660012153,
+    "low_ei": 1.3094012532268557,
+    "base_ei": 1.3094012532268557,
+    "high_ei": 1.3094012532268557,
+    "low_module_costs": {
+      "pem": 18.142856641893513,
+      "meoh_synthesis": 0.4838022656688827,
+      "shipping": 0.36646418663108166,
+      "meoh_cracking": 2.0850296717597945,
+      "co2_capture": 1.1047838940588843
+    },
+    "base_module_costs": {
+      "pem": 18.142856641893513,
+      "meoh_synthesis": 0.4838022656688827,
+      "shipping": 0.36646418663108166,
+      "meoh_cracking": 2.0850296717597945,
+      "co2_capture": 1.1047838940588843
+    },
+    "high_module_costs": {
+      "pem": 18.142856641893513,
+      "meoh_synthesis": 0.4838022656688827,
+      "shipping": 0.36646418663108166,
+      "meoh_cracking": 2.0850296717597945,
+      "co2_capture": 1.1047838940588843
+    },
+    "low_module_eis": {
+      "pem": 0.0,
+      "meoh_synthesis": 0.2575856090253776,
+      "shipping": 0.24328389816973256,
+      "meoh_cracking": 0.8085317460317456,
+      "co2_capture": 0.0
+    },
+    "base_module_eis": {
+      "pem": 0.0,
+      "meoh_synthesis": 0.2575856090253776,
+      "shipping": 0.24328389816973256,
+      "meoh_cracking": 0.8085317460317456,
+      "co2_capture": 0.0
+    },
+    "high_module_eis": {
+      "pem": 0.0,
+      "meoh_synthesis": 0.2575856090253776,
+      "shipping": 0.24328389816973256,
+      "meoh_cracking": 0.8085317460317456,
+      "co2_capture": 0.0
+    },
+    "low_error": "",
+    "high_error": ""
+  },
+  {
+    "bound": {
+      "name": "Underground pipe storage - installed CAPEX [USD(2019)/kg H2 working]",
+      "group": "pem",
+      "field": "underground_pipe_capex_aud_per_kg",
+      "base": 1032.6491357541645,
+      "low": 951.5124179449087,
+      "high": 1110.097820935727
+    },
+    "low_cost": 22.163296532920466,
+    "base_cost": 22.182936660012153,
+    "high_cost": 22.201684054054216,
+    "low_ei": 1.3094012532268557,
+    "base_ei": 1.3094012532268557,
+    "high_ei": 1.3094012532268557,
+    "low_module_costs": {
+      "pem": 18.123216514801825,
+      "meoh_synthesis": 0.4838022656688826,
+      "shipping": 0.36646418663108166,
+      "meoh_cracking": 2.0850296717597945,
+      "co2_capture": 1.104783894058884
+    },
+    "base_module_costs": {
+      "pem": 18.142856641893513,
+      "meoh_synthesis": 0.4838022656688827,
+      "shipping": 0.36646418663108166,
+      "meoh_cracking": 2.0850296717597945,
+      "co2_capture": 1.1047838940588843
+    },
+    "high_module_costs": {
+      "pem": 18.161604035935575,
+      "meoh_synthesis": 0.4838022656688826,
+      "shipping": 0.36646418663108166,
+      "meoh_cracking": 2.0850296717597945,
+      "co2_capture": 1.1047838940588843
+    },
+    "low_module_eis": {
+      "pem": 0.0,
+      "meoh_synthesis": 0.2575856090253776,
+      "shipping": 0.24328389816973256,
+      "meoh_cracking": 0.8085317460317456,
+      "co2_capture": 0.0
+    },
+    "base_module_eis": {
+      "pem": 0.0,
+      "meoh_synthesis": 0.2575856090253776,
+      "shipping": 0.24328389816973256,
+      "meoh_cracking": 0.8085317460317456,
+      "co2_capture": 0.0
+    },
+    "high_module_eis": {
+      "pem": 0.0,
+      "meoh_synthesis": 0.2575856090253776,
+      "shipping": 0.24328389816973256,
+      "meoh_cracking": 0.8085317460317456,
+      "co2_capture": 0.0
+    },
+    "low_error": "",
+    "high_error": ""
+  },
+  {
+    "bound": {
+      "name": "Solar PV CAPEX [AUD/kW]",
+      "group": "pem",
+      "field": "solar_capex_aud_per_kw",
+      "base": 957.7934272300469,
+      "low": 683.843909334141,
+      "high": 1669.444242516028
+    },
+    "low_cost": 21.280755816866375,
+    "base_cost": 22.182936660012153,
+    "high_cost": 24.52657185780814,
+    "low_ei": 1.3094012532268557,
+    "base_ei": 1.3094012532268557,
+    "high_ei": 1.3094012532268557,
+    "low_module_costs": {
+      "pem": 17.25411934043697,
+      "meoh_synthesis": 0.47035872397964557,
+      "shipping": 0.36646418663108166,
+      "meoh_cracking": 2.0850296717597945,
+      "co2_capture": 1.1047838940588843
+    },
+    "base_module_costs": {
+      "pem": 18.142856641893513,
+      "meoh_synthesis": 0.4838022656688827,
+      "shipping": 0.36646418663108166,
+      "meoh_cracking": 2.0850296717597945,
+      "co2_capture": 1.1047838940588843
+    },
+    "high_module_costs": {
+      "pem": 20.45156895507573,
+      "meoh_synthesis": 0.5187251502826522,
+      "shipping": 0.36646418663108166,
+      "meoh_cracking": 2.0850296717597945,
+      "co2_capture": 1.1047838940588843
+    },
+    "low_module_eis": {
+      "pem": 0.0,
+      "meoh_synthesis": 0.2575856090253776,
+      "shipping": 0.24328389816973256,
+      "meoh_cracking": 0.8085317460317456,
+      "co2_capture": 0.0
+    },
+    "base_module_eis": {
+      "pem": 0.0,
+      "meoh_synthesis": 0.2575856090253776,
+      "shipping": 0.24328389816973256,
+      "meoh_cracking": 0.8085317460317456,
+      "co2_capture": 0.0
+    },
+    "high_module_eis": {
+      "pem": 0.0,
+      "meoh_synthesis": 0.2575856090253776,
+      "shipping": 0.24328389816973256,
+      "meoh_cracking": 0.8085317460317456,
+      "co2_capture": 0.0
+    },
+    "low_error": "",
+    "high_error": ""
+  },
+  {
+    "bound": {
+      "name": "Onshore wind CAPEX [AUD/kW]",
+      "group": "pem",
+      "field": "wind_capex_aud_per_kw",
+      "base": 2716.8377000353375,
+      "low": 2193.6559139784945,
+      "high": 3345.0677974657983
+    },
+    "low_cost": 21.059512180238734,
+    "base_cost": 22.182936660012153,
+    "high_cost": 23.531930621944795,
+    "low_ei": 1.3094012532268557,
+    "base_ei": 1.3094012532268557,
+    "high_ei": 1.3094012532268557,
+    "low_module_costs": {
+      "pem": 17.036172490784,
+      "meoh_synthesis": 0.4670619370049731,
+      "shipping": 0.36646418663108166,
+      "meoh_cracking": 2.0850296717597945,
+      "co2_capture": 1.104783894058884
+    },
+    "base_module_costs": {
+      "pem": 18.142856641893513,
+      "meoh_synthesis": 0.4838022656688827,
+      "shipping": 0.36646418663108166,
+      "meoh_cracking": 2.0850296717597945,
+      "co2_capture": 1.1047838940588843
+    },
+    "high_module_costs": {
+      "pem": 19.47174902806831,
+      "meoh_synthesis": 0.5039038414267266,
+      "shipping": 0.36646418663108166,
+      "meoh_cracking": 2.0850296717597945,
+      "co2_capture": 1.1047838940588843
+    },
+    "low_module_eis": {
+      "pem": 0.0,
+      "meoh_synthesis": 0.2575856090253776,
+      "shipping": 0.24328389816973256,
+      "meoh_cracking": 0.8085317460317456,
+      "co2_capture": 0.0
+    },
+    "base_module_eis": {
+      "pem": 0.0,
+      "meoh_synthesis": 0.2575856090253776,
+      "shipping": 0.24328389816973256,
+      "meoh_cracking": 0.8085317460317456,
+      "co2_capture": 0.0
+    },
+    "high_module_eis": {
+      "pem": 0.0,
+      "meoh_synthesis": 0.2575856090253776,
+      "shipping": 0.24328389816973256,
+      "meoh_cracking": 0.8085317460317456,
+      "co2_capture": 0.0
+    },
+    "low_error": "",
+    "high_error": ""
+  },
+  {
+    "bound": {
+      "name": "O&M Solar [AUD/MW/yr]",
+      "group": "pem",
+      "field": "solar_opex_aud_per_mw_per_yr",
+      "base": 12358.624867484476,
+      "low": 10298.854056237064,
+      "high": 20597.708112474127
+    },
+    "low_cost": 22.11659929505809,
+    "base_cost": 22.182936660012153,
+    "high_cost": 22.4482861198284,
+    "low_ei": 1.3094012532268557,
+    "base_ei": 1.3094012532268557,
+    "high_ei": 1.3094012532268557,
+    "low_module_costs": {
+      "pem": 18.077507780672473,
+      "meoh_synthesis": 0.4828137619358567,
+      "shipping": 0.36646418663108166,
+      "meoh_cracking": 2.0850296717597945,
+      "co2_capture": 1.104783894058884
+    },
+    "base_module_costs": {
+      "pem": 18.142856641893513,
+      "meoh_synthesis": 0.4838022656688827,
+      "shipping": 0.36646418663108166,
+      "meoh_cracking": 2.0850296717597945,
+      "co2_capture": 1.1047838940588843
+    },
+    "high_module_costs": {
+      "pem": 18.404252086777653,
+      "meoh_synthesis": 0.4877562806009861,
+      "shipping": 0.36646418663108166,
+      "meoh_cracking": 2.0850296717597945,
+      "co2_capture": 1.1047838940588843
+    },
+    "low_module_eis": {
+      "pem": 0.0,
+      "meoh_synthesis": 0.2575856090253776,
+      "shipping": 0.24328389816973256,
+      "meoh_cracking": 0.8085317460317456,
+      "co2_capture": 0.0
+    },
+    "base_module_eis": {
+      "pem": 0.0,
+      "meoh_synthesis": 0.2575856090253776,
+      "shipping": 0.24328389816973256,
+      "meoh_cracking": 0.8085317460317456,
+      "co2_capture": 0.0
+    },
+    "high_module_eis": {
+      "pem": 0.0,
+      "meoh_synthesis": 0.2575856090253776,
+      "shipping": 0.24328389816973256,
+      "meoh_cracking": 0.8085317460317456,
+      "co2_capture": 0.0
+    },
+    "low_error": "",
+    "high_error": ""
+  },
+  {
+    "bound": {
+      "name": "O&M Wind [AUD/MW/yr]",
+      "group": "pem",
+      "field": "wind_opex_aud_per_mw_per_yr",
+      "base": 29866.676763087486,
+      "low": 20597.708112474127,
+      "high": 41195.416224948254
+    },
+    "low_cost": 21.99731397657281,
+    "base_cost": 22.182936660012153,
+    "high_cost": 22.40980882866024,
+    "low_ei": 1.3094012532268557,
+    "base_ei": 1.3094012532268557,
+    "high_ei": 1.3094012532268557,
+    "low_module_costs": {
+      "pem": 17.959999951882473,
+      "meoh_synthesis": 0.48103627224057655,
+      "shipping": 0.36646418663108166,
+      "meoh_cracking": 2.0850296717597945,
+      "co2_capture": 1.1047838940588843
+    },
+    "base_module_costs": {
+      "pem": 18.142856641893513,
+      "meoh_synthesis": 0.4838022656688827,
+      "shipping": 0.36646418663108166,
+      "meoh_cracking": 2.0850296717597945,
+      "co2_capture": 1.1047838940588843
+    },
+    "high_module_costs": {
+      "pem": 18.366348151907,
+      "meoh_synthesis": 0.4871829243034789,
+      "shipping": 0.36646418663108166,
+      "meoh_cracking": 2.0850296717597945,
+      "co2_capture": 1.1047838940588843
+    },
+    "low_module_eis": {
+      "pem": 0.0,
+      "meoh_synthesis": 0.2575856090253776,
+      "shipping": 0.24328389816973256,
+      "meoh_cracking": 0.8085317460317456,
+      "co2_capture": 0.0
+    },
+    "base_module_eis": {
+      "pem": 0.0,
+      "meoh_synthesis": 0.2575856090253776,
+      "shipping": 0.24328389816973256,
+      "meoh_cracking": 0.8085317460317456,
+      "co2_capture": 0.0
+    },
+    "high_module_eis": {
+      "pem": 0.0,
+      "meoh_synthesis": 0.2575856090253776,
+      "shipping": 0.24328389816973256,
+      "meoh_cracking": 0.8085317460317456,
+      "co2_capture": 0.0
+    },
+    "low_error": "",
+    "high_error": ""
+  },
+  {
+    "bound": {
+      "name": "Transmission losses [%/km]",
+      "group": "pem",
+      "field": "transmission_losses_percent",
+      "base": 0.004,
+      "low": 0.003,
+      "high": 0.01
+    },
+    "low_cost": 22.182936660012153,
+    "base_cost": 22.182936660012153,
+    "high_cost": 22.182929056673093,
+    "low_ei": 1.3094012532268557,
+    "base_ei": 1.3094012532268557,
+    "high_ei": 1.3094062402168722,
+    "low_module_costs": {
+      "pem": 18.14285657350418,
+      "meoh_synthesis": 0.48380233405821554,
+      "shipping": 0.36646418663108166,
+      "meoh_cracking": 2.0850296717597945,
+      "co2_capture": 1.1047838940588843
+    },
+    "base_module_costs": {
+      "pem": 18.142856641893513,
+      "meoh_synthesis": 0.4838022656688827,
+      "shipping": 0.36646418663108166,
+      "meoh_cracking": 2.0850296717597945,
+      "co2_capture": 1.1047838940588843
+    },
+    "high_module_costs": {
+      "pem": 18.142846187022478,
+      "meoh_synthesis": 0.4838022816699299,
+      "shipping": 0.36646418663108166,
+      "meoh_cracking": 2.0850296717597945,
+      "co2_capture": 1.1047867295898104
+    },
+    "low_module_eis": {
+      "pem": 0.0,
+      "meoh_synthesis": 0.2575856090253776,
+      "shipping": 0.24328389816973256,
+      "meoh_cracking": 0.8085317460317456,
+      "co2_capture": 0.0
+    },
+    "base_module_eis": {
+      "pem": 0.0,
+      "meoh_synthesis": 0.2575856090253776,
+      "shipping": 0.24328389816973256,
+      "meoh_cracking": 0.8085317460317456,
+      "co2_capture": 0.0
+    },
+    "high_module_eis": {
+      "pem": 0.0,
+      "meoh_synthesis": 0.2575857586350781,
+      "shipping": 0.24328873555004857,
+      "meoh_cracking": 0.8085317460317456,
+      "co2_capture": 0.0
+    },
+    "low_error": "",
+    "high_error": ""
+  },
+  {
+    "bound": {
+      "name": "Transmission line CAPEX [A$/km]",
+      "group": "pem",
+      "field": "transmission_capex_aud_per_km",
+      "base": 1154762.701801012,
+      "low": 346082.7278124911,
+      "high": 2307218.1854166077
+    },
+    "low_cost": 22.139470773883044,
+    "base_cost": 22.182936660012153,
+    "high_cost": 22.24488019816191,
+    "low_ei": 1.3094012532268557,
+    "base_ei": 1.3094012532268557,
+    "high_ei": 1.3094012532268557,
+    "low_module_costs": {
+      "pem": 18.100038447916894,
+      "meoh_synthesis": 0.4831545735163883,
+      "shipping": 0.36646418663108166,
+      "meoh_cracking": 2.0850296717597945,
+      "co2_capture": 1.104783894058884
+    },
+    "base_module_costs": {
+      "pem": 18.142856641893513,
+      "meoh_synthesis": 0.4838022656688827,
+      "shipping": 0.36646418663108166,
+      "meoh_cracking": 2.0850296717597945,
+      "co2_capture": 1.1047838940588843
+    },
+    "high_module_costs": {
+      "pem": 18.20387714942937,
+      "meoh_synthesis": 0.48472529628277977,
+      "shipping": 0.36646418663108166,
+      "meoh_cracking": 2.0850296717597945,
+      "co2_capture": 1.1047838940588843
+    },
+    "low_module_eis": {
+      "pem": 0.0,
+      "meoh_synthesis": 0.2575856090253776,
+      "shipping": 0.24328389816973256,
+      "meoh_cracking": 0.8085317460317456,
+      "co2_capture": 0.0
+    },
+    "base_module_eis": {
+      "pem": 0.0,
+      "meoh_synthesis": 0.2575856090253776,
+      "shipping": 0.24328389816973256,
+      "meoh_cracking": 0.8085317460317456,
+      "co2_capture": 0.0
+    },
+    "high_module_eis": {
+      "pem": 0.0,
+      "meoh_synthesis": 0.2575856090253776,
+      "shipping": 0.24328389816973256,
+      "meoh_cracking": 0.8085317460317456,
+      "co2_capture": 0.0
+    },
+    "low_error": "",
+    "high_error": ""
+  },
+  {
+    "bound": {
+      "name": "Transmission O&M [% CAPEX/yr]",
+      "group": "pem",
+      "field": "transmission_opex",
+      "base": 1.0,
+      "low": 0.5,
+      "high": 3.0
+    },
+    "low_cost": 22.18016212610307,
+    "base_cost": 22.182936660012153,
+    "high_cost": 22.194034795648484,
+    "low_ei": 1.3094012532268557,
+    "base_ei": 1.3094012532268557,
+    "high_ei": 1.3094012532268557,
+    "low_module_costs": {
+      "pem": 18.14012345175997,
+      "meoh_synthesis": 0.48376092189334313,
+      "shipping": 0.36646418663108166,
+      "meoh_cracking": 2.0850296717597945,
+      "co2_capture": 1.104783894058884
+    },
+    "base_module_costs": {
+      "pem": 18.142856641893513,
+      "meoh_synthesis": 0.4838022656688827,
+      "shipping": 0.36646418663108166,
+      "meoh_cracking": 2.0850296717597945,
+      "co2_capture": 1.1047838940588843
+    },
+    "high_module_costs": {
+      "pem": 18.153789402427684,
+      "meoh_synthesis": 0.48396764077104015,
+      "shipping": 0.36646418663108166,
+      "meoh_cracking": 2.0850296717597945,
+      "co2_capture": 1.104783894058884
+    },
+    "low_module_eis": {
+      "pem": 0.0,
+      "meoh_synthesis": 0.2575856090253776,
+      "shipping": 0.24328389816973256,
+      "meoh_cracking": 0.8085317460317456,
+      "co2_capture": 0.0
+    },
+    "base_module_eis": {
+      "pem": 0.0,
+      "meoh_synthesis": 0.2575856090253776,
+      "shipping": 0.24328389816973256,
+      "meoh_cracking": 0.8085317460317456,
+      "co2_capture": 0.0
+    },
+    "high_module_eis": {
+      "pem": 0.0,
+      "meoh_synthesis": 0.2575856090253776,
+      "shipping": 0.24328389816973256,
+      "meoh_cracking": 0.8085317460317456,
+      "co2_capture": 0.0
+    },
+    "low_error": "",
+    "high_error": ""
+  },
+  {
+    "bound": {
+      "name": "Solar PV economic life [years]",
+      "group": "pem",
+      "field": "solar_life_years",
+      "base": 30.0,
+      "low": 25.0,
+      "high": 35.0
+    },
+    "low_cost": 22.35520680496732,
+    "base_cost": 22.182936660012153,
+    "high_cost": 22.07554913536776,
+    "low_ei": 1.3094012532268557,
+    "base_ei": 1.3094012532268557,
+    "high_ei": 1.3094012532268557,
+    "low_module_costs": {
+      "pem": 18.312559761741564,
+      "meoh_synthesis": 0.48636929077600016,
+      "shipping": 0.36646418663108166,
+      "meoh_cracking": 2.0850296717597945,
+      "co2_capture": 1.1047838940588843
+    },
+    "base_module_costs": {
+      "pem": 18.142856641893513,
+      "meoh_synthesis": 0.4838022656688827,
+      "shipping": 0.36646418663108166,
+      "meoh_cracking": 2.0850296717597945,
+      "co2_capture": 1.1047838940588843
+    },
+    "high_module_costs": {
+      "pem": 18.03706931600686,
+      "meoh_synthesis": 0.48220206691114015,
+      "shipping": 0.36646418663108166,
+      "meoh_cracking": 2.0850296717597945,
+      "co2_capture": 1.1047838940588843
+    },
+    "low_module_eis": {
+      "pem": 0.0,
+      "meoh_synthesis": 0.2575856090253776,
+      "shipping": 0.24328389816973256,
+      "meoh_cracking": 0.8085317460317456,
+      "co2_capture": 0.0
+    },
+    "base_module_eis": {
+      "pem": 0.0,
+      "meoh_synthesis": 0.2575856090253776,
+      "shipping": 0.24328389816973256,
+      "meoh_cracking": 0.8085317460317456,
+      "co2_capture": 0.0
+    },
+    "high_module_eis": {
+      "pem": 0.0,
+      "meoh_synthesis": 0.2575856090253776,
+      "shipping": 0.24328389816973256,
+      "meoh_cracking": 0.8085317460317456,
+      "co2_capture": 0.0
+    },
+    "low_error": "",
+    "high_error": ""
+  },
+  {
+    "bound": {
+      "name": "Onshore wind economic life [years]",
+      "group": "pem",
+      "field": "wind_life_years",
+      "base": 25.0,
+      "low": 20.0,
+      "high": 30.0
+    },
+    "low_cost": 22.691937003682096,
+    "base_cost": 22.182936660012153,
+    "high_cost": 21.880819105971604,
+    "low_ei": 1.3094012532268557,
+    "base_ei": 1.3094012532268557,
+    "high_ei": 1.3094012532268557,
+    "low_module_costs": {
+      "pem": 18.644272289665786,
+      "meoh_synthesis": 0.49138696156655104,
+      "shipping": 0.36646418663108166,
+      "meoh_cracking": 2.0850296717597945,
+      "co2_capture": 1.104783894058884
+    },
+    "base_module_costs": {
+      "pem": 18.142856641893513,
+      "meoh_synthesis": 0.4838022656688827,
+      "shipping": 0.36646418663108166,
+      "meoh_cracking": 2.0850296717597945,
+      "co2_capture": 1.1047838940588843
+    },
+    "high_module_costs": {
+      "pem": 17.845240990064312,
+      "meoh_synthesis": 0.47930036345753396,
+      "shipping": 0.36646418663108166,
+      "meoh_cracking": 2.0850296717597945,
+      "co2_capture": 1.1047838940588843
+    },
+    "low_module_eis": {
+      "pem": 0.0,
+      "meoh_synthesis": 0.2575856090253776,
+      "shipping": 0.24328389816973256,
+      "meoh_cracking": 0.8085317460317456,
+      "co2_capture": 0.0
+    },
+    "base_module_eis": {
+      "pem": 0.0,
+      "meoh_synthesis": 0.2575856090253776,
+      "shipping": 0.24328389816973256,
+      "meoh_cracking": 0.8085317460317456,
+      "co2_capture": 0.0
+    },
+    "high_module_eis": {
+      "pem": 0.0,
+      "meoh_synthesis": 0.2575856090253776,
+      "shipping": 0.24328389816973256,
+      "meoh_cracking": 0.8085317460317456,
+      "co2_capture": 0.0
+    },
+    "low_error": "",
+    "high_error": ""
+  },
+  {
+    "bound": {
+      "name": "Offshore wind (fixed) CAPEX [AUD/kW]",
+      "group": "pem",
+      "field": "offshore_wind_capex_aud_per_kw",
+      "base": 5466.631733050634,
+      "low": 4588.139482053612,
+      "high": 5595.3674087535965
+    },
+    "low_cost": 22.103536849397116,
+    "base_cost": 22.182936660012153,
+    "high_cost": 22.19457203671424,
+    "low_ei": 1.3094012532268557,
+    "base_ei": 1.3094012532268557,
+    "high_ei": 1.3094012532268557,
+    "low_module_costs": {
+      "pem": 18.064639980612924,
+      "meoh_synthesis": 0.48261911633443344,
+      "shipping": 0.36646418663108166,
+      "meoh_cracking": 2.0850296717597945,
+      "co2_capture": 1.1047838940588843
+    },
+    "base_module_costs": {
+      "pem": 18.142856641893513,
+      "meoh_synthesis": 0.4838022656688827,
+      "shipping": 0.36646418663108166,
+      "meoh_cracking": 2.0850296717597945,
+      "co2_capture": 1.1047838940588843
+    },
+    "high_module_costs": {
+      "pem": 18.154318637978008,
+      "meoh_synthesis": 0.4839756462864748,
+      "shipping": 0.36646418663108166,
+      "meoh_cracking": 2.0850296717597945,
+      "co2_capture": 1.1047838940588843
+    },
+    "low_module_eis": {
+      "pem": 0.0,
+      "meoh_synthesis": 0.2575856090253776,
+      "shipping": 0.24328389816973256,
+      "meoh_cracking": 0.8085317460317456,
+      "co2_capture": 0.0
+    },
+    "base_module_eis": {
+      "pem": 0.0,
+      "meoh_synthesis": 0.2575856090253776,
+      "shipping": 0.24328389816973256,
+      "meoh_cracking": 0.8085317460317456,
+      "co2_capture": 0.0
+    },
+    "high_module_eis": {
+      "pem": 0.0,
+      "meoh_synthesis": 0.2575856090253776,
+      "shipping": 0.24328389816973256,
+      "meoh_cracking": 0.8085317460317456,
+      "co2_capture": 0.0
+    },
+    "low_error": "",
+    "high_error": ""
+  },
+  {
+    "bound": {
+      "name": "O&M Offshore wind (fixed) [AUD/MW/year]",
+      "group": "pem",
+      "field": "offshore_wind_opex_aud_per_mw_per_yr",
+      "base": 180229.9459841486,
+      "low": 135172.45948811146,
+      "high": 225287.43248018576
+    },
+    "low_cost": 22.137090667502434,
+    "base_cost": 22.182936660012153,
+    "high_cost": 22.228782652521872,
+    "low_ei": 1.3094012532268557,
+    "base_ei": 1.3094012532268557,
+    "high_ei": 1.3094012532268557,
+    "low_module_costs": {
+      "pem": 18.097693807883857,
+      "meoh_synthesis": 0.48311910716881973,
+      "shipping": 0.36646418663108166,
+      "meoh_cracking": 2.0850296717597945,
+      "co2_capture": 1.1047838940588843
+    },
+    "base_module_costs": {
+      "pem": 18.142856641893513,
+      "meoh_synthesis": 0.4838022656688827,
+      "shipping": 0.36646418663108166,
+      "meoh_cracking": 2.0850296717597945,
+      "co2_capture": 1.1047838940588843
+    },
+    "high_module_costs": {
+      "pem": 18.188019475903168,
+      "meoh_synthesis": 0.48448542416894536,
+      "shipping": 0.36646418663108166,
+      "meoh_cracking": 2.0850296717597945,
+      "co2_capture": 1.1047838940588843
+    },
+    "low_module_eis": {
+      "pem": 0.0,
+      "meoh_synthesis": 0.2575856090253776,
+      "shipping": 0.24328389816973256,
+      "meoh_cracking": 0.8085317460317456,
+      "co2_capture": 0.0
+    },
+    "base_module_eis": {
+      "pem": 0.0,
+      "meoh_synthesis": 0.2575856090253776,
+      "shipping": 0.24328389816973256,
+      "meoh_cracking": 0.8085317460317456,
+      "co2_capture": 0.0
+    },
+    "high_module_eis": {
+      "pem": 0.0,
+      "meoh_synthesis": 0.2575856090253776,
+      "shipping": 0.24328389816973256,
+      "meoh_cracking": 0.8085317460317456,
+      "co2_capture": 0.0
+    },
+    "low_error": "",
+    "high_error": ""
+  },
+  {
+    "bound": {
+      "name": "Offshore wind economic life [years]",
+      "group": "pem",
+      "field": "offshore_wind_life_years",
+      "base": 30.0,
+      "low": 25.0,
+      "high": 35.0
+    },
+    "low_cost": 22.209921289273556,
+    "base_cost": 22.182936660012153,
+    "high_cost": 22.16611533243631,
+    "low_ei": 1.3094012532268557,
+    "base_ei": 1.3094012532268557,
+    "high_ei": 1.3094012532268557,
+    "low_module_costs": {
+      "pem": 18.169439168858904,
+      "meoh_synthesis": 0.48420436796489164,
+      "shipping": 0.36646418663108166,
+      "meoh_cracking": 2.0850296717597945,
+      "co2_capture": 1.1047838940588843
+    },
+    "base_module_costs": {
+      "pem": 18.142856641893513,
+      "meoh_synthesis": 0.4838022656688827,
+      "shipping": 0.36646418663108166,
+      "meoh_cracking": 2.0850296717597945,
+      "co2_capture": 1.1047838940588843
+    },
+    "high_module_costs": {
+      "pem": 18.126285971622412,
+      "meoh_synthesis": 0.48355160836413913,
+      "shipping": 0.36646418663108166,
+      "meoh_cracking": 2.0850296717597945,
+      "co2_capture": 1.104783894058884
+    },
+    "low_module_eis": {
+      "pem": 0.0,
+      "meoh_synthesis": 0.2575856090253776,
+      "shipping": 0.24328389816973256,
+      "meoh_cracking": 0.8085317460317456,
+      "co2_capture": 0.0
+    },
+    "base_module_eis": {
+      "pem": 0.0,
+      "meoh_synthesis": 0.2575856090253776,
+      "shipping": 0.24328389816973256,
+      "meoh_cracking": 0.8085317460317456,
+      "co2_capture": 0.0
+    },
+    "high_module_eis": {
+      "pem": 0.0,
+      "meoh_synthesis": 0.2575856090253776,
+      "shipping": 0.24328389816973256,
+      "meoh_cracking": 0.8085317460317456,
+      "co2_capture": 0.0
+    },
+    "low_error": "",
+    "high_error": ""
+  },
+  {
+    "bound": {
+      "name": "Round trip efficiency [%]",
+      "group": "pem",
+      "field": "battery_round_trip_efficiency_percent",
+      "base": 85.0,
+      "low": 84.0,
+      "high": 95.0
+    },
+    "low_cost": 22.182936660012153,
+    "base_cost": 22.182936660012153,
+    "high_cost": 22.18293666001215,
+    "low_ei": 1.3094012532268557,
+    "base_ei": 1.3094012532268557,
+    "high_ei": 1.3094012532268557,
+    "low_module_costs": {
+      "pem": 18.14286064689696,
+      "meoh_synthesis": 0.48379826066543624,
+      "shipping": 0.36646418663108166,
+      "meoh_cracking": 2.0850296717597945,
+      "co2_capture": 1.1047838940588843
+    },
+    "base_module_costs": {
+      "pem": 18.142856641893513,
+      "meoh_synthesis": 0.4838022656688827,
+      "shipping": 0.36646418663108166,
+      "meoh_cracking": 2.0850296717597945,
+      "co2_capture": 1.1047838940588843
+    },
+    "high_module_costs": {
+      "pem": 18.14281508328617,
+      "meoh_synthesis": 0.4838438242762209,
+      "shipping": 0.36646418663108166,
+      "meoh_cracking": 2.0850296717597945,
+      "co2_capture": 1.104783894058884
+    },
+    "low_module_eis": {
+      "pem": 0.0,
+      "meoh_synthesis": 0.2575856090253776,
+      "shipping": 0.24328389816973256,
+      "meoh_cracking": 0.8085317460317456,
+      "co2_capture": 0.0
+    },
+    "base_module_eis": {
+      "pem": 0.0,
+      "meoh_synthesis": 0.2575856090253776,
+      "shipping": 0.24328389816973256,
+      "meoh_cracking": 0.8085317460317456,
+      "co2_capture": 0.0
+    },
+    "high_module_eis": {
+      "pem": 0.0,
+      "meoh_synthesis": 0.2575856090253776,
+      "shipping": 0.24328389816973256,
+      "meoh_cracking": 0.8085317460317456,
+      "co2_capture": 0.0
+    },
+    "low_error": "",
+    "high_error": ""
+  },
+  {
+    "bound": {
+      "name": "Storage Lifetime [yrs]",
+      "group": "pem",
+      "field": "battery_life_years",
+      "base": 15.0,
+      "low": 10.0,
+      "high": 20.0
+    },
+    "low_cost": 22.665256331191777,
+    "base_cost": 22.182936660012153,
+    "high_cost": 21.95859267100672,
+    "low_ei": 1.3094012532268557,
+    "base_ei": 1.3094012532268557,
+    "high_ei": 1.3094012532268557,
+    "low_module_costs": {
+      "pem": 18.625176313073137,
+      "meoh_synthesis": 0.4838022656688827,
+      "shipping": 0.36646418663108166,
+      "meoh_cracking": 2.0850296717597945,
+      "co2_capture": 1.1047838940588843
+    },
+    "base_module_costs": {
+      "pem": 18.142856641893513,
+      "meoh_synthesis": 0.4838022656688827,
+      "shipping": 0.36646418663108166,
+      "meoh_cracking": 2.0850296717597945,
+      "co2_capture": 1.1047838940588843
+    },
+    "high_module_costs": {
+      "pem": 17.91851265288808,
+      "meoh_synthesis": 0.4838022656688827,
+      "shipping": 0.36646418663108166,
+      "meoh_cracking": 2.0850296717597945,
+      "co2_capture": 1.1047838940588843
+    },
+    "low_module_eis": {
+      "pem": 0.0,
+      "meoh_synthesis": 0.2575856090253776,
+      "shipping": 0.24328389816973256,
+      "meoh_cracking": 0.8085317460317456,
+      "co2_capture": 0.0
+    },
+    "base_module_eis": {
+      "pem": 0.0,
+      "meoh_synthesis": 0.2575856090253776,
+      "shipping": 0.24328389816973256,
+      "meoh_cracking": 0.8085317460317456,
+      "co2_capture": 0.0
+    },
+    "high_module_eis": {
+      "pem": 0.0,
+      "meoh_synthesis": 0.2575856090253776,
+      "shipping": 0.24328389816973256,
+      "meoh_cracking": 0.8085317460317456,
+      "co2_capture": 0.0
+    },
+    "low_error": "",
+    "high_error": ""
+  },
+  {
+    "bound": {
+      "name": "Battery CAPEX (4 h) [AUD/kWh]",
+      "group": "pem",
+      "field": "battery_capex_aud_per_kwh",
+      "base": 303.81619465899337,
+      "low": 226.57478923721538,
+      "high": 396.50588116512694
+    },
+    "low_cost": 21.64282218253606,
+    "base_cost": 22.182936660012153,
+    "high_cost": 22.831074032983462,
+    "low_ei": 1.3094012532268557,
+    "base_ei": 1.3094012532268557,
+    "high_ei": 1.3094012532268557,
+    "low_module_costs": {
+      "pem": 17.602742164417418,
+      "meoh_synthesis": 0.4838022656688826,
+      "shipping": 0.36646418663108166,
+      "meoh_cracking": 2.0850296717597945,
+      "co2_capture": 1.1047838940588843
+    },
+    "base_module_costs": {
+      "pem": 18.142856641893513,
+      "meoh_synthesis": 0.4838022656688827,
+      "shipping": 0.36646418663108166,
+      "meoh_cracking": 2.0850296717597945,
+      "co2_capture": 1.1047838940588843
+    },
+    "high_module_costs": {
+      "pem": 18.79099401486482,
+      "meoh_synthesis": 0.48380226566888274,
+      "shipping": 0.36646418663108166,
+      "meoh_cracking": 2.0850296717597945,
+      "co2_capture": 1.1047838940588843
+    },
+    "low_module_eis": {
+      "pem": 0.0,
+      "meoh_synthesis": 0.2575856090253776,
+      "shipping": 0.24328389816973256,
+      "meoh_cracking": 0.8085317460317456,
+      "co2_capture": 0.0
+    },
+    "base_module_eis": {
+      "pem": 0.0,
+      "meoh_synthesis": 0.2575856090253776,
+      "shipping": 0.24328389816973256,
+      "meoh_cracking": 0.8085317460317456,
+      "co2_capture": 0.0
+    },
+    "high_module_eis": {
+      "pem": 0.0,
+      "meoh_synthesis": 0.2575856090253776,
+      "shipping": 0.24328389816973256,
+      "meoh_cracking": 0.8085317460317456,
+      "co2_capture": 0.0
+    },
+    "low_error": "",
+    "high_error": ""
+  },
+  {
+    "bound": {
+      "name": "Battery fixed O&M [%/year]",
+      "group": "pem",
+      "field": "battery_opex_percent_capex_per_year",
+      "base": 2.5,
+      "low": 1.5,
+      "high": 3.5
+    },
+    "low_cost": 22.033147680640404,
+    "base_cost": 22.182936660012153,
+    "high_cost": 22.332725639383902,
+    "low_ei": 1.3094012532268557,
+    "base_ei": 1.3094012532268557,
+    "high_ei": 1.3094012532268557,
+    "low_module_costs": {
+      "pem": 17.99306766252176,
+      "meoh_synthesis": 0.4838022656688827,
+      "shipping": 0.36646418663108166,
+      "meoh_cracking": 2.0850296717597945,
+      "co2_capture": 1.1047838940588843
+    },
+    "base_module_costs": {
+      "pem": 18.142856641893513,
+      "meoh_synthesis": 0.4838022656688827,
+      "shipping": 0.36646418663108166,
+      "meoh_cracking": 2.0850296717597945,
+      "co2_capture": 1.1047838940588843
+    },
+    "high_module_costs": {
+      "pem": 18.29264562126526,
+      "meoh_synthesis": 0.4838022656688827,
+      "shipping": 0.36646418663108166,
+      "meoh_cracking": 2.0850296717597945,
+      "co2_capture": 1.1047838940588843
+    },
+    "low_module_eis": {
+      "pem": 0.0,
+      "meoh_synthesis": 0.2575856090253776,
+      "shipping": 0.24328389816973256,
+      "meoh_cracking": 0.8085317460317456,
+      "co2_capture": 0.0
+    },
+    "base_module_eis": {
+      "pem": 0.0,
+      "meoh_synthesis": 0.2575856090253776,
+      "shipping": 0.24328389816973256,
+      "meoh_cracking": 0.8085317460317456,
+      "co2_capture": 0.0
+    },
+    "high_module_eis": {
+      "pem": 0.0,
+      "meoh_synthesis": 0.2575856090253776,
+      "shipping": 0.24328389816973256,
+      "meoh_cracking": 0.8085317460317456,
+      "co2_capture": 0.0
+    },
+    "low_error": "",
+    "high_error": ""
+  },
+  {
+    "bound": {
+      "name": "CAPEX scaling exponent [fraction]",
+      "group": "synth",
+      "field": "capex_scaling_exponent",
+      "base": 0.6,
+      "low": 0.5,
+      "high": 0.7
+    },
+    "low_cost": 22.16199543190706,
+    "base_cost": 22.182936660012153,
+    "high_cost": 22.20549068827568,
+    "low_ei": 1.3094012532268557,
+    "base_ei": 1.3094012532268557,
+    "high_ei": 1.3094012532268557,
+    "low_module_costs": {
+      "pem": 18.142856641893513,
+      "meoh_synthesis": 0.4628610375637878,
+      "shipping": 0.36646418663108166,
+      "meoh_cracking": 2.0850296717597945,
+      "co2_capture": 1.104783894058884
+    },
+    "base_module_costs": {
+      "pem": 18.142856641893513,
+      "meoh_synthesis": 0.4838022656688827,
+      "shipping": 0.36646418663108166,
+      "meoh_cracking": 2.0850296717597945,
+      "co2_capture": 1.1047838940588843
+    },
+    "high_module_costs": {
+      "pem": 18.142856641893513,
+      "meoh_synthesis": 0.5063562939324096,
+      "shipping": 0.36646418663108166,
+      "meoh_cracking": 2.0850296717597945,
+      "co2_capture": 1.1047838940588843
+    },
+    "low_module_eis": {
+      "pem": 0.0,
+      "meoh_synthesis": 0.2575856090253776,
+      "shipping": 0.24328389816973256,
+      "meoh_cracking": 0.8085317460317456,
+      "co2_capture": 0.0
+    },
+    "base_module_eis": {
+      "pem": 0.0,
+      "meoh_synthesis": 0.2575856090253776,
+      "shipping": 0.24328389816973256,
+      "meoh_cracking": 0.8085317460317456,
+      "co2_capture": 0.0
+    },
+    "high_module_eis": {
+      "pem": 0.0,
+      "meoh_synthesis": 0.2575856090253776,
+      "shipping": 0.24328389816973256,
+      "meoh_cracking": 0.8085317460317456,
+      "co2_capture": 0.0
+    },
+    "low_error": "",
+    "high_error": ""
+  },
+  {
+    "bound": {
+      "name": "Fixed O&M (FOM) [% CAPEX/yr]",
+      "group": "synth",
+      "field": "fom_percent_capex_per_year",
+      "base": 4.0,
+      "low": 2.5,
+      "high": 4.0
+    },
+    "low_cost": 22.151969536472595,
+    "base_cost": 22.182936660012153,
+    "high_cost": 22.182936660012153,
+    "low_ei": 1.3094012532268557,
+    "base_ei": 1.3094012532268557,
+    "high_ei": 1.3094012532268557,
+    "low_module_costs": {
+      "pem": 18.142856641893513,
+      "meoh_synthesis": 0.4528351421293248,
+      "shipping": 0.36646418663108166,
+      "meoh_cracking": 2.0850296717597945,
+      "co2_capture": 1.104783894058884
+    },
+    "base_module_costs": {
+      "pem": 18.142856641893513,
+      "meoh_synthesis": 0.4838022656688827,
+      "shipping": 0.36646418663108166,
+      "meoh_cracking": 2.0850296717597945,
+      "co2_capture": 1.1047838940588843
+    },
+    "high_module_costs": {
+      "pem": 18.142856641893513,
+      "meoh_synthesis": 0.4838022656688827,
+      "shipping": 0.36646418663108166,
+      "meoh_cracking": 2.0850296717597945,
+      "co2_capture": 1.1047838940588843
+    },
+    "low_module_eis": {
+      "pem": 0.0,
+      "meoh_synthesis": 0.2575856090253776,
+      "shipping": 0.24328389816973256,
+      "meoh_cracking": 0.8085317460317456,
+      "co2_capture": 0.0
+    },
+    "base_module_eis": {
+      "pem": 0.0,
+      "meoh_synthesis": 0.2575856090253776,
+      "shipping": 0.24328389816973256,
+      "meoh_cracking": 0.8085317460317456,
+      "co2_capture": 0.0
+    },
+    "high_module_eis": {
+      "pem": 0.0,
+      "meoh_synthesis": 0.2575856090253776,
+      "shipping": 0.24328389816973256,
+      "meoh_cracking": 0.8085317460317456,
+      "co2_capture": 0.0
+    },
+    "low_error": "",
+    "high_error": ""
+  },
+  {
+    "bound": {
+      "name": "Variable O&M (Utilities) [AUD/t MeOH]",
+      "group": "synth",
+      "field": "vom_aud_per_t",
+      "base": 4.0,
+      "low": 1.5,
+      "high": 6.0
+    },
+    "low_cost": 22.167777318684692,
+    "base_cost": 22.182936660012153,
+    "high_cost": 22.195064133074126,
+    "low_ei": 1.3094012532268557,
+    "base_ei": 1.3094012532268557,
+    "high_ei": 1.3094012532268557,
+    "low_module_costs": {
+      "pem": 18.142856641893513,
+      "meoh_synthesis": 0.46864292434142035,
+      "shipping": 0.36646418663108166,
+      "meoh_cracking": 2.0850296717597945,
+      "co2_capture": 1.1047838940588843
+    },
+    "base_module_costs": {
+      "pem": 18.142856641893513,
+      "meoh_synthesis": 0.4838022656688827,
+      "shipping": 0.36646418663108166,
+      "meoh_cracking": 2.0850296717597945,
+      "co2_capture": 1.1047838940588843
+    },
+    "high_module_costs": {
+      "pem": 18.142856641893513,
+      "meoh_synthesis": 0.4959297387308527,
+      "shipping": 0.36646418663108166,
+      "meoh_cracking": 2.0850296717597945,
+      "co2_capture": 1.1047838940588843
+    },
+    "low_module_eis": {
+      "pem": 0.0,
+      "meoh_synthesis": 0.2575856090253776,
+      "shipping": 0.24328389816973256,
+      "meoh_cracking": 0.8085317460317456,
+      "co2_capture": 0.0
+    },
+    "base_module_eis": {
+      "pem": 0.0,
+      "meoh_synthesis": 0.2575856090253776,
+      "shipping": 0.24328389816973256,
+      "meoh_cracking": 0.8085317460317456,
+      "co2_capture": 0.0
+    },
+    "high_module_eis": {
+      "pem": 0.0,
+      "meoh_synthesis": 0.2575856090253776,
+      "shipping": 0.24328389816973256,
+      "meoh_cracking": 0.8085317460317456,
+      "co2_capture": 0.0
+    },
+    "low_error": "",
+    "high_error": ""
+  },
+  {
+    "bound": {
+      "name": "Catalyst cost [AUD/t catalyst]",
+      "group": "synth",
+      "field": "catalyst_cost_aud_per_tonne",
+      "base": 32779.711852605644,
+      "low": 31687.054790852122,
+      "high": 34965.02597611269
+    },
+    "low_cost": 22.182706645128686,
+    "base_cost": 22.182936660012153,
+    "high_cost": 22.183396689779084,
+    "low_ei": 1.3094012532268557,
+    "base_ei": 1.3094012532268557,
+    "high_ei": 1.3094012532268557,
+    "low_module_costs": {
+      "pem": 18.14285664189351,
+      "meoh_synthesis": 0.48357225078541805,
+      "shipping": 0.36646418663108166,
+      "meoh_cracking": 2.0850296717597945,
+      "co2_capture": 1.104783894058884
+    },
+    "base_module_costs": {
+      "pem": 18.142856641893513,
+      "meoh_synthesis": 0.4838022656688827,
+      "shipping": 0.36646418663108166,
+      "meoh_cracking": 2.0850296717597945,
+      "co2_capture": 1.1047838940588843
+    },
+    "high_module_costs": {
+      "pem": 18.14285664189351,
+      "meoh_synthesis": 0.48426229543581206,
+      "shipping": 0.36646418663108166,
+      "meoh_cracking": 2.0850296717597945,
+      "co2_capture": 1.1047838940588843
+    },
+    "low_module_eis": {
+      "pem": 0.0,
+      "meoh_synthesis": 0.2575856090253776,
+      "shipping": 0.24328389816973256,
+      "meoh_cracking": 0.8085317460317456,
+      "co2_capture": 0.0
+    },
+    "base_module_eis": {
+      "pem": 0.0,
+      "meoh_synthesis": 0.2575856090253776,
+      "shipping": 0.24328389816973256,
+      "meoh_cracking": 0.8085317460317456,
+      "co2_capture": 0.0
+    },
+    "high_module_eis": {
+      "pem": 0.0,
+      "meoh_synthesis": 0.2575856090253776,
+      "shipping": 0.24328389816973256,
+      "meoh_cracking": 0.8085317460317456,
+      "co2_capture": 0.0
+    },
+    "low_error": "",
+    "high_error": ""
+  },
+  {
+    "bound": {
+      "name": "Catalyst lifetime [yrs]",
+      "group": "synth",
+      "field": "catalyst_life_years",
+      "base": 4.0,
+      "low": 3.0,
+      "high": 5.0
+    },
+    "low_cost": 22.186177516109666,
+    "base_cost": 22.182936660012153,
+    "high_cost": 22.181161633841068,
+    "low_ei": 1.3094012532268557,
+    "base_ei": 1.3094012532268557,
+    "high_ei": 1.3094012532268557,
+    "low_module_costs": {
+      "pem": 18.14285664189351,
+      "meoh_synthesis": 0.4870431217663966,
+      "shipping": 0.36646418663108166,
+      "meoh_cracking": 2.0850296717597945,
+      "co2_capture": 1.1047838940588843
+    },
+    "base_module_costs": {
+      "pem": 18.142856641893513,
+      "meoh_synthesis": 0.4838022656688827,
+      "shipping": 0.36646418663108166,
+      "meoh_cracking": 2.0850296717597945,
+      "co2_capture": 1.1047838940588843
+    },
+    "high_module_costs": {
+      "pem": 18.14285664189351,
+      "meoh_synthesis": 0.4820272394977992,
+      "shipping": 0.36646418663108166,
+      "meoh_cracking": 2.0850296717597945,
+      "co2_capture": 1.104783894058884
+    },
+    "low_module_eis": {
+      "pem": 0.0,
+      "meoh_synthesis": 0.2575856090253776,
+      "shipping": 0.24328389816973256,
+      "meoh_cracking": 0.8085317460317456,
+      "co2_capture": 0.0
+    },
+    "base_module_eis": {
+      "pem": 0.0,
+      "meoh_synthesis": 0.2575856090253776,
+      "shipping": 0.24328389816973256,
+      "meoh_cracking": 0.8085317460317456,
+      "co2_capture": 0.0
+    },
+    "high_module_eis": {
+      "pem": 0.0,
+      "meoh_synthesis": 0.2575856090253776,
+      "shipping": 0.24328389816973256,
+      "meoh_cracking": 0.8085317460317456,
+      "co2_capture": 0.0
+    },
+    "low_error": "",
+    "high_error": ""
+  },
+  {
+    "bound": {
+      "name": "Catalyst mass [g cat / (t MeOH/yr)]",
+      "group": "synth",
+      "field": "catalyst_inventory_g_per_tpy",
+      "base": 125.0,
+      "low": 65.0,
+      "high": 250.0
+    },
+    "low_cost": 22.179624445690262,
+    "base_cost": 22.182936660012153,
+    "high_cost": 22.189837106516094,
+    "low_ei": 1.3094012532268557,
+    "base_ei": 1.3094012532268557,
+    "high_ei": 1.3094012532268557,
+    "low_module_costs": {
+      "pem": 18.142856641893513,
+      "meoh_synthesis": 0.4804900513469912,
+      "shipping": 0.36646418663108166,
+      "meoh_cracking": 2.0850296717597945,
+      "co2_capture": 1.1047838940588843
+    },
+    "base_module_costs": {
+      "pem": 18.142856641893513,
+      "meoh_synthesis": 0.4838022656688827,
+      "shipping": 0.36646418663108166,
+      "meoh_cracking": 2.0850296717597945,
+      "co2_capture": 1.1047838940588843
+    },
+    "high_module_costs": {
+      "pem": 18.14285664189351,
+      "meoh_synthesis": 0.4907027121728233,
+      "shipping": 0.36646418663108166,
+      "meoh_cracking": 2.0850296717597945,
+      "co2_capture": 1.1047838940588843
+    },
+    "low_module_eis": {
+      "pem": 0.0,
+      "meoh_synthesis": 0.2575856090253776,
+      "shipping": 0.24328389816973256,
+      "meoh_cracking": 0.8085317460317456,
+      "co2_capture": 0.0
+    },
+    "base_module_eis": {
+      "pem": 0.0,
+      "meoh_synthesis": 0.2575856090253776,
+      "shipping": 0.24328389816973256,
+      "meoh_cracking": 0.8085317460317456,
+      "co2_capture": 0.0
+    },
+    "high_module_eis": {
+      "pem": 0.0,
+      "meoh_synthesis": 0.2575856090253776,
+      "shipping": 0.24328389816973256,
+      "meoh_cracking": 0.8085317460317456,
+      "co2_capture": 0.0
+    },
+    "low_error": "",
+    "high_error": ""
+  },
+  {
+    "bound": {
+      "name": "SEC - Electricity (Synthesis Loop) [kWh/t MeOH]",
+      "group": "synth",
+      "field": "sec_electricity_kwh_per_t",
+      "base": 170.0,
+      "low": 150.355145059954,
+      "high": 550.0
+    },
+    "low_cost": 22.182936660012146,
+    "base_cost": 22.182936660012153,
+    "high_cost": 22.194528492751374,
+    "low_ei": 1.3094012532268557,
+    "base_ei": 1.3094012532268557,
+    "high_ei": 1.3107682638232614,
+    "low_module_costs": {
+      "pem": 18.161076907275426,
+      "meoh_synthesis": 0.4655820002869604,
+      "shipping": 0.36646418663108166,
+      "meoh_cracking": 2.0850296717597945,
+      "co2_capture": 1.1047838940588843
+    },
+    "base_module_costs": {
+      "pem": 18.142856641893513,
+      "meoh_synthesis": 0.4838022656688827,
+      "shipping": 0.36646418663108166,
+      "meoh_cracking": 2.0850296717597945,
+      "co2_capture": 1.1047838940588843
+    },
+    "high_module_costs": {
+      "pem": 17.813062682151383,
+      "meoh_synthesis": 0.8244107955509937,
+      "shipping": 0.36646418663108166,
+      "meoh_cracking": 2.0850296717597945,
+      "co2_capture": 1.1055611566581196
+    },
+    "low_module_eis": {
+      "pem": 0.0,
+      "meoh_synthesis": 0.2575856090253776,
+      "shipping": 0.24328389816973256,
+      "meoh_cracking": 0.8085317460317456,
+      "co2_capture": 0.0
+    },
+    "base_module_eis": {
+      "pem": 0.0,
+      "meoh_synthesis": 0.2575856090253776,
+      "shipping": 0.24328389816973256,
+      "meoh_cracking": 0.8085317460317456,
+      "co2_capture": 0.0
+    },
+    "high_module_eis": {
+      "pem": 0.0,
+      "meoh_synthesis": 0.25762661934326975,
+      "shipping": 0.24460989844824593,
+      "meoh_cracking": 0.8085317460317456,
+      "co2_capture": 0.0
+    },
+    "low_error": "",
+    "high_error": ""
+  },
+  {
+    "bound": {
+      "name": "Plant life [years]",
+      "group": "synth",
+      "field": "plant_life_years",
+      "base": 20.0,
+      "low": 20.0,
+      "high": 30.0
+    },
+    "low_cost": 22.182936660012153,
+    "base_cost": 22.182936660012153,
+    "high_cost": 22.156660491404445,
+    "low_ei": 1.3094012532268557,
+    "base_ei": 1.3094012532268557,
+    "high_ei": 1.3094012532268557,
+    "low_module_costs": {
+      "pem": 18.142856641893513,
+      "meoh_synthesis": 0.4838022656688827,
+      "shipping": 0.36646418663108166,
+      "meoh_cracking": 2.0850296717597945,
+      "co2_capture": 1.1047838940588843
+    },
+    "base_module_costs": {
+      "pem": 18.142856641893513,
+      "meoh_synthesis": 0.4838022656688827,
+      "shipping": 0.36646418663108166,
+      "meoh_cracking": 2.0850296717597945,
+      "co2_capture": 1.1047838940588843
+    },
+    "high_module_costs": {
+      "pem": 18.142856641893513,
+      "meoh_synthesis": 0.4575260970611733,
+      "shipping": 0.36646418663108166,
+      "meoh_cracking": 2.0850296717597945,
+      "co2_capture": 1.1047838940588843
+    },
+    "low_module_eis": {
+      "pem": 0.0,
+      "meoh_synthesis": 0.2575856090253776,
+      "shipping": 0.24328389816973256,
+      "meoh_cracking": 0.8085317460317456,
+      "co2_capture": 0.0
+    },
+    "base_module_eis": {
+      "pem": 0.0,
+      "meoh_synthesis": 0.2575856090253776,
+      "shipping": 0.24328389816973256,
+      "meoh_cracking": 0.8085317460317456,
+      "co2_capture": 0.0
+    },
+    "high_module_eis": {
+      "pem": 0.0,
+      "meoh_synthesis": 0.2575856090253776,
+      "shipping": 0.24328389816973256,
+      "meoh_cracking": 0.8085317460317456,
+      "co2_capture": 0.0
+    },
+    "low_error": "",
+    "high_error": ""
+  },
+  {
+    "bound": {
+      "name": "Overall CO2 to Methanol Yield [%]",
+      "group": "synth",
+      "field": "overall_co2_yield_percent",
+      "base": 97.0,
+      "low": 96.0,
+      "high": 97.7
+    },
+    "low_cost": NaN,
+    "base_cost": 22.182936660012153,
+    "high_cost": 22.145902014323685,
+    "low_ei": NaN,
+    "base_ei": 1.3094012532268557,
+    "high_ei": 1.2478830252098767,
+    "low_module_costs": {
+      "pem": NaN,
+      "meoh_synthesis": NaN,
+      "shipping": NaN,
+      "meoh_cracking": NaN,
+      "co2_capture": NaN
+    },
+    "base_module_costs": {
+      "pem": 18.142856641893513,
+      "meoh_synthesis": 0.4838022656688827,
+      "shipping": 0.36646418663108166,
+      "meoh_cracking": 2.0850296717597945,
+      "co2_capture": 1.1047838940588843
+    },
+    "high_module_costs": {
+      "pem": 18.139643648769894,
+      "meoh_synthesis": 0.48495899435035694,
+      "shipping": 0.36646418663108166,
+      "meoh_cracking": 2.0850296717597945,
+      "co2_capture": 1.0698055128125563
+    },
+    "low_module_eis": {
+      "pem": NaN,
+      "meoh_synthesis": NaN,
+      "shipping": NaN,
+      "meoh_cracking": NaN,
+      "co2_capture": NaN
+    },
+    "base_module_eis": {
+      "pem": 0.0,
+      "meoh_synthesis": 0.2575856090253776,
+      "shipping": 0.24328389816973256,
+      "meoh_cracking": 0.8085317460317456,
+      "co2_capture": 0.0
+    },
+    "high_module_eis": {
+      "pem": 0.0,
+      "meoh_synthesis": 0.19606738100839846,
+      "shipping": 0.24328389816973256,
+      "meoh_cracking": 0.8085317460317456,
+      "co2_capture": 0.0
+    },
+    "low_error": "Infeasible fixed build: dispatch search supports 93.6249% of the H2 target; PortHastings: hourly dispatch and storage limits (3.8788% of target); PortBonython: hourly dispatch and storage limits (7.5954% of target); Gladstone: hourly dispatch and storage limits (5.4700% of target); HayPoint: hourly dispatch and storage limits (2.7811% of target); Ashburton: hourly dispatch and storage limits (16.0392% of target); Dampier: hourly dispatch and storage limits (13.3367% of target); PortDarwin: hourly dispatch and storage limits (0.0006% of target); PortAbbotPoint: carriers (4.6026% of target); PortHedland: hourly dispatch and storage limits (34.5790% of target); Newcastle: hourly dispatch and storage limits (5.3416% of target)",
+    "high_error": ""
+  },
+  {
+    "bound": {
+      "name": "Electric heating efficiency [fraction]",
+      "group": "synth",
+      "field": "heat_efficiency",
+      "base": 0.95,
+      "low": 0.85,
+      "high": 1.0
+    },
+    "low_cost": 22.182936660012153,
+    "base_cost": 22.182936660012153,
+    "high_cost": 22.182936660012153,
+    "low_ei": 1.3094012532268557,
+    "base_ei": 1.3094012532268557,
+    "high_ei": 1.3094012532268557,
+    "low_module_costs": {
+      "pem": 18.142856641893513,
+      "meoh_synthesis": 0.4838022656688827,
+      "shipping": 0.36646418663108166,
+      "meoh_cracking": 2.0850296717597945,
+      "co2_capture": 1.1047838940588843
+    },
+    "base_module_costs": {
+      "pem": 18.142856641893513,
+      "meoh_synthesis": 0.4838022656688827,
+      "shipping": 0.36646418663108166,
+      "meoh_cracking": 2.0850296717597945,
+      "co2_capture": 1.1047838940588843
+    },
+    "high_module_costs": {
+      "pem": 18.142856641893513,
+      "meoh_synthesis": 0.4838022656688827,
+      "shipping": 0.36646418663108166,
+      "meoh_cracking": 2.0850296717597945,
+      "co2_capture": 1.1047838940588843
+    },
+    "low_module_eis": {
+      "pem": 0.0,
+      "meoh_synthesis": 0.2575856090253776,
+      "shipping": 0.24328389816973256,
+      "meoh_cracking": 0.8085317460317456,
+      "co2_capture": 0.0
+    },
+    "base_module_eis": {
+      "pem": 0.0,
+      "meoh_synthesis": 0.2575856090253776,
+      "shipping": 0.24328389816973256,
+      "meoh_cracking": 0.8085317460317456,
+      "co2_capture": 0.0
+    },
+    "high_module_eis": {
+      "pem": 0.0,
+      "meoh_synthesis": 0.2575856090253776,
+      "shipping": 0.24328389816973256,
+      "meoh_cracking": 0.8085317460317456,
+      "co2_capture": 0.0
+    },
+    "low_error": "",
+    "high_error": ""
+  },
+  {
+    "bound": {
+      "name": "Minimum stable load [% of scheduled rate]",
+      "group": "synth",
+      "field": "min_load_percent",
+      "base": 20.0,
+      "low": 20.0,
+      "high": 40.0
+    },
+    "low_cost": 22.182936660012153,
+    "base_cost": 22.182936660012153,
+    "high_cost": 22.182936660012146,
+    "low_ei": 1.3094012532268557,
+    "base_ei": 1.3094012532268557,
+    "high_ei": 1.3094012532268557,
+    "low_module_costs": {
+      "pem": 18.142856641893513,
+      "meoh_synthesis": 0.4838022656688827,
+      "shipping": 0.36646418663108166,
+      "meoh_cracking": 2.0850296717597945,
+      "co2_capture": 1.1047838940588843
+    },
+    "base_module_costs": {
+      "pem": 18.142856641893513,
+      "meoh_synthesis": 0.4838022656688827,
+      "shipping": 0.36646418663108166,
+      "meoh_cracking": 2.0850296717597945,
+      "co2_capture": 1.1047838940588843
+    },
+    "high_module_costs": {
+      "pem": 18.142859702997782,
+      "meoh_synthesis": 0.4837992045646029,
+      "shipping": 0.36646418663108166,
+      "meoh_cracking": 2.0850296717597945,
+      "co2_capture": 1.1047838940588843
+    },
+    "low_module_eis": {
+      "pem": 0.0,
+      "meoh_synthesis": 0.2575856090253776,
+      "shipping": 0.24328389816973256,
+      "meoh_cracking": 0.8085317460317456,
+      "co2_capture": 0.0
+    },
+    "base_module_eis": {
+      "pem": 0.0,
+      "meoh_synthesis": 0.2575856090253776,
+      "shipping": 0.24328389816973256,
+      "meoh_cracking": 0.8085317460317456,
+      "co2_capture": 0.0
+    },
+    "high_module_eis": {
+      "pem": 0.0,
+      "meoh_synthesis": 0.2575856090253776,
+      "shipping": 0.24328389816973256,
+      "meoh_cracking": 0.8085317460317456,
+      "co2_capture": 0.0
+    },
+    "low_error": "",
+    "high_error": ""
+  },
+  {
+    "bound": {
+      "name": "Available full-load hours [h/year]",
+      "group": "synth",
+      "field": "available_hours_per_year",
+      "base": 8000.0,
+      "low": 7500.0,
+      "high": 8300.0
+    },
+    "low_cost": 22.189797091535123,
+    "base_cost": 22.182936660012153,
+    "high_cost": 22.182936660012157,
+    "low_ei": 1.3096935631925386,
+    "base_ei": 1.3094012532268557,
+    "high_ei": 1.3094012532268557,
+    "low_module_costs": {
+      "pem": 18.14953848799883,
+      "meoh_synthesis": 0.48381464783668315,
+      "shipping": 0.36646418663108166,
+      "meoh_cracking": 2.0850296717597945,
+      "co2_capture": 1.1049500973087392
+    },
+    "base_module_costs": {
+      "pem": 18.142856641893513,
+      "meoh_synthesis": 0.4838022656688827,
+      "shipping": 0.36646418663108166,
+      "meoh_cracking": 2.0850296717597945,
+      "co2_capture": 1.1047838940588843
+    },
+    "high_module_costs": {
+      "pem": 18.142856654726177,
+      "meoh_synthesis": 0.4838022528362201,
+      "shipping": 0.36646418663108166,
+      "meoh_cracking": 2.0850296717597945,
+      "co2_capture": 1.1047838940588843
+    },
+    "low_module_eis": {
+      "pem": 0.0,
+      "meoh_synthesis": 0.2575943783243481,
+      "shipping": 0.24356743883644477,
+      "meoh_cracking": 0.8085317460317456,
+      "co2_capture": 0.0
+    },
+    "base_module_eis": {
+      "pem": 0.0,
+      "meoh_synthesis": 0.2575856090253776,
+      "shipping": 0.24328389816973256,
+      "meoh_cracking": 0.8085317460317456,
+      "co2_capture": 0.0
+    },
+    "high_module_eis": {
+      "pem": 0.0,
+      "meoh_synthesis": 0.2575856090253776,
+      "shipping": 0.24328389816973256,
+      "meoh_cracking": 0.8085317460317456,
+      "co2_capture": 0.0
+    },
+    "low_error": "",
+    "high_error": ""
+  },
+  {
+    "bound": {
+      "name": "Voyage speed [knots]",
+      "group": "ship",
+      "field": "voyage_speed_kn",
+      "base": 14.5,
+      "low": 12.5,
+      "high": 15.4
+    },
+    "low_cost": NaN,
+    "base_cost": 22.182936660012153,
+    "high_cost": 22.174299505650946,
+    "low_ei": NaN,
+    "base_ei": 1.3094012532268557,
+    "high_ei": 1.2951159132009609,
+    "low_module_costs": {
+      "pem": NaN,
+      "meoh_synthesis": NaN,
+      "shipping": NaN,
+      "meoh_cracking": NaN,
+      "co2_capture": NaN
+    },
+    "base_module_costs": {
+      "pem": 18.142856641893513,
+      "meoh_synthesis": 0.4838022656688827,
+      "shipping": 0.36646418663108166,
+      "meoh_cracking": 2.0850296717597945,
+      "co2_capture": 1.1047838940588843
+    },
+    "high_module_costs": {
+      "pem": 18.142379184983966,
+      "meoh_synthesis": 0.48376500746435414,
+      "shipping": 0.36646418663108166,
+      "meoh_cracking": 2.0850296717597945,
+      "co2_capture": 1.0966614548117513
+    },
+    "low_module_eis": {
+      "pem": NaN,
+      "meoh_synthesis": NaN,
+      "shipping": NaN,
+      "meoh_cracking": NaN,
+      "co2_capture": NaN
+    },
+    "base_module_eis": {
+      "pem": 0.0,
+      "meoh_synthesis": 0.2575856090253776,
+      "shipping": 0.24328389816973256,
+      "meoh_cracking": 0.8085317460317456,
+      "co2_capture": 0.0
+    },
+    "high_module_eis": {
+      "pem": 0.0,
+      "meoh_synthesis": 0.2571570488246008,
+      "shipping": 0.22942711834461454,
+      "meoh_cracking": 0.8085317460317456,
+      "co2_capture": 0.0
+    },
+    "low_error": "Infeasible fixed build: dispatch search supports 98.0484% of the H2 target; PortHastings: hourly dispatch and storage limits (3.8970% of target); PortBonython: hourly dispatch and storage limits (7.7392% of target); Gladstone: carriers (7.8497% of target); HayPoint: hourly dispatch and storage limits (2.8210% of target); Ashburton: carriers (15.5023% of target); Dampier: hourly dispatch and storage limits (15.1140% of target); PortDarwin: hourly dispatch and storage limits (1.6284% of target); PortAbbotPoint: carriers (4.0383% of target); PortHedland: carriers (32.6283% of target); Newcastle: carriers (6.8302% of target)",
+    "high_error": ""
+  },
+  {
+    "bound": {
+      "name": "Port turnaround time [days]",
+      "group": "ship",
+      "field": "port_turnaround_days",
+      "base": 3.0,
+      "low": 2.0,
+      "high": 4.0
+    },
+    "low_cost": 22.18165257552269,
+    "base_cost": 22.182936660012153,
+    "high_cost": 22.190460158927362,
+    "low_ei": 1.3072778858935448,
+    "base_ei": 1.3094012532268557,
+    "high_ei": 1.311908579538072,
+    "low_module_costs": {
+      "pem": 18.1427854069231,
+      "meoh_synthesis": 0.48379673233081677,
+      "shipping": 0.36646418663108166,
+      "meoh_cracking": 2.0850296717597945,
+      "co2_capture": 1.1035765778778972
+    },
+    "base_module_costs": {
+      "pem": 18.142856641893513,
+      "meoh_synthesis": 0.4838022656688827,
+      "shipping": 0.36646418663108166,
+      "meoh_cracking": 2.0850296717597945,
+      "co2_capture": 1.1047838940588843
+    },
+    "high_module_costs": {
+      "pem": 18.148917710995516,
+      "meoh_synthesis": 0.4838390657386827,
+      "shipping": 0.36646418663108166,
+      "meoh_cracking": 2.0850296717597945,
+      "co2_capture": 1.1062095238022904
+    },
+    "low_module_eis": {
+      "pem": 0.0,
+      "meoh_synthesis": 0.2575219080053782,
+      "shipping": 0.241224231856421,
+      "meoh_cracking": 0.8085317460317456,
+      "co2_capture": 0.0
+    },
+    "base_module_eis": {
+      "pem": 0.0,
+      "meoh_synthesis": 0.2575856090253776,
+      "shipping": 0.24328389816973256,
+      "meoh_cracking": 0.8085317460317456,
+      "co2_capture": 0.0
+    },
+    "high_module_eis": {
+      "pem": 0.0,
+      "meoh_synthesis": 0.2576608288147141,
+      "shipping": 0.2457160046916123,
+      "meoh_cracking": 0.8085317460317456,
+      "co2_capture": 0.0
+    },
+    "low_error": "",
+    "high_error": ""
+  },
+  {
+    "bound": {
+      "name": "Reference ship CAPEX [AUD]",
+      "group": "ship",
+      "field": "ref_ship_capex_aud",
+      "base": 211604944.92275757,
+      "low": 192368131.74796143,
+      "high": 293812263.72442544
+    },
+    "low_cost": 22.15959970884685,
+    "base_cost": 22.182936660012153,
+    "high_cost": 22.28266566225762,
+    "low_ei": 1.3094012532268557,
+    "base_ei": 1.3094012532268557,
+    "high_ei": 1.3094012532268557,
+    "low_module_costs": {
+      "pem": 18.142856641893513,
+      "meoh_synthesis": 0.4838022656688827,
+      "shipping": 0.34312723546578056,
+      "meoh_cracking": 2.0850296717597945,
+      "co2_capture": 1.1047838940588843
+    },
+    "base_module_costs": {
+      "pem": 18.142856641893513,
+      "meoh_synthesis": 0.4838022656688827,
+      "shipping": 0.36646418663108166,
+      "meoh_cracking": 2.0850296717597945,
+      "co2_capture": 1.1047838940588843
+    },
+    "high_module_costs": {
+      "pem": 18.142856641893513,
+      "meoh_synthesis": 0.4838022656688827,
+      "shipping": 0.4661931888765477,
+      "meoh_cracking": 2.0850296717597945,
+      "co2_capture": 1.1047838940588843
+    },
+    "low_module_eis": {
+      "pem": 0.0,
+      "meoh_synthesis": 0.2575856090253776,
+      "shipping": 0.24328389816973256,
+      "meoh_cracking": 0.8085317460317456,
+      "co2_capture": 0.0
+    },
+    "base_module_eis": {
+      "pem": 0.0,
+      "meoh_synthesis": 0.2575856090253776,
+      "shipping": 0.24328389816973256,
+      "meoh_cracking": 0.8085317460317456,
+      "co2_capture": 0.0
+    },
+    "high_module_eis": {
+      "pem": 0.0,
+      "meoh_synthesis": 0.2575856090253776,
+      "shipping": 0.24328389816973256,
+      "meoh_cracking": 0.8085317460317456,
+      "co2_capture": 0.0
+    },
+    "low_error": "",
+    "high_error": ""
+  },
+  {
+    "bound": {
+      "name": "Ship annual OPEX (non-fuel) [AUD/yr]",
+      "group": "ship",
+      "field": "ship_annual_opex_aud",
+      "base": 2842483.7195214294,
+      "low": 2811587.1573527185,
+      "high": 2873380.2816901407
+    },
+    "low_cost": 22.18253654953207,
+    "base_cost": 22.182936660012153,
+    "high_cost": 22.18333677049224,
+    "low_ei": 1.3094012532268557,
+    "base_ei": 1.3094012532268557,
+    "high_ei": 1.3094012532268557,
+    "low_module_costs": {
+      "pem": 18.142856641893513,
+      "meoh_synthesis": 0.4838022656688827,
+      "shipping": 0.3660640761509969,
+      "meoh_cracking": 2.0850296717597945,
+      "co2_capture": 1.1047838940588843
+    },
+    "base_module_costs": {
+      "pem": 18.142856641893513,
+      "meoh_synthesis": 0.4838022656688827,
+      "shipping": 0.36646418663108166,
+      "meoh_cracking": 2.0850296717597945,
+      "co2_capture": 1.1047838940588843
+    },
+    "high_module_costs": {
+      "pem": 18.142856641893513,
+      "meoh_synthesis": 0.4838022656688827,
+      "shipping": 0.36686429711116647,
+      "meoh_cracking": 2.0850296717597945,
+      "co2_capture": 1.1047838940588843
+    },
+    "low_module_eis": {
+      "pem": 0.0,
+      "meoh_synthesis": 0.2575856090253776,
+      "shipping": 0.24328389816973256,
+      "meoh_cracking": 0.8085317460317456,
+      "co2_capture": 0.0
+    },
+    "base_module_eis": {
+      "pem": 0.0,
+      "meoh_synthesis": 0.2575856090253776,
+      "shipping": 0.24328389816973256,
+      "meoh_cracking": 0.8085317460317456,
+      "co2_capture": 0.0
+    },
+    "high_module_eis": {
+      "pem": 0.0,
+      "meoh_synthesis": 0.2575856090253776,
+      "shipping": 0.24328389816973256,
+      "meoh_cracking": 0.8085317460317456,
+      "co2_capture": 0.0
+    },
+    "low_error": "",
+    "high_error": ""
+  },
+  {
+    "bound": {
+      "name": "Ship sea fuel consumption [t/day]",
+      "group": "ship",
+      "field": "sea_fuel_consumption_tpd",
+      "base": 26.0,
+      "low": 17.5,
+      "high": 36.0
+    },
+    "low_cost": 22.134611323837525,
+    "base_cost": 22.182936660012153,
+    "high_cost": 22.246499281116552,
+    "low_ei": 1.229488816928153,
+    "base_ei": 1.3094012532268557,
+    "high_ei": 1.4037159978607505,
+    "low_module_costs": {
+      "pem": 18.140170739003242,
+      "meoh_synthesis": 0.48359989637809997,
+      "shipping": 0.36646418663108166,
+      "meoh_cracking": 2.0850296717597945,
+      "co2_capture": 1.0593468300653075
+    },
+    "base_module_costs": {
+      "pem": 18.142856641893513,
+      "meoh_synthesis": 0.4838022656688827,
+      "shipping": 0.36646418663108166,
+      "meoh_cracking": 2.0850296717597945,
+      "co2_capture": 1.1047838940588843
+    },
+    "high_module_costs": {
+      "pem": 18.152513516659063,
+      "meoh_synthesis": 0.4840820022656429,
+      "shipping": 0.36646418663108166,
+      "meoh_cracking": 2.0850296717597945,
+      "co2_capture": 1.1584099038009712
+    },
+    "low_module_eis": {
+      "pem": 0.0,
+      "meoh_synthesis": 0.2551882359364165,
+      "shipping": 0.165768834959991,
+      "meoh_cracking": 0.8085317460317456,
+      "co2_capture": 0.0
+    },
+    "base_module_eis": {
+      "pem": 0.0,
+      "meoh_synthesis": 0.2575856090253776,
+      "shipping": 0.24328389816973256,
+      "meoh_cracking": 0.8085317460317456,
+      "co2_capture": 0.0
+    },
+    "high_module_eis": {
+      "pem": 0.0,
+      "meoh_synthesis": 0.2604150513643944,
+      "shipping": 0.33476920046461056,
+      "meoh_cracking": 0.8085317460317456,
+      "co2_capture": 0.0
+    },
+    "low_error": "",
+    "high_error": ""
+  },
+  {
+    "bound": {
+      "name": "Ship port fuel consumption [t/day]",
+      "group": "ship",
+      "field": "port_fuel_consumption_tpd",
+      "base": 5.0,
+      "low": 3.0,
+      "high": 8.0
+    },
+    "low_cost": 22.181395756804044,
+    "base_cost": 22.182936660012153,
+    "high_cost": 22.191883521409206,
+    "low_ei": 1.3068532124268826,
+    "base_ei": 1.3094012532268557,
+    "high_ei": 1.3132320222714906,
+    "low_module_costs": {
+      "pem": 18.142771201689527,
+      "meoh_synthesis": 0.48379558208193857,
+      "shipping": 0.36646418663108166,
+      "meoh_cracking": 2.0850296717597945,
+      "co2_capture": 1.1033351146416994
+    },
+    "base_module_costs": {
+      "pem": 18.142856641893513,
+      "meoh_synthesis": 0.4838022656688827,
+      "shipping": 0.36646418663108166,
+      "meoh_cracking": 2.0850296717597945,
+      "co2_capture": 1.1047838940588843
+    },
+    "high_module_costs": {
+      "pem": 18.149614563181224,
+      "meoh_synthesis": 0.4838130854969796,
+      "shipping": 0.36646418663108166,
+      "meoh_cracking": 2.0850296717597945,
+      "co2_capture": 1.1069620143401262
+    },
+    "low_module_eis": {
+      "pem": 0.0,
+      "meoh_synthesis": 0.2575091678013784,
+      "shipping": 0.24081229859375866,
+      "meoh_cracking": 0.8085317460317456,
+      "co2_capture": 0.0
+    },
+    "base_module_eis": {
+      "pem": 0.0,
+      "meoh_synthesis": 0.2575856090253776,
+      "shipping": 0.24328389816973256,
+      "meoh_cracking": 0.8085317460317456,
+      "co2_capture": 0.0
+    },
+    "high_module_eis": {
+      "pem": 0.0,
+      "meoh_synthesis": 0.2577005320967166,
+      "shipping": 0.2469997441430285,
+      "meoh_cracking": 0.8085317460317456,
+      "co2_capture": 0.0
+    },
+    "low_error": "",
+    "high_error": ""
+  },
+  {
+    "bound": {
+      "name": "Ship lifetime [years]",
+      "group": "ship",
+      "field": "ship_lifetime_years",
+      "base": 25.0,
+      "low": 20.0,
+      "high": 30.0
+    },
+    "low_cost": 22.210579060908316,
+    "base_cost": 22.182936660012153,
+    "high_cost": 22.166529491234343,
+    "low_ei": 1.3094012532268557,
+    "base_ei": 1.3094012532268557,
+    "high_ei": 1.3094012532268557,
+    "low_module_costs": {
+      "pem": 18.142856641893513,
+      "meoh_synthesis": 0.4838022656688827,
+      "shipping": 0.3941065875272438,
+      "meoh_cracking": 2.0850296717597945,
+      "co2_capture": 1.1047838940588843
+    },
+    "base_module_costs": {
+      "pem": 18.142856641893513,
+      "meoh_synthesis": 0.4838022656688827,
+      "shipping": 0.36646418663108166,
+      "meoh_cracking": 2.0850296717597945,
+      "co2_capture": 1.1047838940588843
+    },
+    "high_module_costs": {
+      "pem": 18.142856641893513,
+      "meoh_synthesis": 0.4838022656688827,
+      "shipping": 0.35005701785327004,
+      "meoh_cracking": 2.0850296717597945,
+      "co2_capture": 1.1047838940588843
+    },
+    "low_module_eis": {
+      "pem": 0.0,
+      "meoh_synthesis": 0.2575856090253776,
+      "shipping": 0.24328389816973256,
+      "meoh_cracking": 0.8085317460317456,
+      "co2_capture": 0.0
+    },
+    "base_module_eis": {
+      "pem": 0.0,
+      "meoh_synthesis": 0.2575856090253776,
+      "shipping": 0.24328389816973256,
+      "meoh_cracking": 0.8085317460317456,
+      "co2_capture": 0.0
+    },
+    "high_module_eis": {
+      "pem": 0.0,
+      "meoh_synthesis": 0.2575856090253776,
+      "shipping": 0.24328389816973256,
+      "meoh_cracking": 0.8085317460317456,
+      "co2_capture": 0.0
+    },
+    "low_error": "",
+    "high_error": ""
+  },
+  {
+    "bound": {
+      "name": "Vessel availability [days/year]",
+      "group": "ship",
+      "field": "available_days_per_year",
+      "base": 350.0,
+      "low": 330.0,
+      "high": 365.0
+    },
+    "low_cost": 22.192226862972174,
+    "base_cost": 22.182936660012153,
+    "high_cost": 22.182936660012153,
+    "low_ei": 1.3100683104107211,
+    "base_ei": 1.3094012532268557,
+    "high_ei": 1.3094012532268557,
+    "low_module_costs": {
+      "pem": 18.151724786799093,
+      "meoh_synthesis": 0.4838450445853746,
+      "shipping": 0.36646418663108166,
+      "meoh_cracking": 2.0850296717597945,
+      "co2_capture": 1.1051631731968317
+    },
+    "base_module_costs": {
+      "pem": 18.142856641893513,
+      "meoh_synthesis": 0.4838022656688827,
+      "shipping": 0.36646418663108166,
+      "meoh_cracking": 2.0850296717597945,
+      "co2_capture": 1.1047838940588843
+    },
+    "high_module_costs": {
+      "pem": 18.142856641893513,
+      "meoh_synthesis": 0.4838022656688827,
+      "shipping": 0.36646418663108166,
+      "meoh_cracking": 2.0850296717597945,
+      "co2_capture": 1.1047838940588843
+    },
+    "low_module_eis": {
+      "pem": 0.0,
+      "meoh_synthesis": 0.2576056207408935,
+      "shipping": 0.24393094363808196,
+      "meoh_cracking": 0.8085317460317456,
+      "co2_capture": 0.0
+    },
+    "base_module_eis": {
+      "pem": 0.0,
+      "meoh_synthesis": 0.2575856090253776,
+      "shipping": 0.24328389816973256,
+      "meoh_cracking": 0.8085317460317456,
+      "co2_capture": 0.0
+    },
+    "high_module_eis": {
+      "pem": 0.0,
+      "meoh_synthesis": 0.2575856090253776,
+      "shipping": 0.24328389816973256,
+      "meoh_cracking": 0.8085317460317456,
+      "co2_capture": 0.0
+    },
+    "low_error": "",
+    "high_error": ""
+  },
+  {
+    "bound": {
+      "name": "Terminal storage CAPEX [AUD/t inventory]",
+      "group": "ship",
+      "field": "terminal_capex_aud_per_t",
+      "base": 500.0,
+      "low": 250.0,
+      "high": 1000.0
+    },
+    "low_cost": 22.14646288018967,
+    "base_cost": 22.182936660012153,
+    "high_cost": 22.255884219657123,
+    "low_ei": 1.3094012532268557,
+    "base_ei": 1.3094012532268557,
+    "high_ei": 1.3094012532268557,
+    "low_module_costs": {
+      "pem": 18.142856641893513,
+      "meoh_synthesis": 0.4838022656688827,
+      "shipping": 0.32999040680859787,
+      "meoh_cracking": 2.0850296717597945,
+      "co2_capture": 1.1047838940588843
+    },
+    "base_module_costs": {
+      "pem": 18.142856641893513,
+      "meoh_synthesis": 0.4838022656688827,
+      "shipping": 0.36646418663108166,
+      "meoh_cracking": 2.0850296717597945,
+      "co2_capture": 1.1047838940588843
+    },
+    "high_module_costs": {
+      "pem": 18.142856641893513,
+      "meoh_synthesis": 0.4838022656688827,
+      "shipping": 0.4394117462760494,
+      "meoh_cracking": 2.0850296717597945,
+      "co2_capture": 1.1047838940588843
+    },
+    "low_module_eis": {
+      "pem": 0.0,
+      "meoh_synthesis": 0.2575856090253776,
+      "shipping": 0.24328389816973256,
+      "meoh_cracking": 0.8085317460317456,
+      "co2_capture": 0.0
+    },
+    "base_module_eis": {
+      "pem": 0.0,
+      "meoh_synthesis": 0.2575856090253776,
+      "shipping": 0.24328389816973256,
+      "meoh_cracking": 0.8085317460317456,
+      "co2_capture": 0.0
+    },
+    "high_module_eis": {
+      "pem": 0.0,
+      "meoh_synthesis": 0.2575856090253776,
+      "shipping": 0.24328389816973256,
+      "meoh_cracking": 0.8085317460317456,
+      "co2_capture": 0.0
+    },
+    "low_error": "",
+    "high_error": ""
+  },
+  {
+    "bound": {
+      "name": "Terminal fixed O&M [%/year]",
+      "group": "ship",
+      "field": "terminal_opex_percent_capex",
+      "base": 2.0,
+      "low": 1.0,
+      "high": 4.0
+    },
+    "low_cost": 22.176519669941243,
+    "base_cost": 22.182936660012153,
+    "high_cost": 22.195770640153974,
+    "low_ei": 1.3094012532268557,
+    "base_ei": 1.3094012532268557,
+    "high_ei": 1.3094012532268557,
+    "low_module_costs": {
+      "pem": 18.142856641893513,
+      "meoh_synthesis": 0.4838022656688827,
+      "shipping": 0.3600471965601715,
+      "meoh_cracking": 2.0850296717597945,
+      "co2_capture": 1.1047838940588843
+    },
+    "base_module_costs": {
+      "pem": 18.142856641893513,
+      "meoh_synthesis": 0.4838022656688827,
+      "shipping": 0.36646418663108166,
+      "meoh_cracking": 2.0850296717597945,
+      "co2_capture": 1.1047838940588843
+    },
+    "high_module_costs": {
+      "pem": 18.142856641893513,
+      "meoh_synthesis": 0.4838022656688827,
+      "shipping": 0.3792981667729021,
+      "meoh_cracking": 2.0850296717597945,
+      "co2_capture": 1.1047838940588843
+    },
+    "low_module_eis": {
+      "pem": 0.0,
+      "meoh_synthesis": 0.2575856090253776,
+      "shipping": 0.24328389816973256,
+      "meoh_cracking": 0.8085317460317456,
+      "co2_capture": 0.0
+    },
+    "base_module_eis": {
+      "pem": 0.0,
+      "meoh_synthesis": 0.2575856090253776,
+      "shipping": 0.24328389816973256,
+      "meoh_cracking": 0.8085317460317456,
+      "co2_capture": 0.0
+    },
+    "high_module_eis": {
+      "pem": 0.0,
+      "meoh_synthesis": 0.2575856090253776,
+      "shipping": 0.24328389816973256,
+      "meoh_cracking": 0.8085317460317456,
+      "co2_capture": 0.0
+    },
+    "low_error": "",
+    "high_error": ""
+  },
+  {
+    "bound": {
+      "name": "MSR decomposition plant CAPEX per TPD H2 [USD/(t H2/day)]",
+      "group": "cracker",
+      "field": "ref_capex_aud_per_tpd_h2",
+      "base": 743462.0651142667,
+      "low": 369853.6030997741,
+      "high": 2628401.240302963
+    },
+    "low_cost": 22.08465766679188,
+    "base_cost": 22.182936660012153,
+    "high_cost": 22.678776404701367,
+    "low_ei": 1.3094012532268557,
+    "base_ei": 1.3094012532268557,
+    "high_ei": 1.3094012532268557,
+    "low_module_costs": {
+      "pem": 18.142856641893513,
+      "meoh_synthesis": 0.4838022656688827,
+      "shipping": 0.36646418663108166,
+      "meoh_cracking": 1.9867506785395215,
+      "co2_capture": 1.1047838940588843
+    },
+    "base_module_costs": {
+      "pem": 18.142856641893513,
+      "meoh_synthesis": 0.4838022656688827,
+      "shipping": 0.36646418663108166,
+      "meoh_cracking": 2.0850296717597945,
+      "co2_capture": 1.1047838940588843
+    },
+    "high_module_costs": {
+      "pem": 18.142856641893513,
+      "meoh_synthesis": 0.4838022656688827,
+      "shipping": 0.36646418663108166,
+      "meoh_cracking": 2.5808694164490102,
+      "co2_capture": 1.1047838940588843
+    },
+    "low_module_eis": {
+      "pem": 0.0,
+      "meoh_synthesis": 0.2575856090253776,
+      "shipping": 0.24328389816973256,
+      "meoh_cracking": 0.8085317460317456,
+      "co2_capture": 0.0
+    },
+    "base_module_eis": {
+      "pem": 0.0,
+      "meoh_synthesis": 0.2575856090253776,
+      "shipping": 0.24328389816973256,
+      "meoh_cracking": 0.8085317460317456,
+      "co2_capture": 0.0
+    },
+    "high_module_eis": {
+      "pem": 0.0,
+      "meoh_synthesis": 0.2575856090253776,
+      "shipping": 0.24328389816973256,
+      "meoh_cracking": 0.8085317460317456,
+      "co2_capture": 0.0
+    },
+    "low_error": "",
+    "high_error": ""
+  },
+  {
+    "bound": {
+      "name": "CAPEX scaling factor [-]",
+      "group": "cracker",
+      "field": "capex_scaling_factor",
+      "base": 0.74,
+      "low": 0.6,
+      "high": 0.74
+    },
+    "low_cost": 22.136298766037662,
+    "base_cost": 22.182936660012153,
+    "high_cost": 22.182936660012153,
+    "low_ei": 1.3094012532268557,
+    "base_ei": 1.3094012532268557,
+    "high_ei": 1.3094012532268557,
+    "low_module_costs": {
+      "pem": 18.142856641893513,
+      "meoh_synthesis": 0.4838022656688827,
+      "shipping": 0.36646418663108166,
+      "meoh_cracking": 2.038391777785302,
+      "co2_capture": 1.1047838940588843
+    },
+    "base_module_costs": {
+      "pem": 18.142856641893513,
+      "meoh_synthesis": 0.4838022656688827,
+      "shipping": 0.36646418663108166,
+      "meoh_cracking": 2.0850296717597945,
+      "co2_capture": 1.1047838940588843
+    },
+    "high_module_costs": {
+      "pem": 18.142856641893513,
+      "meoh_synthesis": 0.4838022656688827,
+      "shipping": 0.36646418663108166,
+      "meoh_cracking": 2.0850296717597945,
+      "co2_capture": 1.1047838940588843
+    },
+    "low_module_eis": {
+      "pem": 0.0,
+      "meoh_synthesis": 0.2575856090253776,
+      "shipping": 0.24328389816973256,
+      "meoh_cracking": 0.8085317460317456,
+      "co2_capture": 0.0
+    },
+    "base_module_eis": {
+      "pem": 0.0,
+      "meoh_synthesis": 0.2575856090253776,
+      "shipping": 0.24328389816973256,
+      "meoh_cracking": 0.8085317460317456,
+      "co2_capture": 0.0
+    },
+    "high_module_eis": {
+      "pem": 0.0,
+      "meoh_synthesis": 0.2575856090253776,
+      "shipping": 0.24328389816973256,
+      "meoh_cracking": 0.8085317460317456,
+      "co2_capture": 0.0
+    },
+    "low_error": "",
+    "high_error": ""
+  },
+  {
+    "bound": {
+      "name": "Annual OPEX [% CAPEX/yr]",
+      "group": "cracker",
+      "field": "annual_opex_percent_capex",
+      "base": 4.0,
+      "low": 3.0,
+      "high": 5.0
+    },
+    "low_cost": 22.169149757468443,
+    "base_cost": 22.182936660012153,
+    "high_cost": 22.19672356255586,
+    "low_ei": 1.3094012532268557,
+    "base_ei": 1.3094012532268557,
+    "high_ei": 1.3094012532268557,
+    "low_module_costs": {
+      "pem": 18.142856641893513,
+      "meoh_synthesis": 0.4838022656688827,
+      "shipping": 0.36646418663108166,
+      "meoh_cracking": 2.0712427692160853,
+      "co2_capture": 1.1047838940588843
+    },
+    "base_module_costs": {
+      "pem": 18.142856641893513,
+      "meoh_synthesis": 0.4838022656688827,
+      "shipping": 0.36646418663108166,
+      "meoh_cracking": 2.0850296717597945,
+      "co2_capture": 1.1047838940588843
+    },
+    "high_module_costs": {
+      "pem": 18.142856641893513,
+      "meoh_synthesis": 0.4838022656688827,
+      "shipping": 0.36646418663108166,
+      "meoh_cracking": 2.0988165743035037,
+      "co2_capture": 1.1047838940588843
+    },
+    "low_module_eis": {
+      "pem": 0.0,
+      "meoh_synthesis": 0.2575856090253776,
+      "shipping": 0.24328389816973256,
+      "meoh_cracking": 0.8085317460317456,
+      "co2_capture": 0.0
+    },
+    "base_module_eis": {
+      "pem": 0.0,
+      "meoh_synthesis": 0.2575856090253776,
+      "shipping": 0.24328389816973256,
+      "meoh_cracking": 0.8085317460317456,
+      "co2_capture": 0.0
+    },
+    "high_module_eis": {
+      "pem": 0.0,
+      "meoh_synthesis": 0.2575856090253776,
+      "shipping": 0.24328389816973256,
+      "meoh_cracking": 0.8085317460317456,
+      "co2_capture": 0.0
+    },
+    "low_error": "",
+    "high_error": ""
+  },
+  {
+    "bound": {
+      "name": "Cracker MeOH conversion rate [fraction]",
+      "group": "cracker",
+      "field": "cracker_conversion_rate",
+      "base": 0.95,
+      "low": 0.75,
+      "high": 0.98
+    },
+    "low_cost": 22.182936660012153,
+    "base_cost": 22.182936660012153,
+    "high_cost": 22.182936660012153,
+    "low_ei": 1.3094012532268557,
+    "base_ei": 1.3094012532268557,
+    "high_ei": 1.3094012532268557,
+    "low_module_costs": {
+      "pem": 18.142856641893513,
+      "meoh_synthesis": 0.4838022656688827,
+      "shipping": 0.36646418663108166,
+      "meoh_cracking": 2.0850296717597945,
+      "co2_capture": 1.1047838940588843
+    },
+    "base_module_costs": {
+      "pem": 18.142856641893513,
+      "meoh_synthesis": 0.4838022656688827,
+      "shipping": 0.36646418663108166,
+      "meoh_cracking": 2.0850296717597945,
+      "co2_capture": 1.1047838940588843
+    },
+    "high_module_costs": {
+      "pem": 18.142856641893513,
+      "meoh_synthesis": 0.4838022656688827,
+      "shipping": 0.36646418663108166,
+      "meoh_cracking": 2.0850296717597945,
+      "co2_capture": 1.1047838940588843
+    },
+    "low_module_eis": {
+      "pem": 0.0,
+      "meoh_synthesis": 0.2575856090253776,
+      "shipping": 0.24328389816973256,
+      "meoh_cracking": 0.8085317460317456,
+      "co2_capture": 0.0
+    },
+    "base_module_eis": {
+      "pem": 0.0,
+      "meoh_synthesis": 0.2575856090253776,
+      "shipping": 0.24328389816973256,
+      "meoh_cracking": 0.8085317460317456,
+      "co2_capture": 0.0
+    },
+    "high_module_eis": {
+      "pem": 0.0,
+      "meoh_synthesis": 0.2575856090253776,
+      "shipping": 0.24328389816973256,
+      "meoh_cracking": 0.8085317460317456,
+      "co2_capture": 0.0
+    },
+    "low_error": "",
+    "high_error": ""
+  },
+  {
+    "bound": {
+      "name": "PSA H2 recovery [fraction]",
+      "group": "cracker",
+      "field": "psa_h2_recovery",
+      "base": 0.9,
+      "low": 0.8,
+      "high": 0.98
+    },
+    "low_cost": NaN,
+    "base_cost": 22.182936660012153,
+    "high_cost": 22.572576980204076,
+    "low_ei": NaN,
+    "base_ei": 1.3094012532268557,
+    "high_ei": 1.2025113550042554,
+    "low_module_costs": {
+      "pem": NaN,
+      "meoh_synthesis": NaN,
+      "shipping": NaN,
+      "meoh_cracking": NaN,
+      "co2_capture": NaN
+    },
+    "base_module_costs": {
+      "pem": 18.142856641893513,
+      "meoh_synthesis": 0.4838022656688827,
+      "shipping": 0.36646418663108166,
+      "meoh_cracking": 2.0850296717597945,
+      "co2_capture": 1.1047838940588843
+    },
+    "high_module_costs": {
+      "pem": 18.11846405008787,
+      "meoh_synthesis": 0.4820027716045213,
+      "shipping": 0.36646418663108166,
+      "meoh_cracking": 2.5910485181530603,
+      "co2_capture": 1.014597453727546
+    },
+    "low_module_eis": {
+      "pem": NaN,
+      "meoh_synthesis": NaN,
+      "shipping": NaN,
+      "meoh_cracking": NaN,
+      "co2_capture": NaN
+    },
+    "base_module_eis": {
+      "pem": 0.0,
+      "meoh_synthesis": 0.2575856090253776,
+      "shipping": 0.24328389816973256,
+      "meoh_cracking": 0.8085317460317456,
+      "co2_capture": 0.0
+    },
+    "high_module_eis": {
+      "pem": 0.0,
+      "meoh_synthesis": 0.23655821237024466,
+      "shipping": 0.22342398811506048,
+      "meoh_cracking": 0.7425291545189503,
+      "co2_capture": 0.0
+    },
+    "low_error": "Infeasible fixed build: dispatch search supports 93.2638% of the H2 target; PortHastings: hourly dispatch and storage limits (3.4839% of target); PortBonython: hourly dispatch and storage limits (6.9193% of target); Gladstone: hourly dispatch and storage limits (7.6981% of target); HayPoint: hourly dispatch and storage limits (2.5184% of target); Ashburton: hourly dispatch and storage limits (14.7327% of target); Dampier: hourly dispatch and storage limits (13.4930% of target); PortDarwin: hourly dispatch and storage limits (1.4526% of target); PortAbbotPoint: carriers (4.0912% of target); PortHedland: hourly dispatch and storage limits (32.5008% of target); Newcastle: hourly dispatch and storage limits (6.3738% of target)",
+    "high_error": ""
+  },
+  {
+    "bound": {
+      "name": "Cracking thermal demand (gross) [GJ/t MeOH]",
+      "group": "cracker",
+      "field": "thermal_gj_per_t_meoh",
+      "base": 5.0,
+      "low": 3.5,
+      "high": 7.0
+    },
+    "low_cost": 21.672916554054673,
+    "base_cost": 22.182936660012153,
+    "high_cost": 23.08149216733682,
+    "low_ei": 1.3094012532268557,
+    "base_ei": 1.3094012532268557,
+    "high_ei": 1.3094012532268557,
+    "low_module_costs": {
+      "pem": 18.142856641893513,
+      "meoh_synthesis": 0.4838022656688827,
+      "shipping": 0.36646418663108166,
+      "meoh_cracking": 1.5750095658023147,
+      "co2_capture": 1.1047838940588843
+    },
+    "base_module_costs": {
+      "pem": 18.142856641893513,
+      "meoh_synthesis": 0.4838022656688827,
+      "shipping": 0.36646418663108166,
+      "meoh_cracking": 2.0850296717597945,
+      "co2_capture": 1.1047838940588843
+    },
+    "high_module_costs": {
+      "pem": 18.142856641893513,
+      "meoh_synthesis": 0.4838022656688827,
+      "shipping": 0.36646418663108166,
+      "meoh_cracking": 2.983585179084459,
+      "co2_capture": 1.1047838940588843
+    },
+    "low_module_eis": {
+      "pem": 0.0,
+      "meoh_synthesis": 0.2575856090253776,
+      "shipping": 0.24328389816973256,
+      "meoh_cracking": 0.8085317460317456,
+      "co2_capture": 0.0
+    },
+    "base_module_eis": {
+      "pem": 0.0,
+      "meoh_synthesis": 0.2575856090253776,
+      "shipping": 0.24328389816973256,
+      "meoh_cracking": 0.8085317460317456,
+      "co2_capture": 0.0
+    },
+    "high_module_eis": {
+      "pem": 0.0,
+      "meoh_synthesis": 0.2575856090253776,
+      "shipping": 0.24328389816973256,
+      "meoh_cracking": 0.8085317460317456,
+      "co2_capture": 0.0
+    },
+    "low_error": "",
+    "high_error": ""
+  },
+  {
+    "bound": {
+      "name": "Cracker parasitic electricity demand [kWh / kg H2]",
+      "group": "cracker",
+      "field": "parasitic_kwh_per_kg_h2",
+      "base": 1.0,
+      "low": 0.5,
+      "high": 2.0
+    },
+    "low_cost": 22.048304699096846,
+    "base_cost": 22.182936660012153,
+    "high_cost": 22.452200581842764,
+    "low_ei": 1.3094012532268557,
+    "base_ei": 1.3094012532268557,
+    "high_ei": 1.3094012532268557,
+    "low_module_costs": {
+      "pem": 18.142856641893513,
+      "meoh_synthesis": 0.4838022656688827,
+      "shipping": 0.36646418663108166,
+      "meoh_cracking": 1.9503977108444894,
+      "co2_capture": 1.1047838940588843
+    },
+    "base_module_costs": {
+      "pem": 18.142856641893513,
+      "meoh_synthesis": 0.4838022656688827,
+      "shipping": 0.36646418663108166,
+      "meoh_cracking": 2.0850296717597945,
+      "co2_capture": 1.1047838940588843
+    },
+    "high_module_costs": {
+      "pem": 18.142856641893513,
+      "meoh_synthesis": 0.4838022656688827,
+      "shipping": 0.36646418663108166,
+      "meoh_cracking": 2.354293593590404,
+      "co2_capture": 1.1047838940588843
+    },
+    "low_module_eis": {
+      "pem": 0.0,
+      "meoh_synthesis": 0.2575856090253776,
+      "shipping": 0.24328389816973256,
+      "meoh_cracking": 0.8085317460317456,
+      "co2_capture": 0.0
+    },
+    "base_module_eis": {
+      "pem": 0.0,
+      "meoh_synthesis": 0.2575856090253776,
+      "shipping": 0.24328389816973256,
+      "meoh_cracking": 0.8085317460317456,
+      "co2_capture": 0.0
+    },
+    "high_module_eis": {
+      "pem": 0.0,
+      "meoh_synthesis": 0.2575856090253776,
+      "shipping": 0.24328389816973256,
+      "meoh_cracking": 0.8085317460317456,
+      "co2_capture": 0.0
+    },
+    "low_error": "",
+    "high_error": ""
+  },
+  {
+    "bound": {
+      "name": "Steam water cost [AUD/kL]",
+      "group": "cracker",
+      "field": "steam_water_cost_aud_per_kl",
+      "base": 5.0,
+      "low": 2.0,
+      "high": 10.0
+    },
+    "low_cost": 22.17300775789575,
+    "base_cost": 22.182936660012153,
+    "high_cost": 22.199484830206156,
+    "low_ei": 1.3094012532268557,
+    "base_ei": 1.3094012532268557,
+    "high_ei": 1.3094012532268557,
+    "low_module_costs": {
+      "pem": 18.142856641893513,
+      "meoh_synthesis": 0.4838022656688827,
+      "shipping": 0.36646418663108166,
+      "meoh_cracking": 2.075100769643392,
+      "co2_capture": 1.1047838940588843
+    },
+    "base_module_costs": {
+      "pem": 18.142856641893513,
+      "meoh_synthesis": 0.4838022656688827,
+      "shipping": 0.36646418663108166,
+      "meoh_cracking": 2.0850296717597945,
+      "co2_capture": 1.1047838940588843
+    },
+    "high_module_costs": {
+      "pem": 18.142856641893513,
+      "meoh_synthesis": 0.4838022656688827,
+      "shipping": 0.36646418663108166,
+      "meoh_cracking": 2.101577841953798,
+      "co2_capture": 1.1047838940588843
+    },
+    "low_module_eis": {
+      "pem": 0.0,
+      "meoh_synthesis": 0.2575856090253776,
+      "shipping": 0.24328389816973256,
+      "meoh_cracking": 0.8085317460317456,
+      "co2_capture": 0.0
+    },
+    "base_module_eis": {
+      "pem": 0.0,
+      "meoh_synthesis": 0.2575856090253776,
+      "shipping": 0.24328389816973256,
+      "meoh_cracking": 0.8085317460317456,
+      "co2_capture": 0.0
+    },
+    "high_module_eis": {
+      "pem": 0.0,
+      "meoh_synthesis": 0.2575856090253776,
+      "shipping": 0.24328389816973256,
+      "meoh_cracking": 0.8085317460317456,
+      "co2_capture": 0.0
+    },
+    "low_error": "",
+    "high_error": ""
+  },
+  {
+    "bound": {
+      "name": "Tail-gas heat recovery efficiency [fraction]",
+      "group": "cracker",
+      "field": "tail_gas_heat_efficiency",
+      "base": 0.85,
+      "low": 0.7,
+      "high": 0.95
+    },
+    "low_cost": 22.335847733534724,
+    "base_cost": 22.182936660012153,
+    "high_cost": 22.10578792638423,
+    "low_ei": 1.3094012532268557,
+    "base_ei": 1.3094012532268557,
+    "high_ei": 1.3094012532268557,
+    "low_module_costs": {
+      "pem": 18.142856641893513,
+      "meoh_synthesis": 0.4838022656688827,
+      "shipping": 0.36646418663108166,
+      "meoh_cracking": 2.2379407452823643,
+      "co2_capture": 1.1047838940588843
+    },
+    "base_module_costs": {
+      "pem": 18.142856641893513,
+      "meoh_synthesis": 0.4838022656688827,
+      "shipping": 0.36646418663108166,
+      "meoh_cracking": 2.0850296717597945,
+      "co2_capture": 1.1047838940588843
+    },
+    "high_module_costs": {
+      "pem": 18.142856641893513,
+      "meoh_synthesis": 0.4838022656688827,
+      "shipping": 0.36646418663108166,
+      "meoh_cracking": 2.007880938131874,
+      "co2_capture": 1.1047838940588843
+    },
+    "low_module_eis": {
+      "pem": 0.0,
+      "meoh_synthesis": 0.2575856090253776,
+      "shipping": 0.24328389816973256,
+      "meoh_cracking": 0.8085317460317456,
+      "co2_capture": 0.0
+    },
+    "base_module_eis": {
+      "pem": 0.0,
+      "meoh_synthesis": 0.2575856090253776,
+      "shipping": 0.24328389816973256,
+      "meoh_cracking": 0.8085317460317456,
+      "co2_capture": 0.0
+    },
+    "high_module_eis": {
+      "pem": 0.0,
+      "meoh_synthesis": 0.2575856090253776,
+      "shipping": 0.24328389816973256,
+      "meoh_cracking": 0.8085317460317456,
+      "co2_capture": 0.0
+    },
+    "low_error": "",
+    "high_error": ""
+  },
+  {
+    "bound": {
+      "name": "Electric heater efficiency [fraction]",
+      "group": "cracker",
+      "field": "electric_heater_efficiency",
+      "base": 0.98,
+      "low": 0.95,
+      "high": 0.999
+    },
+    "low_cost": 22.20908199509669,
+    "base_cost": 22.182936660012153,
+    "high_cost": 22.167190136879825,
+    "low_ei": 1.3094012532268557,
+    "base_ei": 1.3094012532268557,
+    "high_ei": 1.3094012532268557,
+    "low_module_costs": {
+      "pem": 18.142856641893513,
+      "meoh_synthesis": 0.4838022656688827,
+      "shipping": 0.36646418663108166,
+      "meoh_cracking": 2.111175006844329,
+      "co2_capture": 1.1047838940588843
+    },
+    "base_module_costs": {
+      "pem": 18.142856641893513,
+      "meoh_synthesis": 0.4838022656688827,
+      "shipping": 0.36646418663108166,
+      "meoh_cracking": 2.0850296717597945,
+      "co2_capture": 1.1047838940588843
+    },
+    "high_module_costs": {
+      "pem": 18.142856641893513,
+      "meoh_synthesis": 0.4838022656688827,
+      "shipping": 0.36646418663108166,
+      "meoh_cracking": 2.069283148627467,
+      "co2_capture": 1.1047838940588843
+    },
+    "low_module_eis": {
+      "pem": 0.0,
+      "meoh_synthesis": 0.2575856090253776,
+      "shipping": 0.24328389816973256,
+      "meoh_cracking": 0.8085317460317456,
+      "co2_capture": 0.0
+    },
+    "base_module_eis": {
+      "pem": 0.0,
+      "meoh_synthesis": 0.2575856090253776,
+      "shipping": 0.24328389816973256,
+      "meoh_cracking": 0.8085317460317456,
+      "co2_capture": 0.0
+    },
+    "high_module_eis": {
+      "pem": 0.0,
+      "meoh_synthesis": 0.2575856090253776,
+      "shipping": 0.24328389816973256,
+      "meoh_cracking": 0.8085317460317456,
+      "co2_capture": 0.0
+    },
+    "low_error": "",
+    "high_error": ""
+  },
+  {
+    "bound": {
+      "name": "Supplemental burner efficiency [fraction]",
+      "group": "cracker",
+      "field": "burner_efficiency",
+      "base": 0.9,
+      "low": 0.8,
+      "high": 0.95
+    },
+    "low_cost": 22.182936660012153,
+    "base_cost": 22.182936660012153,
+    "high_cost": 22.182936660012153,
+    "low_ei": 1.3094012532268557,
+    "base_ei": 1.3094012532268557,
+    "high_ei": 1.3094012532268557,
+    "low_module_costs": {
+      "pem": 18.142856641893513,
+      "meoh_synthesis": 0.4838022656688827,
+      "shipping": 0.36646418663108166,
+      "meoh_cracking": 2.0850296717597945,
+      "co2_capture": 1.1047838940588843
+    },
+    "base_module_costs": {
+      "pem": 18.142856641893513,
+      "meoh_synthesis": 0.4838022656688827,
+      "shipping": 0.36646418663108166,
+      "meoh_cracking": 2.0850296717597945,
+      "co2_capture": 1.1047838940588843
+    },
+    "high_module_costs": {
+      "pem": 18.142856641893513,
+      "meoh_synthesis": 0.4838022656688827,
+      "shipping": 0.36646418663108166,
+      "meoh_cracking": 2.0850296717597945,
+      "co2_capture": 1.1047838940588843
+    },
+    "low_module_eis": {
+      "pem": 0.0,
+      "meoh_synthesis": 0.2575856090253776,
+      "shipping": 0.24328389816973256,
+      "meoh_cracking": 0.8085317460317456,
+      "co2_capture": 0.0
+    },
+    "base_module_eis": {
+      "pem": 0.0,
+      "meoh_synthesis": 0.2575856090253776,
+      "shipping": 0.24328389816973256,
+      "meoh_cracking": 0.8085317460317456,
+      "co2_capture": 0.0
+    },
+    "high_module_eis": {
+      "pem": 0.0,
+      "meoh_synthesis": 0.2575856090253776,
+      "shipping": 0.24328389816973256,
+      "meoh_cracking": 0.8085317460317456,
+      "co2_capture": 0.0
+    },
+    "low_error": "",
+    "high_error": ""
+  },
+  {
+    "bound": {
+      "name": "Heat pump heating COP [kWh_th/kWh_e]",
+      "group": "cracker",
+      "field": "heat_pump_cop",
+      "base": 2.5,
+      "low": 1.5,
+      "high": 3.0
+    },
+    "low_cost": 22.327181442019274,
+    "base_cost": 22.182936660012153,
+    "high_cost": 22.178198662609095,
+    "low_ei": 1.3094012532268557,
+    "base_ei": 1.3094012532268557,
+    "high_ei": 1.3094012532268557,
+    "low_module_costs": {
+      "pem": 18.142856641893513,
+      "meoh_synthesis": 0.4838022656688827,
+      "shipping": 0.36646418663108166,
+      "meoh_cracking": 2.2292744537669154,
+      "co2_capture": 1.1047838940588843
+    },
+    "base_module_costs": {
+      "pem": 18.142856641893513,
+      "meoh_synthesis": 0.4838022656688827,
+      "shipping": 0.36646418663108166,
+      "meoh_cracking": 2.0850296717597945,
+      "co2_capture": 1.1047838940588843
+    },
+    "high_module_costs": {
+      "pem": 18.142856641893513,
+      "meoh_synthesis": 0.4838022656688827,
+      "shipping": 0.36646418663108166,
+      "meoh_cracking": 2.080291674356736,
+      "co2_capture": 1.1047838940588843
+    },
+    "low_module_eis": {
+      "pem": 0.0,
+      "meoh_synthesis": 0.2575856090253776,
+      "shipping": 0.24328389816973256,
+      "meoh_cracking": 0.8085317460317456,
+      "co2_capture": 0.0
+    },
+    "base_module_eis": {
+      "pem": 0.0,
+      "meoh_synthesis": 0.2575856090253776,
+      "shipping": 0.24328389816973256,
+      "meoh_cracking": 0.8085317460317456,
+      "co2_capture": 0.0
+    },
+    "high_module_eis": {
+      "pem": 0.0,
+      "meoh_synthesis": 0.2575856090253776,
+      "shipping": 0.24328389816973256,
+      "meoh_cracking": 0.8085317460317456,
+      "co2_capture": 0.0
+    },
+    "low_error": "",
+    "high_error": ""
+  },
+  {
+    "bound": {
+      "name": "Heat pump eligible residual duty [fraction]",
+      "group": "cracker",
+      "field": "heat_pump_eligible_heat_share",
+      "base": 0.4,
+      "low": 0.0,
+      "high": 0.6
+    },
+    "low_cost": 22.51852656100831,
+    "base_cost": 22.182936660012153,
+    "high_cost": 22.182936660012153,
+    "low_ei": 1.3094012532268557,
+    "base_ei": 1.3094012532268557,
+    "high_ei": 1.3094012532268557,
+    "low_module_costs": {
+      "pem": 18.142856641893513,
+      "meoh_synthesis": 0.4838022656688827,
+      "shipping": 0.36646418663108166,
+      "meoh_cracking": 2.4206195727559527,
+      "co2_capture": 1.1047838940588843
+    },
+    "base_module_costs": {
+      "pem": 18.142856641893513,
+      "meoh_synthesis": 0.4838022656688827,
+      "shipping": 0.36646418663108166,
+      "meoh_cracking": 2.0850296717597945,
+      "co2_capture": 1.1047838940588843
+    },
+    "high_module_costs": {
+      "pem": 18.142856641893513,
+      "meoh_synthesis": 0.4838022656688827,
+      "shipping": 0.36646418663108166,
+      "meoh_cracking": 2.0850296717597945,
+      "co2_capture": 1.1047838940588843
+    },
+    "low_module_eis": {
+      "pem": 0.0,
+      "meoh_synthesis": 0.2575856090253776,
+      "shipping": 0.24328389816973256,
+      "meoh_cracking": 0.8085317460317456,
+      "co2_capture": 0.0
+    },
+    "base_module_eis": {
+      "pem": 0.0,
+      "meoh_synthesis": 0.2575856090253776,
+      "shipping": 0.24328389816973256,
+      "meoh_cracking": 0.8085317460317456,
+      "co2_capture": 0.0
+    },
+    "high_module_eis": {
+      "pem": 0.0,
+      "meoh_synthesis": 0.2575856090253776,
+      "shipping": 0.24328389816973256,
+      "meoh_cracking": 0.8085317460317456,
+      "co2_capture": 0.0
+    },
+    "low_error": "",
+    "high_error": ""
+  },
+  {
+    "bound": {
+      "name": "Residual heat available to heat pump [GJ/t MeOH]",
+      "group": "cracker",
+      "field": "heat_pump_source_gj_per_t_meoh",
+      "base": 0.75,
+      "low": 0.0,
+      "high": 1.5
+    },
+    "low_cost": 22.51852656100831,
+    "base_cost": 22.182936660012153,
+    "high_cost": 22.182936660012153,
+    "low_ei": 1.3094012532268557,
+    "base_ei": 1.3094012532268557,
+    "high_ei": 1.3094012532268557,
+    "low_module_costs": {
+      "pem": 18.142856641893513,
+      "meoh_synthesis": 0.4838022656688827,
+      "shipping": 0.36646418663108166,
+      "meoh_cracking": 2.4206195727559527,
+      "co2_capture": 1.1047838940588843
+    },
+    "base_module_costs": {
+      "pem": 18.142856641893513,
+      "meoh_synthesis": 0.4838022656688827,
+      "shipping": 0.36646418663108166,
+      "meoh_cracking": 2.0850296717597945,
+      "co2_capture": 1.1047838940588843
+    },
+    "high_module_costs": {
+      "pem": 18.142856641893513,
+      "meoh_synthesis": 0.4838022656688827,
+      "shipping": 0.36646418663108166,
+      "meoh_cracking": 2.0850296717597945,
+      "co2_capture": 1.1047838940588843
+    },
+    "low_module_eis": {
+      "pem": 0.0,
+      "meoh_synthesis": 0.2575856090253776,
+      "shipping": 0.24328389816973256,
+      "meoh_cracking": 0.8085317460317456,
+      "co2_capture": 0.0
+    },
+    "base_module_eis": {
+      "pem": 0.0,
+      "meoh_synthesis": 0.2575856090253776,
+      "shipping": 0.24328389816973256,
+      "meoh_cracking": 0.8085317460317456,
+      "co2_capture": 0.0
+    },
+    "high_module_eis": {
+      "pem": 0.0,
+      "meoh_synthesis": 0.2575856090253776,
+      "shipping": 0.24328389816973256,
+      "meoh_cracking": 0.8085317460317456,
+      "co2_capture": 0.0
+    },
+    "low_error": "",
+    "high_error": ""
+  },
+  {
+    "bound": {
+      "name": "Heat pump equipment cost [USD/kW_th]",
+      "group": "cracker",
+      "field": "heat_pump_capex_aud_per_kw_th",
+      "base": 1696.913922517347,
+      "low": 339.3827845034694,
+      "high": 3393.827845034694
+    },
+    "low_cost": 22.1138166453431,
+    "base_cost": 22.182936660012153,
+    "high_cost": 22.26933667834847,
+    "low_ei": 1.3094012532268557,
+    "base_ei": 1.3094012532268557,
+    "high_ei": 1.3094012532268557,
+    "low_module_costs": {
+      "pem": 18.142856641893513,
+      "meoh_synthesis": 0.4838022656688827,
+      "shipping": 0.36646418663108166,
+      "meoh_cracking": 2.015909657090741,
+      "co2_capture": 1.1047838940588843
+    },
+    "base_module_costs": {
+      "pem": 18.142856641893513,
+      "meoh_synthesis": 0.4838022656688827,
+      "shipping": 0.36646418663108166,
+      "meoh_cracking": 2.0850296717597945,
+      "co2_capture": 1.1047838940588843
+    },
+    "high_module_costs": {
+      "pem": 18.142856641893513,
+      "meoh_synthesis": 0.4838022656688827,
+      "shipping": 0.36646418663108166,
+      "meoh_cracking": 2.171429690096112,
+      "co2_capture": 1.1047838940588843
+    },
+    "low_module_eis": {
+      "pem": 0.0,
+      "meoh_synthesis": 0.2575856090253776,
+      "shipping": 0.24328389816973256,
+      "meoh_cracking": 0.8085317460317456,
+      "co2_capture": 0.0
+    },
+    "base_module_eis": {
+      "pem": 0.0,
+      "meoh_synthesis": 0.2575856090253776,
+      "shipping": 0.24328389816973256,
+      "meoh_cracking": 0.8085317460317456,
+      "co2_capture": 0.0
+    },
+    "high_module_eis": {
+      "pem": 0.0,
+      "meoh_synthesis": 0.2575856090253776,
+      "shipping": 0.24328389816973256,
+      "meoh_cracking": 0.8085317460317456,
+      "co2_capture": 0.0
+    },
+    "low_error": "",
+    "high_error": ""
+  },
+  {
+    "bound": {
+      "name": "Heat pump installation factor [multiplier]",
+      "group": "cracker",
+      "field": "heat_pump_installation_factor",
+      "base": 1.5,
+      "low": 1.0,
+      "high": 2.0
+    },
+    "low_cost": 22.154136653900046,
+    "base_cost": 22.182936660012153,
+    "high_cost": 22.21173666612426,
+    "low_ei": 1.3094012532268557,
+    "base_ei": 1.3094012532268557,
+    "high_ei": 1.3094012532268557,
+    "low_module_costs": {
+      "pem": 18.142856641893513,
+      "meoh_synthesis": 0.4838022656688827,
+      "shipping": 0.36646418663108166,
+      "meoh_cracking": 2.0562296656476886,
+      "co2_capture": 1.1047838940588843
+    },
+    "base_module_costs": {
+      "pem": 18.142856641893513,
+      "meoh_synthesis": 0.4838022656688827,
+      "shipping": 0.36646418663108166,
+      "meoh_cracking": 2.0850296717597945,
+      "co2_capture": 1.1047838940588843
+    },
+    "high_module_costs": {
+      "pem": 18.142856641893513,
+      "meoh_synthesis": 0.4838022656688827,
+      "shipping": 0.36646418663108166,
+      "meoh_cracking": 2.1138296778719003,
+      "co2_capture": 1.1047838940588843
+    },
+    "low_module_eis": {
+      "pem": 0.0,
+      "meoh_synthesis": 0.2575856090253776,
+      "shipping": 0.24328389816973256,
+      "meoh_cracking": 0.8085317460317456,
+      "co2_capture": 0.0
+    },
+    "base_module_eis": {
+      "pem": 0.0,
+      "meoh_synthesis": 0.2575856090253776,
+      "shipping": 0.24328389816973256,
+      "meoh_cracking": 0.8085317460317456,
+      "co2_capture": 0.0
+    },
+    "high_module_eis": {
+      "pem": 0.0,
+      "meoh_synthesis": 0.2575856090253776,
+      "shipping": 0.24328389816973256,
+      "meoh_cracking": 0.8085317460317456,
+      "co2_capture": 0.0
+    },
+    "low_error": "",
+    "high_error": ""
+  },
+  {
+    "bound": {
+      "name": "Heat pump fixed O&M [% installed CAPEX/yr]",
+      "group": "cracker",
+      "field": "heat_pump_opex_percent_capex",
+      "base": 3.0,
+      "low": 2.0,
+      "high": 5.0
+    },
+    "low_cost": 22.176383867373524,
+    "base_cost": 22.182936660012153,
+    "high_cost": 22.19604224528941,
+    "low_ei": 1.3094012532268557,
+    "base_ei": 1.3094012532268557,
+    "high_ei": 1.3094012532268557,
+    "low_module_costs": {
+      "pem": 18.142856641893513,
+      "meoh_synthesis": 0.4838022656688827,
+      "shipping": 0.36646418663108166,
+      "meoh_cracking": 2.0784768791211667,
+      "co2_capture": 1.1047838940588843
+    },
+    "base_module_costs": {
+      "pem": 18.142856641893513,
+      "meoh_synthesis": 0.4838022656688827,
+      "shipping": 0.36646418663108166,
+      "meoh_cracking": 2.0850296717597945,
+      "co2_capture": 1.1047838940588843
+    },
+    "high_module_costs": {
+      "pem": 18.142856641893513,
+      "meoh_synthesis": 0.4838022656688827,
+      "shipping": 0.36646418663108166,
+      "meoh_cracking": 2.0981352570370504,
+      "co2_capture": 1.1047838940588843
+    },
+    "low_module_eis": {
+      "pem": 0.0,
+      "meoh_synthesis": 0.2575856090253776,
+      "shipping": 0.24328389816973256,
+      "meoh_cracking": 0.8085317460317456,
+      "co2_capture": 0.0
+    },
+    "base_module_eis": {
+      "pem": 0.0,
+      "meoh_synthesis": 0.2575856090253776,
+      "shipping": 0.24328389816973256,
+      "meoh_cracking": 0.8085317460317456,
+      "co2_capture": 0.0
+    },
+    "high_module_eis": {
+      "pem": 0.0,
+      "meoh_synthesis": 0.2575856090253776,
+      "shipping": 0.24328389816973256,
+      "meoh_cracking": 0.8085317460317456,
+      "co2_capture": 0.0
+    },
+    "low_error": "",
+    "high_error": ""
+  },
+  {
+    "bound": {
+      "name": "Heat pump economic life [years]",
+      "group": "cracker",
+      "field": "heat_pump_life_years",
+      "base": 20.0,
+      "low": 10.0,
+      "high": 30.0
+    },
+    "low_cost": 22.21385095323899,
+    "base_cost": 22.182936660012153,
+    "high_cost": 22.17440179475255,
+    "low_ei": 1.3094012532268557,
+    "base_ei": 1.3094012532268557,
+    "high_ei": 1.3094012532268557,
+    "low_module_costs": {
+      "pem": 18.142856641893513,
+      "meoh_synthesis": 0.4838022656688827,
+      "shipping": 0.36646418663108166,
+      "meoh_cracking": 2.115943964986629,
+      "co2_capture": 1.1047838940588843
+    },
+    "base_module_costs": {
+      "pem": 18.142856641893513,
+      "meoh_synthesis": 0.4838022656688827,
+      "shipping": 0.36646418663108166,
+      "meoh_cracking": 2.0850296717597945,
+      "co2_capture": 1.1047838940588843
+    },
+    "high_module_costs": {
+      "pem": 18.142856641893513,
+      "meoh_synthesis": 0.4838022656688827,
+      "shipping": 0.36646418663108166,
+      "meoh_cracking": 2.076494806500194,
+      "co2_capture": 1.1047838940588843
+    },
+    "low_module_eis": {
+      "pem": 0.0,
+      "meoh_synthesis": 0.2575856090253776,
+      "shipping": 0.24328389816973256,
+      "meoh_cracking": 0.8085317460317456,
+      "co2_capture": 0.0
+    },
+    "base_module_eis": {
+      "pem": 0.0,
+      "meoh_synthesis": 0.2575856090253776,
+      "shipping": 0.24328389816973256,
+      "meoh_cracking": 0.8085317460317456,
+      "co2_capture": 0.0
+    },
+    "high_module_eis": {
+      "pem": 0.0,
+      "meoh_synthesis": 0.2575856090253776,
+      "shipping": 0.24328389816973256,
+      "meoh_cracking": 0.8085317460317456,
+      "co2_capture": 0.0
+    },
+    "low_error": "",
+    "high_error": ""
+  },
+  {
+    "bound": {
+      "name": "Future zero-carbon power price [USD/kWh]",
+      "group": "cracker",
+      "field": "zero_carbon_power_price_aud_per_kwh",
+      "base": 0.2692639218306099,
+      "low": 0.149623457845605,
+      "high": 0.34137538499365266
+    },
+    "low_cost": 21.48919647006637,
+    "base_cost": 22.182936660012153,
+    "high_cost": 22.601077968443285,
+    "low_ei": 1.3094012532268557,
+    "base_ei": 1.3094012532268557,
+    "high_ei": 1.3094012532268557,
+    "low_module_costs": {
+      "pem": 18.142856641893513,
+      "meoh_synthesis": 0.4838022656688827,
+      "shipping": 0.36646418663108166,
+      "meoh_cracking": 1.3912894818140118,
+      "co2_capture": 1.1047838940588843
+    },
+    "base_module_costs": {
+      "pem": 18.142856641893513,
+      "meoh_synthesis": 0.4838022656688827,
+      "shipping": 0.36646418663108166,
+      "meoh_cracking": 2.0850296717597945,
+      "co2_capture": 1.1047838940588843
+    },
+    "high_module_costs": {
+      "pem": 18.142856641893513,
+      "meoh_synthesis": 0.4838022656688827,
+      "shipping": 0.36646418663108166,
+      "meoh_cracking": 2.503170980190926,
+      "co2_capture": 1.1047838940588843
+    },
+    "low_module_eis": {
+      "pem": 0.0,
+      "meoh_synthesis": 0.2575856090253776,
+      "shipping": 0.24328389816973256,
+      "meoh_cracking": 0.8085317460317456,
+      "co2_capture": 0.0
+    },
+    "base_module_eis": {
+      "pem": 0.0,
+      "meoh_synthesis": 0.2575856090253776,
+      "shipping": 0.24328389816973256,
+      "meoh_cracking": 0.8085317460317456,
+      "co2_capture": 0.0
+    },
+    "high_module_eis": {
+      "pem": 0.0,
+      "meoh_synthesis": 0.2575856090253776,
+      "shipping": 0.24328389816973256,
+      "meoh_cracking": 0.8085317460317456,
+      "co2_capture": 0.0
+    },
+    "low_error": "",
+    "high_error": ""
+  },
+  {
+    "bound": {
+      "name": "Cracker site (Japan) industrial power price [USD/kWh]",
+      "group": "cracker",
+      "field": "cracker_power_price_aud_per_kwh",
+      "base": 0.26135014149195696,
+      "low": 0.028103781747553742,
+      "high": 0.4238110402572275
+    },
+    "low_cost": 22.182936660012153,
+    "base_cost": 22.182936660012153,
+    "high_cost": 22.182936660012153,
+    "low_ei": 1.3094012532268557,
+    "base_ei": 1.3094012532268557,
+    "high_ei": 1.3094012532268557,
+    "low_module_costs": {
+      "pem": 18.142856641893513,
+      "meoh_synthesis": 0.4838022656688827,
+      "shipping": 0.36646418663108166,
+      "meoh_cracking": 2.0850296717597945,
+      "co2_capture": 1.1047838940588843
+    },
+    "base_module_costs": {
+      "pem": 18.142856641893513,
+      "meoh_synthesis": 0.4838022656688827,
+      "shipping": 0.36646418663108166,
+      "meoh_cracking": 2.0850296717597945,
+      "co2_capture": 1.1047838940588843
+    },
+    "high_module_costs": {
+      "pem": 18.142856641893513,
+      "meoh_synthesis": 0.4838022656688827,
+      "shipping": 0.36646418663108166,
+      "meoh_cracking": 2.0850296717597945,
+      "co2_capture": 1.1047838940588843
+    },
+    "low_module_eis": {
+      "pem": 0.0,
+      "meoh_synthesis": 0.2575856090253776,
+      "shipping": 0.24328389816973256,
+      "meoh_cracking": 0.8085317460317456,
+      "co2_capture": 0.0
+    },
+    "base_module_eis": {
+      "pem": 0.0,
+      "meoh_synthesis": 0.2575856090253776,
+      "shipping": 0.24328389816973256,
+      "meoh_cracking": 0.8085317460317456,
+      "co2_capture": 0.0
+    },
+    "high_module_eis": {
+      "pem": 0.0,
+      "meoh_synthesis": 0.2575856090253776,
+      "shipping": 0.24328389816973256,
+      "meoh_cracking": 0.8085317460317456,
+      "co2_capture": 0.0
+    },
+    "low_error": "",
+    "high_error": ""
+  },
+  {
+    "bound": {
+      "name": "Cracker site (Japan) grid CO2 EI [kg CO2 / kWh]",
+      "group": "cracker",
+      "field": "cracker_grid_ei_kg_co2_per_kwh",
+      "base": 0.46,
+      "low": 0.25,
+      "high": 0.55
+    },
+    "low_cost": 22.182936660012153,
+    "base_cost": 22.182936660012153,
+    "high_cost": 22.182936660012153,
+    "low_ei": 1.3094012532268557,
+    "base_ei": 1.3094012532268557,
+    "high_ei": 1.3094012532268557,
+    "low_module_costs": {
+      "pem": 18.142856641893513,
+      "meoh_synthesis": 0.4838022656688827,
+      "shipping": 0.36646418663108166,
+      "meoh_cracking": 2.0850296717597945,
+      "co2_capture": 1.1047838940588843
+    },
+    "base_module_costs": {
+      "pem": 18.142856641893513,
+      "meoh_synthesis": 0.4838022656688827,
+      "shipping": 0.36646418663108166,
+      "meoh_cracking": 2.0850296717597945,
+      "co2_capture": 1.1047838940588843
+    },
+    "high_module_costs": {
+      "pem": 18.142856641893513,
+      "meoh_synthesis": 0.4838022656688827,
+      "shipping": 0.36646418663108166,
+      "meoh_cracking": 2.0850296717597945,
+      "co2_capture": 1.1047838940588843
+    },
+    "low_module_eis": {
+      "pem": 0.0,
+      "meoh_synthesis": 0.2575856090253776,
+      "shipping": 0.24328389816973256,
+      "meoh_cracking": 0.8085317460317456,
+      "co2_capture": 0.0
+    },
+    "base_module_eis": {
+      "pem": 0.0,
+      "meoh_synthesis": 0.2575856090253776,
+      "shipping": 0.24328389816973256,
+      "meoh_cracking": 0.8085317460317456,
+      "co2_capture": 0.0
+    },
+    "high_module_eis": {
+      "pem": 0.0,
+      "meoh_synthesis": 0.2575856090253776,
+      "shipping": 0.24328389816973256,
+      "meoh_cracking": 0.8085317460317456,
+      "co2_capture": 0.0
+    },
+    "low_error": "",
+    "high_error": ""
+  },
+  {
+    "bound": {
+      "name": "CO2 capture rate [fraction]",
+      "group": "cracker",
+      "field": "co2_capture_rate",
+      "base": 0.9,
+      "low": 0.867,
+      "high": 0.99
+    },
+    "low_cost": 22.30409264830229,
+    "base_cost": 22.182936660012153,
+    "high_cost": 21.852511237402688,
+    "low_ei": 1.5762167294173322,
+    "base_ei": 1.3094012532268557,
+    "high_ei": 0.5817226817982848,
+    "low_module_costs": {
+      "pem": 18.142856641893513,
+      "meoh_synthesis": 0.48380226566888274,
+      "shipping": 0.36646418663108166,
+      "meoh_cracking": 2.0676883727110043,
+      "co2_capture": 1.243281181397812
+    },
+    "base_module_costs": {
+      "pem": 18.142856641893513,
+      "meoh_synthesis": 0.4838022656688827,
+      "shipping": 0.36646418663108166,
+      "meoh_cracking": 2.0850296717597945,
+      "co2_capture": 1.1047838940588843
+    },
+    "high_module_costs": {
+      "pem": 18.14285664189351,
+      "meoh_synthesis": 0.4838022656688826,
+      "shipping": 0.36646418663108166,
+      "meoh_cracking": 2.1323241237110397,
+      "co2_capture": 0.7270640194981737
+    },
+    "low_module_eis": {
+      "pem": 0.0,
+      "meoh_synthesis": 0.2575856090253776,
+      "shipping": 0.24328389816973256,
+      "meoh_cracking": 1.075347222222222,
+      "co2_capture": 0.0
+    },
+    "base_module_eis": {
+      "pem": 0.0,
+      "meoh_synthesis": 0.2575856090253776,
+      "shipping": 0.24328389816973256,
+      "meoh_cracking": 0.8085317460317456,
+      "co2_capture": 0.0
+    },
+    "high_module_eis": {
+      "pem": 0.0,
+      "meoh_synthesis": 0.2575856090253776,
+      "shipping": 0.24328389816973256,
+      "meoh_cracking": 0.08085317460317465,
+      "co2_capture": 0.0
+    },
+    "low_error": "",
+    "high_error": ""
+  },
+  {
+    "bound": {
+      "name": "CO2 capture cost, reformate (concentrated, PSA) [USD/t CO2]",
+      "group": "cracker",
+      "field": "capture_cost_concentrated_aud_per_t_co2",
+      "base": 30.944048857514,
+      "low": 15.472024428757,
+      "high": 77.360122143785
+    },
+    "low_cost": 22.070350053677895,
+    "base_cost": 22.182936660012153,
+    "high_cost": 22.52069647901493,
+    "low_ei": 1.3094012532268557,
+    "base_ei": 1.3094012532268557,
+    "high_ei": 1.3094012532268557,
+    "low_module_costs": {
+      "pem": 18.142856641893513,
+      "meoh_synthesis": 0.4838022656688827,
+      "shipping": 0.36646418663108166,
+      "meoh_cracking": 1.9724430654255363,
+      "co2_capture": 1.1047838940588843
+    },
+    "base_module_costs": {
+      "pem": 18.142856641893513,
+      "meoh_synthesis": 0.4838022656688827,
+      "shipping": 0.36646418663108166,
+      "meoh_cracking": 2.0850296717597945,
+      "co2_capture": 1.1047838940588843
+    },
+    "high_module_costs": {
+      "pem": 18.142856641893513,
+      "meoh_synthesis": 0.4838022656688827,
+      "shipping": 0.36646418663108166,
+      "meoh_cracking": 2.4227894907625704,
+      "co2_capture": 1.1047838940588843
+    },
+    "low_module_eis": {
+      "pem": 0.0,
+      "meoh_synthesis": 0.2575856090253776,
+      "shipping": 0.24328389816973256,
+      "meoh_cracking": 0.8085317460317456,
+      "co2_capture": 0.0
+    },
+    "base_module_eis": {
+      "pem": 0.0,
+      "meoh_synthesis": 0.2575856090253776,
+      "shipping": 0.24328389816973256,
+      "meoh_cracking": 0.8085317460317456,
+      "co2_capture": 0.0
+    },
+    "high_module_eis": {
+      "pem": 0.0,
+      "meoh_synthesis": 0.2575856090253776,
+      "shipping": 0.24328389816973256,
+      "meoh_cracking": 0.8085317460317456,
+      "co2_capture": 0.0
+    },
+    "low_error": "",
+    "high_error": ""
+  },
+  {
+    "bound": {
+      "name": "CO2 capture cost, flue gas (dilute) [USD/t CO2]",
+      "group": "cracker",
+      "field": "capture_cost_dilute_aud_per_t_co2",
+      "base": 147.5213051077378,
+      "low": 92.20081569233612,
+      "high": 147.5213051077378
+    },
+    "low_cost": 22.182936660012153,
+    "base_cost": 22.182936660012153,
+    "high_cost": 22.182936660012153,
+    "low_ei": 1.3094012532268557,
+    "base_ei": 1.3094012532268557,
+    "high_ei": 1.3094012532268557,
+    "low_module_costs": {
+      "pem": 18.142856641893513,
+      "meoh_synthesis": 0.4838022656688827,
+      "shipping": 0.36646418663108166,
+      "meoh_cracking": 2.0850296717597945,
+      "co2_capture": 1.1047838940588843
+    },
+    "base_module_costs": {
+      "pem": 18.142856641893513,
+      "meoh_synthesis": 0.4838022656688827,
+      "shipping": 0.36646418663108166,
+      "meoh_cracking": 2.0850296717597945,
+      "co2_capture": 1.1047838940588843
+    },
+    "high_module_costs": {
+      "pem": 18.142856641893513,
+      "meoh_synthesis": 0.4838022656688827,
+      "shipping": 0.36646418663108166,
+      "meoh_cracking": 2.0850296717597945,
+      "co2_capture": 1.1047838940588843
+    },
+    "low_module_eis": {
+      "pem": 0.0,
+      "meoh_synthesis": 0.2575856090253776,
+      "shipping": 0.24328389816973256,
+      "meoh_cracking": 0.8085317460317456,
+      "co2_capture": 0.0
+    },
+    "base_module_eis": {
+      "pem": 0.0,
+      "meoh_synthesis": 0.2575856090253776,
+      "shipping": 0.24328389816973256,
+      "meoh_cracking": 0.8085317460317456,
+      "co2_capture": 0.0
+    },
+    "high_module_eis": {
+      "pem": 0.0,
+      "meoh_synthesis": 0.2575856090253776,
+      "shipping": 0.24328389816973256,
+      "meoh_cracking": 0.8085317460317456,
+      "co2_capture": 0.0
+    },
+    "low_error": "",
+    "high_error": ""
+  },
+  {
+    "bound": {
+      "name": "CO2 capture and compression electricity, PSA (concentrated) [kWh/t CO2]",
+      "group": "cracker",
+      "field": "capture_electricity_concentrated_kwh_per_t_co2",
+      "base": 126.4542,
+      "low": 63.2271,
+      "high": 189.6813
+    },
+    "low_cost": 22.059051006590185,
+    "base_cost": 22.182936660012153,
+    "high_cost": 22.30682231343412,
+    "low_ei": 1.3094012532268557,
+    "base_ei": 1.3094012532268557,
+    "high_ei": 1.3094012532268557,
+    "low_module_costs": {
+      "pem": 18.142856641893513,
+      "meoh_synthesis": 0.4838022656688827,
+      "shipping": 0.36646418663108166,
+      "meoh_cracking": 1.961144018337825,
+      "co2_capture": 1.1047838940588843
+    },
+    "base_module_costs": {
+      "pem": 18.142856641893513,
+      "meoh_synthesis": 0.4838022656688827,
+      "shipping": 0.36646418663108166,
+      "meoh_cracking": 2.0850296717597945,
+      "co2_capture": 1.1047838940588843
+    },
+    "high_module_costs": {
+      "pem": 18.142856641893513,
+      "meoh_synthesis": 0.4838022656688827,
+      "shipping": 0.36646418663108166,
+      "meoh_cracking": 2.208915325181764,
+      "co2_capture": 1.1047838940588843
+    },
+    "low_module_eis": {
+      "pem": 0.0,
+      "meoh_synthesis": 0.2575856090253776,
+      "shipping": 0.24328389816973256,
+      "meoh_cracking": 0.8085317460317456,
+      "co2_capture": 0.0
+    },
+    "base_module_eis": {
+      "pem": 0.0,
+      "meoh_synthesis": 0.2575856090253776,
+      "shipping": 0.24328389816973256,
+      "meoh_cracking": 0.8085317460317456,
+      "co2_capture": 0.0
+    },
+    "high_module_eis": {
+      "pem": 0.0,
+      "meoh_synthesis": 0.2575856090253776,
+      "shipping": 0.24328389816973256,
+      "meoh_cracking": 0.8085317460317456,
+      "co2_capture": 0.0
+    },
+    "low_error": "",
+    "high_error": ""
+  },
+  {
+    "bound": {
+      "name": "CO2 capture and compression electricity, amine (dilute) [kWh/t CO2]",
+      "group": "cracker",
+      "field": "capture_electricity_dilute_kwh_per_t_co2",
+      "base": 100.0,
+      "low": 60.0,
+      "high": 150.0
+    },
+    "low_cost": 22.182936660012153,
+    "base_cost": 22.182936660012153,
+    "high_cost": 22.182936660012153,
+    "low_ei": 1.3094012532268557,
+    "base_ei": 1.3094012532268557,
+    "high_ei": 1.3094012532268557,
+    "low_module_costs": {
+      "pem": 18.142856641893513,
+      "meoh_synthesis": 0.4838022656688827,
+      "shipping": 0.36646418663108166,
+      "meoh_cracking": 2.0850296717597945,
+      "co2_capture": 1.1047838940588843
+    },
+    "base_module_costs": {
+      "pem": 18.142856641893513,
+      "meoh_synthesis": 0.4838022656688827,
+      "shipping": 0.36646418663108166,
+      "meoh_cracking": 2.0850296717597945,
+      "co2_capture": 1.1047838940588843
+    },
+    "high_module_costs": {
+      "pem": 18.142856641893513,
+      "meoh_synthesis": 0.4838022656688827,
+      "shipping": 0.36646418663108166,
+      "meoh_cracking": 2.0850296717597945,
+      "co2_capture": 1.1047838940588843
+    },
+    "low_module_eis": {
+      "pem": 0.0,
+      "meoh_synthesis": 0.2575856090253776,
+      "shipping": 0.24328389816973256,
+      "meoh_cracking": 0.8085317460317456,
+      "co2_capture": 0.0
+    },
+    "base_module_eis": {
+      "pem": 0.0,
+      "meoh_synthesis": 0.2575856090253776,
+      "shipping": 0.24328389816973256,
+      "meoh_cracking": 0.8085317460317456,
+      "co2_capture": 0.0
+    },
+    "high_module_eis": {
+      "pem": 0.0,
+      "meoh_synthesis": 0.2575856090253776,
+      "shipping": 0.24328389816973256,
+      "meoh_cracking": 0.8085317460317456,
+      "co2_capture": 0.0
+    },
+    "low_error": "",
+    "high_error": ""
+  },
+  {
+    "bound": {
+      "name": "Capture solvent regeneration heat, amine (dilute) [GJ/t CO2]",
+      "group": "cracker",
+      "field": "capture_regen_heat_dilute_gj_per_t_co2",
+      "base": 2.4,
+      "low": 1.55,
+      "high": 6.8
+    },
+    "low_cost": 22.182936660012153,
+    "base_cost": 22.182936660012153,
+    "high_cost": 22.182936660012153,
+    "low_ei": 1.3094012532268557,
+    "base_ei": 1.3094012532268557,
+    "high_ei": 1.3094012532268557,
+    "low_module_costs": {
+      "pem": 18.142856641893513,
+      "meoh_synthesis": 0.4838022656688827,
+      "shipping": 0.36646418663108166,
+      "meoh_cracking": 2.0850296717597945,
+      "co2_capture": 1.1047838940588843
+    },
+    "base_module_costs": {
+      "pem": 18.142856641893513,
+      "meoh_synthesis": 0.4838022656688827,
+      "shipping": 0.36646418663108166,
+      "meoh_cracking": 2.0850296717597945,
+      "co2_capture": 1.1047838940588843
+    },
+    "high_module_costs": {
+      "pem": 18.142856641893513,
+      "meoh_synthesis": 0.4838022656688827,
+      "shipping": 0.36646418663108166,
+      "meoh_cracking": 2.0850296717597945,
+      "co2_capture": 1.1047838940588843
+    },
+    "low_module_eis": {
+      "pem": 0.0,
+      "meoh_synthesis": 0.2575856090253776,
+      "shipping": 0.24328389816973256,
+      "meoh_cracking": 0.8085317460317456,
+      "co2_capture": 0.0
+    },
+    "base_module_eis": {
+      "pem": 0.0,
+      "meoh_synthesis": 0.2575856090253776,
+      "shipping": 0.24328389816973256,
+      "meoh_cracking": 0.8085317460317456,
+      "co2_capture": 0.0
+    },
+    "high_module_eis": {
+      "pem": 0.0,
+      "meoh_synthesis": 0.2575856090253776,
+      "shipping": 0.24328389816973256,
+      "meoh_cracking": 0.8085317460317456,
+      "co2_capture": 0.0
+    },
+    "low_error": "",
+    "high_error": ""
+  },
+  {
+    "bound": {
+      "name": "Available full-load hours [h/yr]",
+      "group": "cracker",
+      "field": "available_hours_per_year",
+      "base": 8000.0,
+      "low": 7500.0,
+      "high": 8300.0
+    },
+    "low_cost": NaN,
+    "base_cost": 22.182936660012153,
+    "high_cost": 22.182936660012153,
+    "low_ei": NaN,
+    "base_ei": 1.3094012532268557,
+    "high_ei": 1.3094012532268557,
+    "low_module_costs": {
+      "pem": NaN,
+      "meoh_synthesis": NaN,
+      "shipping": NaN,
+      "meoh_cracking": NaN,
+      "co2_capture": NaN
+    },
+    "base_module_costs": {
+      "pem": 18.142856641893513,
+      "meoh_synthesis": 0.4838022656688827,
+      "shipping": 0.36646418663108166,
+      "meoh_cracking": 2.0850296717597945,
+      "co2_capture": 1.1047838940588843
+    },
+    "high_module_costs": {
+      "pem": 18.142856641893513,
+      "meoh_synthesis": 0.4838022656688827,
+      "shipping": 0.36646418663108166,
+      "meoh_cracking": 2.0850296717597945,
+      "co2_capture": 1.1047838940588843
+    },
+    "low_module_eis": {
+      "pem": NaN,
+      "meoh_synthesis": NaN,
+      "shipping": NaN,
+      "meoh_cracking": NaN,
+      "co2_capture": NaN
+    },
+    "base_module_eis": {
+      "pem": 0.0,
+      "meoh_synthesis": 0.2575856090253776,
+      "shipping": 0.24328389816973256,
+      "meoh_cracking": 0.8085317460317456,
+      "co2_capture": 0.0
+    },
+    "high_module_eis": {
+      "pem": 0.0,
+      "meoh_synthesis": 0.2575856090253776,
+      "shipping": 0.24328389816973256,
+      "meoh_cracking": 0.8085317460317456,
+      "co2_capture": 0.0
+    },
+    "low_error": "Installed cracker fleet cannot meet required throughput (96.1133% of target)",
+    "high_error": ""
+  },
+  {
+    "bound": {
+      "name": "Liquefaction + storage [USD/t CO2]",
+      "group": "co2_cap",
+      "field": "liquefaction_storage_aud_per_t",
+      "base": 49.5104781720224,
+      "low": 23.2080366431355,
+      "high": 77.360122143785
+    },
+    "low_cost": 21.991539429243915,
+    "base_cost": 22.182936660012153,
+    "high_cost": 22.38559255141382,
+    "low_ei": 1.3094012532268557,
+    "base_ei": 1.3094012532268557,
+    "high_ei": 1.3094012532268557,
+    "low_module_costs": {
+      "pem": 18.14285664189351,
+      "meoh_synthesis": 0.4838022656688827,
+      "shipping": 0.36646418663108166,
+      "meoh_cracking": 2.0850296717597945,
+      "co2_capture": 0.9133866632906446
+    },
+    "base_module_costs": {
+      "pem": 18.142856641893513,
+      "meoh_synthesis": 0.4838022656688827,
+      "shipping": 0.36646418663108166,
+      "meoh_cracking": 2.0850296717597945,
+      "co2_capture": 1.1047838940588843
+    },
+    "high_module_costs": {
+      "pem": 18.142856641893513,
+      "meoh_synthesis": 0.4838022656688826,
+      "shipping": 0.36646418663108166,
+      "meoh_cracking": 2.0850296717597945,
+      "co2_capture": 1.3074397854605495
+    },
+    "low_module_eis": {
+      "pem": 0.0,
+      "meoh_synthesis": 0.2575856090253776,
+      "shipping": 0.24328389816973256,
+      "meoh_cracking": 0.8085317460317456,
+      "co2_capture": 0.0
+    },
+    "base_module_eis": {
+      "pem": 0.0,
+      "meoh_synthesis": 0.2575856090253776,
+      "shipping": 0.24328389816973256,
+      "meoh_cracking": 0.8085317460317456,
+      "co2_capture": 0.0
+    },
+    "high_module_eis": {
+      "pem": 0.0,
+      "meoh_synthesis": 0.2575856090253776,
+      "shipping": 0.24328389816973256,
+      "meoh_cracking": 0.8085317460317456,
+      "co2_capture": 0.0
+    },
+    "low_error": "",
+    "high_error": ""
+  },
+  {
+    "bound": {
+      "name": "Cargo loss fraction [fraction]",
+      "group": "co2_cap",
+      "field": "cargo_loss_fraction",
+      "base": 0.0,
+      "low": 0.0,
+      "high": 0.005
+    },
+    "low_cost": 22.182936660012153,
+    "base_cost": 22.182936660012153,
+    "high_cost": 22.20362403944154,
+    "low_ei": 1.3094012532268557,
+    "base_ei": 1.3094012532268557,
+    "high_ei": 1.3457851817982842,
+    "low_module_costs": {
+      "pem": 18.142856641893513,
+      "meoh_synthesis": 0.4838022656688827,
+      "shipping": 0.36646418663108166,
+      "meoh_cracking": 2.0850296717597945,
+      "co2_capture": 1.1047838940588843
+    },
+    "base_module_costs": {
+      "pem": 18.142856641893513,
+      "meoh_synthesis": 0.4838022656688827,
+      "shipping": 0.36646418663108166,
+      "meoh_cracking": 2.0850296717597945,
+      "co2_capture": 1.1047838940588843
+    },
+    "high_module_costs": {
+      "pem": 18.142856641893516,
+      "meoh_synthesis": 0.48380226566888274,
+      "shipping": 0.36646418663108166,
+      "meoh_cracking": 2.0850296717597945,
+      "co2_capture": 1.1254712734882677
+    },
+    "low_module_eis": {
+      "pem": 0.0,
+      "meoh_synthesis": 0.2575856090253776,
+      "shipping": 0.24328389816973256,
+      "meoh_cracking": 0.8085317460317456,
+      "co2_capture": 0.0
+    },
+    "base_module_eis": {
+      "pem": 0.0,
+      "meoh_synthesis": 0.2575856090253776,
+      "shipping": 0.24328389816973256,
+      "meoh_cracking": 0.8085317460317456,
+      "co2_capture": 0.0
+    },
+    "high_module_eis": {
+      "pem": 0.0,
+      "meoh_synthesis": 0.2575856090253776,
+      "shipping": 0.24328389816973256,
+      "meoh_cracking": 0.8085317460317456,
+      "co2_capture": 0.036383928571428546
+    },
+    "low_error": "",
+    "high_error": ""
+  },
+  {
+    "bound": {
+      "name": "CO2 liquefaction electricity [kWh/t CO2]",
+      "group": "co2_cap",
+      "field": "liquefaction_electricity_kwh_per_t_co2",
+      "base": 170.0,
+      "low": 104.0,
+      "high": 179.0
+    },
+    "low_cost": 22.182936660012153,
+    "base_cost": 22.182936660012153,
+    "high_cost": 22.182936660012153,
+    "low_ei": 1.3094012532268557,
+    "base_ei": 1.3094012532268557,
+    "high_ei": 1.3094012532268557,
+    "low_module_costs": {
+      "pem": 18.142856641893513,
+      "meoh_synthesis": 0.4838022656688827,
+      "shipping": 0.36646418663108166,
+      "meoh_cracking": 2.0850296717597945,
+      "co2_capture": 1.1047838940588843
+    },
+    "base_module_costs": {
+      "pem": 18.142856641893513,
+      "meoh_synthesis": 0.4838022656688827,
+      "shipping": 0.36646418663108166,
+      "meoh_cracking": 2.0850296717597945,
+      "co2_capture": 1.1047838940588843
+    },
+    "high_module_costs": {
+      "pem": 18.142856641893513,
+      "meoh_synthesis": 0.4838022656688827,
+      "shipping": 0.36646418663108166,
+      "meoh_cracking": 2.0850296717597945,
+      "co2_capture": 1.1047838940588843
+    },
+    "low_module_eis": {
+      "pem": 0.0,
+      "meoh_synthesis": 0.2575856090253776,
+      "shipping": 0.24328389816973256,
+      "meoh_cracking": 0.8085317460317456,
+      "co2_capture": 0.0
+    },
+    "base_module_eis": {
+      "pem": 0.0,
+      "meoh_synthesis": 0.2575856090253776,
+      "shipping": 0.24328389816973256,
+      "meoh_cracking": 0.8085317460317456,
+      "co2_capture": 0.0
+    },
+    "high_module_eis": {
+      "pem": 0.0,
+      "meoh_synthesis": 0.2575856090253776,
+      "shipping": 0.24328389816973256,
+      "meoh_cracking": 0.8085317460317456,
+      "co2_capture": 0.0
+    },
+    "low_error": "",
+    "high_error": ""
+  },
+  {
+    "bound": {
+      "name": "Make-up CO2 cost (DAC / biogenic) [USD/t CO2]",
+      "group": "dac",
+      "field": "dac_cost_aud_per_t",
+      "base": 568.5856432125089,
+      "low": 88.13077469793888,
+      "high": 2132.1961620469083
+    },
+    "low_cost": 21.553828453060234,
+    "base_cost": 22.182936660012153,
+    "high_cost": 24.23033023293261,
+    "low_ei": 1.3094012532268557,
+    "base_ei": 1.3094012532268557,
+    "high_ei": 1.3094012532268557,
+    "low_module_costs": {
+      "pem": 18.142856641893513,
+      "meoh_synthesis": 0.48380226566888274,
+      "shipping": 0.36646418663108166,
+      "meoh_cracking": 2.0850296717597945,
+      "co2_capture": 0.4756756871069621
+    },
+    "base_module_costs": {
+      "pem": 18.142856641893513,
+      "meoh_synthesis": 0.4838022656688827,
+      "shipping": 0.36646418663108166,
+      "meoh_cracking": 2.0850296717597945,
+      "co2_capture": 1.1047838940588843
+    },
+    "high_module_costs": {
+      "pem": 18.14285664189351,
+      "meoh_synthesis": 0.4838022656688826,
+      "shipping": 0.36646418663108166,
+      "meoh_cracking": 2.0850296717597945,
+      "co2_capture": 3.152177466979339
+    },
+    "low_module_eis": {
+      "pem": 0.0,
+      "meoh_synthesis": 0.2575856090253776,
+      "shipping": 0.24328389816973256,
+      "meoh_cracking": 0.8085317460317456,
+      "co2_capture": 0.0
+    },
+    "base_module_eis": {
+      "pem": 0.0,
+      "meoh_synthesis": 0.2575856090253776,
+      "shipping": 0.24328389816973256,
+      "meoh_cracking": 0.8085317460317456,
+      "co2_capture": 0.0
+    },
+    "high_module_eis": {
+      "pem": 0.0,
+      "meoh_synthesis": 0.2575856090253776,
+      "shipping": 0.24328389816973256,
+      "meoh_cracking": 0.8085317460317456,
+      "co2_capture": 0.0
+    },
+    "low_error": "",
+    "high_error": ""
+  },
+  {
+    "bound": {
+      "name": "Discount rate [fraction/yr]",
+      "group": "econ",
+      "field": "discount_rate",
+      "base": 0.08,
+      "low": 0.06,
+      "high": 0.1
+    },
+    "low_cost": 19.573222670672592,
+    "base_cost": 22.182936660012153,
+    "high_cost": 24.962325035953885,
+    "low_ei": 1.3094012532268557,
+    "base_ei": 1.3094012532268557,
+    "high_ei": 1.3094012532268557,
+    "low_module_costs": {
+      "pem": 15.669831586905048,
+      "meoh_synthesis": 0.4292054958294628,
+      "shipping": 0.3142055788788406,
+      "meoh_cracking": 2.0551961150003577,
+      "co2_capture": 1.1047838940588843
+    },
+    "base_module_costs": {
+      "pem": 18.142856641893513,
+      "meoh_synthesis": 0.4838022656688827,
+      "shipping": 0.36646418663108166,
+      "meoh_cracking": 2.0850296717597945,
+      "co2_capture": 1.1047838940588843
+    },
+    "high_module_costs": {
+      "pem": 20.776594242557284,
+      "meoh_synthesis": 0.5419415228495662,
+      "shipping": 0.4222306964288953,
+      "meoh_cracking": 2.1167746800592595,
+      "co2_capture": 1.1047838940588843
+    },
+    "low_module_eis": {
+      "pem": 0.0,
+      "meoh_synthesis": 0.2575856090253776,
+      "shipping": 0.24328389816973256,
+      "meoh_cracking": 0.8085317460317456,
+      "co2_capture": 0.0
+    },
+    "base_module_eis": {
+      "pem": 0.0,
+      "meoh_synthesis": 0.2575856090253776,
+      "shipping": 0.24328389816973256,
+      "meoh_cracking": 0.8085317460317456,
+      "co2_capture": 0.0
+    },
+    "high_module_eis": {
+      "pem": 0.0,
+      "meoh_synthesis": 0.2575856090253776,
+      "shipping": 0.24328389816973256,
+      "meoh_cracking": 0.8085317460317456,
+      "co2_capture": 0.0
+    },
+    "low_error": "",
+    "high_error": ""
+  },
+  {
+    "bound": {
+      "name": "Cracker economic life [years]",
+      "group": "econ",
+      "field": "cracker_life_years",
+      "base": 20.0,
+      "low": 20.0,
+      "high": 30.0
+    },
+    "low_cost": 22.182936660012153,
+    "base_cost": 22.182936660012153,
+    "high_cost": 22.164979529053337,
+    "low_ei": 1.3094012532268557,
+    "base_ei": 1.3094012532268557,
+    "high_ei": 1.3094012532268557,
+    "low_module_costs": {
+      "pem": 18.142856641893513,
+      "meoh_synthesis": 0.4838022656688827,
+      "shipping": 0.36646418663108166,
+      "meoh_cracking": 2.0850296717597945,
+      "co2_capture": 1.1047838940588843
+    },
+    "base_module_costs": {
+      "pem": 18.142856641893513,
+      "meoh_synthesis": 0.4838022656688827,
+      "shipping": 0.36646418663108166,
+      "meoh_cracking": 2.0850296717597945,
+      "co2_capture": 1.1047838940588843
+    },
+    "high_module_costs": {
+      "pem": 18.142856641893513,
+      "meoh_synthesis": 0.4838022656688827,
+      "shipping": 0.36646418663108166,
+      "meoh_cracking": 2.067072540800979,
+      "co2_capture": 1.1047838940588843
+    },
+    "low_module_eis": {
+      "pem": 0.0,
+      "meoh_synthesis": 0.2575856090253776,
+      "shipping": 0.24328389816973256,
+      "meoh_cracking": 0.8085317460317456,
+      "co2_capture": 0.0
+    },
+    "base_module_eis": {
+      "pem": 0.0,
+      "meoh_synthesis": 0.2575856090253776,
+      "shipping": 0.24328389816973256,
+      "meoh_cracking": 0.8085317460317456,
+      "co2_capture": 0.0
+    },
+    "high_module_eis": {
+      "pem": 0.0,
+      "meoh_synthesis": 0.2575856090253776,
+      "shipping": 0.24328389816973256,
+      "meoh_cracking": 0.8085317460317456,
+      "co2_capture": 0.0
+    },
+    "low_error": "",
+    "high_error": ""
+  },
+  {
+    "bound": {
+      "name": "Onshore pipeline CAPEX [AUD/km]",
+      "group": "transport",
+      "field": "pipeline_capex_aud_per_km",
+      "base": 2000000.0,
+      "low": 1000000.0,
+      "high": 4000000.0
+    },
+    "low_cost": 21.90601301315112,
+    "base_cost": 22.182936660012153,
+    "high_cost": 22.73678395373421,
+    "low_ei": 1.3094012532268557,
+    "base_ei": 1.3094012532268557,
+    "high_ei": 1.3094012532268557,
+    "low_module_costs": {
+      "pem": 17.86593299503248,
+      "meoh_synthesis": 0.4838022656688826,
+      "shipping": 0.36646418663108166,
+      "meoh_cracking": 2.0850296717597945,
+      "co2_capture": 1.104783894058884
+    },
+    "base_module_costs": {
+      "pem": 18.142856641893513,
+      "meoh_synthesis": 0.4838022656688827,
+      "shipping": 0.36646418663108166,
+      "meoh_cracking": 2.0850296717597945,
+      "co2_capture": 1.1047838940588843
+    },
+    "high_module_costs": {
+      "pem": 18.69670393561557,
+      "meoh_synthesis": 0.4838022656688827,
+      "shipping": 0.36646418663108166,
+      "meoh_cracking": 2.0850296717597945,
+      "co2_capture": 1.1047838940588843
+    },
+    "low_module_eis": {
+      "pem": 0.0,
+      "meoh_synthesis": 0.2575856090253776,
+      "shipping": 0.24328389816973256,
+      "meoh_cracking": 0.8085317460317456,
+      "co2_capture": 0.0
+    },
+    "base_module_eis": {
+      "pem": 0.0,
+      "meoh_synthesis": 0.2575856090253776,
+      "shipping": 0.24328389816973256,
+      "meoh_cracking": 0.8085317460317456,
+      "co2_capture": 0.0
+    },
+    "high_module_eis": {
+      "pem": 0.0,
+      "meoh_synthesis": 0.2575856090253776,
+      "shipping": 0.24328389816973256,
+      "meoh_cracking": 0.8085317460317456,
+      "co2_capture": 0.0
+    },
+    "low_error": "",
+    "high_error": ""
+  },
+  {
+    "bound": {
+      "name": "Offshore pipeline CAPEX [AUD/km]",
+      "group": "transport",
+      "field": "offshore_pipeline_capex_aud_per_km",
+      "base": 4000000.0,
+      "low": 2000000.0,
+      "high": 8000000.0
+    },
+    "low_cost": 22.086866010624114,
+    "base_cost": 22.182936660012153,
+    "high_cost": 22.375077958788236,
+    "low_ei": 1.3094012532268557,
+    "base_ei": 1.3094012532268557,
+    "high_ei": 1.3094012532268557,
+    "low_module_costs": {
+      "pem": 18.046785992505473,
+      "meoh_synthesis": 0.4838022656688827,
+      "shipping": 0.36646418663108166,
+      "meoh_cracking": 2.0850296717597945,
+      "co2_capture": 1.1047838940588843
+    },
+    "base_module_costs": {
+      "pem": 18.142856641893513,
+      "meoh_synthesis": 0.4838022656688827,
+      "shipping": 0.36646418663108166,
+      "meoh_cracking": 2.0850296717597945,
+      "co2_capture": 1.1047838940588843
+    },
+    "high_module_costs": {
+      "pem": 18.334997940669595,
+      "meoh_synthesis": 0.4838022656688826,
+      "shipping": 0.36646418663108166,
+      "meoh_cracking": 2.0850296717597945,
+      "co2_capture": 1.104783894058884
+    },
+    "low_module_eis": {
+      "pem": 0.0,
+      "meoh_synthesis": 0.2575856090253776,
+      "shipping": 0.24328389816973256,
+      "meoh_cracking": 0.8085317460317456,
+      "co2_capture": 0.0
+    },
+    "base_module_eis": {
+      "pem": 0.0,
+      "meoh_synthesis": 0.2575856090253776,
+      "shipping": 0.24328389816973256,
+      "meoh_cracking": 0.8085317460317456,
+      "co2_capture": 0.0
+    },
+    "high_module_eis": {
+      "pem": 0.0,
+      "meoh_synthesis": 0.2575856090253776,
+      "shipping": 0.24328389816973256,
+      "meoh_cracking": 0.8085317460317456,
+      "co2_capture": 0.0
+    },
+    "low_error": "",
+    "high_error": ""
+  },
+  {
+    "bound": {
+      "name": "Pipeline economic life [years]",
+      "group": "transport",
+      "field": "pipeline_life_years",
+      "base": 40.0,
+      "low": 30.0,
+      "high": 50.0
+    },
+    "low_cost": 22.21861471124727,
+    "base_cost": 22.182936660012153,
+    "high_cost": 22.167728864117084,
+    "low_ei": 1.3094012532268557,
+    "base_ei": 1.3094012532268557,
+    "high_ei": 1.3094012532268557,
+    "low_module_costs": {
+      "pem": 18.17853469312863,
+      "meoh_synthesis": 0.4838022656688826,
+      "shipping": 0.36646418663108166,
+      "meoh_cracking": 2.0850296717597945,
+      "co2_capture": 1.1047838940588843
+    },
+    "base_module_costs": {
+      "pem": 18.142856641893513,
+      "meoh_synthesis": 0.4838022656688827,
+      "shipping": 0.36646418663108166,
+      "meoh_cracking": 2.0850296717597945,
+      "co2_capture": 1.1047838940588843
+    },
+    "high_module_costs": {
+      "pem": 18.127648845998444,
+      "meoh_synthesis": 0.4838022656688827,
+      "shipping": 0.36646418663108166,
+      "meoh_cracking": 2.0850296717597945,
+      "co2_capture": 1.1047838940588843
+    },
+    "low_module_eis": {
+      "pem": 0.0,
+      "meoh_synthesis": 0.2575856090253776,
+      "shipping": 0.24328389816973256,
+      "meoh_cracking": 0.8085317460317456,
+      "co2_capture": 0.0
+    },
+    "base_module_eis": {
+      "pem": 0.0,
+      "meoh_synthesis": 0.2575856090253776,
+      "shipping": 0.24328389816973256,
+      "meoh_cracking": 0.8085317460317456,
+      "co2_capture": 0.0
+    },
+    "high_module_eis": {
+      "pem": 0.0,
+      "meoh_synthesis": 0.2575856090253776,
+      "shipping": 0.24328389816973256,
+      "meoh_cracking": 0.8085317460317456,
+      "co2_capture": 0.0
+    },
+    "low_error": "",
+    "high_error": ""
+  },
+  {
+    "bound": {
+      "name": "Pipeline fixed O&M [%/year]",
+      "group": "transport",
+      "field": "pipeline_opex_percent_capex",
+      "base": 2.0,
+      "low": 1.0,
+      "high": 4.0
+    },
+    "low_cost": 22.10373522203227,
+    "base_cost": 22.182936660012153,
+    "high_cost": 22.341339535971926,
+    "low_ei": 1.3094012532268557,
+    "base_ei": 1.3094012532268557,
+    "high_ei": 1.3094012532268557,
+    "low_module_costs": {
+      "pem": 18.063655203913626,
+      "meoh_synthesis": 0.4838022656688827,
+      "shipping": 0.36646418663108166,
+      "meoh_cracking": 2.0850296717597945,
+      "co2_capture": 1.1047838940588843
+    },
+    "base_module_costs": {
+      "pem": 18.142856641893513,
+      "meoh_synthesis": 0.4838022656688827,
+      "shipping": 0.36646418663108166,
+      "meoh_cracking": 2.0850296717597945,
+      "co2_capture": 1.1047838940588843
+    },
+    "high_module_costs": {
+      "pem": 18.301259517853286,
+      "meoh_synthesis": 0.4838022656688827,
+      "shipping": 0.36646418663108166,
+      "meoh_cracking": 2.0850296717597945,
+      "co2_capture": 1.1047838940588843
+    },
+    "low_module_eis": {
+      "pem": 0.0,
+      "meoh_synthesis": 0.2575856090253776,
+      "shipping": 0.24328389816973256,
+      "meoh_cracking": 0.8085317460317456,
+      "co2_capture": 0.0
+    },
+    "base_module_eis": {
+      "pem": 0.0,
+      "meoh_synthesis": 0.2575856090253776,
+      "shipping": 0.24328389816973256,
+      "meoh_cracking": 0.8085317460317456,
+      "co2_capture": 0.0
+    },
+    "high_module_eis": {
+      "pem": 0.0,
+      "meoh_synthesis": 0.2575856090253776,
+      "shipping": 0.24328389816973256,
+      "meoh_cracking": 0.8085317460317456,
+      "co2_capture": 0.0
+    },
+    "low_error": "",
+    "high_error": ""
+  },
+  {
+    "bound": {
+      "name": "Pipeline compression energy [kWh/kg/100 km]",
+      "group": "transport",
+      "field": "compression_kwh_per_kg_per_100km",
+      "base": 0.25,
+      "low": 0.1,
+      "high": 0.5
+    },
+    "low_cost": 22.182936660012157,
+    "base_cost": 22.182936660012153,
+    "high_cost": NaN,
+    "low_ei": 1.3094012532268557,
+    "base_ei": 1.3094012532268557,
+    "high_ei": NaN,
+    "low_module_costs": {
+      "pem": 18.14196595107823,
+      "meoh_synthesis": 0.4846929564841677,
+      "shipping": 0.36646418663108166,
+      "meoh_cracking": 2.0850296717597945,
+      "co2_capture": 1.104783894058884
+    },
+    "base_module_costs": {
+      "pem": 18.142856641893513,
+      "meoh_synthesis": 0.4838022656688827,
+      "shipping": 0.36646418663108166,
+      "meoh_cracking": 2.0850296717597945,
+      "co2_capture": 1.1047838940588843
+    },
+    "high_module_costs": {
+      "pem": NaN,
+      "meoh_synthesis": NaN,
+      "shipping": NaN,
+      "meoh_cracking": NaN,
+      "co2_capture": NaN
+    },
+    "low_module_eis": {
+      "pem": 0.0,
+      "meoh_synthesis": 0.2575856090253776,
+      "shipping": 0.24328389816973256,
+      "meoh_cracking": 0.8085317460317456,
+      "co2_capture": 0.0
+    },
+    "base_module_eis": {
+      "pem": 0.0,
+      "meoh_synthesis": 0.2575856090253776,
+      "shipping": 0.24328389816973256,
+      "meoh_cracking": 0.8085317460317456,
+      "co2_capture": 0.0
+    },
+    "high_module_eis": {
+      "pem": NaN,
+      "meoh_synthesis": NaN,
+      "shipping": NaN,
+      "meoh_cracking": NaN,
+      "co2_capture": NaN
+    },
+    "low_error": "",
+    "high_error": "Infeasible fixed build: dispatch search supports 37.9994% of the H2 target; PortHastings: hourly dispatch and storage limits (0.2142% of target); PortBonython: hourly dispatch and storage limits (4.0237% of target); Gladstone: hourly dispatch and storage limits (2.8069% of target); HayPoint: hourly dispatch and storage limits (0.2319% of target); Ashburton: hourly dispatch and storage limits (5.5887% of target); Dampier: hourly dispatch and storage limits (5.3655% of target); PortDarwin: hourly dispatch and storage limits (0.0004% of target); PortAbbotPoint: hourly dispatch and storage limits (0.1465% of target); PortHedland: hourly dispatch and storage limits (16.0610% of target); Newcastle: hourly dispatch and storage limits (3.5606% of target)"
+  },
+  {
+    "bound": {
+      "name": "Pipeline compressor installed capital [USD(2019)/kW]",
+      "group": "transport",
+      "field": "compressor_capex_aud_per_kw",
+      "base": 3736.170190719243,
+      "low": 3362.5531716473183,
+      "high": 4109.787209791167
+    },
+    "low_cost": 22.17491043222616,
+    "base_cost": 22.182936660012153,
+    "high_cost": 22.190962887798147,
+    "low_ei": 1.3094012532268557,
+    "base_ei": 1.3094012532268557,
+    "high_ei": 1.3094012532268557,
+    "low_module_costs": {
+      "pem": 18.13483041410752,
+      "meoh_synthesis": 0.48380226566888274,
+      "shipping": 0.36646418663108166,
+      "meoh_cracking": 2.0850296717597945,
+      "co2_capture": 1.1047838940588846
+    },
+    "base_module_costs": {
+      "pem": 18.142856641893513,
+      "meoh_synthesis": 0.4838022656688827,
+      "shipping": 0.36646418663108166,
+      "meoh_cracking": 2.0850296717597945,
+      "co2_capture": 1.1047838940588843
+    },
+    "high_module_costs": {
+      "pem": 18.150882869679506,
+      "meoh_synthesis": 0.4838022656688827,
+      "shipping": 0.36646418663108166,
+      "meoh_cracking": 2.0850296717597945,
+      "co2_capture": 1.1047838940588843
+    },
+    "low_module_eis": {
+      "pem": 0.0,
+      "meoh_synthesis": 0.2575856090253776,
+      "shipping": 0.24328389816973256,
+      "meoh_cracking": 0.8085317460317456,
+      "co2_capture": 0.0
+    },
+    "base_module_eis": {
+      "pem": 0.0,
+      "meoh_synthesis": 0.2575856090253776,
+      "shipping": 0.24328389816973256,
+      "meoh_cracking": 0.8085317460317456,
+      "co2_capture": 0.0
+    },
+    "high_module_eis": {
+      "pem": 0.0,
+      "meoh_synthesis": 0.2575856090253776,
+      "shipping": 0.24328389816973256,
+      "meoh_cracking": 0.8085317460317456,
+      "co2_capture": 0.0
+    },
+    "low_error": "",
+    "high_error": ""
+  }
+]

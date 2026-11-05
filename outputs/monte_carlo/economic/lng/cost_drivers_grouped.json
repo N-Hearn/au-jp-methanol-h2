@@ -1,0 +1,8 @@
+{
+  "LNG cost: liquefaction (CAPEX + OPEX) [USD/GJ]": 0.7074683154683155,
+  "Grey prod cost (ex feed) [USD/kg H2]": 0.6307387027387028,
+  "LNG cost: feed gas (wellhead) [USD/GJ]": 0.19683056883056885,
+  "Future zero-carbon power price [USD/kWh]": 0.1487954447954448,
+  "LNG cost: one-way shipping Gladstone-Tokyo [USD/GJ]": 0.03883703083703084,
+  "Cracker site (Japan) industrial power price [USD/kWh]": -0.006557466557466558
+}

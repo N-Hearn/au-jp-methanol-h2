@@ -1,0 +1,48 @@
+{
+  "model_fingerprint": "9255dfc078e49104d198cc66c4ca8f031a670c60e2e23cd748bdd4a0e4e288f2",
+  "options": {
+    "pre_psa_90": {
+      "note": "Typical: pre-combustion CO2 PSA ahead of the H2 PSA, 90 % capture (Rezaei/Crandall energy, Al Ghafri cost).",
+      "overrides": {
+        "co2_capture_config": 0,
+        "co2_capture_rate": 0.9
+      }
+    },
+    "pre_psa_95": {
+      "note": "Pre-combustion CO2 PSA at 95 % capture (upper syngas capture, Al Ghafri et al.).",
+      "overrides": {
+        "co2_capture_config": 0,
+        "co2_capture_rate": 0.95
+      }
+    },
+    "pre_mea_90": {
+      "note": "Pre-combustion MEA absorption at 90 % (Lin et al. 2024 intensified: 2.4 GJ/t reboiler, ~130 kWh/t), same unit cost.",
+      "overrides": {
+        "co2_capture_config": 0,
+        "co2_capture_rate": 0.9,
+        "capture_regen_heat_concentrated_gj_per_t_co2": 2.4,
+        "capture_electricity_concentrated_kwh_per_t_co2": 130.0
+      }
+    },
+    "post_amine_90": {
+      "note": "Single H2 PSA; tail gas burned; flue-gas amine capture of 90 % (workbook config 1 Typical: 2.4 GJ/t, 100 kWh/t, 80 USD/t).",
+      "overrides": {
+        "co2_capture_config": 1,
+        "co2_capture_rate": 0.9
+      }
+    },
+    "no_capture": {
+      "note": "No capture at the reformer; all synthesis CO2 bought as non-fossil make-up (linear chain).",
+      "overrides": {
+        "co2_capture_config": 0,
+        "co2_capture_rate": 0.0
+      }
+    }
+  },
+  "all_solved": true,
+  "caption_notes": [
+    "Gross EI shown; with non-fossil make-up CO2 every option nets to about zero (net EI pre_psa_90 +0.00, pre_psa_95 -0.00, pre_mea_90 +0.00, post_amine_90 +0.00, no_capture -0.00).",
+    "Reference deployment, allocation and synthesis trains retained; process fleets resized; frozen replay."
+  ],
+  "basis": "Optimised build; only cracker capture fields overridden; process fleets resized; frozen replay."
+}

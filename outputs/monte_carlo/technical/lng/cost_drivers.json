@@ -1,0 +1,6 @@
+{
+  "atr.h2_yield_kg_ng_per_kg_h2": 0.9861289101289104,
+  "atr.electricity_kwh_per_kg_h2": 0.21303442503442505,
+  "lng.supply_chain_ghg_kg_co2_per_gj": -0.05398775398775399,
+  "atr.grey_plant_gate_ei_kg_co2_per_kg_h2": -0.023940575940575942
+}

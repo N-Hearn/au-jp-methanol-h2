@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+.tmp/
+*.egg-info/
+
+# Tool caches
+.ruff_cache/
+.pytest_cache/
+.mypy_cache/
+
+# Run logs
+outputs/**/*.log
+
+# Bulky or intermediate outputs; summaries, results and plots are kept.
+# All regenerate from the scripts (samples.json is needed for --replot).
+outputs/monte_carlo/**/samples.json
+outputs/**/heat_builds/

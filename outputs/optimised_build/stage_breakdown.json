@@ -1,0 +1,70 @@
+{
+  "Grey H2": {
+    "cost_aud_per_kg_h2": {
+      "Delivered LNG": 2.965,
+      "ATR (Japan)": 2.02
+    },
+    "ei_kg_co2e_per_kg_h2": {
+      "Delivered LNG": 2.697,
+      "ATR (Japan)": 10.0
+    },
+    "total_cost": 4.985,
+    "total_ei": 12.697
+  },
+  "Blue H2": {
+    "cost_aud_per_kg_h2": {
+      "Delivered LNG": 2.965,
+      "ATR (Japan)": 2.02,
+      "CO2 capture, return + storage (blue)": 1.458
+    },
+    "ei_kg_co2e_per_kg_h2": {
+      "Delivered LNG": 2.697,
+      "ATR (Japan)": 1.0,
+      "CO2 capture, return + storage (blue)": 0.273
+    },
+    "total_cost": 6.443,
+    "total_ei": 3.97
+  },
+  "e-MeOH 0% margin": {
+    "cost_aud_per_kg_h2": {
+      "Renewables + transmission": 7.635,
+      "PEM electrolysis": 4.517,
+      "Battery + H2 storage": 0.946,
+      "H2 pipelines + compressors": 0.328,
+      "MeOH synthesis, shipping + storage": 0.608,
+      "Methanol reformer (MSR)": 2.085,
+      "CO2 recycle + make-up": 1.097
+    },
+    "ei_kg_co2e_per_kg_h2": {
+      "MeOH synthesis, shipping + storage": 0.488,
+      "Methanol reformer (MSR)": 0.809
+    },
+    "total_cost": 17.217,
+    "total_ei": 1.296
+  },
+  "e-MeOH 10% margin": {
+    "cost_aud_per_kg_h2": {
+      "Renewables + transmission": 7.714,
+      "PEM electrolysis": 6.049,
+      "Battery + H2 storage": 0.899,
+      "H2 pipelines + compressors": 0.383,
+      "MeOH synthesis, shipping + storage": 0.666,
+      "Methanol reformer (MSR)": 2.085,
+      "CO2 recycle + make-up": 1.097
+    },
+    "ei_kg_co2e_per_kg_h2": {
+      "MeOH synthesis, shipping + storage": 0.488,
+      "Methanol reformer (MSR)": 0.809
+    },
+    "total_cost": 18.893,
+    "total_ei": 1.296
+  },
+  "targets": {
+    "jpy_per_aud": 111.4,
+    "cif_aud_per_kg": {
+      "2030": 3.0,
+      "2050": 1.99
+    },
+    "ei_threshold": 3.4
+  }
+}

@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "au-jp-methanol-h2"
+version = "0.1.0"
+description = "TEA of hydrogen delivery pathways from Australia to Japan (grey and blue LNG/ATR vs green MeOH loop)"
+requires-python = ">=3.10"
+dependencies = [
+    "openpyxl>=3.1",
+    "numpy>=1.24",
+    "pandas>=2.0",
+    "matplotlib>=3.7",
+    "seaborn>=0.13",
+    "scipy>=1.11",
+    "numba>=0.59",
+    "graphviz>=0.20",
+]
+
+[tool.setuptools]
+py-modules = ["constants"]
+packages = ["base_case", "inputs", "inputs.renewables_ninja", "meoh_pathway", "scripts",
+            "scripts.common", "scripts.builds", "scripts.design_analysis", "scripts.uncertainty",
+            "scripts.plots"]

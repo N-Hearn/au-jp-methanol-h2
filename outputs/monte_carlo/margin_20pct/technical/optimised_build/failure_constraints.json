@@ -1,0 +1,44 @@
+{
+  "Carriers too few": {
+    "draws": 280,
+    "sites": {
+      "fleet": 280
+    }
+  },
+  "Cracker fleet too small": {
+    "draws": 230,
+    "sites": {
+      "fleet": 230
+    }
+  },
+  "Hourly dispatch / storage buffering": {
+    "draws": 190,
+    "sites": {
+      "PortBonython": 190,
+      "Gladstone": 190,
+      "Ashburton": 96,
+      "Dampier": 27,
+      "PortAbbotPoint": 186,
+      "PortHedland": 26
+    }
+  },
+  "No hourly schedule after reallocation": {
+    "draws": 8,
+    "sites": {
+      "fleet": 8
+    }
+  },
+  "Renewable energy too low": {
+    "draws": 2,
+    "sites": {
+      "Gladstone": 2,
+      "Ashburton": 2
+    }
+  },
+  "PEM nameplate too small": {
+    "draws": 1,
+    "sites": {
+      "PortAbbotPoint": 1
+    }
+  }
+}

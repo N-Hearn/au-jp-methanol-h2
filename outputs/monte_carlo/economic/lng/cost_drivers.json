@@ -1,0 +1,8 @@
+{
+  "lng.lng_liquefaction_cost_aud_per_gj": 0.7074683154683155,
+  "atr.grey_prod_cost_ex_feed_aud_per_kg_h2": 0.6307387027387028,
+  "lng.lng_feed_gas_cost_aud_per_gj": 0.19683056883056885,
+  "cracker.zero_carbon_power_price_aud_per_kwh": 0.1487954447954448,
+  "lng.lng_shipping_cost_aud_per_gj": 0.03883703083703084,
+  "cracker.cracker_power_price_aud_per_kwh": -0.006557466557466558
+}

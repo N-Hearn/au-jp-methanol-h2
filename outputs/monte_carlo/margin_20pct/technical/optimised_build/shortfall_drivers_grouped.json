@@ -1,0 +1,14 @@
+{
+  "Available full-load hours [h/yr]": -0.3647600759547316,
+  "PSA H2 recovery [fraction]": -0.3138222442300915,
+  "Specific energy consumption [kWh/kg H2]": 0.3073063741514583,
+  "Ship speed + sea fuel consumption": -0.1996867313158911,
+  "Vessel availability [days/year]": -0.1453553621330088,
+  "Port turnaround time [days]": 0.0929432887256897,
+  "Degradation rate [% / 1000 full-load hours]": 0.07598255540467984,
+  "Minimum stable load [% of scheduled rate]": 0.06975875207450198,
+  "Pipeline compression energy [kWh/kg/100 km]": 0.05320830299536977,
+  "CO2 capture and compression electricity, PSA (concentrated) [kWh/t CO2]": 0.05006510846437492,
+  "Supplemental burner efficiency [fraction]": -0.046608985274320835,
+  "Electric heater efficiency [fraction]": -0.03825031309233894
+}

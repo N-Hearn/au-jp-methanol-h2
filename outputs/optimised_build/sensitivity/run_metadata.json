@@ -1,0 +1,8 @@
+{
+  "model_fingerprint": "9255dfc078e49104d198cc66c4ca8f031a670c60e2e23cd748bdd4a0e4e288f2",
+  "fixed_installed_equipment": true,
+  "case": "optimised",
+  "model_basis": "hourly supply with per-site constraints and periodic inventories",
+  "basis": "OAT engineering and scenario stress bounds, not statistical confidence",
+  "heat_config_basis": "Reference allocations retained; process fleets resized; fired renewable cases proportionally scaled; frozen equipment replay required"
+}
