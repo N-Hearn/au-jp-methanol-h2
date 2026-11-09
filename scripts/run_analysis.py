@@ -48,7 +48,7 @@ MC_CASE_DIRS = {"grey": "lng", "grey_ccs": "lng_ccs", "optimum": "optimised_buil
                 "proposed": "proposed_build"}
 MC_PLOTS = {"economic": "economic_cost_distribution.png",
             "technical": "delivery_dashboard.png"}
-# Mirrors plot_lng_cases' output folders; importing that module pulls in matplotlib.
+# Mirrors plots.lng_cases' output folders; importing that module pulls in matplotlib.
 LNG_CASE_DIRS = (OUTPUT_DIR / "reference_case", OUTPUT_DIR / "base_case")
 CASE_PLOTS = ("meoh_flow_diagram.png", "pathway_comparison.png", "cost_breakdown.png")
 OPT_PLOTS = CASE_PLOTS + ("site_allocation.png",)

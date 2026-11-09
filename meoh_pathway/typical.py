@@ -133,12 +133,10 @@ def solve_typical(chain=None, *, allow_infeasible=False, save_path=None):
                                   **deployment,
                                   site_storage_costs=dict(overrides.get("_site_storage_costs", {})),
                                   preserve_assets=True)
-    # Leaving site_h2_allocation_weight unset (rather than passing energy-share
-    # weights ourselves) is what routes this through the model's own
-    # _site_potential allocation instead of a naive proportional split; that is
-    # the mechanism that actually closes the fleet target at everyone's max.
-    # _evaluating_typical only bypasses the
-    # run()->solve_typical delegation on this specific chain -- see run().
+    # site_h2_allocation_weight is left unset so the model's own _site_potential
+    # allocation splits production; a plain energy-share split would not close
+    # the fleet target with every site at its maximum. _evaluating_typical stops
+    # this chain's run() delegating back to solve_typical.
     evaluated_chain._evaluating_typical = True
     full_result = evaluated_chain.run(allow_infeasible=allow_infeasible)
     # Match the saved-build path, which rebuilds the chain from x with explicit decisions.

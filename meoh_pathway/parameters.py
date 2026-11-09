@@ -156,7 +156,7 @@ class PemParameters:
 @dataclass
 class MeohSynthParameters:
     available_hours_per_year: float
-    # Design capacity (nameplate, 8760 hr/yr basis  -  design sustained rate x 8760)
+    # Design capacity (nameplate: design sustained rate x 8760 hr/yr)
     capacity_tpy: float  # Nameplate capacity [t/year] @ 8760 hr/yr
     ref_capacity_tpy: float  # Reference capacity [t/year] @ 8760 hr/yr
     plant_life_years: int  # Plant economic life [years]
@@ -186,7 +186,7 @@ class MeohSynthParameters:
 
 @dataclass
 class ShipParameters:
-    # Ship (one reference design, no scaling  -  CAPEX/OPEX are absolute per vessel)
+    # Ship (one reference design, no scaling: CAPEX/OPEX are per vessel)
     carrier_cargo_volume_m3: float  # Cargo tank volume [m3]; payload on both legs
     co2_cargo_density_kg_per_m3: float  # LCO2 on the return leg [kg/m3]
     ref_ship_capex_aud: float  # Newbuild CAPEX per vessel [AUD]
@@ -199,7 +199,7 @@ class ShipParameters:
     shipping_distance_nm: float  # One-way distance [nm]
     voyage_speed_kn: float  # Service speed [knots]
     port_turnaround_days: float  # Combined load + discharge time [d]
-    boiloff_rate_pct_per_day: float  # BOG on loaded leg [%/d]
+    boiloff_rate_pct_per_day: float  # Boil-off gas (BOG) on loaded leg [%/d]
 
     reference_fuel_lhv_mj_per_kg: float
     available_days_per_year: float

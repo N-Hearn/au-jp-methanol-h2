@@ -166,15 +166,13 @@ class OptResult:
     nfev: int = 0  # number of objective evaluations
     full_result: Optional[SupplyChainResult] = field(default=None, repr=False)
     search_settings: dict = field(default_factory=dict)
-    # Bounded, diversity-preserving sample of the feasible candidates seen during
-    # the search (see _CandidateArchive) -- {objective, active_sites, x} per entry,
-    # raw (not yet re-evaluated for cost/EI/footprint; see evaluate_candidates).
-    # Kept out of search_settings so it is not embedded in optimum.json.
+    # A bounded, varied sample of feasible candidates the search saw (see
+    # _CandidateArchive): {objective, active_sites, x} each, not yet re-evaluated
+    # (see evaluate_candidates).
     candidates: list = field(default_factory=list, repr=False)
-    # Every refined start, decision vector included -- the archive and trajectory
-    # record what the search saw, this records what it actually refined. Written
-    # to refined_candidates.json so alternative builds can be compared, not just
-    # the winner. Kept out of search_settings so it is not embedded in optimum.json.
+    # Every start refinement worked on, written to refined_candidates.json so
+    # alternative builds can be compared with the winner.
+    # Neither field is kept in search_settings, so neither lands in optimum.json.
     refined_starts: list = field(default_factory=list, repr=False)
 
 
@@ -476,9 +474,8 @@ def warm_start(path: Path) -> np.ndarray:
         design = json.loads((Path(path).parent / "results.json").read_text())
     for port, share in design.get("site_h2_frac", {}).items():
         old.setdefault(f"h2_allocation_weight_{port}", share)
-    # synth_modules is an absolute installed count (like pem_modules), so an
-    # old saved deployment's site_n_synth is the value directly -- no need to
-    # back out an increment above the availability minimum any more.
+    # synth_modules is an absolute installed count (like pem_modules), so
+    # site_n_synth is the value directly.
     for port, count in design.get("site_n_synth", {}).items():
         old.setdefault(f"synth_modules_{port}", count)
     if design.get("site_h2_frac"):
@@ -569,10 +566,9 @@ def _transfer_share(x, bnds, donor, receiver, fraction):
         new[f"{field}_{donor}"] = values[f"{field}_{donor}"] * (1 - share)
         new[f"{field}_{receiver}"] = (values[f"{field}_{receiver}"] * new[wr] / old if opened
                                       else values[f"{field}_{donor}"] * share)
-    # Synthesis trains travel with the production they serve. Scaling them by the
-    # receiver's weight ratio, as the capacities are, blows up once the receiver's
-    # weight has shrunk near zero while its count, rounded up, cannot fall below
-    # one: a thousandfold ratio on one train hit the train ceiling.
+    # Synthesis trains move with the production they serve. Scaling them by the
+    # receiver's weight ratio, as the capacities are, explodes when that weight
+    # is near zero but its train count, rounded up, is still one.
     moved_trains = values[f"synth_modules_{donor}"] * share
     new[f"synth_modules_{donor}"] = values[f"synth_modules_{donor}"] - moved_trains
     new[f"synth_modules_{receiver}"] = (values[f"synth_modules_{receiver}"] if opened else 0.0) + moved_trains
@@ -780,12 +776,11 @@ def _prune_sites(x, bnds, ei_weight, parameter_overrides=None, evaluate=None):
             if value < closed_value:
                 closed, closed_value = trial, value
         else:
-            # Judged straight after redistribution, a closure carries the
-            # survivors' proportional, untuned growth and almost always loses,
-            # though it may win once PEM, storage and shares are re-tuned (a
-            # five-site build beat the eight-site one it was rejected from by
-            # 7%). Re-tune the best closure briefly, its port held shut, before
-            # judging it. A hard failure has no gradient to tune along.
+            # Straight after redistribution a closure carries untuned growth and
+            # almost always loses, though it can win once re-tuned (one five-site
+            # build beat its eight-site parent by 7%). So re-tune the best closure
+            # briefly, its port held shut, before judging it. A hard failure has
+            # nothing to tune.
             if closed is not None and closed_value < 1e9:
                 pinned = [(0.0, 0.0) if i in indices else b for i, b in enumerate(bnds)]
                 for stage in _CLOSURE_POLISH:
@@ -1191,9 +1186,9 @@ def optimise(
     common = (all_bounds, ei_weight, parameter_overrides, refine, refinement_budget,
               refinement_rounds, refinement_min_improvement, progress)
     pool_size = min(len(starts), (os.cpu_count() or 1) if workers < 0 else workers)
-    # Starts are independent, so they run side by side when DE had workers. Each
-    # worker keeps its own memo, so a move another start already priced costs
-    # budget there; serially one memo spans every start, as before.
+    # Starts are independent, so they run in parallel when DE had workers. Each
+    # worker keeps its own memo, so a move another start already priced still
+    # costs budget; run serially, one memo spans every start.
     start_results, start_offsets = [], []
     if pool_size > 1:
         if progress:

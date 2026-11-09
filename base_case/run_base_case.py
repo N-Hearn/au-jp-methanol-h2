@@ -44,7 +44,7 @@ def run_blue() -> BlueH2Result:
 
 
 def inputs_fingerprint() -> str:
-    # Inputs only: a code change must reproduce grey.json, which the tests check.
+    # Inputs only, like model_fingerprint: a code change does not make grey.json stale.
     digest = hashlib.sha256()
     inputs = {
         "lng": asdict(load_lng()),

@@ -76,8 +76,8 @@ _MONTH_NAMES = [
 _MONTH_SEASON = [0, 0, 1, 1, 1, 2, 2, 2, 3, 3, 3, 0]
 _SEASON_LABELS = ["Summer (DJF)", "Autumn (MAM)", "Winter (JJA)", "Spring (SON)"]
 
-# Standard-time UTC offsets per port (no DST adjustment; hourly resolution
-# makes sub-hour offsets irrelevant so SA rounds from +9.5 to +10).
+# Standard-time UTC offsets per port, ignoring daylight saving. The data is
+# hourly, so the +9.5 h ACST ports (SA, NT) round to +10.
 _PORT_UTC_OFFSET = {
     "PortHastings": 10,  # AEST (VIC)
     "PortBonython": 10,  # ACST +9.5 -> round to 10 for hourly data

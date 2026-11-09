@@ -65,8 +65,8 @@ CASE_LABELS = {
 # the two LNG benchmarks, the flow-diagram H2 greens for the two MeOH builds.
 CASE_COLORS = {"grey": REFERENCE_CASE[2], "grey_ccs": BASE_CASE[2],
                "optimum": FLOW_COLORS["h2"],
-               # The PEM-capital green: kin to the optimised build it is sized from,
-               # 18 OKLab dE from it, inside the lightness band (validate_palette.js).
+               # The PEM-capital green: close to the optimised build's green, as
+               # the build it comes from, but still clearly distinct from it.
                "proposed": COST_COMPONENTS["pem_capital"][1]}
 
 
@@ -158,11 +158,10 @@ _CONSTRAINT_MEANINGS = dict((label, meaning) for _, label, meaning in _CONSTRAIN
 _CONSTRAINT_MEANINGS[_UNMET_BALANCE[0]] = _UNMET_BALANCE[1]
 
 
-# A draw with no named equipment shortfall falls back to _draw_metrics'
-# f"Unmet H2 {kg} kg; unmet electricity {mwh} MWh" (monte_carlo.py), which embeds
-# a different exact number every draw; a per-site dispatch-convergence failure
-# similarly embeds the port name ("Newcastle: Annual dispatch did not..."). Both
-# would otherwise make almost every reason its own value_counts() bucket.
+# Two more message shapes carry per-draw detail that would split the counts:
+# the fallback "Unmet H2 {kg} kg; unmet electricity {mwh} MWh" from
+# meoh_pathway.monte_carlo._draw_metrics, and a dispatch failure prefixed with
+# its port ("Newcastle: Annual dispatch did not...").
 _UNMET_BALANCE_RE = re.compile(r"^unmet h2 ")
 _SITE_PREFIX_RE = re.compile(r"^[A-Za-z]+: ")
 _SITE_REASON_RE = re.compile(r"^([A-Za-z]+): (.*)$")
@@ -415,8 +414,8 @@ def plot_delivery_outcomes(result, outdir):
     categories = result.samples["failure_category"].replace("", "verified full delivery").value_counts()
     draws, sites = _failure_constraint_counts(result)
     # _constraint_label collapses the known message shapes, but failure_reason is
-    # free text -- an unrecognised format still lands one bucket per draw. Cap the
-    # panel itself so that can never blow the figure up (it did: 714 bars, 19 MB).
+    # free text, so an unrecognised one still gets a bar per draw. Cap the bars
+    # so that cannot blow up the figure.
     if len(sites) > _MAX_CONSTRAINT_BARS:
         rest = sites.iloc[_MAX_CONSTRAINT_BARS - 1:].sum().rename("other reasons (grouped)")
         sites = pd.concat([sites.iloc[:_MAX_CONSTRAINT_BARS - 1], rest.to_frame().T])

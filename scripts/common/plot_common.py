@@ -91,8 +91,7 @@ def save_fig(fig, path, dpi=None, tight=True, transparent=False):
     print(f"Saved: {path}")
 
 
-# One accent for single-series figures and a small ordered palette for multi-series
-# ones, replacing the four greens / three blues that had accumulated one per script.
+# One accent for single-series figures and a small ordered palette for multi-series ones.
 ACCENT = "#2a78d6"
 SERIES_COLORS = ("#2a78d6", "#eb6834", "#1baf7a", "#9a9992")
 # Marks that carry no identity (context points, unused slots, "other") take the

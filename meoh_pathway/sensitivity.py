@@ -643,11 +643,9 @@ def run_heat_configs(
                             port: value * scale
                             for port, value in base_design.get(field, {}).items()
                         }
-                    # synth_modules is an absolute installed count now (not an
-                    # increment above a recalculated minimum), so it does not
-                    # automatically track the higher fuel-driven throughput this
-                    # scaling loop targets -- scale it explicitly, same as the
-                    # continuous capacities above.
+                    # synth_modules is an absolute installed count, so it does
+                    # not follow the higher fuel-driven throughput on its own:
+                    # scale it like the capacities above.
                     trial_design["site_synth_modules"] = {
                         port: math.ceil(value * scale)
                         for port, value in base_design.get("site_synth_modules", {}).items()

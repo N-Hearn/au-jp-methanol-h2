@@ -353,10 +353,10 @@ def compute(optimum_path, workers, budget, max_removed):
 
 # --- plotting ---------------------------------------------------------------
 
-# Diverging by direction of change, ordinal by size: blue arm (sites removed,
-# palette blue ramp 250/450/650 so the lightest still clears 2:1 on white),
-# orange for sites added or swapped, black for the optimum. Marker shape is the
-# secondary encoding so identity never rests on colour alone.
+# Colour by direction of change: blues darkening with the number of sites
+# removed (the lightest still readable on white), orange for sites added or
+# swapped, black for the optimum. Each also has its own marker shape, so no
+# category is told apart by colour alone.
 _STYLE = {
     "optimum": dict(color="#0b0b0b", marker="*", s=220, label="Optimum footprint", zorder=5),
     "-1": dict(color="#86b6ef", marker="o", s=34, label="1 site removed"),

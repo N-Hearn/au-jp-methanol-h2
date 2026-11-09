@@ -53,13 +53,6 @@ from constants import (
     CO2_STOICH_KG_PER_KG_MEOH,
 )
 
-# Fleet-level storage defaults. These are ABSOLUTE capacities for the whole
-# integrated site (not per-PEM-unit), since PEM/synth/cracker are independently
-# scaled. Sourced from Excel ('battery' and 'pem' groups) so the baseline lives
-# next to the rest of the renewable inputs; still overridable via the SupplyChain
-# constructor for sweeps.
-
-
 @dataclass
 class SupplyChainResult:
     electricity_supply: str = "dedicated_renewables"
@@ -71,13 +64,12 @@ class SupplyChainResult:
     site_shortfalls: dict = field(default_factory=dict)
     site_storage_annual_aud: dict = field(default_factory=dict)
     annual_balanced: bool = False
-    # Per-unit module results. pem and synth start from the first active site's
-    # result with fleet-average throughput, energy and cost fields written over;
-    # synth capex/FOM/VOM stay that site's unit values. ship_fleet and
-    # co2_capture are the first route's result only. Representative, not
-    # fleet totals -- use the fleet_*/annual_* fields for those.
-    # pem.annual_electricity_cost_aud in an hourly run prices the legacy
-    # economics.power_price memo, not the delivered cost.
+    # Representative per-unit results, not fleet totals (use fleet_*/annual_*).
+    # pem and synth are the first active site's, with fleet-average throughput,
+    # energy and cost written over (synth capex/FOM/VOM stay that site's);
+    # ship_fleet and co2_capture are the first route's.
+    # pem.annual_electricity_cost_aud uses the legacy power-price memo, so it is
+    # not part of the delivered cost.
     pem: PemResult = None
     synth: MeohSynthResult = None
     cracker: CrackerResult = None
@@ -89,8 +81,8 @@ class SupplyChainResult:
     n_synth: int = 0
     n_cracker: int = 0
 
-    # Closure capacity factors (actual_op_hrs / 8760 per stage; same nameplate
-    # convention as MeohSynthesis -- nameplate annual is the 8760-basis rate).
+    # Capacity factor per stage: actual operating hours / 8760, against the
+    # 8760 h nameplate as in MeohSynthesis.
     pem_capacity_factor: float = 0.0
     synth_capacity_factor: float = 0.0
     cracker_capacity_factor: float = 0.0
@@ -451,12 +443,11 @@ class SupplyChain:
         self.dac = dac or load_dac()
         self.transport = h2_transport or load_h2_transport()
         self.fixed_design = fixed_design
-        # Technical uncertainty resize: the continuous ratings (transmission,
-        # trunk/regional flow, pipeline compressor, terminal storage) uprate to
-        # what a draw needs instead of being capped at the frozen reference. Every equipment count -- PEM modules, synthesis
-        # trains, cracker units, carriers -- stays frozen, so the mode
-        # measures whether the as-built fleet copes (see _installed_capacity,
-        # _size_pem_fleet, _dispatch_ratings, _fixed_annual_limit, _site_plan).
+        # Technical Monte Carlo mode. Continuous ratings (transmission, trunk and
+        # regional flow, pipeline compressor, terminal storage) size to what each
+        # draw needs instead of being capped at the frozen build. Equipment counts
+        # (PEM modules, synthesis trains, cracker units, carriers) stay frozen, so
+        # the mode tests whether the as-built fleet copes.
         self.resize_capacities = bool(resize_capacities)
         if self.resize_capacities and not fixed_design:
             raise ValueError("resize_capacities only applies to a frozen (fixed_design) build")
@@ -591,9 +582,8 @@ class SupplyChain:
                        port_load_mw=self._port_loads[port],
                        regional_delivery_factor=1-_line_loss(self.routes[port], self.pem))
         if not self.fixed_design or self.resize_capacities:
-            # Resize mode lets the dispatch run unconstrained on these ratings,
-            # exactly like a fresh (non-frozen) build; _installed_capacity then
-            # sizes and costs each one to whatever the resulting peak needs.
+            # Unconstrained, as in a fresh build (see resize_capacities);
+            # _installed_capacity then sizes each rating to the resulting peak.
             return options
         c = self.fixed_design["capacities"]
         kinds = ("trunk_kg_per_hour", "regional_kg_per_hour",
@@ -749,10 +739,8 @@ class SupplyChain:
         max_rate, inventory_limit = None, None
         if self.fixed_design:
             caps = self.fixed_design["capacities"]
-            # Transmission circuits and terminal storage are re-ratable continuous
-            # items in technical resize mode (see resize_capacities): they size
-            # themselves to whatever this draw needs, via _installed_capacity below,
-            # so the frozen caps are not a hard ceiling on the schedule here.
+            # In resize mode transmission and terminal storage size to this draw
+            # (see resize_capacities), so their frozen caps do not limit the schedule.
             if not self.resize_capacities:
                 if synth_mwh_per_t > 0:
                     max_rate = (caps[f"{port}.transmission_circuits"]
@@ -846,12 +834,10 @@ class SupplyChain:
         loss = _line_loss(route, p)
         energy = h2*(life_average_sec(p)+trunk_sec)/1000 + aux/(1-loss)
         caps = d["capacities"]
-        # The continuous ratings (trunk/pipeline, terminal storage)
-        # are re-ratable in technical resize mode -- they cost themselves to
-        # whatever this draw needs, via _installed_capacity, so they are not a
-        # ceiling on this port's share. Equipment counts (PEM modules, synthesis
-        # trains, carriers) and the frozen renewable footprint always
-        # stay hard limits.
+        # In resize mode the trunk pipeline, its compressor and terminal storage
+        # size to this draw (see resize_capacities), so they do not limit this
+        # port's share.
+        # Equipment counts and the frozen renewables always do.
         limits = {
             "synthesis availability": d["site_n_synth"][port]*self.synth.capacity_tpy*self.synth.available_hours_per_year/HOURS_PER_YEAR/meoh,
             "carriers": d["site_ships"][port]/(ship.ships_required_fractional*cargo),
@@ -1730,7 +1716,7 @@ class SupplyChain:
             / (target * 1000)
         )
         # Each site must also pass its own tolerance, as _meets_demand requires on
-        # a strict run; the fleet sum alone let a small site sit 20x over its limit.
+        # a strict run; the fleet sum alone can hide a small site far over its limit.
         r.hourly_feasible = bool(
             r.unmet_h2_kg <= total_h2 * 1e-8
             and r.unmet_demand_mwh <= 1e-3
