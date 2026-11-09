@@ -30,9 +30,7 @@ _BALANCE_CACHE = {}
 
 
 def _adopt_chain(chain, evaluated):
-    explicit = chain._explicit_allocation
     chain.__dict__.update(evaluated.__dict__)
-    chain._explicit_allocation = explicit
 
 
 def _saved_result(payload, evaluated):

@@ -1,0 +1,13 @@
+{
+  "frozen": {
+    "model_fingerprint": "9255dfc078e49104d198cc66c4ca8f031a670c60e2e23cd748bdd4a0e4e288f2",
+    "optimum_sha256": "77b553adfb1f6da0bf76c96416dd4133ca8dca3b539435461d3275e9e8c3977e"
+  },
+  "optimum": {
+    "model_fingerprint": "9255dfc078e49104d198cc66c4ca8f031a670c60e2e23cd748bdd4a0e4e288f2",
+    "optimum_sha256": "77b553adfb1f6da0bf76c96416dd4133ca8dca3b539435461d3275e9e8c3977e"
+  },
+  "typical": {
+    "model_fingerprint": "9255dfc078e49104d198cc66c4ca8f031a670c60e2e23cd748bdd4a0e4e288f2"
+  }
+}
